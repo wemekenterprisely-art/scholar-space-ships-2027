@@ -43,6 +43,7 @@ def main():
     args = parser.parse_args()
 
     # 1) restore memory from the repo (CI) or local state folder
+    print(f"  [sync] state_sync module: {'loaded' if state_sync else 'MISSING'}")
     if state_sync:
         state_sync.download_state()
     seen = load_json(OUTPUT / "seen_urls.json", {})

@@ -40,9 +40,11 @@ _HEADERS = {
 
 def _api() -> tuple[str, str] | None:
     """Return (api contents base url, token) if running in GitHub Actions."""
+    ga = os.getenv("GITHUB_ACTIONS")
     token = os.getenv("GITHUB_TOKEN")
     repo = os.getenv("GITHUB_REPOSITORY")
-    if not os.getenv("GITHUB_ACTIONS") or not token or not repo:
+    if not ga or not token or not repo:
+        print(f"  [state] disabled: GITHUB_ACTIONS={ga!r} GITHUB_TOKEN={'set' if token else 'MISSING'} GITHUB_REPOSITORY={repo!r}")
         return None
     return f"https://api.github.com/repos/{repo}/contents", token
 
