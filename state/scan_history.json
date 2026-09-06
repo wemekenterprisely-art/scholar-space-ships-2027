@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-09-07",
+    "time": "2026-09-06T23:36:51+00:00",
+    "fetched": 113,
+    "candidates": 106,
+    "matches": 0,
+    "new": 0,
+    "health": "100%",
+    "seconds": 7.4,
+    "sources": {
+      "scholars4dev": 0,
+      "scholarship-positions": 0,
+      "google-news": 113,
+      "web-search": 0
+    }
+  }
+]
