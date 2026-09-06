@@ -1,0 +1,66 @@
+[
+  {
+    "id": "turkiye-burslari",
+    "title": "Türkiye Bursları (Turkey Government Scholarship)",
+    "program": "Undergraduate/Masters/PhD — fully funded: tuition, monthly stipend, housing, flight, health insurance",
+    "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms",
+    "deadline": null,
+    "desc": "The flagship Turkish government scholarship for international students, open to Libyan applicants. Fully funded: tuition fees, monthly stipend, accommodation, return flight and health cover. No IELTS or TOEFL required to apply - candidates with no language certificate are offered a one-year Turkish language preparation course before their programme. Selection is document-based plus interview. Fields span all disciplines including English linguistics and education."
+  },
+  {
+    "id": "stipendium-hungaricum",
+    "title": "Stipendium Hungaricum (Hungary Government Scholarship)",
+    "program": "Masters/PhD — fully funded: tuition, monthly stipend, accommodation, health insurance",
+    "url": "https://stipendiumhungaricum.hu/apply/",
+    "deadline": null,
+    "desc": "Hungarian government scholarship open to Libyan students through the embassy nomination route. Fully funded: tuition waiver, monthly stipend, dormitory accommodation and health insurance. IELTS/TOEFL certificates are NOT required at application - English proficiency is assessed through the selection interview, so applicants without English test scores can apply. Surplus of places in teacher training, English studies and applied linguistics programmes."
+  },
+  {
+    "id": "csc-china",
+    "title": "Chinese Government Scholarship (CSC)",
+    "program": "Masters/PhD — fully funded: tuition, accommodation, stipend, medical cover",
+    "url": "https://www.campuschina.org/",
+    "deadline": null,
+    "desc": "China Scholarship Council fully funded scholarships for international students, open to Libyans through the Chinese Embassy in Tripoli (bilateral channel). Tuition, accommodation, monthly stipend and medical insurance are covered. Chinese-taught programmes require no English test at all; some English-taught programmes may ask for proof of English proficiency. Fields include linguistics, literature and teacher training."
+  },
+  {
+    "id": "mext-japan",
+    "title": "MEXT Scholarship (Japan) — Embassy Recommendation",
+    "program": "Masters/PhD — fully funded: tuition, monthly stipend, flights",
+    "url": "https://www.studyinjapan.go.jp/en/planning/scholarship/",
+    "deadline": null,
+    "desc": "Japanese government (MEXT) scholarship via embassy recommendation, open to Libyan nationals. Fully funded: exam and tuition free, monthly allowance, and round-trip airfare. No IELTS or TOEFL certificate is required - candidates are selected through the MEXT examination and interview, then placed in Japanese or English-medium programmes with language training provided."
+  },
+  {
+    "id": "isdb-isfd",
+    "title": "ISFD Scholarship (Islamic Development Bank)",
+    "program": "Masters/PhD — fully funded for OIC member states incl. Libya",
+    "url": "https://isfd-isdb.org/en/scholarships",
+    "deadline": null,
+    "desc": "IsDB scholarship programmes (ISFD and full-cost) cover postgraduate study for citizens of OIC member countries; Libya is a member state and fully eligible. Tuition, living allowance, housing and medical cover are provided. Language requirements vary by host university partner; many partner programmes do not require an IELTS/TOEFL certificate, and English-taught options exist. Strong focus on education, humanities and language studies."
+  },
+  {
+    "id": "daad-database",
+    "title": "DAAD International Programmes (Germany)",
+    "program": "Masters/PhD — DAAD database of thousands of awards",
+    "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/",
+    "deadline": null,
+    "desc": "DAAD - the German Academic Exchange Service - runs the world's largest scholarship database: thousands of German government awards, many of which are open to students from developing countries including Libya, with fully-funded monthly grants plus tuition coverage. English language requirements vary by programme; most DAAD awards do not require an IELTS/TOEFL certificate where the target language is German (free 6-12 month course offered first) or where English proficiency is assessed otherwise. PhD scholarships in English/applied linguistics are common."
+  },
+  {
+    "id": "erasmus-mundus",
+    "title": "Erasmus Mundus Joint Masters (EMJM) Scholarships",
+    "program": "Masters — fully funded EU scholarships for outstanding applicants",
+    "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+    "deadline": null,
+    "desc": "Erasmus Mundus Joint Masters offer fully funded EU scholarships covering tuition, travel and monthly living allowance, open to students worldwide including Libya. Taught across multiple European universities. Several joint masters programmes accept applicants without IELTS/TOEFL scores, assessing English proficiency via video interview or previous study in English; each consortium publishes its own language rules so check the programme page. Applied linguistics, language education and TESOL masters are well represented."
+  },
+  {
+    "id": "kaust-fellowship",
+    "title": "KAUST Global Fellowship (Saudi Arabia)",
+    "program": "Masters/PhD — fully funded at King Abdullah University",
+    "url": "https://www.kaust.edu.sa/en/study/fellowships",
+    "deadline": null,
+    "desc": "Fully funded fellowship at King Abdullah University of Science and Technology covering tuition, generous monthly stipend, housing and medical insurance. Open to international applicants. NOTE: KAUST requires proof of English proficiency (TOEFL/IELTS) for admission, so this programme is recorded here for completeness but will not match the no-test profile."
+  }
+]

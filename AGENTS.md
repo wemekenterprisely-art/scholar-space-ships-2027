@@ -22,7 +22,9 @@ cannot take IELTS/TOEFL** → clickable Excel + dashboard + API.
 6. Rule shield: the deterministic gates always win over the AI layer.
 
 ## Sources
-Tier 1: scholars4dev, scholarship-positions, scholarshipfellow (RSS), scholarshipdb (JSON).
+Tier 1: scholars4dev, scholarship-positions (RSS), google-news (5 targeted queries),
+national-programs (curated flagship schemes: Türkiye Bursları, Stipendium Hungaricum,
+CSC, MEXT, ISFD, DAAD, Erasmus Mundus, KAUST).
 Tier 2: web search (DuckDuckGo HTML, no key). Add sources via one file + registry line.
 
 ## Delivery
