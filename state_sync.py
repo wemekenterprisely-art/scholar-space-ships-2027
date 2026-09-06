@@ -22,18 +22,14 @@ OUTPUT_DIR = Path(__file__).parent / "output"
 
 # (local file under output/, repo path under state/)
 STATE_FILES = [
-    "applications.json",
-    "learning_data.json",
-    "evolution_brain.json",
-    "source_performance.json",
-    "source_registry.json",
-    "daily_log.json",
+    "all_scholarships.json",
     "fresh_matches_history.json",
-    "scan_history_acum.json",
-    "scan_history.json",
+    "applications.json",
     "seen_urls.json",
-    "smart_seen.json",
-    "company_cache/company_data.json",
+    "daily_log.json",
+    "scan_history.json",
+    "metrics.json",
+    "health.json",
 ]
 
 _HEADERS = {
