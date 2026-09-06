@@ -96,7 +96,7 @@ def upload_state() -> int:
         try:
             url = f"{base}/state/{rel}"
             body: dict = {
-                "message": f"careerops: update {rel}",
+                "message": f"scholar: update {rel}",
                 "content": base64.b64encode(src.read_bytes()).decode("ascii"),
             }
             sha = _get_sha(base, token, url)
@@ -134,7 +134,7 @@ def upload_probe() -> int:
         try:
             url = f"{base}/state/{rel}"
             body: dict = {
-                "message": f"careerops: source probe report ({rel})",
+                "message": f"scholar: source probe report ({rel})",
                 "content": base64.b64encode(src.read_bytes()).decode("ascii"),
             }
             sha = _get_sha(base, token, url)
