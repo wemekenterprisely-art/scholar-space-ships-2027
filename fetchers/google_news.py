@@ -16,6 +16,9 @@ def fetch(timeout: int = 20) -> list[dict]:
             raw = get(url, timeout)
             for it in parse_rss(raw):
                 t = it.get("title", "")
+                u = it.get("url", "")
+                if "search?q=" in u or t.startswith('"') or t.endswith("Google News"):
+                    continue
                 if t in seen:
                     continue
                 seen.add(t)

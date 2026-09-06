@@ -175,6 +175,9 @@ async def _score_one(sem, session, sch: dict):
         sch["ai_dims"] = dims
         sch["ai_verdict"] = str(scoring.get("verdict", ""))[:300]
         sch["rules_applied"] = scoring.get("_rules_applied", [])
-        sch["final_score"] = round(0.6 * ai_overall + 0.4 * sch.get("det_score", 0), 1)
+        blended = round(0.6 * ai_overall + 0.4 * sch.get("det_score", 0), 1)
+        # Rule: a small model may under-rate a clearly fitting opportunity; the
+        # deterministic gates are authoritative, so AI may only upgrade, never sink.
+        sch["final_score"] = max(blended, sch.get("det_score", 0))
         _done_counter[0] += 1
         print(f"  [{_done_counter[0]}] AI {sch['title'][:48]} -> {ai_overall}/100 ({str(sch.get('ai_verdict',''))[:60]})")
