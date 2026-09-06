@@ -1,0 +1,36 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Syntax check
+        run: python -m compileall -q .
+      - name: Deterministic gate tests
+        run: python test_filters.py
+      - name: 5-scenario scholarship gates
+        run: python scholar_ollama_test.py
+      - name: Import smoke
+        run: |
+          python -c "import config; print('config ok')"
+          python -c "from fetchers import registry; print('fetchers', sorted(registry.REGISTRY))"
+          python -c "import filters, metrics; print('filters+metrics ok')"
+          python -c "import dashboard.app; print('dashboard ok')"
+          python -c "import api_server; print('api ok')"
+          python -c "import scholar_analyzer; print('analyzer ok')"
+          python -c "import excel_generator; print('excel ok')"
+          python -c "import state_sync; print('state sync ok')"

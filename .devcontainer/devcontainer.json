@@ -1,0 +1,8 @@
+{
+  "name": "ScholarSpace-ships (Ollama)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "forwardPorts": [8000, 8001, 11434],
+  "postCreateCommand": "bash .devcontainer/setup-ollama.sh",
+  "postStartCommand": "bash .devcontainer/start-ollama.sh",
+  "customizations": { "vscode": { "extensions": ["ms-python.python"] } }
+}

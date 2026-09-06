@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  scholar:
+    build: .
+    container_name: scholar-space-ships
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+    env_file: .env
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+    volumes:
+      - ./state:/app/state
+      - ./output:/app/output
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: scholar-ollama
+    ports: ["11434:11434"]
+    volumes: ["ollama_data:/root/.ollama"]
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

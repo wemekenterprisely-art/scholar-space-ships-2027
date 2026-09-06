@@ -1,0 +1,46 @@
+name: Ollama Test
+on:
+  workflow_dispatch:
+
+jobs:
+  ollama-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama
+          key: scholar-qwen2.5-1.5b
+      - name: Install Ollama
+        run: |
+          if ! command -v ollama >/dev/null 2>&1; then
+            curl -fsSL https://ollama.com/install.sh | sh
+          fi
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then break; fi
+            sleep 2
+          done
+      - name: Pull model
+        run: ollama pull qwen2.5:1.5b
+      - name: Gate suite
+        run: |
+          python test_filters.py
+          python scholar_ollama_test.py
+      - name: AI inference smoke
+        run: |
+          python - <<'PY'
+          import json, urllib.request
+          payload = {"model": "qwen2.5:1.5b", "prompt": "Reply with exactly: OK", "stream": False, "options": {"num_predict": 8}}
+          req = urllib.request.Request("http://localhost:11434/api/generate", data=json.dumps(payload).encode(), headers={"Content-Type": "application/json"})
+          with urllib.request.urlopen(req, timeout=120) as r:
+              resp = json.loads(r.read().decode())
+          print("AI SMOKE:", resp.get("response", "").strip()[:40])
+          PY

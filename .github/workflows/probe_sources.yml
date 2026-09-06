@@ -1,0 +1,88 @@
+name: Probe Sources
+
+# Answers "which candidate job sources actually work from the GitHub runner?"
+# Results: job summary + artifact (output/source_probe.md / .json).
+# Run manually, or weekly so dead/blocked sources are caught early.
+
+on:
+  workflow_dispatch:
+    inputs:
+      groups:
+        description: "Space-separated groups to probe (empty = all). e.g. aggregator-keyed linkedin ats-language-ai"
+        required: false
+        default: ""
+      only:
+        description: "Comma-separated candidate ids (overrides groups)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "30 3 * * 1"   # Mondays 03:30 UTC — before the 05:00 scan
+  # Re-probe automatically whenever the catalog or the probe itself changes,
+  # both on the PR (so the report is visible before merge) and after merge to main.
+  push:
+    branches: [main]
+    paths:
+      - source_candidates.json
+      - probe_sources.py
+      - .github/workflows/probe_sources.yml
+  pull_request:
+    paths:
+      - source_candidates.json
+      - probe_sources.py
+      - .github/workflows/probe_sources.yml
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write   # commit the report to state/ (same Contents-API pattern as state_sync.py)
+    env:
+      # Optional keyed aggregators — probe reports `needs_key` until these exist
+      RAPIDAPI_KEY:      ${{ secrets.RAPIDAPI_KEY }}
+      ADZUNA_APP_ID:     ${{ secrets.ADZUNA_APP_ID }}
+      ADZUNA_APP_KEY:    ${{ secrets.ADZUNA_APP_KEY }}
+      JOOBLE_API_KEY:    ${{ secrets.JOOBLE_API_KEY }}
+      CAREERJET_AFFID:   ${{ secrets.CAREERJET_AFFID }}
+      RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+      REED_API_KEY:      ${{ secrets.REED_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - run: pip install "aiohttp>=3.9,<4"
+
+      - name: Probe
+        env:
+          PROBE_ONLY:   ${{ github.event.inputs.only || '' }}
+          PROBE_GROUPS: ${{ github.event.inputs.groups || '' }}
+        run: |
+          ARGS=""
+          if [ -n "$PROBE_ONLY" ]; then
+            ARGS="--only $PROBE_ONLY"
+          elif [ -n "$PROBE_GROUPS" ]; then
+            for g in $PROBE_GROUPS; do ARGS="$ARGS --group $g"; done
+          fi
+          python probe_sources.py $ARGS --concurrency 6 --timeout 15
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-probe-${{ github.run_number }}
+          path: |
+            output/source_probe.md
+            output/source_probe.json
+          retention-days: 30
+
+      # Persist the latest report in the repo (state/source_probe.md + .json) so it is
+      # readable on GitHub without downloading artifacts. Only on main (not on PRs).
+      - name: Save report to state/
+        if: always() && github.ref == 'refs/heads/main'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python state_sync.py upload-probe

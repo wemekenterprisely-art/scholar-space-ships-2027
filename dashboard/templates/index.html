@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CareerOps — Job Intelligence Dashboard</title>
+<style>
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial,sans-serif}body{margin:0;background:#0f172a;color:#e2e8f0}
+header{background:#020617;border-bottom:1px solid #1e293b;padding:18px 24px;position:sticky;top:0;z-index:10}
+h1{margin:0;font-size:22px;letter-spacing:.5px}h1 span{color:#38bdf8}
+.wrap{max-width:1100px;margin:24px auto;padding:0 16px;display:grid;gap:16px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.kpi>div{background:#0f172a;border:1px solid #334155;border-radius:10px;padding:14px;text-align:center}
+.kpi b{font-size:28px;display:block;color:#38bdf8}
+table{width:100%;border-collapse:collapse;font-size:13px}th{color:#94a3b8;text-align:left;border-bottom:1px solid #334155;padding:8px}
+td{border-bottom:1px solid #1e293b;padding:8px} a{color:#38bdf8;text-decoration:none} .badge{padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}
+.badge-green{background:#dcfce7;color:#166534}.badge-red{background:#fee2e2;color:#991b1b}.badge-amber{background:#fef9c3;color:#854d0e}
+pre{white-space:pre-wrap;background:#020617;padding:12px;border-radius:8px;border:1px solid #1e293b;max-height:320px;overflow:auto;font-size:12px}
+.small{color:#94a3b8;font-size:12px}
+</style>
+<header>
+  <h1>🚀 CAREER<span>OPS</span> — Job Intelligence Dashboard</h1>
+  <div class="small">Live state • Auto-refresh 30s • <a href="/api/health">/api/health</a> • <a href="/api/metrics">/metrics</a> • <a href="/dashboard">/dashboard</a> • Tier: <span id="tier">2</span> • Model: qwen2.5:1.5b</div>
+</header>
+<div class="wrap">
+  <div class="kpi" id="kpi"></div>
+  <div class="card">
+    <h3 style="margin:0 0 8px">📈 Fresh Matches (75–100%) — <span id="fcount">0</span> <span class="small">sorted by score</span></h3>
+    <div style="overflow:auto"><table id="jobs"><thead><tr><th>#</th><th>Role</th><th>Company</th><th>Score</th><th>Category</th><th>Location</th><th>Apply</th></tr></thead><tbody><tr><td colspan=7 class="small">Loading…</td></tr></tbody></table></div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+    <div class="card"><h3>🧠 Evolution Brain</h3><pre id="evo">loading...</pre></div>
+    <div class="card"><h3>📊 Sources</h3><pre id="src">loading...</pre></div>
+  </div>
+  <div class="card"><h3>📜 Daily Log</h3><table id="log"><thead><tr><th>Date</th><th>Slot</th><th>Scanned</th><th>Matches</th><th>Sources</th></tr></thead><tbody></tbody></table></div>
+  <div class="card small">CareerOps Enterprise — fetchers: <span id="fetchers"></span> • Health: <span id="health"></span> • Generated: <span id="gen"></span></div>
+</div>
+<script>
+async function j(u){const r=await fetch(u); if(!r.ok) throw new Error(r.status); return r.json()}
+async function refresh(){
+ try{
+  const health=await j('/api/health');
+  const stats=await j('/api/stats');
+  const jobsData=await j('/api/jobs?limit=50');
+  const hist=await j('/api/scan/history?limit=20');
+  document.getElementById('tier').textContent = health.tier_cap ?? '2';
+  document.getElementById('kpi').innerHTML=`
+   <div><b>${health.total_fetched??0}</b>Jobs scanned</div>
+   <div><b>${(jobsData.jobs||[]).length ?? jobsData.total ?? 0}</b>Fresh matches</div>
+   <div><b>${health.health_score??0}%</b>Health <span class="badge" style="background:${health.status=='healthy'?'#dcfce7':health.status=='degraded'?'#fef9c3':'#fee2e2'};color:${health.status=='healthy'?'#166534':health.status=='degraded'?'#854d0e':'#991b1b'}">${health.status??'unknown'}</span></div>
+   <div><b>${health.sources_up??0}/${health.sources_total??0}</b>Sources up</div>
+   <div><b>${stats.evolution?.streak_days??0} 🔥</b>Streak</div>
+   <div><b>${stats.evolution?.total_scans??0}</b>Total scans</div>`;
+  const jobs=jobsData.jobs||jobsData;
+  document.getElementById('fcount').textContent=Array.isArray(jobs)? jobs.length : 0;
+  document.querySelector('#jobs tbody').innerHTML=(Array.isArray(jobs)?jobs:[]).map((j,i)=>`<tr><td>${i+1}</td><td><b>${(j.title||'').slice(0,60)}</b></td><td>${j.company||''}</td><td><span class="badge ${j.score>=90?'badge-green':j.score>=80?'badge-amber':'badge-red'}">${j.score??0}%</span></td><td>${j.category||''}</td><td>${j.location||''}</td><td><a href="${j.url||'#'}" target=_blank>Apply →</a></td></tr>`).join('')||'<tr><td colspan=7 class="small">No matches yet — first scan building memory…</td></tr>';
+  document.getElementById('evo').textContent=JSON.stringify(stats.evolution,null,2);
+  document.getElementById('src').textContent=JSON.stringify(stats.sources,null,2).slice(0,4000);
+  const logs=hist.history||hist;
+  document.querySelector('#log tbody').innerHTML=(Array.isArray(logs)?logs:[]).map(l=>`<tr><td>${l.date||''}</td><td>${l.slot||l.scan_slot||''}</td><td>${l.scanned||l.total_fetched||0}</td><td>${l.matches??l.matched_count??0}</td><td>${l.sources??0}</td></tr>`).join('')||'<tr><td colspan=5>no logs</td></tr>';
+  document.getElementById('health').textContent = health.status + ' ' + health.health_score + '%';
+  document.getElementById('gen').textContent = health.generated_at || new Date().toISOString();
+  document.getElementById('fetchers').textContent = (health.sources_total||0) + ' sources';
+ }catch(e){ console.error(e); document.getElementById('evo').textContent='Error: '+e.message}
+}
+refresh(); setInterval(refresh,30000);
+</script>
+</html>

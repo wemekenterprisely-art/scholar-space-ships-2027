@@ -1,0 +1,13 @@
+# Core
+aiohttp>=3.9,<4
+openpyxl>=3.1,<4
+
+# Dashboard & API
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+jinja2>=3.1,<4
+
+# Resilience & parsing
+tenacity>=8.2,<9
+beautifulsoup4>=4.12,<5
+lxml>=5.0,<6

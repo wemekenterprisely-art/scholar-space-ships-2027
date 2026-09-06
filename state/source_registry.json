@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "url": "https://remotive.com/remote-jobs/feed",
+      "source_name": "remotive",
+      "type": "rss",
+      "items": 18,
+      "added": "2026-09-05T17:28:18.505054+00:00",
+      "auto_discovered": true
+    },
+    {
+      "url": "https://weworkremotely.com/remote-jobs.rss",
+      "source_name": "weworkremotely",
+      "type": "rss",
+      "items": 91,
+      "added": "2026-09-05T17:28:19.230461+00:00",
+      "auto_discovered": true
+    },
+    {
+      "url": "https://jobicy.com/jobs/feed",
+      "source_name": "jobicy",
+      "type": "rss",
+      "items": 200,
+      "added": "2026-09-05T17:28:20.430645+00:00",
+      "auto_discovered": true
+    },
+    {
+      "url": "https://himalayas.app/jobs/rss",
+      "source_name": "himalayas_app",
+      "type": "rss",
+      "items": 20,
+      "added": "2026-09-05T17:28:22.135454+00:00",
+      "auto_discovered": true
+    },
+    {
+      "url": "https://justremote.co/feed/",
+      "source_name": "justremote",
+      "type": "html",
+      "items": 24,
+      "added": "2026-09-05T17:28:44.612431+00:00",
+      "auto_discovered": true
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/search?keywords=remote&sortBy=DD",
+      "source_name": "linkedin",
+      "type": "html",
+      "items": 141,
+      "added": "2026-09-05T17:28:45.416915+00:00",
+      "auto_discovered": true
+    }
+  ],
+  "last_discovery": "2026-09-05T17:28:50.199621+00:00",
+  "total_discoveries": 6
+}

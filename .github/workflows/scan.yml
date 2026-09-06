@@ -1,0 +1,73 @@
+name: ScholarSpace-ships Scan
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya
+    - cron: '0 16 * * *'  # 16:00 UTC = 18:00 Libya
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: scholar-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+      BREVO_API_KEY:      ${{ secrets.BREVO_API_KEY }}
+      TO_EMAIL:           ${{ secrets.TO_EMAIL }}
+      OLLAMA_MODEL:       qwen2.5:1.5b
+      SCHOLAR_MIN_SCORE:  "65"
+      SCHOLAR_MAX_AI_JOBS: "10"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama
+          key: scholar-qwen2.5-1.5b
+
+      - name: Install Ollama
+        run: |
+          if ! command -v ollama >/dev/null 2>&1; then
+            curl -fsSL https://ollama.com/install.sh | sh
+          fi
+
+      - name: Start Ollama server
+        run: |
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then break; fi
+            sleep 2
+          done
+
+      - name: Pull model
+        run: ollama pull qwen2.5:1.5b || true
+
+      - name: Verify gates (fast fail)
+        run: |
+          python test_filters.py
+          python scholar_ollama_test.py
+
+      - name: Run scholarship scan
+        run: python scanner.py --tier 1

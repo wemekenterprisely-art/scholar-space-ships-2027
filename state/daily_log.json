@@ -1,0 +1,202 @@
+[
+  {
+    "date": "2026-09-05",
+    "slot": "Night (8 PM)",
+    "scanned": 5058,
+    "matches": 14,
+    "old_verified": 5,
+    "near_misses": 6,
+    "sources": 20,
+    "time": "05:46 PM"
+  },
+  {
+    "date": "2026-09-05",
+    "slot": "Night (8 PM)",
+    "scanned": 5058,
+    "matches": 6,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 20,
+    "time": "05:58 PM"
+  },
+  {
+    "date": "2026-09-05",
+    "slot": "Night (8 PM)",
+    "scanned": 5058,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 2,
+    "sources": 20,
+    "time": "06:09 PM"
+  },
+  {
+    "date": "2026-09-05",
+    "slot": "Night (8 PM)",
+    "scanned": 5216,
+    "matches": 11,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 27,
+    "time": "09:52 PM"
+  },
+  {
+    "date": "2026-09-05",
+    "slot": "Night (8 PM)",
+    "scanned": 4307,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 14,
+    "time": "10:10 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Morning (7 AM Libya)",
+    "scanned": 4307,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 1,
+    "sources": 14,
+    "time": "01:47 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Morning (5 AM)",
+    "scanned": 4419,
+    "matches": 8,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "03:29 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Afternoon (1 PM)",
+    "scanned": 4419,
+    "matches": 5,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "11:15 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Afternoon (1 PM)",
+    "scanned": 4422,
+    "matches": 6,
+    "old_verified": 1,
+    "near_misses": 2,
+    "sources": 16,
+    "time": "06:02 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (10 PM Libya)",
+    "scanned": 4310,
+    "matches": 1,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 14,
+    "time": "06:21 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Afternoon (1 PM)",
+    "scanned": 4422,
+    "matches": 1,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "06:32 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4420,
+    "matches": 1,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "08:23 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4420,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "08:27 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4420,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 16,
+    "time": "08:31 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4730,
+    "matches": 9,
+    "old_verified": 7,
+    "near_misses": 0,
+    "sources": 21,
+    "time": "10:59 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4753,
+    "matches": 4,
+    "old_verified": 3,
+    "near_misses": 0,
+    "sources": 22,
+    "time": "11:52 PM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4751,
+    "matches": 1,
+    "old_verified": 1,
+    "near_misses": 0,
+    "sources": 22,
+    "time": "12:22 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4751,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 22,
+    "time": "12:25 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4751,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 22,
+    "time": "12:31 AM"
+  },
+  {
+    "date": "2026-09-06",
+    "slot": "Night (8 PM)",
+    "scanned": 4751,
+    "matches": 0,
+    "old_verified": 0,
+    "near_misses": 0,
+    "sources": 22,
+    "time": "12:36 AM"
+  }
+]

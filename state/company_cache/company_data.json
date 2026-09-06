@@ -1,0 +1,302 @@
+{
+  "Test": {
+    "legitimacy_score": 60
+  },
+  "Freelancer.com": {
+    "name": "Freelancer.com",
+    "legitimacy_score": 40,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [
+      "Freelance platform (may not be full-time)"
+    ],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.036132+00:00"
+  },
+  "Astrek Careers": {
+    "name": "Astrek Careers",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.036555+00:00"
+  },
+  "Qkids": {
+    "name": "Qkids",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.036766+00:00"
+  },
+  "TextMaster": {
+    "name": "TextMaster",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.036969+00:00"
+  },
+  "Cambly": {
+    "name": "Cambly",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.037134+00:00"
+  },
+  "IAPWE": {
+    "name": "IAPWE",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.037413+00:00"
+  },
+  "Twilio": {
+    "name": "Twilio",
+    "legitimacy_score": 70,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Uses professional ATS"
+    ],
+    "last_updated": "2026-09-05T17:43:24.037574+00:00"
+  },
+  "Coalition Technologies ": {
+    "name": "Coalition Technologies ",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.037856+00:00"
+  },
+  "Coalition Technologies": {
+    "name": "Coalition Technologies",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T17:43:24.038018+00:00"
+  },
+  "GoTranscript": {
+    "name": "GoTranscript",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T21:52:44.728939+00:00"
+  },
+  "iTalki": {
+    "name": "iTalki",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T21:52:44.729384+00:00"
+  },
+  "LingoAce": {
+    "name": "LingoAce",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T21:52:44.729638+00:00"
+  },
+  "TutorABC": {
+    "name": "TutorABC",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T21:52:44.729871+00:00"
+  },
+  "Eslgorilla": {
+    "name": "Eslgorilla",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-05T21:52:44.730102+00:00"
+  },
+  "Vertu Agent": {
+    "name": "Vertu Agent",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T01:05:48.063255+00:00"
+  },
+  "Search Discovered": {
+    "name": "Search Discovered",
+    "legitimacy_score": 70,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Uses professional ATS"
+    ],
+    "last_updated": "2026-09-06T01:05:48.063735+00:00"
+  },
+  "Spiralyze": {
+    "name": "Spiralyze",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T01:05:48.064141+00:00"
+  },
+  "himalayas_app": {
+    "name": "himalayas_app",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T01:27:26.625654+00:00"
+  },
+  "Remote Raven": {
+    "name": "Remote Raven",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T09:14:31.297848+00:00"
+  },
+  "jobicy": {
+    "name": "jobicy",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T09:14:31.298380+00:00"
+  },
+  "Canonical": {
+    "name": "Canonical",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T16:00:38.149608+00:00"
+  },
+  "Creative Force": {
+    "name": "Creative Force",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T16:00:38.150220+00:00"
+  },
+  "Healix Scrubs": {
+    "name": "Healix Scrubs",
+    "legitimacy_score": 60,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Listed on major job board"
+    ],
+    "last_updated": "2026-09-06T20:57:30.577768+00:00"
+  },
+  "BAE Systems, Inc.": {
+    "name": "BAE Systems, Inc.",
+    "legitimacy_score": 65,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Listed on major job board",
+      "Appears to be registered business"
+    ],
+    "last_updated": "2026-09-06T20:57:30.578324+00:00"
+  },
+  "IRC - International Rescue Committee": {
+    "name": "IRC - International Rescue Committee",
+    "legitimacy_score": 50,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [],
+    "last_updated": "2026-09-06T20:57:30.578901+00:00"
+  },
+  "The Ritz-Carlton Hotel Company, L.L.C.": {
+    "name": "The Ritz-Carlton Hotel Company, L.L.C.",
+    "legitimacy_score": 60,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Listed on major job board"
+    ],
+    "last_updated": "2026-09-06T21:51:17.734803+00:00"
+  },
+  "Allocation Assist Middle East": {
+    "name": "Allocation Assist Middle East",
+    "legitimacy_score": 60,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Listed on major job board"
+    ],
+    "last_updated": "2026-09-06T21:51:17.735401+00:00"
+  },
+  "Clearlink": {
+    "name": "Clearlink",
+    "legitimacy_score": 60,
+    "remote_friendly": true,
+    "size_estimate": "unknown",
+    "industry": "unknown",
+    "red_flags": [],
+    "positive_signals": [
+      "Listed on major job board"
+    ],
+    "last_updated": "2026-09-06T21:51:17.735934+00:00"
+  }
+}
