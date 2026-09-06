@@ -1,13 +1,12 @@
 """Fetcher registry - tier-aware scholarship sources with circuit breaker."""
 import hashlib, time
-from . import scholars4dev, scholarship_positions, scholarshipdb, scholarshipfellow, duckduckgo_search
+from . import scholars4dev, scholarship_positions, google_news, duckduckgo_search
 
 REGISTRY = {
-    "scholars4dev": {"tier": 1, "fn": scholars4dev.fetch},
+    "scholars4dev":       {"tier": 1, "fn": scholars4dev.fetch},
     "scholarship-positions": {"tier": 1, "fn": scholarship_positions.fetch},
-    "scholarshipdb": {"tier": 1, "fn": scholarshipdb.fetch},
-    "scholarshipfellow": {"tier": 1, "fn": scholarshipfellow.fetch},
-    "web-search": {"tier": 2, "fn": duckduckgo_search.fetch},
+    "google-news":        {"tier": 1, "fn": google_news.fetch},
+    "web-search":         {"tier": 2, "fn": duckduckgo_search.fetch},
 }
 
 _COOLDOWN = {}

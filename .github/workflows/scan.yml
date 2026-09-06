@@ -71,3 +71,12 @@ jobs:
 
       - name: Run scholarship scan
         run: python scanner.py --tier 1
+
+      - name: Upload report artifacts (Excel + JSON state)
+        uses: actions/upload-artifact@v4
+        with:
+          name: scholarship-report
+          path: |
+            output/*.xlsx
+            output/*.json
+          if-no-files-found: ignore

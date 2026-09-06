@@ -74,3 +74,6 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:1.5b")
 
 # ── Scoring weights (deterministic first, AI refines) ───────────────────
 W_FIELD, W_ELIG, W_LANG, W_FUND, W_DEAD = 0.30, 0.25, 0.20, 0.15, 0.10
+# Junk/spam titles to reject (no real scholarship info)
+JUNK_TITLE_HINTS = ("cloudflare", "wordpress", "error", "404", "untitled",
+                     "home", "archive", "sample", "test", "lorem ipsum")

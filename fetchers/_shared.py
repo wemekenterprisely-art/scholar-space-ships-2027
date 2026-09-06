@@ -17,6 +17,8 @@ def parse_rss(xml: str) -> list[dict]:
     """Minimal RSS/Atom parser - no external deps."""
     items = []
     for chunk in re.split(r"</item>|</entry>", xml):
+        if "<item" not in chunk and "<entry" not in chunk:
+            continue
         if "<title>" not in chunk:
             continue
         t = _tag(chunk, "title")
