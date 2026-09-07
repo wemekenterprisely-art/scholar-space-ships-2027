@@ -15,6 +15,11 @@
       "matches": 0,
       "errors": 0
     },
+    "national-programs": {
+      "fetched": 8,
+      "matches": 0,
+      "errors": 0
+    },
     "web-search": {
       "fetched": 0,
       "matches": 0,
@@ -22,12 +27,12 @@
     }
   },
   "funnel": {
-    "fetched": 113,
-    "candidates": 106,
-    "rejected": 7
+    "fetched": 121,
+    "candidates": 112,
+    "rejected": 9
   },
   "timings": {
     "excel": 1.0,
-    "total": 7.6
+    "total": 52.7
   }
 }
