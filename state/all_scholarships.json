@@ -1,369 +1,5 @@
 [
   {
-    "id": "143ebfc0f4a1",
-    "title": "Erasmus Mundus Joint Masters (EMJM) Scholarships",
-    "source": "national-programs",
-    "url": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
-    "description": "Masters — fully funded EU scholarships for outstanding applicants. Erasmus Mundus Joint Masters offer fully funded EU scholarships covering tuition, travel and monthly living allowance, open to students worldwide including Libya. Taught across multiple European universities. Several joint masters programmes accept applicants without IELTS/TOEFL scores, assessing English proficiency via video interview or previous study in English; each consortium publishes its own language rules so check the programme page. Applied linguistics, language education and TESOL masters are well represented.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 84,
-    "det_score": 90.2,
-    "det_dims": {
-      "field_fit": 84,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 100.0,
-    "ai_dims": {
-      "field_fit": 100,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline_urgency": 100
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 96.1,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "9ac3dfd648bf",
-    "title": "Türkiye Bursları (Turkey Government Scholarship)",
-    "source": "national-programs",
-    "url": "https://www.turkiyeburslari.gov.tr/scholarshipsprograms",
-    "description": "Undergraduate/Masters/PhD — fully funded: tuition, monthly stipend, housing, flight, health insurance. The flagship Turkish government scholarship for international students, open to Libyan applicants. Fully funded: tuition fees, monthly stipend, accommodation, return flight and health cover. No IELTS or TOEFL required to apply - candidates with no language certificate are offered a one-year Turkish language preparation course before their programme. Selection is document-based plus interview. Fields span all disciplines including English linguistics and education.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 48,
-    "det_score": 79.4,
-    "det_dims": {
-      "field_fit": 48,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 85.8,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "022ba12df9b1",
-    "title": "Stipendium Hungaricum (Hungary Government Scholarship)",
-    "source": "national-programs",
-    "url": "https://stipendiumhungaricum.hu/apply/",
-    "description": "Masters/PhD — fully funded: tuition, monthly stipend, accommodation, health insurance. Hungarian government scholarship open to Libyan students through the embassy nomination route. Fully funded: tuition waiver, monthly stipend, dormitory accommodation and health insurance. IELTS/TOEFL certificates are NOT required at application - English proficiency is assessed through the selection interview, so applicants without English test scores can apply. Surplus of places in teacher training, English studies and applied linguistics programmes.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 48,
-    "det_score": 79.4,
-    "det_dims": {
-      "field_fit": 48,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 85.8,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "3e50143f3cd0",
-    "title": "ISFD Scholarship (Islamic Development Bank)",
-    "source": "national-programs",
-    "url": "https://isfd-isdb.org/en/scholarships",
-    "description": "Masters/PhD — fully funded for OIC member states incl. Libya. IsDB scholarship programmes (ISFD and full-cost) cover postgraduate study for citizens of OIC member countries; Libya is a member state and fully eligible. Tuition, living allowance, housing and medical cover are provided. Language requirements vary by host university partner; many partner programmes do not require an IELTS/TOEFL certificate, and English-taught options exist. Strong focus on education, humanities and language studies.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 36,
-    "det_score": 75.8,
-    "det_dims": {
-      "field_fit": 36,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 87.3,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "7185adaad8a0",
-    "title": "Chinese Government Scholarship (CSC)",
-    "source": "national-programs",
-    "url": "https://www.campuschina.org/",
-    "description": "Masters/PhD — fully funded: tuition, accommodation, stipend, medical cover. China Scholarship Council fully funded scholarships for international students, open to Libyans through the Chinese Embassy in Tripoli (bilateral channel). Tuition, accommodation, monthly stipend and medical insurance are covered. Chinese-taught programmes require no English test at all; some English-taught programmes may ask for proof of English proficiency. Fields include linguistics, literature and teacher training.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 24,
-    "det_score": 72.2,
-    "det_dims": {
-      "field_fit": 24,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 85.9,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "029e6ce8386e",
-    "title": "MEXT Scholarship (Japan) — Embassy Recommendation",
-    "source": "national-programs",
-    "url": "https://www.studyinjapan.go.jp/en/planning/scholarship/",
-    "description": "Masters/PhD — fully funded: tuition, monthly stipend, flights. Japanese government (MEXT) scholarship via embassy recommendation, open to Libyan nationals. Fully funded: exam and tuition free, monthly allowance, and round-trip airfare. No IELTS or TOEFL certificate is required - candidates are selected through the MEXT examination and interview, then placed in Japanese or English-medium programmes with language training provided.",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 24,
-    "det_score": 72.2,
-    "det_dims": {
-      "field_fit": 24,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 85.9,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
-    "id": "892be07db230",
-    "title": "Study in Luxembourg Without IELTS 2026–2027: Top Scholarships for International Students - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yaUcydXVyNU9XWFJYc0IxRlRrSkVkN04zZ3dSR0VlajhIdWJYMzkyc3JLVURYTUVBWXR3ZHBudmhjWjlUVlZHRjlQd19wM0xoaHYxeFlTY0FIV0tlOGx5bFFtcGp0WXJMU21LSXJqSGpnZUk?oc=5",
-    "description": "Study in Luxembourg Without IELTS 2026–2027: Top Scholarships for International Students Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 20 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 57.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 100.0,
-    "ai_dims": {
-      "field_fit": 100,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline_urgency": 100
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 83.0,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
-    "applied": false
-  },
-  {
     "id": "9b8754b1699f",
     "title": "No IELTS, Full Funding: Why You Should Choose Singapore For Higher Studies - NDTV",
     "source": "google-news",
@@ -398,70 +34,21 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
+    "ai_overall": 85.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "FAIL",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 57.5
-  },
-  {
-    "id": "8454d6950893",
-    "title": "How to Get Fully Funded Scholarships in Europe Without IELTS in 2026 - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9paW16dzFXbFpMZWpMX2dYMnZSTG1FanNIRkdVMlpsQzJWQ2lCSmFKTGs5Q2F1T2w4UjQwc1ctdkVqdFMyakNOekVabUlobmZQZmZuWG1fU3liY2o2N25nSENNN1AxT1NHbk9ldW93?oc=5",
-    "description": "How to Get Fully Funded Scholarships in Europe Without IELTS in 2026 Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Thu, 12 Feb 2026 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 57.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 100,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 100.0,
-    "ai_dims": {
-      "field_fit": 100,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline_urgency": 100
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 83.0,
-    "first_seen": "2026-09-06T23:59:31+00:00",
-    "date": "2026-09-06",
+    "final_score": 74.0,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
     "applied": false
   },
   {
@@ -499,19 +86,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 20.5,
+    "ai_overall": 80.0,
     "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
+      "field_fit": 80,
+      "eligibility": 80,
+      "language": 80,
       "funding": 80,
-      "deadline_urgency": 10
+      "deadline_urgency": 80
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 57.5
+    "final_score": 71.0,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "166c7f223f51",
@@ -548,7 +138,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.5
+    "ai_overall": 100.0,
+    "ai_dims": {
+      "field_fit": 100,
+      "eligibility": 100,
+      "language": 100,
+      "funding": 100,
+      "deadline_urgency": 100
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 83.0,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "914a127b4058",
@@ -585,7 +190,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 76.8,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "588f83f6f1b0",
@@ -622,44 +242,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
-  },
-  {
-    "id": "23dfbb4e79cb",
-    "title": "SK Global Scholarship Program 2026 at Korea University: Fully Funded for International Students - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YT0FRSWUwVVJRanFRUVRTZ2RkelpxTWowOGl6b2lEbUVhLWhScnBsajF1V0RKajE0cXVxWTdqQ3hXOHNXMlRxNGttTHMyNnpsMFBOcFVKeUhuUDVqalpMNjB6azV2MEZvWmVCWA?oc=5",
-    "description": "SK Global Scholarship Program 2026 at Korea University: Fully Funded for International Students Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Fri, 20 Mar 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 57.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
+    "ai_overall": 89.8,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 95,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
     ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 57.0
+    "final_score": 76.7,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "1c9582ed58b0",
@@ -696,7 +294,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
+    "ai_overall": 100.0,
+    "ai_dims": {
+      "field_fit": 100,
+      "eligibility": 100,
+      "language": 100,
+      "funding": 100,
+      "deadline_urgency": 100
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 82.8,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "36891e9b2c95",
@@ -733,7 +346,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 79.8,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "08f258527290",
@@ -770,7 +398,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 79.8,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "3d3bcce9a690",
@@ -807,7 +450,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 57.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 79.8,
+    "first_seen": "2026-09-07T04:14:25+00:00",
+    "date": "2026-09-07",
+    "applied": false
   },
   {
     "id": "14c4ae8d6e42",
@@ -844,6 +502,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 20.5,
+    "ai_dims": {
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 80,
+      "deadline_urgency": 10
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 57.0
   },
   {
@@ -1255,10 +925,10 @@
   },
   {
     "id": "52c2cd5c07bf",
-    "title": "Best Fully Funded Scholarships for Study Abroad 2026 - shiksha.com",
+    "title": "Best Fully Funded Scholarships for Study Abroad 2026 - Shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDNaRUFucWpoQkp0MFM3SkRULTltRjRtTE9MUkxCTG1KVjVFQjBDLU1GMmpLVUdxWlk2YnBhdGthcHN5cUplajJmU1pqaFRjVHR3LXJvUFFsYllrbTBPZklKWkVwSVRQcDU3ZTl2ZEZLUGhvZjZaaUdjLXV3cXdBN3hmSjlBdElaR2ZjVzJOV2tRVzlPLUVfdVVJSm5UQTNmbmMwT19LUmdrd2RjOWllTXhLVEctM2NsUm5RZA?oc=5",
-    "description": "Best Fully Funded Scholarships for Study Abroad 2026 shiksha.com",
+    "description": "Best Fully Funded Scholarships for Study Abroad 2026 Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1358,6 +1028,43 @@
     "notes": [
       "Not mentioned - verify",
       "Libyan students eligible",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 49.5
+  },
+  {
+    "id": "b24bc7bf7c4e",
+    "title": "Kentucky State University Scholarship in USA 2026 | Fully Funded - edugist.org",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaEl6YTItdjBMdVBWeGRmcUc1S1MzWmRYUVdGWi1LNl90OEItZ3pJbDN6V3FlV1A5RU9pZTlHdTQ1LWNqaXJOWXIyWEo0bnZXTkd0blM0M0JNVmxUeERucGZCV0RjN0FiZzBhajV6Yk9FVU42M0tGenJqT0dtaGdQd0R2Vmt4N1VsdmE40gGTAUFVX3lxTE41Nm1sdjVrRUVVQ2NsQk1jR2dOQWEwLVRfOVpLdXFuSmxZZ0ZSbGlVek51WTRwcTJhRGJfWElsV3RRZGg1SVNQdDBzcDZ6MzcwZnJOX0FIOGlIUUJOOXZfLWEyenRJOGlCWWk0c1dpaEM2LWZNYXQwSHZRMW1VcmE3MmlZTFpRWlJ2REt2dkZNMjZpYw?oc=5",
+    "description": "Kentucky State University Scholarship in USA 2026 | Fully Funded edugist.org",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Wed, 10 Jun 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 49.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
       "No deadline found"
     ],
     "rejected": false,
@@ -1476,43 +1183,6 @@
     "final_score": 49.5
   },
   {
-    "id": "b24bc7bf7c4e",
-    "title": "Kentucky State University Scholarship in USA 2026 | Fully Funded - edugist.org",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaEl6YTItdjBMdVBWeGRmcUc1S1MzWmRYUVdGWi1LNl90OEItZ3pJbDN6V3FlV1A5RU9pZTlHdTQ1LWNqaXJOWXIyWEo0bnZXTkd0blM0M0JNVmxUeERucGZCV0RjN0FiZzBhajV6Yk9FVU42M0tGenJqT0dtaGdQd0R2Vmt4N1VsdmE40gGTAUFVX3lxTE41Nm1sdjVrRUVVQ2NsQk1jR2dOQWEwLVRfOVpLdXFuSmxZZ0ZSbGlVek51WTRwcTJhRGJfWElsV3RRZGg1SVNQdDBzcDZ6MzcwZnJOX0FIOGlIUUJOOXZfLWEyenRJOGlCWWk0c1dpaEM2LWZNYXQwSHZRMW1VcmE3MmlZTFpRWlJ2REt2dkZNMjZpYw?oc=5",
-    "description": "Kentucky State University Scholarship in USA 2026 | Fully Funded edugist.org",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Wed, 10 Jun 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 49.5
-  },
-  {
     "id": "0d9f9b529829",
     "title": "20 Top Fully Funded Scholarships and Fellowships for 2026–2027 - Global South Opportunities",
     "source": "google-news",
@@ -1624,6 +1294,43 @@
     "final_score": 49.5
   },
   {
+    "id": "56bcdca2d0e1",
+    "title": "German Bundestag Fully Funded Scholarship Programme 2027 - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqQmI2SVVhNEFOVXZkRU1NcWdCV1JEU2pjYi1JNG95Zi0tdGlrU25VLUQwc0JvdV9FRjJDMjlpOVppVURVcTF5TDhvRnpOanJnMWFYRUlBRU5jUjNQa0VULXVYOHphdDdMYlExX1E3YnhTWDU1bXc?oc=5",
+    "description": "German Bundestag Fully Funded Scholarship Programme 2027 Global South Opportunities",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Tue, 14 Apr 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 49.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 49.5
+  },
+  {
     "id": "77674afd5f92",
     "title": "Queens University Scholarships in Canada 2026 | Fully Funded - edugist.org",
     "source": "google-news",
@@ -1699,10 +1406,10 @@
   },
   {
     "id": "b4973c7d0a07",
-    "title": "100% Fully Funded Scholarships in Germany for Indian Students - shiksha.com",
+    "title": "100% Fully Funded Scholarships in Germany for Indian Students - Shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYU4zUkxRRUhxSHlNRGg1TnctZ0F6eDhvQ28xems2aVdGQy13VjRfLS1QZUpTNlJQZ0VFVS1ackJicnRvRTRLZDVINkhsWFBrRk5jd1V3WWNkSGNxUzhVZ1kyNmFRZm1PVFRTd1p4OVBla1FnXzBYak41TDYteFV2eVVGMGFnX1hsX1VMbE1xR19HOGhsY0ZQYTV5QnNLdFZYdW9Ic1oxTEFKY0RGRzJxLQ?oc=5",
-    "description": "100% Fully Funded Scholarships in Germany for Indian Students shiksha.com",
+    "description": "100% Fully Funded Scholarships in Germany for Indian Students Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1736,10 +1443,10 @@
   },
   {
     "id": "7e4aa451f69c",
-    "title": "Top Fully Funded Scholarships in UAE 2026 - shiksha.com",
+    "title": "Top Fully Funded Scholarships in UAE 2026 - Shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRU1tZmM2WGFsV1ZCbnlBSmJJU3huUGY5eHB3c2RTUDFoQzliVWo4WTd3dC1CMzJuaDc4OFZIYmJORTBhdFVUUEpwZXY0VmlqdnltTHFGalBiUXlZRXRLZjlBOXViX0VtTU9ieDEtWmo1bU9qMENzbWo4UGoxbHdJRlkycXdqcDJkRXZXMXhVY0E?oc=5",
-    "description": "Top Fully Funded Scholarships in UAE 2026 shiksha.com",
+    "description": "Top Fully Funded Scholarships in UAE 2026 Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -2105,6 +1812,43 @@
     "final_score": 49.5
   },
   {
+    "id": "1c56f3b5b382",
+    "title": "CUHK Scholarships 2025: Full Tuition and Stipend for Global Talent - Vietnam Investment Review - VIR",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN0hDNGx0d2tWZ0lvSTNzdThHQy1KZGp4QXlDZkZoczlfazBuc1dfVmFsRDVXVzlvUGNhc3lkX2NYZ21VcjctQjVWbi1KWEN5dVJUcWpnaDZKcURhWDBjT25aWEEwVDNiZUFrc1puTkUwRG1OVW93WlJlQXJtLXpaT3JwZHVUdHh2ekdVMU96STJtOWFWVkY1UWlubmc?oc=5",
+    "description": "CUHK Scholarships 2025: Full Tuition and Stipend for Global Talent Vietnam Investment Review - VIR",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Fri, 03 Oct 2025 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 49.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 49.5
+  },
+  {
     "id": "0abb3a466e8d",
     "title": "Vietnamese lecturer turns her Chinese mastery into fully funded PhD scholarship - VnExpress International",
     "source": "google-news",
@@ -2143,10 +1887,10 @@
   },
   {
     "id": "b2c4d7021702",
-    "title": "Fully funded Language Summer Camps available for post-primary students - careersportal.ie",
+    "title": "Fully funded Language Summer Camps available for post-primary students - Careers Portal",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hUUJNVUtyNFF5QmVQOTBlejR5bnFCR3o4cXlnY3FuTTRvaHM0Z3JSVm9WQU1CUWlzV3J2M3pQeFZ2S2hRSG9rMDhrY3dMTnNKcUZ5Mks2ak9pNFBqZURYUTM0MHVvbTdpeV92UkZEaXRHbHI2ZEE1VWVn?oc=5",
-    "description": "Fully funded Language Summer Camps available for post-primary students careersportal.ie",
+    "description": "Fully funded Language Summer Camps available for post-primary students Careers Portal",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -2439,10 +2183,10 @@
   },
   {
     "id": "ffcfd4e7e2f4",
-    "title": "Germany Opens Fully Funded Scholarships For Kenyans With Ksh149K Monthly Allowance: How To Apply - The Kenya Times",
+    "title": "Germany Opens Fully Funded Scholarships For Kenyans With Ksh149K Monthly Allowance: How To Apply - thekenyatimes.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT3ZvRDBIdnA4YlNpb0VFdnBuUExZc0tiLWhxYlRwVTVvSmxKQlZ4cmhWRnNHbWM3ZDI2aGMzbndfek14Rk1DeC1xZXZTNXBsb2NlSkoydnVzUjVVcUp1bXhDMmZLNjVud2t1Rk53Rm5iMVE5TFM0aVpMTmpqSHVhZEdjdTlXRUlReVAyU1p6SGExRTI5a3ExZGFORXVscjFEOE9ua0VLWmx4a2hHcXdydFVPaFVxNHN2Rmo0?oc=5",
-    "description": "Germany Opens Fully Funded Scholarships For Kenyans With Ksh149K Monthly Allowance: How To Apply The Kenya Times",
+    "description": "Germany Opens Fully Funded Scholarships For Kenyans With Ksh149K Monthly Allowance: How To Apply thekenyatimes.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -2476,10 +2220,10 @@
   },
   {
     "id": "104826c7c093",
-    "title": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 - ABS-CBN",
+    "title": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 - abs-cbn.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0g0Zmw2d0NTV28yRmlJQ0xTWUo2QTEwcG94dWJndVBOb3F3dDdZRVBjeWtLQ2wwbVdLektPdzZyNm00WE14cEtvWDRNQXJrM3VBcnprNG1OZnk2dVprSmNDWnVNblFkRlgtT0M4bXFRNEEwN0VRakV1eEZBcGt1QXFFbERVUXRlaGtyYmt1ejJ6MFM3bDAtVDNRRHFEZEZHa0ZFTjZfZnZHN2l1bkhyVXBheEVzZw?oc=5",
-    "description": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 ABS-CBN",
+    "description": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 abs-cbn.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -3178,43 +2922,6 @@
     "final_score": 42.0
   },
   {
-    "id": "d0c3e808f025",
-    "title": "2026/2027 Chinese Government Scholarship Application - 驻巴哈马大使馆",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYM2FEUlB2WFB1bVdNRG1XOEpEbjZkbGxuRTYxSUk5RTROTTM5OVJGRHRmWEpBMUtFeS1zUDYtWlQ0Uk0xNUExM1RMQkJHS0hqMjJzR3JFRmV6RlFfdXFGZDFsMnVXenBNOENSLThnUEZFQ1dseV9vaVJR?oc=5",
-    "description": "2026/2027 Chinese Government Scholarship Application 驻巴哈马大使馆",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Tue, 28 Oct 2025 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
     "id": "894a48de48f3",
     "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - Morgan State University",
     "source": "google-news",
@@ -3226,43 +2933,6 @@
     "level": "Unknown",
     "field": "",
     "posted_at": "Fri, 25 Apr 2025 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
-    "id": "32c1b94ea141",
-    "title": "How to Study Abroad for Free in 2027? - shiksha.com",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmtGNTg5NmY5bmVONTY3RzlsUW5LS2FRRHZUbzdmSU5nU1pMY25CWlhOWDcwVUpwOGNIckVRQTl6ZHVOaXRSWTV4b3FYekIxT3BXN0xPc2Z3UFd1QmlNWHhRUzZvM1JWdEcxRTd4UGNfc29nMGIyVWcwUTNEYnU0X0Zmajg5LTd6WHc?oc=5",
-    "description": "How to Study Abroad for Free in 2027? shiksha.com",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 31 Aug 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -3326,17 +2996,17 @@
     "final_score": 42.0
   },
   {
-    "id": "4a36963f765a",
-    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
+    "id": "32c1b94ea141",
+    "title": "How to Study Abroad for Free in 2027? - Shiksha.com",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
-    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmtGNTg5NmY5bmVONTY3RzlsUW5LS2FRRHZUbzdmSU5nU1pMY25CWlhOWDcwVUpwOGNIckVRQTl6ZHVOaXRSWTV4b3FYekIxT3BXN0xPc2Z3UFd1QmlNWHhRUzZvM1JWdEcxRTd4UGNfc29nMGIyVWcwUTNEYnU0X0Zmajg5LTd6WHc?oc=5",
+    "description": "How to Study Abroad for Free in 2027? Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Mon, 31 Mar 2025 07:00:00 GMT",
+    "posted_at": "Mon, 31 Aug 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -3380,6 +3050,43 @@
     "libya_eligible": null,
     "funding_label": "Unknown",
     "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 42.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 42.0
+  },
+  {
+    "id": "4a36963f765a",
+    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
+    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Mon, 31 Mar 2025 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 42.0,
@@ -3548,43 +3255,6 @@
     "final_score": 42.0
   },
   {
-    "id": "7ff3b10e81ad",
-    "title": "Two Mercer students recognized by Critical Language Scholarship program - Mercer University",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeEcxTDRNYjhCZmE4cWwyNEhnNjg2VGkybGw5eU5MM1VRbEdJdXRKenNhcm44djM1NGZheEttX2VlUVFzaExuMTRpcnNYLU12LWxfZHlEY3JHUE1oN3dseXdmU2hRM3JJYXFsSFk3a0oyVkZIVkNadVlTSWZNUVA3a2RNQ1kwc2lwdWpSckJxeDBycDMtN2FGR0M1bw?oc=5",
-    "description": "Two Mercer students recognized by Critical Language Scholarship program Mercer University",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 15 Mar 2021 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
     "id": "4b0f7e084567",
     "title": "WKU Student Awarded Boren Scholarship - Western Kentucky University",
     "source": "google-news",
@@ -3602,43 +3272,6 @@
     "libya_eligible": null,
     "funding_label": "Unknown",
     "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
-    "id": "b7ca07cba6ec",
-    "title": "New scholarships will help attract overseas research students to Swansea - Swansea University",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTl9JYXQtdWVTLW9rai1yRVdmd0tONHp4R3MzU2xQSHduWHg4TUpRS3N2aXUwNEdpckp3d2JnMnJMTXdiZjhDLUdVUWJXVGNKMmZ3LTliU3ZEbkJTY0RHRmNXUkVxSmNZY1FYWDVEeHpYTURTMnFKZ3RoUE53c241dDZtMGRWVm95X3gtY1dQMnJLZXpLblV3UkxLRFJ1Tms4aVVPMm1Mbzc1NDB1dTJwZHFFTmlsX2I1VnByazM2OGh1UmN6cFAzcGlOaUpCSFpYVXpTVUxDVQ?oc=5",
-    "description": "New scholarships will help attract overseas research students to Swansea Swansea University",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Tue, 16 Apr 2024 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "postgrad",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 42.0,
@@ -3696,6 +3329,43 @@
     "final_score": 42.0
   },
   {
+    "id": "b7ca07cba6ec",
+    "title": "New scholarships will help attract overseas research students to Swansea - Swansea University",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTl9JYXQtdWVTLW9rai1yRVdmd0tONHp4R3MzU2xQSHduWHg4TUpRS3N2aXUwNEdpckp3d2JnMnJMTXdiZjhDLUdVUWJXVGNKMmZ3LTliU3ZEbkJTY0RHRmNXUkVxSmNZY1FYWDVEeHpYTURTMnFKZ3RoUE53c241dDZtMGRWVm95X3gtY1dQMnJLZXpLblV3UkxLRFJ1Tms4aVVPMm1Mbzc1NDB1dTJwZHFFTmlsX2I1VnByazM2OGh1UmN6cFAzcGlOaUpCSFpYVXpTVUxDVQ?oc=5",
+    "description": "New scholarships will help attract overseas research students to Swansea Swansea University",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Tue, 16 Apr 2024 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 42.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 42.0
+  },
+  {
     "id": "bcd8f692c750",
     "title": "Prestigious scholarships for doctoral studies at Oxford University #R2bP - Nelson Mandela University",
     "source": "google-news",
@@ -3713,6 +3383,43 @@
     "libya_eligible": null,
     "funding_label": "Unknown",
     "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 42.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 42.0
+  },
+  {
+    "id": "d0c3e808f025",
+    "title": "2026/2027 Chinese Government Scholarship Application - 驻巴哈马大使馆",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYM2FEUlB2WFB1bVdNRG1XOEpEbjZkbGxuRTYxSUk5RTROTTM5OVJGRHRmWEpBMUtFeS1zUDYtWlQ0Uk0xNUExM1RMQkJHS0hqMjJzR3JFRmV6RlFfdXFGZDFsMnVXenBNOENSLThnUEZFQ1dseV9vaVJR?oc=5",
+    "description": "2026/2027 Chinese Government Scholarship Application 驻巴哈马大使馆",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Tue, 28 Oct 2025 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 42.0,
@@ -3972,43 +3679,6 @@
     "libya_eligible": null,
     "funding_label": "Unknown",
     "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
-    "id": "713fc3c0c33b",
-    "title": "Top Scholarships in Germany For Indian Students 2027 - shiksha.com",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFlUaVFkbFp2ZHVsOTBsb0tkcnJZdW1pUGZQMnBLVzVRa0hmZFZwcVoxWXJwQUdpYWVPbEw5SVJkclI1YVVfYl9abVpicmN1eVplOXBUQUEwOGJ5S1hjMWlxMmFMaHNiQnVxZFJJZ2JkcFg3VUVJZld0N1VvVnpKcGpR?oc=5",
-    "description": "Top Scholarships in Germany For Indian Students 2027 shiksha.com",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Tue, 08 Aug 2023 23:42:42 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 42.0,
