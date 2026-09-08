@@ -1,6 +1,6 @@
 {
-  "last_scan": "2026-09-07T16:10:43+00:00",
-  "today": "2026-09-07",
+  "last_scan": "2026-09-08T04:14:00+00:00",
+  "today": "2026-09-08",
   "scans": [
     {
       "date": "2026-09-07",
@@ -65,6 +65,23 @@
         "scholars4dev": 0,
         "scholarship-positions": 0,
         "google-news": 114,
+        "national-programs": 8,
+        "web-search": 0
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "time": "2026-09-08T04:14:00+00:00",
+      "fetched": 121,
+      "candidates": 87,
+      "matches": 10,
+      "new": 10,
+      "health": "100%",
+      "seconds": 64.0,
+      "sources": {
+        "scholars4dev": 0,
+        "scholarship-positions": 0,
+        "google-news": 113,
         "national-programs": 8,
         "web-search": 0
       }
