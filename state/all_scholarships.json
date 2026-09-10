@@ -34,84 +34,35 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 0.0,
+    "ai_overall": 95.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 0,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "FAIL",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 50.0
-  },
-  {
-    "id": "bd99858ff711",
-    "title": "IELTS not needed: 3 US govt-funded scholarships Nigerians can apply for in 2022 - Legit News",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV3hxdTJVM3lWQ0EzdzlUaEpDSjJpNEdJTG4yNmpBQUlFOFhjSkE4d0FCMFh4cUJjTWFlUGNtX0hRdS02X1c2RzZvX2JNNjdXVGdBeV9QT2hnTTJoRFIxMHB0SmZjZXljMFBzbEFYRHFwbzVnMzVWbTE3TUlCYlRKbG40UmRraVd5V3FaWFZtVWE0T0dlUUZBNTJVTnpJSGxpd2VxUllUQUdWZUpnaG1mLXZB?oc=5",
-    "description": "IELTS not needed: 3 US govt-funded scholarships Nigerians can apply for in 2022 Legit News",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Thu, 29 Sep 2022 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "exempt",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 50.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 100,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "No English test required",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 81.2,
-    "ai_dims": {
-      "field_fit": 80,
-      "eligibility": 85,
-      "language": 80,
-      "funding": 80,
-      "deadline_urgency": 80
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 68.7,
-    "first_seen": "2026-09-10T04:14:06+00:00",
+    "final_score": 77.0,
+    "first_seen": "2026-09-10T16:10:42+00:00",
     "date": "2026-09-10",
     "applied": false
   },
   {
-    "id": "5997500346bb",
-    "title": "University of Brescia Opens Applications for 61 Fully Funded PhD Positions Across 10 Research Programmes in Italy - globalsouthopportunities.com",
+    "id": "53a51340a8d6",
+    "title": "Malardalen University Scholarship 2026 in Sweden | Fully Funded Master’s Programme - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPUFdWTHBrVzlVRzUzY0FleDk3OWlEeV9kTUtkLTJ0clQ3U2ZDYWNaRHYza2VHdWozd0pjSGRLWFZnMjRCZFBDX0tnVHU1dUlyT1F2MzQzZmpFci1UX0ptY0FidWtHcVAxLVZUQw?oc=5",
-    "description": "University of Brescia Opens Applications for 61 Fully Funded PhD Positions Across 10 Research Programmes in Italy globalsouthopportunities.com",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFOXBBVUF5N2RZOFBaaWhoRll4UmI4WlI4bXBEX01US0NpbklLYW1lWlZGbl9rUVFfQU11eV9UXzFnbWRETEZXLWVVZjE2VzJHbkxpMGpTaDctNXd4QS1WZXRkN1NoRnNsZHNsWmUyTGc?oc=5",
+    "description": "Malardalen University Scholarship 2026 in Sweden | Fully Funded Master’s Programme Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Sat, 11 Jul 2026 07:00:00 GMT",
+    "posted_at": "Wed, 14 Jan 2026 08:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -148,175 +99,22 @@
       "field-anchor"
     ],
     "final_score": 76.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
+    "first_seen": "2026-09-10T16:10:42+00:00",
     "date": "2026-09-10",
     "applied": false
   },
   {
-    "id": "53a51340a8d6",
-    "title": "Malardalen University Scholarship 2026 in Sweden | Fully Funded Master’s Programme - globalsouthopportunities.com",
+    "id": "947fe6ace27e",
+    "title": "King’s College London is Offering Fully Funded PhD Studentship in Psychology for 2026 Entry - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFOXBBVUF5N2RZOFBaaWhoRll4UmI4WlI4bXBEX01US0NpbklLYW1lWlZGbl9rUVFfQU11eV9UXzFnbWRETEZXLWVVZjE2VzJHbkxpMGpTaDctNXd4QS1WZXRkN1NoRnNsZHNsWmUyTGc?oc=5",
-    "description": "Malardalen University Scholarship 2026 in Sweden | Fully Funded Master’s Programme globalsouthopportunities.com",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oeVpmWEVPZk1vOU5tdm9zbm9mUVh2YlBSWG9HU1c2WWctN2QtM0F1aFdzRGN4RElWZmZmLTJjTjIzYjA1Q3BHUkZGYzdCTTBXdDBEeEhvSmRkeVZVQXIwdTI0NG9UWEttTWQ0?oc=5",
+    "description": "King’s College London is Offering Fully Funded PhD Studentship in Psychology for 2026 Entry Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Wed, 14 Jan 2026 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 12.0,
-    "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 49.5
-  },
-  {
-    "id": "df4119df86c2",
-    "title": "ICP Connect Scholarship Programme 2026–2027: Fully Funded Master’s Opportunities at KU Leuven - globalsouthopportunities.com",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2ZUZnTzRGZzRCZlp1NjBMNmFkcWVaTEZGZW5mTVo4aXk1V0dFbTBZQXVXSWhzUm42am9wb3RCVkFrTFJxOHlNV1FIeUlMYUxydHI4ZUFIa05FOE0yQTQyeFFFa0Q5M25uY0E?oc=5",
-    "description": "ICP Connect Scholarship Programme 2026–2027: Fully Funded Master’s Opportunities at KU Leuven globalsouthopportunities.com",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 01 Dec 2025 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 73.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
-    "date": "2026-09-10",
-    "applied": false
-  },
-  {
-    "id": "63732f5028c9",
-    "title": "Fully funded PhD scholarship in the Department of Early Irish, Maynooth University - maynoothuniversity.ie",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPejI0emxjOGpRWHRSUGlSX1cwQmMyby1Tc2JIYUhpcldlVkp6TFV5Qi1VakRRWnNhRlkyVmtEMjZULTlUOTlzMExLeWxQMzMwek5FSXY0OTNhWWY4NTdBbUxoWDd2dndITDlVY3Z2NDVpMkE3ajVMUTROSjFkb2hqRVpISGU2YUo4TF9xSjVSTU93dzRXLU4tTnFlTE5wZmU2dUh3UGhkMURMQlp2YUJ3dW0zYUlnSjFtWHFPU3pONHdwOUtZVW8yT3V6M3ktSDZYMVE?oc=5",
-    "description": "Fully funded PhD scholarship in the Department of Early Irish, Maynooth University maynoothuniversity.ie",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 26 Feb 2024 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 73.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
-    "date": "2026-09-10",
-    "applied": false
-  },
-  {
-    "id": "f12e28473d1c",
-    "title": "SOAS Announces Fully Funded Shapoorji Pallonji Scholarship for Master’s Students in Zoroastrian Studies 2026/27 Academic Year - globalsouthopportunities.com",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fZ0hzZTQ2WFZENGJVS2VSa2V1UUZrdVlxMnFvSXp2TmxaQ0pLTHlDNWRhZVNmX3FYMlpRSk5pTjJTcUFxdnFLLUdJSnVhd3lQVDZEOHhiYW9EaU1QUzNMY0hIQzNlMjZpSHhGZ0M1dw?oc=5",
-    "description": "SOAS Announces Fully Funded Shapoorji Pallonji Scholarship for Master’s Students in Zoroastrian Studies 2026/27 Academic Year globalsouthopportunities.com",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Thu, 07 May 2026 07:00:00 GMT",
+    "posted_at": "Mon, 08 Jun 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -353,163 +151,7 @@
       "field-anchor"
     ],
     "final_score": 67.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
-    "date": "2026-09-10",
-    "applied": false
-  },
-  {
-    "id": "a5e54e109f81",
-    "title": "Queen Elizabeth Commonwealth Scholarships (QECS) 2022 for Master’s degree study in a low or middle-income Commonwealth country.(Fully Funded) - Opportunities For Africans",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRERDQjhMOWFOTzMzVTdkckRqWjVkd3hpbVFWNUswd1lac0kxWTJxS2pPc1p5dEt2eV9jdFQ1Q1d5VG96OWVaQ24tS0dQZV84UU1TMDVJOTV1WlV1UUJsNHR5c2lrcUJXSzlmX2pjUVVVUXZzN19fREw4UmZjWE9uVG5fbHBLeTBEaWpsMmVMeTI2SnpwamlNcw?oc=5",
-    "description": "Queen Elizabeth Commonwealth Scholarships (QECS) 2022 for Master’s degree study in a low or middle-income Commonwealth country.(Fully Funded) Opportunities For Africans",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Mon, 22 Nov 2021 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 70.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
-    "date": "2026-09-10",
-    "applied": false
-  },
-  {
-    "id": "e621a0735056",
-    "title": "KNB Scholarship: Fully funded opportunity to study in Indonesia - The Daily Star",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkpwaDltcy1HRGgzSHlkcHh3NzJ4OENnc2FvWTIxYlJCbWJpUy1MX1dQR0FnZGlZOVMyV0FmQy1lbDl1a296R0tKNG9yTmVTdjJOZ2xZVjZ5QWVjSjdpSG5UNHJvMUJWLWhBZy0wQVIzNFBrVlpSVkl5bkQwQi1Gai1SSFFsdThUUkp5eWZIMTdhUE1HeWFJTVczVDVpV0pLSENhWWJFZVQ?oc=5",
-    "description": "KNB Scholarship: Fully funded opportunity to study in Indonesia The Daily Star",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Thu, 20 Feb 2025 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 73.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
-    "date": "2026-09-10",
-    "applied": false
-  },
-  {
-    "id": "104826c7c093",
-    "title": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 - ABS-CBN",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0g0Zmw2d0NTV28yRmlJQ0xTWUo2QTEwcG94dWJndVBOb3F3dDdZRVBjeWtLQ2wwbVdLektPdzZyNm00WE14cEtvWDRNQXJrM3VBcnprNG1OZnk2dVprSmNDWnVNblFkRlgtT0M4bXFRNEEwN0VRakV1eEZBcGt1QXFFbERVUXRlaGtyYmt1ejJ6MFM3bDAtVDNRRHFEZEZHa0ZFTjZfZnZHN2l1bkhyVXBheEVzZw?oc=5",
-    "description": "Still Open: Three fully funded international scholarships Filipinos can apply for in 2025 ABS-CBN",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Sun, 01 Jun 2025 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 49.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 76.8,
-    "first_seen": "2026-09-10T04:14:06+00:00",
+    "first_seen": "2026-09-10T16:10:42+00:00",
     "date": "2026-09-10",
     "applied": false
   },
@@ -548,7 +190,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 49.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.8,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "98ba7df4fc02",
@@ -585,7 +242,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 49.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 90,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 73.8,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "c771fb14acba",
@@ -622,7 +294,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 49.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 76.8,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "217f3931d9a8",
@@ -659,7 +346,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 49.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.8,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "17e44a60f297",
@@ -696,7 +398,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 45.6
+    "ai_overall": 86.0,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 90,
+      "language": 85,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.8,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "c5a9d6b9b66e",
@@ -733,14 +450,29 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 45.6
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.2,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "88456a4099b5",
-    "title": "Applications are now Open for the A.S. Hornby Educational Trust Scholarship - Apply Before 9 February 2026 - globalsouthopportunities.com",
+    "title": "Applications are now Open for the A.S. Hornby Educational Trust Scholarship - Apply Before 9 February 2026 - Global South Opportunities",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBULXFhcW1IQVBKU19rUGpyYzNsS0lmYjZwc1lQamV6QzUwc2MxQTQ3b08zY19uVHN0MXhBUHZHQmxSc1JfZko0SlZxRHdhUUd5Z3hadHZwZXpXVkxPbGVVeGZJdXNmdk5wWkQ0?oc=5",
-    "description": "Applications are now Open for the A.S. Hornby Educational Trust Scholarship - Apply Before 9 February 2026 globalsouthopportunities.com",
+    "description": "Applications are now Open for the A.S. Hornby Educational Trust Scholarship - Apply Before 9 February 2026 Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -770,7 +502,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 45.6
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.2,
+    "first_seen": "2026-09-10T16:10:42+00:00",
+    "date": "2026-09-10",
+    "applied": false
   },
   {
     "id": "b43a7a6676e3",
@@ -811,10 +558,10 @@
   },
   {
     "id": "9726bd8a1890",
-    "title": "10 Trending Summer Programs You Can Apply For Now!! (Fully & Partially Funded) - globalsouthopportunities.com",
+    "title": "10 Trending Summer Programs You Can Apply For Now!! (Fully & Partially Funded) - Global South Opportunities",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54YkpfZzZYcGF5Z3pmVmlIRi1nNU5wTjN2WFVTY1MtWllkcHZLNS1ZQ2c1Zll1MkFnVTBsczFyLXFZX0VzRGh5cHdrU3lRazJaZ3UxZDF6TlptemlNVmFRVS1UQ2Vsa2gxVXZ0ZFZ3?oc=5",
-    "description": "10 Trending Summer Programs You Can Apply For Now!! (Fully & Partially Funded) globalsouthopportunities.com",
+    "description": "10 Trending Summer Programs You Can Apply For Now!! (Fully & Partially Funded) Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1033,16 +780,53 @@
   },
   {
     "id": "cf27601218e2",
-    "title": "UNIVERSITY OF TWENTE INTERNATIONAL SCHOLARSHIP 2024 IN NETHERLANDS - globalsouthopportunities.com",
+    "title": "UNIVERSITY OF TWENTE INTERNATIONAL SCHOLARSHIP 2024 IN NETHERLANDS - Global South Opportunities",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXaGhjT1ZhN0g1N2dQUFl5VXpsSEU0QXpEMFUzRVNKQjg1VmdsX181cDB2OXNUNmFGNHVLeVVrREd2LTIyM25MUU9iaTZqRFVXbzJjU01SMnN2S1ZqbmFtQlhIRTl3Q2NlU0VSQXJPM2ZJSU01bzBfX0xsOUJndw?oc=5",
-    "description": "UNIVERSITY OF TWENTE INTERNATIONAL SCHOLARSHIP 2024 IN NETHERLANDS globalsouthopportunities.com",
+    "description": "UNIVERSITY OF TWENTE INTERNATIONAL SCHOLARSHIP 2024 IN NETHERLANDS Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
     "posted_at": "Sat, 07 Oct 2023 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 42.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 42.0
+  },
+  {
+    "id": "115136e5a29a",
+    "title": "UAB student awarded Department of State’s Critical Language Scholarship - The University of Alabama at Birmingham",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS3IzR0dlbVlMSDVCUFZzQmtjWC1PN3lYbE5jU2RDREdPU2kwNllxZTlWS05tLVBhc0gtdEN6bjVqVm1NR2s3VDBfWDlKdE9BWHg2NDBial8xekl2SFBQQzJQSzZ6Q1pfTEVfUjRiWkdpS3Q4cXZrZlowRTNLRUM0TE1qVndFYS0xOFVBWEMwako1U296UlVQenl1MXhzR2VGOWdhUGR1S28xWTdLb2c?oc=5",
+    "description": "UAB student awarded Department of State’s Critical Language Scholarship The University of Alabama at Birmingham",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Mon, 22 Jun 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1402,17 +1186,17 @@
     "final_score": 42.0
   },
   {
-    "id": "7b9ef7e3e7ae",
-    "title": "Caroline Keller named Critical Language Scholar - University of Delaware",
+    "id": "4a36963f765a",
+    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSEdqcmxjS1R6UjlhTjRWVEVhc24tZEdzRFlLXzZjUEZLRmxTaEpJZlpxdkRPbkJBQlQ1YTMyYzRCeVlJQXIxOUZSSkNMaC1oRHBGUHFMaW5Fb0NRaUNubWplMDVyQTJGUGJvRzdtaWN2c1I3R3JjMWdqLU5sam9yN2t3YkY2YW4xbFFKRERjdXR2QXN2bHhFZm1UYnA?oc=5",
-    "description": "Caroline Keller named Critical Language Scholar University of Delaware",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
+    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Tue, 24 Mar 2026 07:00:00 GMT",
+    "posted_at": "Mon, 31 Mar 2025 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1439,17 +1223,17 @@
     "final_score": 42.0
   },
   {
-    "id": "4a36963f765a",
-    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
+    "id": "7b9ef7e3e7ae",
+    "title": "Caroline Keller named Critical Language Scholar - udel.edu",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
-    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSEdqcmxjS1R6UjlhTjRWVEVhc24tZEdzRFlLXzZjUEZLRmxTaEpJZlpxdkRPbkJBQlQ1YTMyYzRCeVlJQXIxOUZSSkNMaC1oRHBGUHFMaW5Fb0NRaUNubWplMDVyQTJGUGJvRzdtaWN2c1I3R3JjMWdqLU5sam9yN2t3YkY2YW4xbFFKRERjdXR2QXN2bHhFZm1UYnA?oc=5",
+    "description": "Caroline Keller named Critical Language Scholar udel.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Mon, 31 Mar 2025 07:00:00 GMT",
+    "posted_at": "Tue, 24 Mar 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1551,10 +1335,10 @@
   },
   {
     "id": "a1b7316949c9",
-    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - tcd.ie",
+    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - Trinity College Dublin",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjcW1QUjRGVHd1ZlhIVEZHcWtKVkNVN1c3ajJfMm04MkJUWll5TUl6cVNBdExudHBnM3BKX1lqYkNsN3hRbEdyd2FhQUgwWVRrMjJZT0lUd1gtbGRkbUQyVllzNFg5T1A1YTBEaw?oc=5",
-    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences tcd.ie",
+    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences Trinity College Dublin",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1588,10 +1372,10 @@
   },
   {
     "id": "7ff3b10e81ad",
-    "title": "Two Mercer students recognized by Critical Language Scholarship program - den.mercer.edu",
+    "title": "Two Mercer students recognized by Critical Language Scholarship program - Mercer University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeEcxTDRNYjhCZmE4cWwyNEhnNjg2VGkybGw5eU5MM1VRbEdJdXRKenNhcm44djM1NGZheEttX2VlUVFzaExuMTRpcnNYLU12LWxfZHlEY3JHUE1oN3dseXdmU2hRM3JJYXFsSFk3a0oyVkZIVkNadVlTSWZNUVA3a2RNQ1kwc2lwdWpSckJxeDBycDMtN2FGR0M1bw?oc=5",
-    "description": "Two Mercer students recognized by Critical Language Scholarship program den.mercer.edu",
+    "description": "Two Mercer students recognized by Critical Language Scholarship program Mercer University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1661,17 +1445,17 @@
     "final_score": 42.0
   },
   {
-    "id": "b7ca07cba6ec",
-    "title": "New scholarships will help attract overseas research students to Swansea - Swansea University",
+    "id": "dc8eb25a7e8a",
+    "title": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) - Opportunities For Africans",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTl9JYXQtdWVTLW9rai1yRVdmd0tONHp4R3MzU2xQSHduWHg4TUpRS3N2aXUwNEdpckp3d2JnMnJMTXdiZjhDLUdVUWJXVGNKMmZ3LTliU3ZEbkJTY0RHRmNXUkVxSmNZY1FYWDVEeHpYTURTMnFKZ3RoUE53c241dDZtMGRWVm95X3gtY1dQMnJLZXpLblV3UkxLRFJ1Tms4aVVPMm1Mbzc1NDB1dTJwZHFFTmlsX2I1VnByazM2OGh1UmN6cFAzcGlOaUpCSFpYVXpTVUxDVQ?oc=5",
-    "description": "New scholarships will help attract overseas research students to Swansea Swansea University",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZy1qVWlPMVFJVXdXTER1cnEyMWNLaU9Ec2RYM3pCNWpzTHF3SnB6QkdRRGtDa2NONmNuLXhSNXduby16MGJuWFlmVmdxanBmckRzNnBXVkNRNHNkdkZyaGNvOVRXOWpsSjJJMVhDZHBhd3k2NTBaSXN1bWNsMC1RUEgyYlNfQ000M0lNcFlPZlZ1T3ZGeFFhdTdRMXFIVF9DOUtOdElLXzZ5R3YtRk84?oc=5",
+    "description": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) Opportunities For Africans",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Tue, 16 Apr 2024 07:00:00 GMT",
+    "posted_at": "Mon, 16 Feb 2026 08:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1698,17 +1482,17 @@
     "final_score": 42.0
   },
   {
-    "id": "dc8eb25a7e8a",
-    "title": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) - Opportunities For Africans",
+    "id": "b7ca07cba6ec",
+    "title": "New scholarships will help attract overseas research students to Swansea - Swansea University",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZy1qVWlPMVFJVXdXTER1cnEyMWNLaU9Ec2RYM3pCNWpzTHF3SnB6QkdRRGtDa2NONmNuLXhSNXduby16MGJuWFlmVmdxanBmckRzNnBXVkNRNHNkdkZyaGNvOVRXOWpsSjJJMVhDZHBhd3k2NTBaSXN1bWNsMC1RUEgyYlNfQ000M0lNcFlPZlZ1T3ZGeFFhdTdRMXFIVF9DOUtOdElLXzZ5R3YtRk84?oc=5",
-    "description": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) Opportunities For Africans",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTl9JYXQtdWVTLW9rai1yRVdmd0tONHp4R3MzU2xQSHduWHg4TUpRS3N2aXUwNEdpckp3d2JnMnJMTXdiZjhDLUdVUWJXVGNKMmZ3LTliU3ZEbkJTY0RHRmNXUkVxSmNZY1FYWDVEeHpYTURTMnFKZ3RoUE53c241dDZtMGRWVm95X3gtY1dQMnJLZXpLblV3UkxLRFJ1Tms4aVVPMm1Mbzc1NDB1dTJwZHFFTmlsX2I1VnByazM2OGh1UmN6cFAzcGlOaUpCSFpYVXpTVUxDVQ?oc=5",
+    "description": "New scholarships will help attract overseas research students to Swansea Swansea University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
     "level": "Unknown",
     "field": "",
-    "posted_at": "Mon, 16 Feb 2026 08:00:00 GMT",
+    "posted_at": "Tue, 16 Apr 2024 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1994,6 +1778,43 @@
     "final_score": 42.0
   },
   {
+    "id": "5bf36a536b9a",
+    "title": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwazdtMTFERkZDQ0Q3UXNKR3Rza3BZcFlUaW02TVdpOERkVXhlUnBZcE1qNEFwOHBwQldkUVh5d1RWQV80VXN3b3RhTWdQUlRBYktvcWs3S1NRaElrOWY2M29FNU1WTTJnODlfRQ?oc=5",
+    "description": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) Global South Opportunities",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Fri, 21 Aug 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 42.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "final_score": 42.0
+  },
+  {
     "id": "86fa1ccb6761",
     "title": "State Department awards scholarship to Elon junior - Elon University",
     "source": "google-news",
@@ -2031,48 +1852,11 @@
     "final_score": 42.0
   },
   {
-    "id": "5bf36a536b9a",
-    "title": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) - globalsouthopportunities.com",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwazdtMTFERkZDQ0Q3UXNKR3Rza3BZcFlUaW02TVdpOERkVXhlUnBZcE1qNEFwOHBwQldkUVh5d1RWQV80VXN3b3RhTWdQUlRBYktvcWs3S1NRaElrOWY2M29FNU1WTTJnODlfRQ?oc=5",
-    "description": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) globalsouthopportunities.com",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Fri, 21 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 42.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 42.0
-  },
-  {
     "id": "9c2bb89562c2",
-    "title": "Planning PG in the UK? Indian students can get scholarships without applying in 2026 - India Today",
+    "title": "Planning PG in the UK? Indian students can get scholarships without applying in 2026 - indiatoday.in",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNnJFNVYwMG9Ub045OE9xMV9rVWxnaHhDZ1I0dUNHS28wZG9xbFlfWlFLVTgwbktNSGpWV0N6akhWYVJfNVp0azBsZmg5Zldzc25uQk1kcGM2TkpLX3lYOXBWVmRmWW5Fb3Qyb0U2TElfQzhzeWM1OWp3d1ZSc3EyTzZMbDlKLVBzZWVSd1Q1YldaRTB5TW1LUjIyb0dRUTFBclhMalNvR3Uzcy1jSE1mUHlvT216bkRXZ0t3TTlYZUNlT1RKdzlsdjh6ZHV6Y09VRjExWDNkV290dHlELXNJVWo0MlFsWmxDdW1CajI5Q0ctNGJLc1HSAfsBQVVfeXFMUGFNcnVGTm1Mc1IyODc5eWJ1OGhXclNVeHlvSXlla0Q2LXV5ZjRTVVNWWUswb0RuckpHYnRkSUFwZUJDc3NxYVRtWldCUXdEU3pvc1VwT2ZRZXdIeVo2RllXcEVwbUxEMDVXaDMxNGRaMHVCTFlobHBYcDZHRzNxVnZnMDRoRDR1SHRfUTdFVlltOVZsWXp4SHh4eHMtWnljZV9kaVpSUlo4dnoxLWs5YXptaFVrUDBWMmZ6RERPYnYxMDRxYmZjMjhadWFPVmxBNE1sN0pnTHQtUGpHNXZIUWJOa21KTFR3Q0xtMzhNWWNHQndlalhoQ1ZoaTQ?oc=5",
-    "description": "Planning PG in the UK? Indian students can get scholarships without applying in 2026 India Today",
+    "description": "Planning PG in the UK? Indian students can get scholarships without applying in 2026 indiatoday.in",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -2106,10 +1890,10 @@
   },
   {
     "id": "7659f8ce7609",
-    "title": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 - globalsouthopportunities.com",
+    "title": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 - Global South Opportunities",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41TXYySHl1OFQ3Y1NrSEVvampSaTRPa1d5bVdnWWhxOWhZREJJQUtsaVBkNFdlQm12VTVkVTZxM0ZzVGxscGJmQkV1OEN2S0pYVlg2eGNoaG5oVWFpQ2NkTG9KYXEwN3IxcUFhRDVSMmR2SGM?oc=5",
-    "description": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 globalsouthopportunities.com",
+    "description": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
