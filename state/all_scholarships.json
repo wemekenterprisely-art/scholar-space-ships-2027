@@ -1,57 +1,5 @@
 [
   {
-    "id": "82e585a3126d",
-    "title": "British Chevening Scholarships in UK for International Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/3299/british-chevening-scholarships/",
-    "description": "British Chevening Scholarships in UK for International Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
     "id": "287ac45b2e22",
     "title": "Fully Funded Scholarships in New Zealand 2027 (Updated Guide and List)",
     "source": "scholarshiproar",
@@ -86,19 +34,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
+    "ai_overall": 85.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 46.5
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "4196dc2a93ac",
@@ -199,11 +150,164 @@
     "final_score": 46.5
   },
   {
-    "id": "1da3049f2c9c",
-    "title": "Yenching Academy Scholarship in China 2027 (Fully Funded)",
+    "id": "e02338e02411",
+    "title": "List of Fully Funded Scholarships in Qatar for 2026 Intake",
     "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/yenching-academy-scholarship-in-china-2027/",
-    "description": "Yenching Academy Scholarship in China 2027 (Fully Funded)",
+    "url": "https://opportunitiescorners.com/fully-funded-scholarships-in-qatar/",
+    "description": "List of Fully Funded Scholarships in Qatar for 2026 Intake",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 88.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 71.4,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "c2fdbfe1118d",
+    "title": "600 Melbourne Graduate Research Scholarship 2027 (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/university-of-melbourne-graduate-research-scholarships-2027/",
+    "description": "600 Melbourne Graduate Research Scholarship 2027 (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "c3443b43395a",
+    "title": "BS MS PhD Scholarships in Australia in 2026 (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/bs-ms-phd-scholarships-in-australia-in-2026/",
+    "description": "BS MS PhD Scholarships in Australia in 2026 (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 12.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 80,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "FAIL",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 46.5
+  },
+  {
+    "id": "34b460d5725c",
+    "title": "Australia Awards Scholarships 2027 (Fully Funded) AAS 2027",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/australia-awards-scholarships-2026/",
+    "description": "Australia Awards Scholarships 2027 (Fully Funded) AAS 2027",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -246,677 +350,9 @@
       "field-anchor"
     ],
     "final_score": 72.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
+    "first_seen": "2026-09-11T12:30:51+00:00",
     "date": "2026-09-11",
     "applied": false
-  },
-  {
-    "id": "ff77647ec4d5",
-    "title": "Open Doors Scholarship 2027 in Russia (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/open-doors-scholarship-2027/",
-    "description": "Open Doors Scholarship 2027 in Russia (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "2ec3dba48b87",
-    "title": "GCUB Brazil International Mobility Scholarship 2027 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/gcub-brazil-international-mobility-scholarship-2027/",
-    "description": "GCUB Brazil International Mobility Scholarship 2027 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "6c5f645bc462",
-    "title": "Colombia Government Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/colombian-government-scholarship-2026/",
-    "description": "Colombia Government Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "27f349cfeb1c",
-    "title": "Malaysia MTCP Scholarship 2026/27 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/malaysia-mtcp-scholarship-2026/",
-    "description": "Malaysia MTCP Scholarship 2026/27 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "872703c822f2",
-    "title": "Chula Link Scholarship 2026 in Thailand (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/chula-link-scholarship-2026/",
-    "description": "Chula Link Scholarship 2026 in Thailand (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "5e4b09188349",
-    "title": "Round 2: Joint Japan World Bank Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/joint-japan-world-bank-scholarship-2026/",
-    "description": "Round 2: Joint Japan World Bank Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.8,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 80,
-      "funding": 85,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 70.1,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "64a7a2c3f974",
-    "title": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/doha-institute-for-graduate-studies-scholarship-2027/",
-    "description": "Doha Institute for Graduate Studies Scholarship 2027 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "ccf310a22cb0",
-    "title": "KAUST Scholarship 2027 in Saudi Arabia (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/kaust-scholarship-2027/",
-    "description": "KAUST Scholarship 2027 in Saudi Arabia (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "f17838bbb0de",
-    "title": "King Fahd University Scholarship 2026 in Saudi Arabia (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/king-fahd-university-scholarship-2026-saudi-arabia/",
-    "description": "King Fahd University Scholarship 2026 in Saudi Arabia (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "ac6ed50f1248",
-    "title": "Khalifa University Scholarship 2026 in UAE (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/khalifa-university-scholarship-2025/",
-    "description": "Khalifa University Scholarship 2026 in UAE (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:22:06+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "e02338e02411",
-    "title": "List of Fully Funded Scholarships in Qatar for 2026 Intake",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/fully-funded-scholarships-in-qatar/",
-    "description": "List of Fully Funded Scholarships in Qatar for 2026 Intake",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "c2fdbfe1118d",
-    "title": "600 Melbourne Graduate Research Scholarship 2027 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/university-of-melbourne-graduate-research-scholarships-2027/",
-    "description": "600 Melbourne Graduate Research Scholarship 2027 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "c3443b43395a",
-    "title": "BS MS PhD Scholarships in Australia in 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/bs-ms-phd-scholarships-in-australia-in-2026/",
-    "description": "BS MS PhD Scholarships in Australia in 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "34b460d5725c",
-    "title": "Australia Awards Scholarships 2027 (Fully Funded) AAS 2027",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/australia-awards-scholarships-2026/",
-    "description": "Australia Awards Scholarships 2027 (Fully Funded) AAS 2027",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
   },
   {
     "id": "21145de0e80d",
@@ -953,7 +389,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "e4a3e232f6b4",
@@ -990,7 +441,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "2519e647694a",
@@ -1027,7 +493,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "b664f544ef77",
@@ -1064,7 +545,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 82.5,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 80,
+      "language": 85,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 68.1,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "975abec51f59",
@@ -1101,7 +597,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "b3837991f0fe",
@@ -1138,7 +649,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "5ef7a1153d09",
@@ -1175,6 +701,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 12.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 80,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 46.5
   },
   {
@@ -1212,7 +750,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:30:51+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "496554842b5a",
@@ -4472,10 +4025,10 @@
   },
   {
     "id": "bb5d062e174e",
-    "title": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees - San Diego State University",
+    "title": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees - sdsu.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPajFQdG1XSmlJaFRZRGF3M2p4TzdEc0puX3hhZlpTUTdyOVc3ZkRXVmlLUWh1QWl0TEg2T1JVWS1ZZWxGYnVzZ0xwdl9nbDRheDE5Uk1nT3lQZmVhYS12dmExUmo3Tk5vdTdlbm03TVBBeFhxcm95UHdxSmM0a2NuSzlYYVVYMTRsbnFfNVlUMnZFTWt5c2kybUhDUVdhX2lqVS16QU9nY3E1UQ?oc=5",
-    "description": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees San Diego State University",
+    "description": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees sdsu.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -4620,10 +4173,10 @@
   },
   {
     "id": "32c1b94ea141",
-    "title": "How to Study Abroad for Free in 2027? - shiksha.com",
+    "title": "How to Study Abroad for Free in 2027? - Shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmtGNTg5NmY5bmVONTY3RzlsUW5LS2FRRHZUbzdmSU5nU1pMY25CWlhOWDcwVUpwOGNIckVRQTl6ZHVOaXRSWTV4b3FYekIxT3BXN0xPc2Z3UFd1QmlNWHhRUzZvM1JWdEcxRTd4UGNfc29nMGIyVWcwUTNEYnU0X0Zmajg5LTd6WHc?oc=5",
-    "description": "How to Study Abroad for Free in 2027? shiksha.com",
+    "description": "How to Study Abroad for Free in 2027? Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -4768,10 +4321,10 @@
   },
   {
     "id": "0fe286077be3",
-    "title": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship - wku.edu",
+    "title": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship - Western Kentucky University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenR0X2VscDhEZTNlS1U1b0ROQzhQZk82OUdERGJJMjRhdjVRQ3Z4cWtsUTBpU09YUUdhRGxCYVBZU3hVUkRkTEFxVzdKdkE3aG90U29Qcm5MVmFKMy1fSG9ISVgtemlWd0d0ZUF5Z08yUjE0eDVoRzVJWE5CNGI3Wkp1MkhzWkEwYjd6Tmxfcnk?oc=5",
-    "description": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship wku.edu",
+    "description": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship Western Kentucky University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -4842,10 +4395,10 @@
   },
   {
     "id": "4a36963f765a",
-    "title": "WKU Student Awarded Critical Language Scholarship - wku.edu",
+    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
-    "description": "WKU Student Awarded Critical Language Scholarship wku.edu",
+    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5027,10 +4580,10 @@
   },
   {
     "id": "3c563bf8ab2b",
-    "title": "McGill University's McCall MacBain Scholarships 2026 for master’s or second-entry professional undergraduate program ($2,300 per month living stipend) - Opportunities For Africans",
+    "title": "McGill University's McCall MacBain Scholarships 2026 for master’s or second-entry professional undergraduate program ($2,300 per month living stipend) - opportunitiesforafricans.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeFFXR1gwc0pCQklYaWcxbHVfUGh4UUJzcW9tZHRxekNoSXN2cEF3WVZMdGZ6ZXgyRnZEc2hnRmtTbnlpb3NLNTRFc0xkQWNiX2RlNTdEdXJqaFlHc1lCSXRnMWRQWURKXzI5clZfZWhXRllPbVBlVkRLd1hHTW1rSFlTUXpHX0ZUQ0llVW5JSDFsQ1UzTzZ0TA?oc=5",
-    "description": "McGill University's McCall MacBain Scholarships 2026 for master’s or second-entry professional undergraduate program ($2,300 per month living stipend) Opportunities For Africans",
+    "description": "McGill University's McCall MacBain Scholarships 2026 for master’s or second-entry professional undergraduate program ($2,300 per month living stipend) opportunitiesforafricans.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5064,10 +4617,10 @@
   },
   {
     "id": "dc8eb25a7e8a",
-    "title": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) - Opportunities For Africans",
+    "title": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) - opportunitiesforafricans.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZy1qVWlPMVFJVXdXTER1cnEyMWNLaU9Ec2RYM3pCNWpzTHF3SnB6QkdRRGtDa2NONmNuLXhSNXduby16MGJuWFlmVmdxanBmckRzNnBXVkNRNHNkdkZyaGNvOVRXOWpsSjJJMVhDZHBhd3k2NTBaSXN1bWNsMC1RUEgyYlNfQ000M0lNcFlPZlZ1T3ZGeFFhdTdRMXFIVF9DOUtOdElLXzZ5R3YtRk84?oc=5",
-    "description": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) Opportunities For Africans",
+    "description": "Romanian Government (Undergraduate, Masters & PhD) Scholarships 2026/2027 for study in Romania (Funded) opportunitiesforafricans.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5360,10 +4913,10 @@
   },
   {
     "id": "5bf36a536b9a",
-    "title": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) - Global South Opportunities",
+    "title": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) - globalsouthopportunities.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwazdtMTFERkZDQ0Q3UXNKR3Rza3BZcFlUaW02TVdpOERkVXhlUnBZcE1qNEFwOHBwQldkUVh5d1RWQV80VXN3b3RhTWdQUlRBYktvcWs3S1NRaElrOWY2M29FNU1WTTJnODlfRQ?oc=5",
-    "description": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) Global South Opportunities",
+    "description": "Apply Now for the KAUST Applied Mathematics School 2026: Fully Sponsored One-Week Programme in Saudi Arabia (Stipend, Accommodation, Logistics & Visa Support Available) globalsouthopportunities.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5397,10 +4950,10 @@
   },
   {
     "id": "86fa1ccb6761",
-    "title": "State Department awards scholarship to Elon junior - Elon University",
+    "title": "State Department awards scholarship to Elon junior - elon.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQamU1ZXN6Ni1QVG42T29ZUG9oWUZod3hUSkszX2J1dEEzMmVWOUtQaWJTdG13bm1SVDA5ZkJrZTF5dkhuejBRbVN3ZFVWa1h6cENwamZIVElDbmFvdHVWMlVkYzMxOXFTaGNseGlJbUkyOGZFcVQ5MlpYX1hFSmZfYUFueWdwbUZ5TEc5Qkc1SVJ1SExz?oc=5",
-    "description": "State Department awards scholarship to Elon junior Elon University",
+    "description": "State Department awards scholarship to Elon junior elon.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5471,10 +5024,10 @@
   },
   {
     "id": "7659f8ce7609",
-    "title": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 - Global South Opportunities",
+    "title": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 - globalsouthopportunities.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41TXYySHl1OFQ3Y1NrSEVvampSaTRPa1d5bVdnWWhxOWhZREJJQUtsaVBkNFdlQm12VTVkVTZxM0ZzVGxscGJmQkV1OEN2S0pYVlg2eGNoaG5oVWFpQ2NkTG9KYXEwN3IxcUFhRDVSMmR2SGM?oc=5",
-    "description": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 Global South Opportunities",
+    "description": "Mastercard Foundation Scholars Program at UWC - Fully-Funded Scholarships for African Youth – Academic Year 2026 globalsouthopportunities.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5545,10 +5098,10 @@
   },
   {
     "id": "713fc3c0c33b",
-    "title": "Top Scholarships in Germany For Indian Students 2027 - shiksha.com",
+    "title": "Top Scholarships in Germany For Indian Students 2027 - Shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFlUaVFkbFp2ZHVsOTBsb0tkcnJZdW1pUGZQMnBLVzVRa0hmZFZwcVoxWXJwQUdpYWVPbEw5SVJkclI1YVVfYl9abVpicmN1eVplOXBUQUEwOGJ5S1hjMWlxMmFMaHNiQnVxZFJJZ2JkcFg3VUVJZld0N1VvVnpKcGpR?oc=5",
-    "description": "Top Scholarships in Germany For Indian Students 2027 shiksha.com",
+    "description": "Top Scholarships in Germany For Indian Students 2027 Shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5582,10 +5135,10 @@
   },
   {
     "id": "a02b5c768619",
-    "title": "2014 Türkiye Scholarships Undergraduate Programme to study in Turkey (Fully-Funded) - Opportunities For Africans",
+    "title": "2014 Türkiye Scholarships Undergraduate Programme to study in Turkey (Fully-Funded) - opportunitiesforafricans.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLXFBdkJsYUNmczYzUG9fM005aEVvNWJLdHlpbGJYM00taXVtbGhLUzV0MGloOGpBaW5ZdHpVMTNVR1RkTl9aWGNPQkQxM1hDQTRERUtPQ2NUTlFYaHZCMHBVZTFoaGdlSnJ1emRSck5RZUp3dzJudUFobmwzVnlLZDViZ3h2LVVJR0pwNWY4Qjk5dkJ3eHNXQjBuSWx3dGJXOW9adURHbkZSSXRYZ1Jr?oc=5",
-    "description": "2014 Türkiye Scholarships Undergraduate Programme to study in Turkey (Fully-Funded) Opportunities For Africans",
+    "description": "2014 Türkiye Scholarships Undergraduate Programme to study in Turkey (Fully-Funded) opportunitiesforafricans.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5804,10 +5357,10 @@
   },
   {
     "id": "2f6cde9567f2",
-    "title": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students - pakistantoday.com.pk",
+    "title": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students - Pakistan Today",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2xQS25kQ205M3ZJTHN4ZjhrN1M2SGE3U1E4MjIwM215MVdSU21jTmJ2RXZXaEZfcjljV0FZQzdYbGl6Zk9EMlE1djA2VWd3NURGcmxFNTVMTktaQVJ4S2VwSHhXT3k5emxtN1hUR05QYnR1MnE1QU9oUzNHM3pHQ3gxMFZWRkJJVkdPNll1SHZ4NDlvcDRSRnVrN20xQ2oyV1lBQXdzMTd2QlZuc3pSUnFram5sWVBUcnZF?oc=5",
-    "description": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students pakistantoday.com.pk",
+    "description": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students Pakistan Today",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
