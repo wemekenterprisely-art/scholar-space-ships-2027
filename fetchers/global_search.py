@@ -76,7 +76,7 @@ def search_university_scholarships(university: dict, country: str, field_queries
     uni_name = university.get("name", "")
     uni_website = university.get("website", "")
     
-    for query in field_queries[:2]:  # Limit to 2 queries per field to avoid rate limiting
+    for query in field_queries:  # Search ALL queries for this field
         # Add university-specific terms to the query
         search_query = f"{query} {uni_name}"
         url = f"https://news.google.com/rss/search?q={search_query}&hl=en&gl=US&ceid=US:en"
@@ -115,10 +115,10 @@ def search_country_scholarships(country_data: dict, country_name: str, field_que
     items = []
     universities = country_data.get("universities", [])
     
-    for uni in universities[:3]:  # Limit to top 3 universities per country to avoid rate limiting
+    for uni in universities:  # Search ALL universities in the country
         uni_items = search_university_scholarships(uni, country_name, field_queries)
         items.extend(uni_items)
-        time.sleep(1)  # Rate limiting between universities
+        time.sleep(0.5)  # Rate limiting between universities
     
     return items
 
@@ -128,19 +128,18 @@ def search_continent_scholarships(continent_data: dict, continent_name: str, fie
     items = []
     countries = continent_data.get("countries", {})
     
-    for country_name, country_data in list(countries.items())[:5]:  # Limit to 5 countries per continent
+    for country_name, country_data in countries.items():  # Search ALL countries in the continent
         country_items = search_country_scholarships(country_data, country_name, field_queries)
         items.extend(country_items)
-        time.sleep(2)  # Rate limiting between countries
+        time.sleep(1)  # Rate limiting between countries
     
     return items
 
 
-def deep_global_search(max_continents: int = 7, max_countries_per_continent: int = 5) -> list[dict]:
-    """Perform a deep global search across all continents and countries."""
+def deep_global_search(max_continents: int = 7) -> list[dict]:
+    """Perform a deep global search across ALL continents, countries, and universities."""
     print("=== Starting Deep Global Scholarship Search ===")
-    print(f"  Max continents: {max_continents}")
-    print(f"  Max countries per continent: {max_countries_per_continent}")
+    print(f"  Searching ALL continents, countries, and universities")
     
     all_items = []
     seen_urls = set()
@@ -152,14 +151,24 @@ def deep_global_search(max_continents: int = 7, max_countries_per_continent: int
     
     continents = db["continents"]
     start_time = time.time()
+    total_universities = 0
+    total_countries = 0
     
     for i, (continent_name, continent_data) in enumerate(continents.items()):
         if i >= max_continents:
             break
         
+        # Rotate through different field queries for each continent
+        field_queries = list(SEARCH_QUERIES.values())[i % len(SEARCH_QUERIES)]
+        
         print(f"\n  Searching {continent_data.get('name', continent_name)}...")
-        continent_items = search_continent_scholarships(continent_data, continent_name, 
-                                                         list(SEARCH_QUERIES.values())[i % len(SEARCH_QUERIES)])
+        continent_items = search_continent_scholarships(continent_data, continent_name, field_queries)
+        
+        # Count universities and countries in this continent
+        countries_in_continent = continent_data.get("countries", {})
+        unis_in_continent = sum(len(c.get("universities", [])) for c in countries_in_continent.values())
+        total_countries += len(countries_in_continent)
+        total_universities += unis_in_continent
         
         # Deduplicate by URL
         for item in continent_items:
@@ -168,6 +177,7 @@ def deep_global_search(max_continents: int = 7, max_countries_per_continent: int
                 all_items.append(item)
         
         print(f"    Found {len(continent_items)} items ({len(seen_urls)} unique total)")
+        print(f"    Searched {len(countries_in_continent)} countries, {unis_in_continent} universities")
         
         # Check if we've exceeded the time limit (1.5 hours)
         elapsed = time.time() - start_time
@@ -175,10 +185,13 @@ def deep_global_search(max_continents: int = 7, max_countries_per_continent: int
             print(f"  [global_search] Time limit reached ({elapsed:.0f}s)")
             break
         
-        time.sleep(3)  # Rate limiting between continents
+        time.sleep(2)  # Rate limiting between continents
     
     elapsed = time.time() - start_time
     print(f"\n=== Global Search Complete ===")
+    print(f"  Continents searched: {min(i+1, max_continents)}")
+    print(f"  Countries searched: {total_countries}")
+    print(f"  Universities searched: {total_universities}")
     print(f"  Total items: {len(all_items)}")
     print(f"  Unique URLs: {len(seen_urls)}")
     print(f"  Time elapsed: {elapsed:.0f}s ({elapsed/60:.1f} min)")
@@ -186,6 +199,6 @@ def deep_global_search(max_continents: int = 7, max_countries_per_continent: int
     return all_items
 
 
-def fetch(max_continents: int = 7, max_countries_per_continent: int = 5) -> list[dict]:
+def fetch(max_continents: int = 7) -> list[dict]:
     """Main fetch function for the global search fetcher."""
-    return deep_global_search(max_continents, max_countries_per_continent)
+    return deep_global_search(max_continents)
