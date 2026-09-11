@@ -76,36 +76,37 @@ def search_university_scholarships(university: dict, country: str, field_queries
     uni_name = university.get("name", "")
     uni_website = university.get("website", "")
     
-    for query in field_queries:  # Search ALL queries for this field
-        # Add university-specific terms to the query
-        search_query = f"{query} {uni_name}"
-        url = f"https://news.google.com/rss/search?q={search_query}&hl=en&gl=US&ceid=US:en"
-        
-        try:
-            raw = get(url, timeout=20)
-            for chunk in re.split(r"</item>|</entry>", raw):
-                if "<item" not in chunk and "<entry" not in chunk:
-                    continue
-                t_m = re.search(r"<title[^>]*>(.*?)</title>", chunk, re.S)
-                l_m = re.search(r"<link[^>]*>(.*?)</link>", chunk, re.S) or re.search(r'<link[^>]*href="([^"]*)"', chunk)
-                if not t_m or not l_m:
-                    continue
-                title = re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", t_m.group(1)).strip()
-                link = l_m.group(1).strip()
-                if not title or not link or link in seen:
-                    continue
-                seen.add(link)
-                items.append({
-                    "title": title,
-                    "url": link,
-                    "description": f"Found via global search at {uni_name}, {country}",
-                    "posted_at": "",
-                    "university": uni_name,
-                    "country": country,
-                    "source": "global-search"
-                })
-        except Exception:
-            continue
+    # Use only the most targeted query per university to avoid rate limiting
+    # Pick the best query based on the university's country/region
+    best_query = field_queries[0] if field_queries else "scholarship no IELTS fully funded"
+    search_query = f"{best_query} {uni_name}"
+    url = f"https://news.google.com/rss/search?q={search_query}&hl=en&gl=US&ceid=US:en"
+    
+    try:
+        raw = get(url, timeout=20)
+        for chunk in re.split(r"</item>|</entry>", raw):
+            if "<item" not in chunk and "<entry" not in chunk:
+                continue
+            t_m = re.search(r"<title[^>]*>(.*?)</title>", chunk, re.S)
+            l_m = re.search(r"<link[^>]*>(.*?)</link>", chunk, re.S) or re.search(r'<link[^>]*href="([^"]*)"', chunk)
+            if not t_m or not l_m:
+                continue
+            title = re.sub(r"<!\[CDATA\[|\]\]>|<[^>]+>", "", t_m.group(1)).strip()
+            link = l_m.group(1).strip()
+            if not title or not link or link in seen:
+                continue
+            seen.add(link)
+            items.append({
+                "title": title,
+                "url": link,
+                "description": f"Found via global search at {uni_name}, {country}",
+                "posted_at": "",
+                "university": uni_name,
+                "country": country,
+                "source": "global-search"
+            })
+    except Exception:
+        pass
     
     return items
 
@@ -118,7 +119,7 @@ def search_country_scholarships(country_data: dict, country_name: str, field_que
     for uni in universities:  # Search ALL universities in the country
         uni_items = search_university_scholarships(uni, country_name, field_queries)
         items.extend(uni_items)
-        time.sleep(0.5)  # Rate limiting between universities
+        time.sleep(0.3)  # Minimal rate limiting between universities
     
     return items
 
@@ -131,7 +132,7 @@ def search_continent_scholarships(continent_data: dict, continent_name: str, fie
     for country_name, country_data in countries.items():  # Search ALL countries in the continent
         country_items = search_country_scholarships(country_data, country_name, field_queries)
         items.extend(country_items)
-        time.sleep(1)  # Rate limiting between countries
+        time.sleep(0.5)  # Minimal rate limiting between countries
     
     return items
 
@@ -185,7 +186,7 @@ def deep_global_search(max_continents: int = 7) -> list[dict]:
             print(f"  [global_search] Time limit reached ({elapsed:.0f}s)")
             break
         
-        time.sleep(2)  # Rate limiting between continents
+        time.sleep(1)  # Minimal rate limiting between continents
     
     elapsed = time.time() - start_time
     print(f"\n=== Global Search Complete ===")
