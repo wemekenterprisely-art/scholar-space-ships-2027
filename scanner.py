@@ -138,6 +138,16 @@ def main():
     if state_sync:
         state_sync.upload_state()
 
+    # 9) notifications
+    try:
+        import notifier
+        xlsx_path = OUTPUT / f"Scholarship_Report_{TODAY}.xlsx"
+        if xlsx_path.exists():
+            notifier.send_email_report(str(xlsx_path), matches)
+        notifier.telegram_message_summary({"fetched": len(all_items)}, matches)
+    except Exception as e:
+        print(f"  Notifications failed: {e}")
+
     print(f"Scan complete in {round(time.time()-t0,1)}s. Matched: {len(matches)} (new: {new_this_run}). ")
     for m in matches[:10]:
         print(f"   - [{m.get('final_score')}] {m['title'][:70]} {m.get('url','')}")
