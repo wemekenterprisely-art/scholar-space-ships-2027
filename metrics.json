@@ -1,0 +1,38 @@
+﻿{
+  "sources": {
+    "scholars4dev": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "scholarship-positions": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "google-news": {
+      "fetched": 123,
+      "matches": 0,
+      "errors": 0
+    },
+    "national-programs": {
+      "fetched": 8,
+      "matches": 0,
+      "errors": 0
+    },
+    "web-search": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    }
+  },
+  "funnel": {
+    "fetched": 131,
+    "candidates": 46,
+    "rejected": 85
+  },
+  "timings": {
+    "excel": 1.0,
+    "total": 63.3
+  }
+}

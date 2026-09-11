@@ -3,8 +3,6 @@ import hashlib, time
 from . import scholars4dev, scholarship_positions, google_news, duckduckgo_search
 from . import national_programs
 from . import scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone
-from . import reddit_scholarships, facebook_scholarships, linkedin_scholarships
-from . import twitter_scholarships, quora_scholarships, medium_scholarships
 
 REGISTRY = {
     "scholars4dev":       {"tier": 1, "fn": scholars4dev.fetch},
@@ -16,12 +14,6 @@ REGISTRY = {
     "opportunitiescorners": {"tier": 2, "fn": opportunitiescorners.fetch},
     "internationalopportunities": {"tier": 2, "fn": internationalopportunities.fetch},
     "opportunitieszone":  {"tier": 2, "fn": opportunitieszone.fetch},
-    "reddit":             {"tier": 2, "fn": reddit_scholarships.fetch},
-    "facebook":           {"tier": 2, "fn": facebook_scholarships.fetch},
-    "linkedin":           {"tier": 2, "fn": linkedin_scholarships.fetch},
-    "twitter":            {"tier": 2, "fn": twitter_scholarships.fetch},
-    "quora":              {"tier": 2, "fn": quora_scholarships.fetch},
-    "medium":             {"tier": 2, "fn": medium_scholarships.fetch},
 }
 
 _COOLDOWN = {}
