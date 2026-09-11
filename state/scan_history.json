@@ -167,5 +167,22 @@
       "national-programs": 8,
       "web-search": 0
     }
+  },
+  {
+    "date": "2026-09-11",
+    "time": "2026-09-11T04:15:00+00:00",
+    "fetched": 131,
+    "candidates": 46,
+    "matches": 9,
+    "new": 9,
+    "health": "100%",
+    "seconds": 63.3,
+    "sources": {
+      "scholars4dev": 0,
+      "scholarship-positions": 0,
+      "google-news": 123,
+      "national-programs": 8,
+      "web-search": 0
+    }
   }
 ]
