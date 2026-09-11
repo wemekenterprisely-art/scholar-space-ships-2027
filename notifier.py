@@ -190,10 +190,20 @@ def send_email(xlsx_path, scholarships):
             if not university:
                 import re
                 title = s.get("title", "")
-                for p in [r"at\s+([\w\s]+(?:University|Institute|College))", r"([\w\s]+(?:University|Institute|College))"]:
+                # Try multiple patterns
+                patterns = [
+                    r"at\s+([\w\s,]+(?:University|Institute|College|School)[\w\s]*)",
+                    r"([\w\s,]+(?:University|Institute|College|School)[\w\s]*(?:of|at|in)[\w\s]*)",
+                    r"(?:University|Institute|College)\s+of\s+([\w\s]+)",
+                    r"([\w\s]+(?:University|Institute|College|School))",
+                    r"(CSC|Chevening|Fulbright|DAAD|Erasmus|MEXT|Turkiye|Stipendium)\s+Scholarship",
+                ]
+                for p in patterns:
                     m = re.search(p, title, re.I)
                     if m:
-                        university = m.group(1).strip()
+                        university = m.group(1).strip() if m.lastindex else m.group(0).strip()
+                        # Clean up common suffixes
+                        university = re.sub(r"\s*\d{4}\s*$", "", university).strip()
                         break
 
             country = s.get("country", "") or "Open/Global"
@@ -211,13 +221,28 @@ def send_email(xlsx_path, scholarships):
                     {badge}
                 </div>
                 <table style="width:100%;font-size:13px;color:#333;border-collapse:collapse">
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555;width:120px">University</td><td style="padding:4px 8px">{university or "N/A"}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555;width:120px">University</td><td style="padding:4px 8px">{university or "Check listing"}</td></tr>
                     <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Country</td><td style="padding:4px 8px">{country}</td></tr>
                     <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Level</td><td style="padding:4px 8px">{level}</td></tr>
                     <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Funding</td><td style="padding:4px 8px">{funding}</td></tr>
                     <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Deadline</td><td style="padding:4px 8px">{deadline}</td></tr>
                     <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Match Score</td><td style="padding:4px 8px"><strong>{score}%</strong></td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px">{s.get("source", "unknown")}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px">{s.get("source", "unknown")}</td></tr>'''
+
+            # IELTS/TOEFL status
+            ielts = s.get("english_requirement", "")
+            if ielts == "not_required" or s.get("no_ielts"):
+                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#16a34a;font-weight:bold">Not Required</td></tr>'
+            elif ielts == "required":
+                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#dc2626">Required</td></tr>'
+            else:
+                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#d97706">Verify listing</td></tr>'
+
+            # Why it matches
+            if s.get("why"):
+                cards_html += f'<tr><td style="padding:4px 8px;font-weight:bold;color:#555">Why it fits</td><td style="padding:4px 8px">{", ".join(s.get("why", [])[:3])}</td></tr>'
+
+            cards_html += f'''
                 </table>
                 <div style="margin-top:12px">
                     <a href="{url}" style="display:inline-block;background:#2563eb;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-weight:bold">Apply Now</a>
