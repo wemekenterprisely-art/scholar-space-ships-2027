@@ -1,5 +1,265 @@
 [
   {
+    "id": "87df739d3ee7",
+    "title": "Masters Scholarships",
+    "source": "scholarshiproar",
+    "url": "https://scholarshiproar.com/masters-scholarships/",
+    "description": "(()=>{var e={};e.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if(\"undefined\"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navi",
+    "country": "Global",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "Master",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 89.5,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.3,
+    "first_seen": "2026-09-11T15:31:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "713fc3c0c33b",
+    "title": "Top Scholarships in Germany For Indian Students 2027 - Shiksha.com",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFlUaVFkbFp2ZHVsOTBsb0tkcnJZdW1pUGZQMnBLVzVRa0hmZFZwcVoxWXJwQUdpYWVPbEw5SVJkclI1YVVfYl9abVpicmN1eVplOXBUQUEwOGJ5S1hjMWlxMmFMaHNiQnVxZFJJZ2JkcFg3VUVJZld0N1VvVnpKcGpR?oc=5",
+    "description": "Top Scholarships in Germany For Indian Students 2027 Shiksha.com",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Tue, 08 Aug 2023 23:42:42 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 100.0,
+    "ai_dims": {
+      "field_fit": 100,
+      "eligibility": 100,
+      "language": 100,
+      "funding": 100,
+      "deadline_urgency": 100
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T15:31:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "8921c6aeb38c",
+    "title": "How to write a Motivation Letter for Scholarship (5 Examples)",
+    "source": "scholarshiproar",
+    "url": "https://scholarshiproar.com/scholarship-motivation-letter/",
+    "description": "(()=>{var e={};e.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if(\"undefined\"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navi",
+    "country": "Global",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Master",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 88.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 80,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 68.4,
+    "first_seen": "2026-09-11T15:31:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "cce6389f02d6",
+    "title": "University of Birmingham Scholarships 2027 | UK",
+    "source": "scholarshiproar",
+    "url": "https://scholarshiproar.com/university-of-birmingham-scholarships-uk/",
+    "description": "(()=>{var e={};e.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if(\"undefined\"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navi",
+    "country": "Uk",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Master",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-11T15:31:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "867cbc386522",
+    "title": "Western University Scholarships 2027 | Canada",
+    "source": "scholarshiproar",
+    "url": "https://scholarshiproar.com/western-university-scholarships-canada/",
+    "description": "(()=>{var e={};e.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if(\"undefined\"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navi",
+    "country": "Canada",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Master",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 91.5,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.5,
+    "first_seen": "2026-09-11T15:31:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
     "id": "bcfbacaa8675",
     "title": "PhD Scholarships",
     "source": "scholarshiproar",
