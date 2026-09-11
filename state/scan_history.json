@@ -533,5 +533,47 @@
       "internationalopportunities": 0,
       "opportunitieszone": 0
     }
+  },
+  {
+    "date": "2026-09-11",
+    "time": "2026-09-11T15:31:33+00:00",
+    "fetched": 262,
+    "candidates": 9,
+    "matches": 5,
+    "new": 5,
+    "health": "100%",
+    "seconds": 88.4,
+    "sources": {
+      "scholars4dev": 75,
+      "scholarship-positions": 0,
+      "google-news": 124,
+      "national-programs": 8,
+      "web-search": 0,
+      "scholarshiproar": 25,
+      "opportunitiescorners": 30,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "time": "2026-09-11T15:42:08+00:00",
+    "fetched": 260,
+    "candidates": 4,
+    "matches": 1,
+    "new": 1,
+    "health": "100%",
+    "seconds": 78.0,
+    "sources": {
+      "scholars4dev": 75,
+      "scholarship-positions": 0,
+      "google-news": 122,
+      "national-programs": 8,
+      "web-search": 0,
+      "scholarshiproar": 25,
+      "opportunitiescorners": 30,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0
+    }
   }
 ]
