@@ -1,57 +1,5 @@
 [
   {
-    "id": "56bcdca2d0e1",
-    "title": "German Bundestag Fully Funded Scholarship Programme 2027 - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqQmI2SVVhNEFOVXZkRU1NcWdCV1JEU2pjYi1JNG95Zi0tdGlrU25VLUQwc0JvdV9FRjJDMjlpOVppVURVcTF5TDhvRnpOanJnMWFYRUlBRU5jUjNQa0VULXVYOHphdDdMYlExX1E3YnhTWDU1bXc?oc=5",
-    "description": "German Bundestag Fully Funded Scholarship Programme 2027 Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Tue, 14 Apr 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T19:35:33+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
     "id": "4b0f7e084567",
     "title": "WKU Student Awarded Boren Scholarship - Western Kentucky University",
     "source": "google-news",
@@ -86,19 +34,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 0.0,
+    "ai_overall": 85.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 0,
-      "deadline_urgency": 0
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 39.0
+    "final_score": 66.6,
+    "first_seen": "2026-09-11T19:47:09+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "b8aa05bf3277",
