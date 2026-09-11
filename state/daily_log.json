@@ -1,5 +1,5 @@
 {
-  "last_scan": "2026-09-11T11:49:49+00:00",
+  "last_scan": "2026-09-11T11:52:30+00:00",
   "today": "2026-09-11",
   "scans": [
     {
@@ -197,6 +197,27 @@
       "new": 14,
       "health": "100%",
       "seconds": 93.8,
+      "sources": {
+        "scholars4dev": 75,
+        "scholarship-positions": 0,
+        "google-news": 124,
+        "national-programs": 8,
+        "web-search": 0,
+        "scholarshiproar": 47,
+        "opportunitiescorners": 163,
+        "internationalopportunities": 0,
+        "opportunitieszone": 0
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "time": "2026-09-11T11:52:30+00:00",
+      "fetched": 417,
+      "candidates": 241,
+      "matches": 10,
+      "new": 10,
+      "health": "100%",
+      "seconds": 82.7,
       "sources": {
         "scholars4dev": 75,
         "scholarship-positions": 0,
