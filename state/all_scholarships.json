@@ -1,22 +1,22 @@
 [
   {
-    "id": "24a2368e533d",
-    "title": "Undergraduate Scholarships",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/undergraduate-scholarships/",
-    "description": "(()=>{var e={};e.g=function(){if(\"object\"==typeof globalThis)return globalThis;try{return this||new Function(\"return this\")()}catch(e){if(\"object\"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if(\"undefined\"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navi",
-    "country": "Global",
+    "id": "56bcdca2d0e1",
+    "title": "German Bundestag Fully Funded Scholarship Programme 2027 - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqQmI2SVVhNEFOVXZkRU1NcWdCV1JEU2pjYi1JNG95Zi0tdGlrU25VLUQwc0JvdV9FRjJDMjlpOVppVURVcTF5TDhvRnpOanJnMWFYRUlBRU5jUjNQa0VULXVYOHphdDdMYlExX1E3YnhTWDU1bXc?oc=5",
+    "description": "German Bundestag Fully Funded Scholarship Programme 2027 Global South Opportunities",
+    "country": "",
     "deadline": "",
-    "funding": "Fully Funded",
-    "level": "Master",
+    "funding": "Unknown",
+    "level": "Unknown",
     "field": "",
-    "posted_at": "",
+    "posted_at": "Tue, 14 Apr 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -47,9 +47,58 @@
       "field-anchor"
     ],
     "final_score": 72.6,
-    "first_seen": "2026-09-11T15:52:49+00:00",
+    "first_seen": "2026-09-11T19:35:33+00:00",
     "date": "2026-09-11",
     "applied": false
+  },
+  {
+    "id": "4b0f7e084567",
+    "title": "WKU Student Awarded Boren Scholarship - Western Kentucky University",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWp2bS1jYTdCZTBxSXFWRlNfVXhYUWpzc3dfcXlocFZIbXUzaXEzV2lGcHluT3N1RkhZdmZ6MVRva1dicUIxd3NLRm93dkI5YWY2SDR1SmNWTDF2aldjTjdyTF9fSmNYV0RBSlQ2eDVONHc5RVdCdkdxemJRbVVxMG5JSHhfeHEwUVo2c1YxVQ?oc=5",
+    "description": "WKU Student Awarded Boren Scholarship Western Kentucky University",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Mon, 24 May 2021 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 0.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 0,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 39.0
   },
   {
     "id": "b8aa05bf3277",
@@ -86,13 +135,13 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 0.0,
+    "ai_overall": 10.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 0,
-      "deadline_urgency": 0
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 10,
+      "deadline_urgency": 10
     },
     "ai_verdict": "PASS",
     "rules_applied": [
