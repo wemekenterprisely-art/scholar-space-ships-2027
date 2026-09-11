@@ -1,25 +1,19 @@
-"""reddit_scholarships.py - Fetch scholarships from Reddit."""
+"""reddit_scholarships.py - Fetch scholarships from Reddit via DuckDuckGo."""
 import re
 from ._shared import get, strip_html
 
-SUBREDDITS = [
-    "scholarships",
-    "gradadmissions",
-    "AskAcademia",
-    "InternationalStudents",
-    "ApplyingToCollege",
-    "GradSchool",
-    "Funding",
-    "FindMeFunding",
-]
-
-QUERIES = [
-    "scholarship no IELTS",
-    "fully funded scholarship",
-    "PhD funding international",
-    "MA scholarship no TOEFL",
-    "academic fellowship",
-    "research funding",
+# Reddit scholarship posts via DuckDuckGo (avoids Reddit API blocking)
+REDDIT_QUERIES = [
+    "site:reddit.com scholarship no IELTS fully funded 2027",
+    "site:reddit.com PhD funding international 2027",
+    "site:reddit.com MA scholarship no TOEFL 2027",
+    "site:reddit.com scholarship for African students",
+    "site:reddit.com scholarship for Libyan students",
+    "site:reddit.com fully funded masters scholarship",
+    "site:reddit.com grad school funding no IELTS",
+    "site:reddit.com Erasmus scholarship reddit",
+    "site:reddit.com Chevening scholarship reddit",
+    "site:reddit.com Fulbright scholarship reddit",
 ]
 
 
@@ -27,29 +21,26 @@ def fetch() -> list[dict]:
     items = []
     seen = set()
     
-    for sub in SUBREDDITS:
-        for query in QUERIES[:2]:  # Limit queries per subreddit
-            url = f"https://www.reddit.com/r/{sub}/search.json?q={query}&restrict_sr=1&sort=new&t=month&limit=25"
-            try:
-                data = get(url, timeout=15)
-                import json
-                posts = json.loads(data).get("data", {}).get("children", [])
-                for post in posts:
-                    d = post.get("data", {})
-                    title = d.get("title", "").strip()
-                    link = f"https://reddit.com{d.get('permalink', '')}"
-                    desc = strip_html(d.get("selftext", "")[:500])
-                    if not title or not link or link in seen:
-                        continue
-                    seen.add(link)
-                    items.append({
-                        "title": title,
-                        "url": link,
-                        "description": desc or f"Reddit post from r/{sub}",
-                        "posted_at": d.get("created_utc", ""),
-                        "source": "reddit"
-                    })
-            except Exception:
-                continue
+    for query in REDDIT_QUERIES:
+        url = f"https://html.duckduckgo.com/html/?q={query.replace(' ', '+')}"
+        try:
+            raw = get(url, timeout=20)
+            for match in re.finditer(r'<a[^>]*class="result__a"[^>]*href="([^"]*)"[^>]*>(.*?)</a>', raw, re.S):
+                link = match.group(1)
+                title = re.sub(r"<[^>]+>", "", match.group(2)).strip()
+                if not title or not link or link in seen:
+                    continue
+                if "reddit.com" not in link:
+                    continue
+                seen.add(link)
+                items.append({
+                    "title": title,
+                    "url": link,
+                    "description": f"Reddit scholarship post",
+                    "posted_at": "",
+                    "source": "reddit"
+                })
+        except Exception:
+            continue
     
     return items

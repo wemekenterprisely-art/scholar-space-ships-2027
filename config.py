@@ -24,8 +24,7 @@ MAX_AI_JOBS = int(os.getenv("SCHOLAR_MAX_AI_JOBS", "15"))
 # ── Sources (tiered) ────────────────────────────────────────────────────
 TIER_1_SOURCES = ["scholars4dev", "scholarship-positions", "google-news", "national-programs", "web-search"]
 TIER_2_SOURCES = ["scholarshiproar", "opportunitiescorners", "internationalopportunities", "opportunitieszone",
-                   "reddit", "facebook", "linkedin", "twitter"]
-TIER_3_SOURCES = ["quora", "medium", "global-search"]
+                   "reddit", "facebook", "linkedin", "twitter", "quora", "medium"]
 
 PROBE_BLOCKED_SOURCES = []
 FORCE_BLOCKED_SOURCES = os.getenv("SCHOLAR_FORCE_BLOCKED", "0") == "1"

@@ -70,7 +70,7 @@ jobs:
           python scholar_ollama_test.py
 
       - name: Run scholarship scan
-        run: python scanner.py --tier 3
+        run: python scanner.py --tier 2
 
       - name: Upload report artifacts (Excel + JSON state)
         uses: actions/upload-artifact@v4
