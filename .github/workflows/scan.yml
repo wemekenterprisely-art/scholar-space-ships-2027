@@ -2,9 +2,7 @@ name: ScholarSpace-ships Scan
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya — Morning
-    - cron: '0 12 * * *'  # 12:00 UTC = 14:00 Libya — Afternoon
-    - cron: '0 20 * * *'  # 20:00 UTC = 22:00 Libya — Night
+    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya — Deep Global Search
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,7 +14,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150  # 2.5 hours for deep global search
     permissions:
       contents: write
 
@@ -72,7 +70,7 @@ jobs:
           python scholar_ollama_test.py
 
       - name: Run scholarship scan
-        run: python scanner.py --tier 2
+        run: python scanner.py --tier 3
 
       - name: Upload report artifacts (Excel + JSON state)
         uses: actions/upload-artifact@v4

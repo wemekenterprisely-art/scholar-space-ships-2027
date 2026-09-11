@@ -1,9 +1,9 @@
-# 🚀 ScholarSpace-ships 2027
+# ScholarSpace-ships 2027
 
 **Autonomous scholarship intelligence for a Libyan MA holder — no IELTS/TOEFL required.**
 
-Scans scholarship sources **3× daily at 06:00 / 14:00 / 22:00 (Libya time)** on free GitHub
-Actions, filters every opportunity through *your exact profile* (no English test,
+Scans scholarship sources **once daily at 06:00 (Libya time)** on free GitHub
+Actions with a **2-hour deep global search** across 7 continents, filters every opportunity through *your exact profile* (no English test,
 Libya-eligible, MA-level, fully funded preferred), scores each one deterministically
 **plus** a local AI referee (Ollama `qwen2.5:1.5b`), and hands you a **clickable Excel
 report** with every link, deadline and an ACTION flag — plus a live dashboard and API.
@@ -26,26 +26,50 @@ report** with every link, deadline and an ACTION flag — plus a live dashboard 
 | 🎓 Level | Below MA → rejected. |
 | ⏰ Deadline | Expired → rejected. Urgency scored into the match. |
 
+## Global Search
+
+The system performs a **2-hour deep search** across 7 continents:
+
+| Continent | Countries | Universities |
+|-----------|-----------|--------------|
+| 🌍 Africa | Libya, Egypt, Nigeria, South Africa, Kenya, Ghana, Tanzania, Ethiopia, Morocco, Tunisia | 100+ |
+| 🌏 Asia | Turkey, Japan, China, South Korea, India, Malaysia, Singapore, Thailand, Indonesia, Pakistan, Bangladesh, Philippines, Vietnam | 130+ |
+| 🌍 Europe | Germany, UK, France, Netherlands, Italy, Spain, Hungary, Poland, Sweden, Norway, Denmark, Finland | 120+ |
+| 🌎 North America | USA, Canada, Mexico | 30+ |
+| 🌎 South America | Brazil, Argentina, Colombia, Chile | 40+ |
+| 🌏 Oceania | Australia, New Zealand | 20+ |
+
+Search queries are organized by field:
+- Applied Linguistics
+- ESL/EFL Education
+- Translation Studies
+- Academic Writing
+- General Education
+- General Linguistics
+
 ## Sources
 
-### Tier 1 (Primary)
-- **scholars4dev** — HTML scraping (RSS empty)
-- **scholarship-positions** — Google News fallback (Cloudflare blocked)
+### Tier 1 (Quick - 5 sources)
+- **scholars4dev** — HTML scraping
+- **scholarship-positions** — Google News fallback
 - **google-news** — 5 targeted RSS queries
 - **national-programs** — 8 curated flagship schemes
-- **web-search** — DuckDuckGo HTML (no API key)
+- **web-search** — DuckDuckGo HTML
 
-### Tier 2 (Secondary)
+### Tier 2 (Medium - 4 sources)
 - **scholarshiproar** — HTML scraping
 - **opportunitiescorners** — HTML scraping
 - **internationalopportunities** — HTML scraping
 - **opportunitieszone** — HTML scraping
 
+### Tier 3 (Deep - 1 source)
+- **global-search** — 2-hour comprehensive worldwide search across 7 continents
+
 ## Run it
 
 ```bash
 pip install -r requirements.txt
-python scanner.py --tier 2
+python scanner.py --tier 3
 python test_filters.py && python scholar_ollama_test.py
 ```
 

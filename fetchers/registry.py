@@ -3,6 +3,7 @@ import hashlib, time
 from . import scholars4dev, scholarship_positions, google_news, duckduckgo_search
 from . import national_programs
 from . import scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone
+from . import global_search
 
 REGISTRY = {
     "scholars4dev":       {"tier": 1, "fn": scholars4dev.fetch},
@@ -14,6 +15,7 @@ REGISTRY = {
     "opportunitiescorners": {"tier": 2, "fn": opportunitiescorners.fetch},
     "internationalopportunities": {"tier": 2, "fn": internationalopportunities.fetch},
     "opportunitieszone":  {"tier": 2, "fn": opportunitieszone.fetch},
+    "global-search":      {"tier": 3, "fn": global_search.fetch},
 }
 
 _COOLDOWN = {}

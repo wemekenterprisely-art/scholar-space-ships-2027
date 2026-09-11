@@ -1,8 +1,8 @@
 # ScholarSpace-ships 2027 — Project Instructions
 
 ## Overview
-Autonomous scholarship intelligence engine. Runs 3×/day (06:00 / 14:00 / 22:00 Libya time) on
-GitHub Actions. Finds scholarships for a **Libyan MA holder in Applied Linguistics who
+Autonomous scholarship intelligence engine. Runs 1×/day (06:00 Libya time) on
+GitHub Actions with a 2-hour deep global search. Finds scholarships for a **Libyan MA holder in Applied Linguistics who
 cannot take IELTS/TOEFL** → clickable Excel + dashboard + API.
 
 ## Scholar profile (redacted; see scholar_profile.json + PROFILE.md)
@@ -21,10 +21,28 @@ cannot take IELTS/TOEFL** → clickable Excel + dashboard + API.
 5. **Match threshold**: `SCHOLAR_MIN_SCORE` default 55 for Fresh Matches.
 6. Rule shield: the deterministic gates always win over the AI layer.
 
+## Global Search Algorithm
+The system performs a deep search across 7 continents:
+- **Africa**: Libya, Egypt, Nigeria, South Africa, Kenya, Ghana, Tanzania, Ethiopia, Morocco, Tunisia
+- **Asia**: Turkey, Japan, China, South Korea, India, Malaysia, Singapore, Thailand, Indonesia, Pakistan, Bangladesh, Philippines, Vietnam
+- **Europe**: Germany, UK, France, Netherlands, Italy, Spain, Hungary, Poland, Sweden, Norway, Denmark, Finland
+- **North America**: USA, Canada, Mexico
+- **South America**: Brazil, Argentina, Colombia, Chile
+- **Oceania**: Australia, New Zealand
+- **Antarctica**: No permanent universities
+
+Search queries are organized by field:
+- Applied Linguistics
+- ESL/EFL Education
+- Translation Studies
+- Academic Writing
+- General Education
+- General Linguistics
+
 ## Sources
-Tier 1: scholars4dev, scholarship-positions, google-news (5 targeted queries), national-programs (curated flagship schemes: Türkiye Bursları, Stipendium Hungaricum, CSC, MEXT, ISFD, DAAD, Erasmus Mundus, KAUST), web-search (DuckDuckGo HTML).
-Tier 2: scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone.
-Add sources via one file + registry line.
+Tier 1 (Quick): scholars4dev, scholarship-positions, google-news, national-programs, web-search
+Tier 2 (Medium): scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone
+Tier 3 (Deep): global-search (2-hour comprehensive worldwide search)
 
 ## Delivery
 Excel 5 sheets (All / Fresh / Applications / Deadlines&Notes / Daily Log) with hyperlinks;
