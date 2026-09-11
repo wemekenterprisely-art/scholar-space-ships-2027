@@ -1,213 +1,5 @@
 [
   {
-    "id": "4196dc2a93ac",
-    "title": "Queen’s University Scholarships 2027 for International Students | Canada",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/queens-university-scholarships-canada/",
-    "description": "Queen’s University Scholarships 2027 for International Students | Canada",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "5ef7a1153d09",
-    "title": "UNESCO China Fellowship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/unesco-china-fellowship/",
-    "description": "UNESCO China Fellowship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "496554842b5a",
-    "title": "ANSO Scholarship 2026 in China (500 Fully Funded Scholarships)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/anso-scholarship/",
-    "description": "ANSO Scholarship 2026 in China (500 Fully Funded Scholarships)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "b9e9d2bdd3a3",
-    "title": "Keio University Japan ADB Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/keio-university-japan-adb-scholarship/",
-    "description": "Keio University Japan ADB Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 77.5,
-    "ai_dims": {
-      "field_fit": 75,
-      "eligibility": 100,
-      "language": 75,
-      "funding": 100,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 65.1,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
     "id": "db1718cfd006",
     "title": "University of Tokyo MEXT Scholarship 2026 in Japan (Fully Funded)",
     "source": "opportunitiescorners",
@@ -242,107 +34,6 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 20.5,
-    "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
-      "funding": 80,
-      "deadline_urgency": 10
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5
-  },
-  {
-    "id": "f0fd61f452f4",
-    "title": "KYOTO University ADB Scholarship 2026 in Japan (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/kyoto-university-adb-scholarship-in-japan/",
-    "description": "KYOTO University ADB Scholarship 2026 in Japan (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "0a064a9b1da8",
-    "title": "NTU Singapore Scholarship 2026 for BS, MS, PhD (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/ntu-scholarship-singapore/",
-    "description": "NTU Singapore Scholarship 2026 for BS, MS, PhD (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
     "ai_overall": 95.0,
     "ai_dims": {
       "field_fit": 95,
@@ -356,267 +47,7 @@
       "field-anchor"
     ],
     "final_score": 75.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "8e082d564d9e",
-    "title": "National University of Singapore ADB Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/national-university-of-singapore-adb-scholarship/",
-    "description": "National University of Singapore ADB Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "1e210fd88692",
-    "title": "Singapore A STAR ACIS Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/a-star-acis-scholarship-2026/",
-    "description": "Singapore A STAR ACIS Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "305fa57c5c9e",
-    "title": "A STAR SINGA Scholarship 2026 in Singapore (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/a-star-singa-scholarship-2026/",
-    "description": "A STAR SINGA Scholarship 2026 in Singapore (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "ececb4e5fa11",
-    "title": "BS MS PhD Scholarships in Singapore for 2025 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/bs-ms-phd-scholarships-in-singapore/",
-    "description": "BS MS PhD Scholarships in Singapore for 2025 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "c105ea0c43b8",
-    "title": "Singapore A STAR Graduate Scholarship 2025 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/singapore-a-star-graduate-scholarship/",
-    "description": "Singapore A STAR Graduate Scholarship 2025 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
+    "first_seen": "2026-09-11T12:56:01+00:00",
     "date": "2026-09-11",
     "applied": false
   },
@@ -655,26 +86,393 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
+    "ai_overall": 85.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
     },
-    "ai_verdict": "FAIL",
+    "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 46.5
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
-    "id": "b982ed1c6c9a",
-    "title": "Rhodes Scholarship 2027 at the University of Oxford (Fully Funded)",
+    "id": "19b2f0654701",
+    "title": "Ellison Undergraduate Scholars Program 2027 in UK (Fully Funded)",
     "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/rhodes-scholarship-2027/",
-    "description": "Rhodes Scholarship 2027 at the University of Oxford (Fully Funded)",
+    "url": "https://opportunitiescorners.com/ellison-undergraduate-scholars-program-2027/",
+    "description": "Ellison Undergraduate Scholars Program 2027 in UK (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "de238a11477b",
+    "title": "University of Miami Stamps Scholarship 2027, USA (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/university-of-miami-stamps-scholarship-2027/",
+    "description": "University of Miami Stamps Scholarship 2027, USA (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "c962dc23ac1e",
+    "title": "Stanford Knight Hennessy Scholarship 2027 in USA (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/stanford-knight-hennessy-scholarship-2027/",
+    "description": "Stanford Knight Hennessy Scholarship 2027 in USA (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "b60c654e9f73",
+    "title": "EWC Graduate Degree Fellowship 2026 in USA (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/ewc-graduate-degree-fellowship/",
+    "description": "EWC Graduate Degree Fellowship 2026 in USA (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "bfe9720471a9",
+    "title": "Seoul National University Scholarship 2027 in South Korea (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/seoul-national-university-scholarship-2027/",
+    "description": "Seoul National University Scholarship 2027 in South Korea (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "a25aac8ca300",
+    "title": "Korea University SK Global Scholarship 2026 (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/korea-university-sk-global-scholarship-2026/",
+    "description": "Korea University SK Global Scholarship 2026 (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "152364c794ec",
+    "title": "GKS Korean Government Graduate Scholarship 2026 (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/gks-graduate-scholarship/",
+    "description": "GKS Korean Government Graduate Scholarship 2026 (Fully Funded)",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
+    "id": "4f0a9f8883dc",
+    "title": "UST South Korea Scholarship For Spring 2026 (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/ust-south-korea-scholarship/",
+    "description": "UST South Korea Scholarship For Spring 2026 (Fully Funded)",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -717,317 +515,9 @@
       "field-anchor"
     ],
     "final_score": 72.6,
-    "first_seen": "2026-09-11T12:45:57+00:00",
+    "first_seen": "2026-09-11T12:56:01+00:00",
     "date": "2026-09-11",
     "applied": false
-  },
-  {
-    "id": "19b2f0654701",
-    "title": "Ellison Undergraduate Scholars Program 2027 in UK (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/ellison-undergraduate-scholars-program-2027/",
-    "description": "Ellison Undergraduate Scholars Program 2027 in UK (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 20.5,
-    "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
-      "funding": 80,
-      "deadline_urgency": 10
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5
-  },
-  {
-    "id": "de238a11477b",
-    "title": "University of Miami Stamps Scholarship 2027, USA (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/university-of-miami-stamps-scholarship-2027/",
-    "description": "University of Miami Stamps Scholarship 2027, USA (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "c962dc23ac1e",
-    "title": "Stanford Knight Hennessy Scholarship 2027 in USA (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/stanford-knight-hennessy-scholarship-2027/",
-    "description": "Stanford Knight Hennessy Scholarship 2027 in USA (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "b60c654e9f73",
-    "title": "EWC Graduate Degree Fellowship 2026 in USA (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/ewc-graduate-degree-fellowship/",
-    "description": "EWC Graduate Degree Fellowship 2026 in USA (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "bfe9720471a9",
-    "title": "Seoul National University Scholarship 2027 in South Korea (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/seoul-national-university-scholarship-2027/",
-    "description": "Seoul National University Scholarship 2027 in South Korea (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "a25aac8ca300",
-    "title": "Korea University SK Global Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/korea-university-sk-global-scholarship-2026/",
-    "description": "Korea University SK Global Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "152364c794ec",
-    "title": "GKS Korean Government Graduate Scholarship 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/gks-graduate-scholarship/",
-    "description": "GKS Korean Government Graduate Scholarship 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
-  },
-  {
-    "id": "4f0a9f8883dc",
-    "title": "UST South Korea Scholarship For Spring 2026 (Fully Funded)",
-    "source": "opportunitiescorners",
-    "url": "https://opportunitiescorners.com/ust-south-korea-scholarship/",
-    "description": "UST South Korea Scholarship For Spring 2026 (Fully Funded)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "final_score": 46.5
   },
   {
     "id": "92db6b14293a",
@@ -1064,7 +554,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "191e8e55c49d",
@@ -1101,7 +606,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 88.8,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 85,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 71.9,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "fd4ae5716f3e",
@@ -1138,7 +658,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "079091fc8da1",
@@ -1175,7 +710,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 80.0,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 80,
+      "language": 80,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "211ce75dc89b",
@@ -1212,7 +762,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:56:01+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "643d59e498dc",
@@ -3436,10 +3001,10 @@
   },
   {
     "id": "894a48de48f3",
-    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - Morgan State University",
+    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - morgan.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OdGVuM1BHck1LZk9WWmtsUWtTU2pGQVlmSTFCYzRxcG5wZXF2MFFaUHI4YkN3MlRQVFYtX2Y3ZTdpcWdHUDk3MVJKQWhNOU1EaV9UeDB4RTNka21iT3c?oc=5",
-    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study Morgan State University",
+    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study morgan.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -3658,10 +3223,10 @@
   },
   {
     "id": "a1b7316949c9",
-    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - Trinity College Dublin",
+    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - tcd.ie",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjcW1QUjRGVHd1ZlhIVEZHcWtKVkNVN1c3ajJfMm04MkJUWll5TUl6cVNBdExudHBnM3BKX1lqYkNsN3hRbEdyd2FhQUgwWVRrMjJZT0lUd1gtbGRkbUQyVllzNFg5T1A1YTBEaw?oc=5",
-    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences Trinity College Dublin",
+    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences tcd.ie",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
