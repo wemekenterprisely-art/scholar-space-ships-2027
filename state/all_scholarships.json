@@ -34,227 +34,19 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 10.0,
+    "ai_overall": 0.0,
     "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
-      "funding": 10,
-      "deadline_urgency": 10
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 0,
+      "deadline_urgency": 0
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
     "final_score": 46.5
-  },
-  {
-    "id": "eafe0a69e314",
-    "title": "Top 10 Prestigious Scholarships for the Best International Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/6268/top-10-scholarships-for-international-students/",
-    "description": "Top 10 Prestigious Scholarships for the Best International Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 84.2,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 80,
-      "funding": 75,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.1,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "2c71c66fbda1",
-    "title": "Top 10+ Scholarships in Italy for International Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/11693/scholarships-in-italy-scholarships-for-international-students/",
-    "description": "Top 10+ Scholarships in Italy for International Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "b727a695e8cd",
-    "title": "20 Tuition Scholarships offered by Universities for International Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/8544/tuition-scholarships-for-international-students/",
-    "description": "20 Tuition Scholarships offered by Universities for International Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "ba1397ea394b",
-    "title": "Top 25 Foreign Government Scholarships for International Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/1892/government-scholarships-for-developing-countries/",
-    "description": "Top 25 Foreign Government Scholarships for International Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
   },
   {
     "id": "87005d00ee99",
@@ -291,55 +83,6 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 0.0,
-    "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 0,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5
-  },
-  {
-    "id": "6bb6a0e124da",
-    "title": "List of Fully Funded PhD Scholarships in the USA 2027",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/list-of-fully-funded-ph-d-scholarships-in-usa/",
-    "description": "List of Fully Funded PhD Scholarships in the USA 2027",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
     "ai_overall": 90.0,
     "ai_dims": {
       "field_fit": 90,
@@ -353,59 +96,7 @@
       "field-anchor"
     ],
     "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "8ee751d5f635",
-    "title": "Fully Funded Scholarships in Canada 2027 (Updated Guide and List)",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/canada-scholarships/",
-    "description": "Fully Funded Scholarships in Canada 2027 (Updated Guide and List)",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
+    "first_seen": "2026-09-11T12:16:58+00:00",
     "date": "2026-09-11",
     "applied": false
   },
@@ -444,227 +135,19 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 20.5,
+    "ai_overall": 12.0,
     "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
       "funding": 80,
-      "deadline_urgency": 10
+      "deadline_urgency": 0
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
     "final_score": 46.5
-  },
-  {
-    "id": "d3a7848247c1",
-    "title": "University of Nottingham Scholarships 2027 for International Students | UK",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/university-of-nottingham-scholarships-uk/",
-    "description": "University of Nottingham Scholarships 2027 for International Students | UK",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "472055e5781b",
-    "title": "University of Warwick Scholarships 2027 for International Students | UK",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/university-of-warwick-scholarships-uk/",
-    "description": "University of Warwick Scholarships 2027 for International Students | UK",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "af989cc2ea07",
-    "title": "University of Manitoba Scholarships 2027 for International Students | Canada",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/university-of-manitoba-scholarships-canada/",
-    "description": "University of Manitoba Scholarships 2027 for International Students | Canada",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "a2437655c710",
-    "title": "UMY Scholarships 2027 Indonesia | Fully Funded",
-    "source": "scholarshiproar",
-    "url": "https://scholarshiproar.com/umy-scholarships-indonesia/",
-    "description": "UMY Scholarships 2027 Indonesia | Fully Funded",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T11:52:30+00:00",
-    "date": "2026-09-11",
-    "applied": false
   },
   {
     "id": "4196dc2a93ac",
@@ -701,13 +184,13 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 0.0,
+    "ai_overall": 10.0,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 0,
-      "deadline_urgency": 0
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 10,
+      "deadline_urgency": 10
     },
     "ai_verdict": "PASS",
     "rules_applied": [
@@ -799,7 +282,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 87.5,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 80,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 71.1,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "2997add02be8",
@@ -836,7 +334,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "6515a656982e",
@@ -873,7 +386,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "283cb456bdc6",
@@ -910,7 +438,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 79.0,
+    "ai_dims": {
+      "field_fit": 75,
+      "eligibility": 80,
+      "language": 85,
+      "funding": 80,
+      "deadline_urgency": 75
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.0,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "447838a9bf40",
@@ -947,7 +490,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "851414c0e5e3",
@@ -984,7 +542,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "eccd9a29ffa5",
@@ -1021,7 +594,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "897c37c0ea77",
@@ -1058,7 +646,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "33052a5be470",
@@ -1095,7 +698,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "0e3d99ab7a5e",
@@ -1132,7 +750,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T12:16:58+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "1da3049f2c9c",
@@ -5391,10 +5024,10 @@
   },
   {
     "id": "32c1b94ea141",
-    "title": "How to Study Abroad for Free in 2027? - Shiksha.com",
+    "title": "How to Study Abroad for Free in 2027? - shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUmtGNTg5NmY5bmVONTY3RzlsUW5LS2FRRHZUbzdmSU5nU1pMY25CWlhOWDcwVUpwOGNIckVRQTl6ZHVOaXRSWTV4b3FYekIxT3BXN0xPc2Z3UFd1QmlNWHhRUzZvM1JWdEcxRTd4UGNfc29nMGIyVWcwUTNEYnU0X0Zmajg5LTd6WHc?oc=5",
-    "description": "How to Study Abroad for Free in 2027? Shiksha.com",
+    "description": "How to Study Abroad for Free in 2027? shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5502,10 +5135,10 @@
   },
   {
     "id": "894a48de48f3",
-    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - morgan.edu",
+    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - Morgan State University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OdGVuM1BHck1LZk9WWmtsUWtTU2pGQVlmSTFCYzRxcG5wZXF2MFFaUHI4YkN3MlRQVFYtX2Y3ZTdpcWdHUDk3MVJKQWhNOU1EaV9UeDB4RTNka21iT3c?oc=5",
-    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study morgan.edu",
+    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study Morgan State University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5539,10 +5172,10 @@
   },
   {
     "id": "0fe286077be3",
-    "title": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship - wku.edu",
+    "title": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship - Western Kentucky University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQenR0X2VscDhEZTNlS1U1b0ROQzhQZk82OUdERGJJMjRhdjVRQ3Z4cWtsUTBpU09YUUdhRGxCYVBZU3hVUkRkTEFxVzdKdkE3aG90U29Qcm5MVmFKMy1fSG9ISVgtemlWd0d0ZUF5Z08yUjE0eDVoRzVJWE5CNGI3Wkp1MkhzWkEwYjd6Tmxfcnk?oc=5",
-    "description": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship wku.edu",
+    "description": "Lilian Branch's Journey: From Chattanooga to Taiwan with the Critical Language Scholarship Western Kentucky University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5613,10 +5246,10 @@
   },
   {
     "id": "4a36963f765a",
-    "title": "WKU Student Awarded Critical Language Scholarship - wku.edu",
+    "title": "WKU Student Awarded Critical Language Scholarship - Western Kentucky University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmY1VhMkRWeEg3Z2ota2J0Y1luMXdCX1BRbTRXVkxhMmlKRjFXa2UyLWtWRzR1c0hKVzFiMzdrNV9mbkJ3QmlEZHd3SkM1QWZNd21ZSzNvMG83Q1dtT0tKd3VwR0FOMGl5a0VKVG9wRG9yR3h5eVE?oc=5",
-    "description": "WKU Student Awarded Critical Language Scholarship wku.edu",
+    "description": "WKU Student Awarded Critical Language Scholarship Western Kentucky University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -5872,10 +5505,10 @@
   },
   {
     "id": "b7ca07cba6ec",
-    "title": "New scholarships will help attract overseas research students to Swansea - Swansea University",
+    "title": "New scholarships will help attract overseas research students to Swansea - swansea.ac.uk",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTl9JYXQtdWVTLW9rai1yRVdmd0tONHp4R3MzU2xQSHduWHg4TUpRS3N2aXUwNEdpckp3d2JnMnJMTXdiZjhDLUdVUWJXVGNKMmZ3LTliU3ZEbkJTY0RHRmNXUkVxSmNZY1FYWDVEeHpYTURTMnFKZ3RoUE53c241dDZtMGRWVm95X3gtY1dQMnJLZXpLblV3UkxLRFJ1Tms4aVVPMm1Mbzc1NDB1dTJwZHFFTmlsX2I1VnByazM2OGh1UmN6cFAzcGlOaUpCSFpYVXpTVUxDVQ?oc=5",
-    "description": "New scholarships will help attract overseas research students to Swansea Swansea University",
+    "description": "New scholarships will help attract overseas research students to Swansea swansea.ac.uk",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -6316,10 +5949,10 @@
   },
   {
     "id": "713fc3c0c33b",
-    "title": "Top Scholarships in Germany For Indian Students 2027 - Shiksha.com",
+    "title": "Top Scholarships in Germany For Indian Students 2027 - shiksha.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFlUaVFkbFp2ZHVsOTBsb0tkcnJZdW1pUGZQMnBLVzVRa0hmZFZwcVoxWXJwQUdpYWVPbEw5SVJkclI1YVVfYl9abVpicmN1eVplOXBUQUEwOGJ5S1hjMWlxMmFMaHNiQnVxZFJJZ2JkcFg3VUVJZld0N1VvVnpKcGpR?oc=5",
-    "description": "Top Scholarships in Germany For Indian Students 2027 Shiksha.com",
+    "description": "Top Scholarships in Germany For Indian Students 2027 shiksha.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -6575,10 +6208,10 @@
   },
   {
     "id": "2f6cde9567f2",
-    "title": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students - pakistantoday.com.pk",
+    "title": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students - Pakistan Today",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2xQS25kQ205M3ZJTHN4ZjhrN1M2SGE3U1E4MjIwM215MVdSU21jTmJ2RXZXaEZfcjljV0FZQzdYbGl6Zk9EMlE1djA2VWd3NURGcmxFNTVMTktaQVJ4S2VwSHhXT3k5emxtN1hUR05QYnR1MnE1QU9oUzNHM3pHQ3gxMFZWRkJJVkdPNll1SHZ4NDlvcDRSRnVrN20xQ2oyV1lBQXdzMTd2QlZuc3pSUnFram5sWVBUcnZF?oc=5",
-    "description": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students pakistantoday.com.pk",
+    "description": "China offers fully-funded BS, MS, and PhD scholarships for Pakistani students Pakistan Today",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
