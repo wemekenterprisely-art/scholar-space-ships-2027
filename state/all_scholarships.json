@@ -1,790 +1,10 @@
 [
   {
-    "id": "d6f63e10eead",
-    "title": "Griffith Vice Chancellor&#8217;s International Scholarship",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/25669/griffith-vice-chancellors-scholarship/",
-    "description": "Griffith Vice Chancellor’s International Scholarship",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 87.5,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 95,
-      "funding": 80,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 68.1,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "f46c96ead6e8",
-    "title": "Macquarie Vice-Chancellor&#8217;s International Scholarships",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/1398/macquarie-university-scholarships-for-international-students/",
-    "description": "Macquarie Vice-Chancellor’s International Scholarships",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "858804d1e529",
-    "title": "UNIL Master&#8217;s Grants in Switzerland for Foreign Students",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/6578/switzerland-univeristy-lausanne-scholarships-for-international-students/",
-    "description": "UNIL Master’s Grants in Switzerland for Foreign Students",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 87.8,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 85,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 68.3,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "ba0d17d5d129",
-    "title": "Top 5 Countries Where Tuition is Free in 2025",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/4031/list-of-european-countries-with-tuition-freelow-tuition-universities-colleges/",
-    "description": "Top 5 Countries Where Tuition is Free in 2025",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 66.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "38efc354d2ee",
-    "title": "35+ International Scholarships for Development-Related Studies",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/12039/scholarships-in-development-related-studies-for-international-students/",
-    "description": "35+ International Scholarships for Development-Related Studies",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "a04fa4190087",
-    "title": "Top 5+ Scholarships for Study in Any Country or Anywhere",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/8434/scholarships-study-any-country/",
-    "description": "Top 5+ Scholarships for Study in Any Country or Anywhere",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 88.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 95,
-      "funding": 80,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 68.4,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "bde33bfcc9e7",
-    "title": "Scholarship Application Questions and Answers",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/2769/scholarship-application-questions-answers/",
-    "description": "Scholarship Application Questions and Answers",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "52f2ad8c7e43",
-    "title": "Scholarship Tip #1: Look into Scholarships in Any Field of Study and Any Country",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/3955/scholarship-tip-look-into-scholarships-in-any-field-of-study-and-any-country/",
-    "description": "Scholarship Tip #1: Look into Scholarships in Any Field of Study and Any Country",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "f79b987235b7",
-    "title": "Scholarship Tip # 2: Don’t Apply to Every Scholarship",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/5611/scholarship-tip-do-not-apply-to-every-scholarship/",
-    "description": "Scholarship Tip # 2: Don’t Apply to Every Scholarship",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 83.8,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 80,
-      "funding": 75,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 65.9,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "666536eff170",
-    "title": "Scholarship Tip #3: Discover school-specific scholarships",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/5809/scholarship-tip-find-school-specific-scholarships/",
-    "description": "Scholarship Tip #3: Discover school-specific scholarships",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 87.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 80,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 67.8,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "e3130d78cade",
-    "title": "Scholarship Tip #5: Take note of Annual Scholarship Programs",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/6047/annual-scholarships-for-international-students/",
-    "description": "Scholarship Tip #5: Take note of Annual Scholarship Programs",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "8e24519953ae",
-    "title": "Scholarships Tip #6: Ask Yourself  &#8220;Am I Qualified for a Scholarship?&#8221;",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/6311/am-i-qualified-for-a-scholarship/",
-    "description": "Scholarships Tip #6: Ask Yourself “Am I Qualified for a Scholarship?”",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 66.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "2586d3ef4e91",
-    "title": "Scholarship Tip #7: Tap into other Scholarship Resources",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/8141/international-scholarship-resources-online/",
-    "description": "Scholarship Tip #7: Tap into other Scholarship Resources",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 88.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 95,
-      "funding": 80,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 68.4,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "1de46e3b60d4",
-    "title": "Scholarship Tip #8: Improve your Chances in Winning a Scholarship",
-    "source": "scholars4dev",
-    "url": "https://www.scholars4dev.com/8206/winning-a-scholarship-tips/",
-    "description": "Scholarship Tip #8: Improve your Chances in Winning a Scholarship",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
-    "id": "bb5d062e174e",
-    "title": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees - San Diego State University",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPajFQdG1XSmlJaFRZRGF3M2p4TzdEc0puX3hhZlpTUTdyOVc3ZkRXVmlLUWh1QWl0TEg2T1JVWS1ZZWxGYnVzZ0xwdl9nbDRheDE5Uk1nT3lQZmVhYS12dmExUmo3Tk5vdTdlbm03TVBBeFhxcm95UHdxSmM0a2NuSzlYYVVYMTRsbnFfNVlUMnZFTWt5c2kybUhDUVdhX2lqVS16QU9nY3E1UQ?oc=5",
-    "description": "Destinations: Philippines, Taiwan for two Aztec Fulbright Program awardees San Diego State University",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "Unknown",
-    "field": "",
-    "posted_at": "Wed, 03 Jun 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-11T14:29:44+00:00",
-    "date": "2026-09-11",
-    "applied": false
-  },
-  {
     "id": "c9edc7a5d6fb",
-    "title": "Students Awarded Critical Language Scholarship (CLS) to Brazil and Kazakhstan - Middlebury",
+    "title": "Students Awarded Critical Language Scholarship (CLS) to Brazil and Kazakhstan - middlebury.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYUJURU0tRmllVGVhWkNfSFM5N3lXM2pCSVFIT1czWUlic3o0MTJuZ3dUc2xDSjZNSFk5X3R0bWlpbXc2Wm5DTW5pRGFXNzN0QklJNy0zU2ZxM01SYnZwZFotek9abWZsR3JiRnVyUW5RSXpoUzRyQzBRLUdKaVVNWmNCX0dpT1JDUTFNd1RocS16R0pCc1I3WHNuelduU2pvR0drOEJqY0tWbFJJM2pWdGtQQ05ua0FJb3hVcEdqYTBUWGJzd1BFbjlFTG5JWDYxbVE?oc=5",
-    "description": "Students Awarded Critical Language Scholarship (CLS) to Brazil and Kazakhstan Middlebury",
+    "description": "Students Awarded Critical Language Scholarship (CLS) to Brazil and Kazakhstan middlebury.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -814,7 +34,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "63b2de7bbed7",
@@ -851,7 +86,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 100.0,
+    "ai_dims": {
+      "field_fit": 100,
+      "eligibility": 100,
+      "language": 100,
+      "funding": 100,
+      "deadline_urgency": 100
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "32c1b94ea141",
@@ -888,6 +138,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 10.0,
+    "ai_dims": {
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 10,
+      "deadline_urgency": 10
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 39.0
   },
   {
@@ -925,6 +187,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 0.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 0,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 39.0
   },
   {
@@ -962,14 +236,29 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 91.5,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.5,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "894a48de48f3",
-    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - morgan.edu",
+    "title": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study - Morgan State University",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OdGVuM1BHck1LZk9WWmtsUWtTU2pGQVlmSTFCYzRxcG5wZXF2MFFaUHI4YkN3MlRQVFYtX2Y3ZTdpcWdHUDk3MVJKQWhNOU1EaV9UeDB4RTNka21iT3c?oc=5",
-    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study morgan.edu",
+    "description": "Amplifying Excellence: Morgan Students Earn Honors in Diplomacy, Journalism and Language Study Morgan State University",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -999,7 +288,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "0fe286077be3",
@@ -1036,6 +340,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 10.0,
+    "ai_dims": {
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 10,
+      "deadline_urgency": 10
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 39.0
   },
   {
@@ -1073,7 +389,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "4a36963f765a",
@@ -1110,7 +441,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "7b9ef7e3e7ae",
@@ -1147,14 +493,26 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 0.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 0,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 39.0
   },
   {
     "id": "952bbaded377",
-    "title": "Nine Students Awarded Prestigious Critical Language Scholarships - Middlebury",
+    "title": "Nine Students Awarded Prestigious Critical Language Scholarships - middlebury.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRXhSNmZUOWtKVndOdWFqTWxXQkVhY0tPMzhGMFRVUERjMy1xb2dXV2xsSWhSUkpLLVBuZndrV19VNS1pcThCT3h4MC1remhabDJZN2Jod1c1MmFYMWJXYjFtbmpxSVhLMS1xbktkRHdMaEhLVE1uQmRHQ1B5ajlLTGhPMVdyTG1ydmdnMThiOVAzaERuZVRLbWdzZmVUb2tWbHRqeEFpZWtmdw?oc=5",
-    "description": "Nine Students Awarded Prestigious Critical Language Scholarships Middlebury",
+    "description": "Nine Students Awarded Prestigious Critical Language Scholarships middlebury.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1184,7 +542,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "63b7bb625e74",
@@ -1221,14 +594,29 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "a1b7316949c9",
-    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - Trinity College Dublin",
+    "title": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences - tcd.ie",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjcW1QUjRGVHd1ZlhIVEZHcWtKVkNVN1c3ajJfMm04MkJUWll5TUl6cVNBdExudHBnM3BKX1lqYkNsN3hRbEdyd2FhQUgwWVRrMjJZT0lUd1gtbGRkbUQyVllzNFg5T1A1YTBEaw?oc=5",
-    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences Trinity College Dublin",
+    "description": "TRDA Group Project Award - School of Linguistic, Speech and Communication Sciences tcd.ie",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1258,7 +646,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "7ff3b10e81ad",
@@ -1295,7 +698,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "3c563bf8ab2b",
@@ -1332,7 +750,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 39.0
+    "ai_overall": 84.5,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.3,
+    "first_seen": "2026-09-11T14:34:33+00:00",
+    "date": "2026-09-11",
+    "applied": false
   },
   {
     "id": "dc8eb25a7e8a",
@@ -1484,10 +917,10 @@
   },
   {
     "id": "7730185a4540",
-    "title": "Grant Allows Eight UVA Scholars to Deep-Dive into Foreign Language Study - news.virginia.edu",
+    "title": "Grant Allows Eight UVA Scholars to Deep-Dive into Foreign Language Study - UVA Today",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZVo3ZlphaEQtRjNrNS1SRll1Vm0zVGZmOXRvMVR3RUlZQ2FvaUw0UEZTY1JoejBTZ0stbmdZV1BBSFNuYjlldncyVUUwWEpmaE1CTDB4aWUtaUpZaHdVY3BXRDhIYVlUOVdOUFZJejJrdGkxVnZxajQ3UFZ5WjZJVDFRQU1HQ3pHeUxKZ2JZby1sRmJ2YkMwOXFZN0R3ZUE?oc=5",
-    "description": "Grant Allows Eight UVA Scholars to Deep-Dive into Foreign Language Study news.virginia.edu",
+    "description": "Grant Allows Eight UVA Scholars to Deep-Dive into Foreign Language Study UVA Today",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1521,10 +954,10 @@
   },
   {
     "id": "b8aa05bf3277",
-    "title": "Which Countries Give 100% Scholarships to Study Abroad? - Y-Axis Overseas Careers",
+    "title": "Which Countries Give 100% Scholarships to Study Abroad? - y-axis.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY25qc0ZGQ2k4Z1dtUjhLSUprTFNFSVpoQlJzbi1iRXprekplVFRBdmxXNTEyMWxHU1AtczREMENVOFRCdW1xWVpTYnFLaHdMQXZzbE5TcUoxcDZvdVR5dDRzeTVUaGYzOGNobVc3aS1iem9CY3F4SDZ2emEwbzlqSTBGMWFuQnR2cm1VWDZZaVkweDRK?oc=5",
-    "description": "Which Countries Give 100% Scholarships to Study Abroad? Y-Axis Overseas Careers",
+    "description": "Which Countries Give 100% Scholarships to Study Abroad? y-axis.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1558,10 +991,10 @@
   },
   {
     "id": "7987038c3cd4",
-    "title": "He Got a Fully-Funded Scholarship in Sweden. Now He’s Mentoring Other Nigerian Applicants – 1000 Ways to Japa - zikoko.com",
+    "title": "He Got a Fully-Funded Scholarship in Sweden. Now He’s Mentoring Other Nigerian Applicants – 1000 Ways to Japa - Zikoko!",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aQ3BNLU1SNjMta09wNFI5NjI2Y2pZQVdDUWRuNzdONU5CZURCQi0yOXJ4VV9BWHd4am5lbEd3clNFa1gteWR5eEhTeDZoOE1fY1BpUnlmUEZzakExSm1YZW9LSmRfdjhwdF9yNU4xUW5KQVdMUEJiQ0wzcU9tUQ?oc=5",
-    "description": "He Got a Fully-Funded Scholarship in Sweden. Now He’s Mentoring Other Nigerian Applicants – 1000 Ways to Japa zikoko.com",
+    "description": "He Got a Fully-Funded Scholarship in Sweden. Now He’s Mentoring Other Nigerian Applicants – 1000 Ways to Japa Zikoko!",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1595,10 +1028,10 @@
   },
   {
     "id": "75c168c28587",
-    "title": "“She Had No Plans to Japa Until She Found a Chinese Scholarship” – 1000 Ways to Japa - zikoko.com",
+    "title": "“She Had No Plans to Japa Until She Found a Chinese Scholarship” – 1000 Ways to Japa - Zikoko!",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWb1A4amQ5cGpIalFvMW5UMHJOZnFuUFlWbGtpQUt3ZW9iaER5b3E2eWRkaTU3dWFzdmh5Q0ZZaU1Tb1VDbnZ4dDdLWldpQ3pUdWNPM2U3S0t6SERKZDFjN2ktMXZXX0xIdnBfSkFTczYzMVRvMFJhdW5R?oc=5",
-    "description": "“She Had No Plans to Japa Until She Found a Chinese Scholarship” – 1000 Ways to Japa zikoko.com",
+    "description": "“She Had No Plans to Japa Until She Found a Chinese Scholarship” – 1000 Ways to Japa Zikoko!",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1669,10 +1102,10 @@
   },
   {
     "id": "86fa1ccb6761",
-    "title": "State Department awards scholarship to Elon junior - Elon University",
+    "title": "State Department awards scholarship to Elon junior - elon.edu",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQamU1ZXN6Ni1QVG42T29ZUG9oWUZod3hUSkszX2J1dEEzMmVWOUtQaWJTdG13bm1SVDA5ZkJrZTF5dkhuejBRbVN3ZFVWa1h6cENwamZIVElDbmFvdHVWMlVkYzMxOXFTaGNseGlJbUkyOGZFcVQ5MlpYX1hFSmZfYUFueWdwbUZ5TEc5Qkc1SVJ1SExz?oc=5",
-    "description": "State Department awards scholarship to Elon junior Elon University",
+    "description": "State Department awards scholarship to Elon junior elon.edu",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -1928,10 +1361,10 @@
   },
   {
     "id": "883e2d1cb1ba",
-    "title": "Tell Me About The University of Strathclyde Diamond Jubilee Research Scholarships: - afterschoolafrica.com",
+    "title": "Tell Me About The University of Strathclyde Diamond Jubilee Research Scholarships: - After School Africa",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcExUSXd2X1FmQlJNaFdjN2NGVzZERDFUMXQ4SF9UV0Vla004eFYxNHJERThvNE5oQl9EOGkySHhzVHRTZ0FvM0JUbmg5dzhvdTJhMVVHc215TGh3LUdIOHhDUW81aVIxOWxTRGNVMXk5ZFRfNVVXSkM1RnNNbGQzWmc1VHh6a0lVbmhTcTA2YXlBM3RYOGZlb1pyR19fMTVMQ3ZWUVFkSQ?oc=5",
-    "description": "Tell Me About The University of Strathclyde Diamond Jubilee Research Scholarships: afterschoolafrica.com",
+    "description": "Tell Me About The University of Strathclyde Diamond Jubilee Research Scholarships: After School Africa",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -2039,10 +1472,10 @@
   },
   {
     "id": "0a079a186b9d",
-    "title": "Germany Announces Fully-Funded Scholarships for Kenyans with KSh 150k Monthly Allowance - Tuko News",
+    "title": "Germany Announces Fully-Funded Scholarships for Kenyans with KSh 150k Monthly Allowance - tuko.co.ke",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVk5uLW5xeXdHZzk1TWRJdU8wNkx4M0pGZW5BZl9rU0dTcC04d0JSek5sTzEteXdLazdpS1B6S2NEeDR6SjJoeWM0YjhhX0l3UW9mSWs3MnRnb0ZJcTd3UU5SMWhWcW9GSXBtUTBZQ1hyNTZoR2dwMkRVWXhmbEpWMFd6eGFqcjB6OEJqQ0hSVVl2R0JPT0ptT2ZOVkFta1V0bTVJRi10WE13OEFCb3pJbFJ0T0hFblFSaTRtS3c4dUVHdTA2b1pMN05pWEpWeUE?oc=5",
-    "description": "Germany Announces Fully-Funded Scholarships for Kenyans with KSh 150k Monthly Allowance Tuko News",
+    "description": "Germany Announces Fully-Funded Scholarships for Kenyans with KSh 150k Monthly Allowance tuko.co.ke",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
