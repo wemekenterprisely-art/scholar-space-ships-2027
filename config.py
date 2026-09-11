@@ -11,19 +11,19 @@ STATE_DIR = ROOT / "state"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Matching ────────────────────────────────────────────────────────────
-MIN_MATCH_SCORE = int(os.getenv("SCHOLAR_MIN_SCORE", "65"))
-NEAR_MISS_MIN = 50
-NEAR_MISS_MAX = 64
+MIN_MATCH_SCORE = int(os.getenv("SCHOLAR_MIN_SCORE", "55"))
+NEAR_MISS_MIN = 40
+NEAR_MISS_MAX = 54
 NEAR_MISS_LIMIT = int(os.getenv("SCHOLAR_NEAR_MISS_LIMIT", "12"))
-MAX_AGE_DAYS = int(os.getenv("SCHOLAR_MAX_AGE_DAYS", "60"))      # deadline window
-FRESH_DAYS = int(os.getenv("SCHOLAR_FRESH_DAYS", "2"))           # "fresh" = within 2 days
+MAX_AGE_DAYS = int(os.getenv("SCHOLAR_MAX_AGE_DAYS", "90"))      # deadline window
+FRESH_DAYS = int(os.getenv("SCHOLAR_FRESH_DAYS", "7"))           # "fresh" = within 7 days
 FETCH_TIMEOUT = int(os.getenv("SCHOLAR_FETCH_TIMEOUT", "15"))
 FETCH_BATCH_SIZE = int(os.getenv("SCHOLAR_BATCH_SIZE", "8"))
-MAX_AI_JOBS = int(os.getenv("SCHOLAR_MAX_AI_JOBS", "10"))
+MAX_AI_JOBS = int(os.getenv("SCHOLAR_MAX_AI_JOBS", "15"))
 
 # ── Sources (tiered) ────────────────────────────────────────────────────
-TIER_1_SOURCES = ["scholars4dev", "scholarship-positions", "scholarshipdb", "scholarshipfellow"]
-TIER_2_SOURCES = ["daad-search", "turkiye-burslari", "kaust"]
+TIER_1_SOURCES = ["scholars4dev", "scholarship-positions", "google-news", "national-programs", "web-search"]
+TIER_2_SOURCES = ["scholarshiproar", "opportunitiescorners", "internationalopportunities", "opportunitieszone"]
 TIER_3_SOURCES = []  # reserved: discovery feeds
 
 PROBE_BLOCKED_SOURCES = []
@@ -73,7 +73,7 @@ OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:1.5b")
 
 # ── Scoring weights (deterministic first, AI refines) ───────────────────
-W_FIELD, W_ELIG, W_LANG, W_FUND, W_DEAD = 0.30, 0.25, 0.20, 0.15, 0.10
+W_FIELD, W_ELIG, W_LANG, W_FUND, W_DEAD = 0.35, 0.25, 0.15, 0.15, 0.10
 # Junk/spam titles to reject (no real scholarship info)
 JUNK_TITLE_HINTS = ("cloudflare", "wordpress", "error", "404", "untitled",
                      "home", "archive", "sample", "test", "lorem ipsum")

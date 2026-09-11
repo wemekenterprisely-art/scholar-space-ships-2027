@@ -2,7 +2,7 @@
 
 **Autonomous scholarship intelligence for a Libyan MA holder — no IELTS/TOEFL required.**
 
-Scans scholarship sources **every day at 06:00 and 18:00 (Libya time)** on free GitHub
+Scans scholarship sources **3× daily at 06:00 / 14:00 / 22:00 (Libya time)** on free GitHub
 Actions, filters every opportunity through *your exact profile* (no English test,
 Libya-eligible, MA-level, fully funded preferred), scores each one deterministically
 **plus** a local AI referee (Ollama `qwen2.5:1.5b`), and hands you a **clickable Excel
@@ -26,11 +26,26 @@ report** with every link, deadline and an ACTION flag — plus a live dashboard 
 | 🎓 Level | Below MA → rejected. |
 | ⏰ Deadline | Expired → rejected. Urgency scored into the match. |
 
+## Sources
+
+### Tier 1 (Primary)
+- **scholars4dev** — HTML scraping (RSS empty)
+- **scholarship-positions** — Google News fallback (Cloudflare blocked)
+- **google-news** — 5 targeted RSS queries
+- **national-programs** — 8 curated flagship schemes
+- **web-search** — DuckDuckGo HTML (no API key)
+
+### Tier 2 (Secondary)
+- **scholarshiproar** — HTML scraping
+- **opportunitiescorners** — HTML scraping
+- **internationalopportunities** — HTML scraping
+- **opportunitieszone** — HTML scraping
+
 ## Run it
 
 ```bash
 pip install -r requirements.txt
-python scanner.py --tier 1
+python scanner.py --tier 2
 python test_filters.py && python scholar_ollama_test.py
 ```
 

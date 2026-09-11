@@ -1,21 +1,20 @@
-"""scholars4dev.com HTML scraper - RSS is empty, scrape the main page."""
+"""opportunitieszone.com - free scholarship listing site."""
 import re
 from ._shared import get, strip_html
 
-URL = "https://www.scholars4dev.com/"
+URL = "https://opportunitieszone.com/"
 
 def fetch(timeout: int = 20) -> list[dict]:
     items = []
     try:
         html = get(URL, timeout)
-        # Find scholarship links
-        for m in re.finditer(r'<a[^>]+href="(https://www\.scholars4dev\.com/[^"]*)"[^>]*>(.*?)</a>', html, re.S):
+        for m in re.finditer(r'<a[^>]+href="(https://opportunitieszone\.com/[^"]*)"[^>]*>(.*?)</a>', html, re.S):
             url, title = m.group(1), re.sub(r"<[^>]+>", "", m.group(2)).strip()
             if not title or len(title) < 10:
                 continue
-            if any(x in url for x in ['/tag/', '/category/', '/page/', '/feed/', '/about/', '/contact/']):
+            if any(x in url for x in ['/tag/', '/category/', '/page/', '/feed/', '/about/', '/contact/', '/privacy']):
                 continue
             items.append({"title": title, "url": url, "description": strip_html(title), "posted_at": ""})
     except Exception as e:
-        print(f"  [scholars4dev] scrape error: {e}")
+        print(f"  [opportunitieszone] scrape error: {e}")
     return items

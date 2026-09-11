@@ -2,8 +2,9 @@ name: ScholarSpace-ships Scan
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya
-    - cron: '0 16 * * *'  # 16:00 UTC = 18:00 Libya
+    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya — Morning
+    - cron: '0 12 * * *'  # 12:00 UTC = 14:00 Libya — Afternoon
+    - cron: '0 20 * * *'  # 20:00 UTC = 22:00 Libya — Night
   workflow_dispatch:
   push:
     branches: [main]
@@ -26,8 +27,8 @@ jobs:
       TO_EMAIL:           ${{ secrets.TO_EMAIL }}
       GITHUB_TOKEN:       ${{ github.token }}
       OLLAMA_MODEL:       qwen2.5:1.5b
-      SCHOLAR_MIN_SCORE:  "65"
-      SCHOLAR_MAX_AI_JOBS: "10"
+      SCHOLAR_MIN_SCORE:  "55"
+      SCHOLAR_MAX_AI_JOBS: "15"
 
     steps:
       - name: Checkout repository
@@ -71,7 +72,7 @@ jobs:
           python scholar_ollama_test.py
 
       - name: Run scholarship scan
-        run: python scanner.py --tier 1
+        run: python scanner.py --tier 2
 
       - name: Upload report artifacts (Excel + JSON state)
         uses: actions/upload-artifact@v4

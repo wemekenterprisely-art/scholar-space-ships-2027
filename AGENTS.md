@@ -1,7 +1,7 @@
 # ScholarSpace-ships 2027 — Project Instructions
 
 ## Overview
-Autonomous scholarship intelligence engine. Runs 2×/day (06:00 / 18:00 Libya time) on
+Autonomous scholarship intelligence engine. Runs 3×/day (06:00 / 14:00 / 22:00 Libya time) on
 GitHub Actions. Finds scholarships for a **Libyan MA holder in Applied Linguistics who
 cannot take IELTS/TOEFL** → clickable Excel + dashboard + API.
 
@@ -18,14 +18,13 @@ cannot take IELTS/TOEFL** → clickable Excel + dashboard + API.
 2. **Nationality**: Libya not eligible (restrictive clauses) → REJECT. Libya/global/open → pass.
 3. **Level**: below MA → REJECT.
 4. **Deadline**: passed → REJECT. Urgency scored (≤14d = 95).
-5. **Match threshold**: `SCHOLAR_MIN_SCORE` default 65 for Fresh Matches.
+5. **Match threshold**: `SCHOLAR_MIN_SCORE` default 55 for Fresh Matches.
 6. Rule shield: the deterministic gates always win over the AI layer.
 
 ## Sources
-Tier 1: scholars4dev, scholarship-positions (RSS), google-news (5 targeted queries),
-national-programs (curated flagship schemes: Türkiye Bursları, Stipendium Hungaricum,
-CSC, MEXT, ISFD, DAAD, Erasmus Mundus, KAUST).
-Tier 2: web search (DuckDuckGo HTML, no key). Add sources via one file + registry line.
+Tier 1: scholars4dev, scholarship-positions, google-news (5 targeted queries), national-programs (curated flagship schemes: Türkiye Bursları, Stipendium Hungaricum, CSC, MEXT, ISFD, DAAD, Erasmus Mundus, KAUST), web-search (DuckDuckGo HTML).
+Tier 2: scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone.
+Add sources via one file + registry line.
 
 ## Delivery
 Excel 5 sheets (All / Fresh / Applications / Deadlines&Notes / Daily Log) with hyperlinks;
