@@ -6,15 +6,15 @@
   "total_errors": 0,
   "avg_latency_ms": 0,
   "sources_up": 5,
-  "sources_total": 9,
+  "sources_total": 10,
   "funnel": {
     "fetched": 417,
-    "candidates": 241,
-    "rejected": 176
+    "candidates": 220,
+    "rejected": 197
   },
   "timings": {
     "excel": 1.0,
-    "total": 82.7
+    "total": 224.1
   },
-  "generated_at": "2026-09-11T11:53:52.921418+00:00"
+  "generated_at": "2026-09-11T12:25:50.144677+00:00"
 }
