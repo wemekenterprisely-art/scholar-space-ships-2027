@@ -76,14 +76,14 @@ def format_card(s, idx):
         f"\U0001f393 {s.get('title', 'Unknown')}",
     ]
     if university:
-        lines.append(f"\U0001f3db {university}")
+        lines.append(f"\U0001f3db\ufe0f {university}")
     lines.append("")
-    lines.append(f"\U0001f30d Country: {country}")
-    lines.append(f"\U0001f4da Level: {level}")
-    lines.append(f"\U0001f4b0 Funding: {funding}")
-    lines.append(f"\u23f0 Deadline: {deadline}")
-    lines.append(f"\U0001f4ca Match: {score}%")
-    lines.append(f"\U0001f4e6 Source: {s.get('source', 'unknown')}")
+    lines.append(f"\U0001f30d \ud83d\udccc Country: {country}")
+    lines.append(f"\U0001f4da \ud83d\udcdd Level: {level}")
+    lines.append(f"\U0001f4b0 \ud83d\udcb0 Funding: {funding}")
+    lines.append(f"\u23f0 \ud83d\udcc5 Deadline: {deadline}")
+    lines.append(f"\U0001f4ca \ud83d\udcc8 Match: {score}%")
+    lines.append(f"\U0001f4e6 \ud83d\udce6 Source: {s.get('source', 'unknown')}")
 
     # IELTS/TOEFL status
     ielts = s.get("english_requirement", "")
@@ -109,15 +109,15 @@ def build_telegram(scholarships, scan_info, stats):
     source_count = scan_info.get("source_count", 0)
 
     msg = ""
-    msg += f"\U0001f4cb SCHOLARSPACE-SHIPS Daily Report - {date}\n"
+    msg += f"\U0001f4cb \U0001f393 SCHOLARSPACE-SHIPS Daily Report - {date}\n"
     msg += "=" * 36 + "\n\n"
-    msg += f"Scan #{scan_num} | {time_str}\n"
-    msg += f"Reviewed {all_count:,} scholarships across {source_count} sources\n\n"
+    msg += f"\U0001f4c5 Scan #{scan_num} | \U0001f552 {time_str}\n"
+    msg += f"\U0001f50d Reviewed {all_count:,} scholarships across {source_count} sources\n\n"
 
     if not scholarships:
         msg += "\u2705 0 New Matches Found\n\n"
-        msg += "No new scholarships passed all gates this cycle.\n"
-        msg += "Gates: No IELTS/TOEFL | Libya eligible | MA+ level | Deadline valid\n"
+        msg += "\u274c No new scholarships passed all gates this cycle.\n"
+        msg += "\U0001f6ab Gates: No IELTS/TOEFL | Libya eligible | MA+ level | Deadline valid\n"
     else:
         msg += f"\u2705 {len(scholarships)} New Match{'es' if len(scholarships)!=1 else ''} Found\n"
         msg += "-" * 36 + "\n\n"
@@ -125,9 +125,9 @@ def build_telegram(scholarships, scan_info, stats):
             msg += format_card(s, i) + "\n\n"
 
     msg += "-" * 36 + "\n"
-    msg += "Next scan: 06:00 Libya time tomorrow\n"
-    msg += "Best regards,\n"
-    msg += "ScholarSpace-ships - AI Scholarship Intelligence\n"
+    msg += f"\U0001f551 Next scan: 06:00 Libya time tomorrow\n"
+    msg += "\U0001f4ac Best regards,\n"
+    msg += "\U0001f393 ScholarSpace-ships - AI Scholarship Intelligence\n"
     return msg
 
 def send_telegram(text):
