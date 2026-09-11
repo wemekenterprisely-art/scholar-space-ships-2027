@@ -45,7 +45,32 @@
       "matches": 0,
       "errors": 0
     },
-    "global-search": {
+    "reddit": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "facebook": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "linkedin": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "twitter": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "quora": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "medium": {
       "fetched": 0,
       "matches": 0,
       "errors": 0
@@ -53,11 +78,11 @@
   },
   "funnel": {
     "fetched": 417,
-    "candidates": 158,
-    "rejected": 259
+    "candidates": 146,
+    "rejected": 271
   },
   "timings": {
     "excel": 1.0,
-    "total": 273.9
+    "total": 77.6
   }
 }
