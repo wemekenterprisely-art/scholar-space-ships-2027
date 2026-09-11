@@ -380,5 +380,32 @@
       "opportunitieszone": 0,
       "global-search": 0
     }
+  },
+  {
+    "date": "2026-09-11",
+    "time": "2026-09-11T13:55:50+00:00",
+    "fetched": 417,
+    "candidates": 146,
+    "matches": 14,
+    "new": 14,
+    "health": "100%",
+    "seconds": 77.6,
+    "sources": {
+      "scholars4dev": 75,
+      "scholarship-positions": 0,
+      "google-news": 124,
+      "national-programs": 8,
+      "web-search": 0,
+      "scholarshiproar": 47,
+      "opportunitiescorners": 163,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0,
+      "reddit": 0,
+      "facebook": 0,
+      "linkedin": 0,
+      "twitter": 0,
+      "quora": 0,
+      "medium": 0
+    }
   }
 ]
