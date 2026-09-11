@@ -30,24 +30,75 @@ def format_card(s, idx):
     score = s.get("final_score", s.get("score", 0))
     rec = get_recommendation(score)
     emoji = get_emoji(score)
+
+    # Extract university from title if not in separate field
+    university = s.get("university", s.get("institution", ""))
+    if not university:
+        # Try to extract from title (common patterns)
+        import re
+        title = s.get("title", "")
+        patterns = [
+            r"at\s+([\w\s]+(?:University|Institute|College))",
+            r"([\w\s]+(?:University|Institute|College))",
+        ]
+        for p in patterns:
+            m = re.search(p, title, re.I)
+            if m:
+                university = m.group(1).strip()
+                break
+
+    # Country
+    country = s.get("country", "")
+    if not country:
+        country = "Open/Global"
+
+    # Funding
+    funding = s.get("funding", s.get("funding_type", "Unknown"))
+    if not funding or funding == "Unknown":
+        funding = "Check listing"
+
+    # Level
+    level = s.get("level", "")
+    if not level or level == "Unknown":
+        level = "Check listing"
+
+    # Deadline
+    deadline = s.get("deadline", "")
+    if not deadline:
+        deadline = "Check listing"
+
+    # Clean URL
+    url = s.get("url", "")
+
     lines = [
         f"{emoji} {idx+1}. {rec} ({score}/100)",
         "",
         f"\U0001f393 {s.get('title', 'Unknown')}",
-        f"\U0001f3db {s.get('university', s.get('institution', 'Unknown'))}",
-        "",
-        f"\U0001f30d Country: {s.get('country', 'Open/Global')}",
-        f"\U0001f4da Level: {s.get('level', 'Not specified')}",
-        f"\U0001f4b0 Funding: {s.get('funding_type', 'Not specified')}",
-        f"\u23f0 Deadline: {s.get('deadline', 'Not specified')}",
-        f"\U0001f4ca Match: {score}%",
-        f"\U0001f4e6 Source: {s.get('source', 'unknown')}",
     ]
-    if s.get("no_ielts"):
+    if university:
+        lines.append(f"\U0001f3db {university}")
+    lines.append("")
+    lines.append(f"\U0001f30d Country: {country}")
+    lines.append(f"\U0001f4da Level: {level}")
+    lines.append(f"\U0001f4b0 Funding: {funding}")
+    lines.append(f"\u23f0 Deadline: {deadline}")
+    lines.append(f"\U0001f4ca Match: {score}%")
+    lines.append(f"\U0001f4e6 Source: {s.get('source', 'unknown')}")
+
+    # IELTS/TOEFL status
+    ielts = s.get("english_requirement", "")
+    if ielts == "not_required" or s.get("no_ielts"):
         lines.append("\u2705 No IELTS/TOEFL required")
+    elif ielts == "required":
+        lines.append("\u26a0\ufe0f IELTS/TOEFL required")
+    else:
+        lines.append("\U0001f50d IELTS/TOEFL status: verify")
+
+    # Why it matches
     if s.get("why"):
         lines.append(f"\U0001f517 Why: {', '.join(s.get('why', [])[:3])}")
-    lines.append(f"\U0001f517 Apply: {s.get('url', '')}")
+
+    lines.append(f"\U0001f517 Apply: {url}")
     return "\n".join(lines)
 
 def build_telegram(scholarships, scan_info, stats):
@@ -112,19 +163,106 @@ def send_email(xlsx_path, scholarships):
         print("Email skipped: not configured")
         return False
     try:
+        import base64, pathlib
+        from datetime import datetime
+
         b64 = ""
+        filename = ""
         if xlsx_path and os.path.exists(xlsx_path):
-            import base64
             b64 = base64.b64encode(open(xlsx_path, "rb").read()).decode()
+            filename = pathlib.Path(xlsx_path).name
+
+        date_str = now_libya().strftime("%A, %B %d, %Y")
+        time_str = now_libya().strftime("%I:%M %p Libya time")
+
+        # Build scholarship cards HTML
+        cards_html = ""
+        for i, s in enumerate(scholarships):
+            score = s.get("final_score", s.get("score", 0))
+            if score >= 85:
+                badge = '<span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:12px">STRONG MATCH</span>'
+            elif score >= 75:
+                badge = '<span style="background:#2563eb;color:white;padding:2px 8px;border-radius:4px;font-size:12px">GOOD MATCH</span>'
+            else:
+                badge = '<span style="background:#d97706;color:white;padding:2px 8px;border-radius:4px;font-size:12px">REVIEW</span>'
+
+            university = s.get("university", s.get("institution", ""))
+            if not university:
+                import re
+                title = s.get("title", "")
+                for p in [r"at\s+([\w\s]+(?:University|Institute|College))", r"([\w\s]+(?:University|Institute|College))"]:
+                    m = re.search(p, title, re.I)
+                    if m:
+                        university = m.group(1).strip()
+                        break
+
+            country = s.get("country", "") or "Open/Global"
+            funding = s.get("funding", s.get("funding_type", "Unknown"))
+            if not funding or funding == "Unknown":
+                funding = "Check listing"
+            level = s.get("level", "") or "Check listing"
+            deadline = s.get("deadline", "") or "Check listing"
+            url = s.get("url", "")
+
+            cards_html += f'''
+            <div style="background:#fff;border:1px solid #e0e0e0;border-radius:8px;margin:16px 0;padding:20px;font-family:Arial,sans-serif">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+                    <span style="font-size:16px;font-weight:bold;color:#111">{i+1}. {s.get("title", "Unknown")}</span>
+                    {badge}
+                </div>
+                <table style="width:100%;font-size:13px;color:#333;border-collapse:collapse">
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555;width:120px">University</td><td style="padding:4px 8px">{university or "N/A"}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Country</td><td style="padding:4px 8px">{country}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Level</td><td style="padding:4px 8px">{level}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Funding</td><td style="padding:4px 8px">{funding}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Deadline</td><td style="padding:4px 8px">{deadline}</td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Match Score</td><td style="padding:4px 8px"><strong>{score}%</strong></td></tr>
+                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px">{s.get("source", "unknown")}</td></tr>
+                </table>
+                <div style="margin-top:12px">
+                    <a href="{url}" style="display:inline-block;background:#2563eb;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-weight:bold">Apply Now</a>
+                </div>
+            </div>'''
+
+        html = f'''<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"></head>
+<body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,sans-serif">
+<div style="max-width:640px;margin:0 auto;padding:20px">
+    <div style="background:#111;color:white;padding:20px;text-align:center;border-radius:8px 8px 0 0">
+        <h1 style="margin:0;font-size:20px">SCHOLARSPACE-SHIPS</h1>
+        <p style="margin:8px 0 0;font-size:12px;opacity:0.8">AI-Powered Scholarship Intelligence</p>
+    </div>
+    <div style="background:white;padding:20px;border-radius:0 0 8px 8px">
+        <p style="color:#555;font-size:13px;margin:0">{date_str} &bull; {time_str}</p>
+        <h2 style="color:#111;font-size:18px;margin:16px 0">{len(scholarships)} Fresh Scholarship Match{'es' if len(scholarships)!=1 else ''} Found</h2>
+        {cards_html}
+        <hr style="border:none;border-top:1px solid #e0e0e0;margin:20px 0">
+        <p style="color:#555;font-size:12px;text-align:center">
+            ScholarSpace-ships &mdash; AI Scholarship Intelligence<br>
+            Next scan: 06:00 Libya time tomorrow
+        </p>
+    </div>
+</div>
+</body>
+</html>'''
+
+        text_body = f"ScholarSpace-ships: {len(scholarships)} fresh scholarships found\n\n"
+        for i, s in enumerate(scholarships):
+            score = s.get("final_score", s.get("score", 0))
+            text_body += f"{i+1}. [{score}%] {s.get('title', 'Unknown')}\n"
+            text_body += f"   {s.get('url', '')}\n\n"
+
         payload = {
             "sender": {"email": "wemekenterprise.ly@gmail.com", "name": "ScholarSpace-ships"},
             "to": [{"email": TO_EMAIL}],
-            "subject": f"ScholarSpace-ships: {len(scholarships)} fresh scholarships found",
-            "htmlContent": "<p>Fresh scholarship matches attached. Good luck!</p>",
+            "subject": f"ScholarSpace-ships: {len(scholarships)} fresh scholarships found - {date_str}",
+            "textContent": text_body,
+            "htmlContent": html,
         }
-        if b64:
-            import pathlib
-            payload["attachment"] = [{"content": b64, "name": pathlib.Path(xlsx_path).name, "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}]
+        if b64 and filename:
+            payload["attachment"] = [{"content": b64, "name": filename, "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}]
+
         req = urllib.request.Request(
             "https://api.brevo.com/v3/smtp/email",
             data=json.dumps(payload).encode(),
