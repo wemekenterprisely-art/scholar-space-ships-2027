@@ -14,7 +14,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 150  # 2.5 hours for deep global search
+    timeout-minutes: 60  # 1 hour for global search
     permissions:
       contents: write
 
