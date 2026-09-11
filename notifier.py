@@ -158,13 +158,13 @@ def send_telegram(text):
             ok = False
     return ok
 
-def send_email(xlsx_path, scholarships):
+def send_email(xlsx_path, scholarships, scan_info=None):
     if not BREVO_KEY or not TO_EMAIL:
         print("Email skipped: not configured")
         return False
     try:
         import base64, pathlib
-        from datetime import datetime
+        import re as re_mod
 
         b64 = ""
         filename = ""
@@ -174,114 +174,165 @@ def send_email(xlsx_path, scholarships):
 
         date_str = now_libya().strftime("%A, %B %d, %Y")
         time_str = now_libya().strftime("%I:%M %p Libya time")
+        all_count = scan_info.get("all_count", 0) if scan_info else 0
+        source_count = scan_info.get("source_count", 0) if scan_info else 0
 
-        # Build scholarship cards HTML
+        def _esc(s):
+            return str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+        def extract_uni(s):
+            university = s.get("university", s.get("institution", ""))
+            if not university:
+                title = s.get("title", "")
+                patterns = [
+                    r"at\s+([\w\s,]+(?:University|Institute|College|School)[\w\s]*)",
+                    r"([\w\s,]+(?:University|Institute|College|School))",
+                    r"(CSC|Chevening|Fulbright|DAAD|Erasmus|MEXT|Turkiye|Stipendium)\s+Scholarship",
+                ]
+                for p in patterns:
+                    m = re_mod.search(p, title, re_mod.I)
+                    if m:
+                        university = m.group(1).strip() if m.lastindex else m.group(0).strip()
+                        university = re_mod.sub(r"\s*\d{4}\s*$", "", university).strip()
+                        break
+            return university
+
+        # Build scholarship cards
         cards_html = ""
         for i, s in enumerate(scholarships):
             score = s.get("final_score", s.get("score", 0))
             if score >= 85:
-                badge = '<span style="background:#16a34a;color:white;padding:2px 8px;border-radius:4px;font-size:12px">STRONG MATCH</span>'
+                badge = '<span style="background:#16a34a;color:white;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:bold">STRONG MATCH</span>'
             elif score >= 75:
-                badge = '<span style="background:#2563eb;color:white;padding:2px 8px;border-radius:4px;font-size:12px">GOOD MATCH</span>'
+                badge = '<span style="background:#2563eb;color:white;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:bold">GOOD MATCH</span>'
             else:
-                badge = '<span style="background:#d97706;color:white;padding:2px 8px;border-radius:4px;font-size:12px">REVIEW</span>'
+                badge = '<span style="background:#d97706;color:white;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:bold">REVIEW</span>'
 
-            university = s.get("university", s.get("institution", ""))
-            if not university:
-                import re
-                title = s.get("title", "")
-                # Try multiple patterns
-                patterns = [
-                    r"at\s+([\w\s,]+(?:University|Institute|College|School)[\w\s]*)",
-                    r"([\w\s,]+(?:University|Institute|College|School)[\w\s]*(?:of|at|in)[\w\s]*)",
-                    r"(?:University|Institute|College)\s+of\s+([\w\s]+)",
-                    r"([\w\s]+(?:University|Institute|College|School))",
-                    r"(CSC|Chevening|Fulbright|DAAD|Erasmus|MEXT|Turkiye|Stipendium)\s+Scholarship",
-                ]
-                for p in patterns:
-                    m = re.search(p, title, re.I)
-                    if m:
-                        university = m.group(1).strip() if m.lastindex else m.group(0).strip()
-                        # Clean up common suffixes
-                        university = re.sub(r"\s*\d{4}\s*$", "", university).strip()
-                        break
-
+            university = extract_uni(s)
             country = s.get("country", "") or "Open/Global"
             funding = s.get("funding", s.get("funding_type", "Unknown"))
             if not funding or funding == "Unknown":
-                funding = "Check listing"
+                funding = "Check listing for details"
             level = s.get("level", "") or "Check listing"
             deadline = s.get("deadline", "") or "Check listing"
             url = s.get("url", "")
+            source = s.get("source", "unknown")
 
-            cards_html += f'''
-            <div style="background:#fff;border:1px solid #e0e0e0;border-radius:8px;margin:16px 0;padding:20px;font-family:Arial,sans-serif">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
-                    <span style="font-size:16px;font-weight:bold;color:#111">{i+1}. {s.get("title", "Unknown")}</span>
-                    {badge}
-                </div>
-                <table style="width:100%;font-size:13px;color:#333;border-collapse:collapse">
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555;width:120px">University</td><td style="padding:4px 8px">{university or "Check listing"}</td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Country</td><td style="padding:4px 8px">{country}</td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Level</td><td style="padding:4px 8px">{level}</td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Funding</td><td style="padding:4px 8px">{funding}</td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Deadline</td><td style="padding:4px 8px">{deadline}</td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Match Score</td><td style="padding:4px 8px"><strong>{score}%</strong></td></tr>
-                    <tr><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px">{s.get("source", "unknown")}</td></tr>'''
-
-            # IELTS/TOEFL status
+            # IELTS status
             ielts = s.get("english_requirement", "")
             if ielts == "not_required" or s.get("no_ielts"):
-                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#16a34a;font-weight:bold">Not Required</td></tr>'
+                ielts_html = '<span style="color:#16a34a;font-weight:bold">&#10003; No IELTS/TOEFL required</span>'
             elif ielts == "required":
-                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#dc2626">Required</td></tr>'
+                ielts_html = '<span style="color:#dc2626">&#10007; IELTS/TOEFL required</span>'
             else:
-                cards_html += '<tr><td style="padding:4px 8px;font-weight:bold;color:#555">IELTS/TOEFL</td><td style="padding:4px 8px;color:#d97706">Verify listing</td></tr>'
+                ielts_html = '<span style="color:#d97706">? Verify listing</span>'
 
             # Why it matches
+            why_html = ""
             if s.get("why"):
-                cards_html += f'<tr><td style="padding:4px 8px;font-weight:bold;color:#555">Why it fits</td><td style="padding:4px 8px">{", ".join(s.get("why", [])[:3])}</td></tr>'
+                why_items = "".join([f'<span style="background:#f3f4f6;padding:2px 8px;border-radius:3px;font-size:11px;margin-right:4px">{w}</span>' for w in s.get("why", [])[:3]])
+                why_html = f'<tr><td style="padding:6px 8px;font-weight:bold;color:#555;vertical-align:top;width:120px">Why it fits</td><td style="padding:6px 8px">{why_items}</td></tr>'
 
             cards_html += f'''
-                </table>
-                <div style="margin-top:12px">
-                    <a href="{url}" style="display:inline-block;background:#2563eb;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-weight:bold">Apply Now</a>
-                </div>
-            </div>'''
+      <table width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #d0d0d0;border-radius:6px;margin:14px 0;font-family:Arial,Helvetica,sans-serif">
+        <tr><td style="padding:14px 16px 10px;border-bottom:1px solid #e0e0e0">
+          <table width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td style="font-size:15px;font-weight:bold;color:#0d1b2a">{i+1}. {_esc(s.get("title", "Unknown"))}</td>
+            <td style="text-align:right">{badge}</td>
+          </tr></table>
+        </td></tr>
+        <tr><td style="padding:10px 16px">
+          <table width="100%" cellpadding="3" cellspacing="0" style="font-size:13px;color:#333">
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top;width:120px">University</td><td style="padding:4px 8px;color:#111;font-weight:bold">{_esc(university or "Check listing")}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Country</td><td style="padding:4px 8px;color:#111">{_esc(country)}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Level</td><td style="padding:4px 8px;color:#111">{_esc(level)}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Funding</td><td style="padding:4px 8px;color:#111;font-weight:bold">{_esc(funding)}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Deadline</td><td style="padding:4px 8px;color:#111">{_esc(deadline)}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Match Score</td><td style="padding:4px 8px;color:#111"><strong>{score}%</strong></td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Source</td><td style="padding:4px 8px;color:#111">{_esc(source)}</td></tr>
+            <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">IELTS/TOEFL</td><td style="padding:4px 8px">{ielts_html}</td></tr>
+            {why_html}
+          </table>
+        </td></tr>
+        <tr><td style="padding:0 16px 14px">
+          <a href="{_esc(url)}" style="display:inline-block;background:#2563eb;color:white;padding:8px 16px;border-radius:4px;text-decoration:none;font-weight:bold;font-size:13px">Apply Now &rarr;</a>
+        </td></tr>
+      </table>'''
+
+        # Source breakdown
+        source_html = ""
+        sources = scan_info.get("sources", {}) if scan_info else {}
+        active_sources = {k: v for k, v in sources.items() if v > 0}
+        if active_sources:
+            source_rows = "".join([f'<tr><td style="padding:4px 8px;color:#333">{k}</td><td style="padding:4px 8px;color:#111;font-weight:bold;text-align:right">{v}</td></tr>' for k, v in sorted(active_sources.items(), key=lambda x: -x[1])])
+            source_html = f'''
+      <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:6px;margin:16px 0;font-family:Arial,Helvetica,sans-serif">
+        <tr><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:bold;color:#111;font-size:13px">Source Performance</td></tr>
+        <tr><td style="padding:6px 12px">
+          <table width="100%" cellpadding="2" cellspacing="0" style="font-size:12px">
+            <tr style="background:#f3f4f6"><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px;font-weight:bold;color:#555;text-align:right">Items</td></tr>
+            {source_rows}
+          </table>
+        </td></tr>
+      </table>'''
 
         html = f'''<!DOCTYPE html>
 <html>
-<head><meta charset="utf-8"></head>
-<body style="margin:0;padding:0;background:#f5f5f5;font-family:Arial,sans-serif">
-<div style="max-width:640px;margin:0 auto;padding:20px">
-    <div style="background:#111;color:white;padding:20px;text-align:center;border-radius:8px 8px 0 0">
-        <h1 style="margin:0;font-size:20px">SCHOLARSPACE-SHIPS</h1>
-        <p style="margin:8px 0 0;font-size:12px;opacity:0.8">AI-Powered Scholarship Intelligence</p>
-    </div>
-    <div style="background:white;padding:20px;border-radius:0 0 8px 8px">
-        <p style="color:#555;font-size:13px;margin:0">{date_str} &bull; {time_str}</p>
-        <h2 style="color:#111;font-size:18px;margin:16px 0">{len(scholarships)} Fresh Scholarship Match{'es' if len(scholarships)!=1 else ''} Found</h2>
-        {cards_html}
-        <hr style="border:none;border-top:1px solid #e0e0e0;margin:20px 0">
-        <p style="color:#555;font-size:12px;text-align:center">
-            ScholarSpace-ships &mdash; AI Scholarship Intelligence<br>
-            Next scan: 06:00 Libya time tomorrow
-        </p>
-    </div>
-</div>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<body style="margin:0;padding:0;background:#f7f7f7;font-family:Arial,Helvetica,sans-serif">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f7f7f7">
+    <tr><td align="center" style="padding:24px 12px">
+      <table width="640" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #e0e0e0">
+        <tr><td style="padding:22px 28px 10px;border-bottom:2px solid #111">
+          <span style="font-size:20px;font-weight:bold;color:#111;letter-spacing:1px">SCHOLARSPACE-SHIPS</span>
+          <span style="font-size:11px;color:#888;letter-spacing:2px;margin-left:10px">AI SCHOLARSHIP INTELLIGENCE</span>
+        </td></tr>
+        <tr><td style="padding:18px 28px 0">
+          <p style="font-size:12px;color:#555;margin:0">{_esc(date_str)} &bull; {_esc(time_str)}</p>
+          <p style="font-size:16px;color:#111;margin:14px 0 0;line-height:1.6">
+            This cycle we reviewed <b>{all_count:,} scholarships</b> across {source_count} sources.
+            <b>{len(scholarships)} new match{'es' if len(scholarships) != 1 else ''}</b> passed all filters.
+          </p>
+        </td></tr>
+        <tr><td style="padding:6px 28px 20px">
+          {cards_html}
+          {source_html}
+        </td></tr>
+        <tr><td style="padding:16px 28px 20px;border-top:1px solid #e0e0e0">
+          <p style="font-size:13px;color:#333;margin:0;line-height:1.6">
+            <b>About the workbook:</b> The attached Excel file contains all scholarship details, match scores, and application links.
+          </p>
+          <p style="font-size:14px;color:#111;margin:16px 0 0;line-height:1.6">
+            The next scan runs at <b>06:00 Libya time tomorrow</b>.
+          </p>
+          <p style="font-size:14px;color:#111;margin:16px 0 0;line-height:1.6">
+            Best regards,<br>
+            <b>ScholarSpace-ships</b><br>
+            <span style="font-size:12px;color:#888">AI-Powered Scholarship Intelligence &mdash; always verify details before applying.</span>
+          </p>
+        </td></tr>
+      </table>
+    </td></tr>
+  </table>
 </body>
 </html>'''
 
-        text_body = f"ScholarSpace-ships: {len(scholarships)} fresh scholarships found\n\n"
+        text_body = f"SCHOLARSPACE-SHIPS - AI Scholarship Intelligence\n"
+        text_body += f"{date_str} &bull; {time_str}\n\n"
+        text_body += f"Reviewed {all_count:,} scholarships across {source_count} sources. {len(scholarships)} matches found.\n\n"
         for i, s in enumerate(scholarships):
             score = s.get("final_score", s.get("score", 0))
             text_body += f"{i+1}. [{score}%] {s.get('title', 'Unknown')}\n"
-            text_body += f"   {s.get('url', '')}\n\n"
+            text_body += f"   University: {extract_uni(s) or 'Check listing'}\n"
+            text_body += f"   Country: {s.get('country', 'Open/Global')}\n"
+            text_body += f"   Level: {s.get('level', 'Check listing')}\n"
+            text_body += f"   Funding: {s.get('funding', 'Check listing')}\n"
+            text_body += f"   Apply: {s.get('url', '')}\n\n"
 
         payload = {
             "sender": {"email": "wemekenterprise.ly@gmail.com", "name": "ScholarSpace-ships"},
             "to": [{"email": TO_EMAIL}],
-            "subject": f"ScholarSpace-ships: {len(scholarships)} fresh scholarships found - {date_str}",
+            "subject": f"SCHOLARSPACE-SHIPS: {len(scholarships)} Fresh Match{'es' if len(scholarships)!=1 else ''} Found - {date_str}",
             "textContent": text_body,
             "htmlContent": html,
         }

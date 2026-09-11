@@ -154,7 +154,7 @@ def main():
         stats = {"total_scans": 1}
         telegram_msg = notifier.build_telegram(matches, scan_info, stats)
         notifier.send_telegram(telegram_msg)
-        notifier.send_email(str(xlsx_path) if xlsx_path.exists() else None, matches)
+        notifier.send_email(str(xlsx_path) if xlsx_path.exists() else None, matches, scan_info)
     except Exception as e:
         print(f"  Notifications failed: {e}")
 
