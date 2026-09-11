@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 124,
+      "fetched": 123,
       "matches": 0,
       "errors": 0
     },
@@ -44,15 +44,20 @@
       "fetched": 0,
       "matches": 0,
       "errors": 0
+    },
+    "global-search": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
     }
   },
   "funnel": {
-    "fetched": 417,
-    "candidates": 241,
-    "rejected": 176
+    "fetched": 416,
+    "candidates": 231,
+    "rejected": 185
   },
   "timings": {
     "excel": 1.0,
-    "total": 82.7
+    "total": 223.4
   }
 }
