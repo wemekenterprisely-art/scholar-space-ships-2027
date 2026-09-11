@@ -141,10 +141,20 @@ def main():
     # 9) notifications
     try:
         import notifier
+        from config import TIER_1_SOURCES, TIER_2_SOURCES
         xlsx_path = OUTPUT / f"Scholarship_Report_{TODAY}.xlsx"
-        if xlsx_path.exists():
-            notifier.send_email_report(str(xlsx_path), matches)
-        notifier.telegram_message_summary({"fetched": len(all_items)}, matches)
+        scan_info = {
+            "all_count": len(all_items),
+            "source_count": len(set(item.get("source") for item in all_items)),
+            "fresh_count": len(candidates),
+            "sources": {},
+        }
+        for src in TIER_1_SOURCES + TIER_2_SOURCES:
+            scan_info["sources"][src] = sum(1 for item in all_items if item.get("source") == src)
+        stats = {"total_scans": 1}
+        telegram_msg = notifier.build_telegram(matches, scan_info, stats)
+        notifier.send_telegram(telegram_msg)
+        notifier.send_email(str(xlsx_path) if xlsx_path.exists() else None, matches)
     except Exception as e:
         print(f"  Notifications failed: {e}")
 
