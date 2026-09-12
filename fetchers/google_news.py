@@ -5,6 +5,23 @@ QUERIES = [
     "scholarship+no+ielts+fully+funded+international",
     "scholarship+no+toefl+libyan+students",
     "scholarship+fully+funded+applied+linguistics",
+    "scholarship+fully+funded+master+degree+2027",
+    "phd+scholarship+fully+funded+no+ielts",
+    "scholarship+international+students+no+english+test",
+    "chevening+scholarship+2027",
+    "fulbright+scholarship+2027",
+    "daad+scholarship+2027",
+    "erasmus+mundus+scholarship+2027",
+    "turkiye+burslari+scholarship+2027",
+    "mext+scholarship+japan+2027",
+    "commonwealth+scholarship+2027",
+    "gates+cambridge+scholarship+2027",
+    "clarendon+scholarship+2027",
+    "scholarship+africa+fully+funded",
+    "scholarship+middle+east+fully+funded",
+    "esl+teaching+scholarship",
+    "translation+studies+scholarship",
+    "linguistics+scholarship+fully+funded",
 ]
 
 def fetch(timeout: int = 20) -> list[dict]:
