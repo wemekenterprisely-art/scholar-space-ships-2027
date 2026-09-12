@@ -1,41 +1,7 @@
 {
-  "last_scan": "2026-09-12T01:55:38+00:00",
+  "last_scan": "2026-09-12T02:16:09+00:00",
   "today": "2026-09-12",
   "scans": [
-    {
-      "date": "2026-09-08",
-      "time": "2026-09-08T16:12:03+00:00",
-      "fetched": 124,
-      "candidates": 81,
-      "matches": 10,
-      "new": 10,
-      "health": "100%",
-      "seconds": 60.7,
-      "sources": {
-        "scholars4dev": 0,
-        "scholarship-positions": 0,
-        "google-news": 116,
-        "national-programs": 8,
-        "web-search": 0
-      }
-    },
-    {
-      "date": "2026-09-09",
-      "time": "2026-09-09T04:15:16+00:00",
-      "fetched": 123,
-      "candidates": 71,
-      "matches": 9,
-      "new": 9,
-      "health": "100%",
-      "seconds": 56.5,
-      "sources": {
-        "scholars4dev": 0,
-        "scholarship-positions": 0,
-        "google-news": 115,
-        "national-programs": 8,
-        "web-search": 0
-      }
-    },
     {
       "date": "2026-09-09",
       "time": "2026-09-09T16:12:35+00:00",
@@ -613,6 +579,48 @@
         "scholars4dev": 75,
         "scholarship-positions": 0,
         "google-news": 927,
+        "national-programs": 8,
+        "web-search": 0,
+        "scholarshiproar": 47,
+        "opportunitiescorners": 163,
+        "internationalopportunities": 0,
+        "opportunitieszone": 0
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "time": "2026-09-12T02:07:28+00:00",
+      "fetched": 1215,
+      "candidates": 824,
+      "matches": 13,
+      "new": 13,
+      "health": "100%",
+      "seconds": 90.5,
+      "sources": {
+        "scholars4dev": 75,
+        "scholarship-positions": 0,
+        "google-news": 922,
+        "national-programs": 8,
+        "web-search": 0,
+        "scholarshiproar": 47,
+        "opportunitiescorners": 163,
+        "internationalopportunities": 0,
+        "opportunitieszone": 0
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "time": "2026-09-12T02:16:09+00:00",
+      "fetched": 1217,
+      "candidates": 812,
+      "matches": 12,
+      "new": 12,
+      "health": "100%",
+      "seconds": 102.1,
+      "sources": {
+        "scholars4dev": 75,
+        "scholarship-positions": 0,
+        "google-news": 924,
         "national-programs": 8,
         "web-search": 0,
         "scholarshiproar": 47,
