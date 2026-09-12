@@ -72,12 +72,54 @@ def funding_level(text: str) -> tuple[str, int]:
         return "Fully Funded", 100
     if any(h in t for h in PARTIAL_HINTS):
         return "Partial", 60
+    # Additional patterns
+    if "scholarship" in t and ("tuition" in t or "stipend" in t or "allowance" in t):
+        return "Fully Funded", 100
+    if "100%" in t or "full" in t:
+        return "Fully Funded", 100
     return "Unknown", 50
 
 
 def level_kind(text: str) -> str:
     """Return 'postgrad' | 'bachelor' | 'school' | 'unknown'."""
     t = (text or "").lower()
+    if any(h in t for h in LEVEL_POSTGRAD_HINTS):
+        return "postgrad"
+    if any(h in t for h in LEVEL_BACHELOR_ONLY_HINTS):
+        return "bachelor"
+    # Additional patterns
+    if "master" in t or "phd" in t or "doctoral" in t:
+        return "postgrad"
+    if "graduate" in t or "postgraduate" in t:
+        return "postgrad"
+    return "unknown"
+
+
+def extract_country(text: str) -> str:
+    """Extract country from title/description."""
+    t = (text or "").lower()
+    countries = {
+        "usa": "USA", "united states": "USA", "america": "USA",
+        "uk": "UK", "united kingdom": "UK", "britain": "UK",
+        "canada": "Canada", "australia": "Australia",
+        "germany": "Germany", "france": "France", "netherlands": "Netherlands",
+        "japan": "Japan", "china": "China", "korea": "South Korea",
+        "turkey": "Turkey", "turkiye": "Turkey", "malaysia": "Malaysia",
+        "singapore": "Singapore", "india": "India", "italy": "Italy",
+        "spain": "Spain", "sweden": "Sweden", "norway": "Norway",
+        "denmark": "Denmark", "finland": "Finland", "new zealand": "New Zealand",
+        "south africa": "South Africa", "nigeria": "Nigeria", "kenya": "Kenya",
+        "ghana": "Ghana", "egypt": "Egypt", "uae": "UAE",
+        "saudi arabia": "Saudi Arabia", "qatar": "Qatar",
+        "belgium": "Belgium", "switzerland": "Switzerland",
+        "austria": "Austria", "poland": "Poland", "czech republic": "Czech Republic",
+        "hungary": "Hungary", "portugal": "Portugal", "greece": "Greece",
+        "ireland": "Ireland", "scotland": "Scotland",
+    }
+    for keyword, country in countries.items():
+        if keyword in t:
+            return country
+    return ""
     if any(h in t for h in LEVEL_POSTGRAD_HINTS):
         return "postgrad"
     if any(h in t for h in ("high school", "secondary school")):
@@ -161,6 +203,10 @@ def score_scholarship(s: dict) -> dict:
     lvl = level_kind(text)
     s["level_kind"] = lvl
     s["level"] = lvl  # Also set for email/Excel
+
+    # Extract country if not already set
+    if not s.get("country"):
+        s["country"] = extract_country(text)
 
     days = deadline_days(s.get("deadline", ""))
     s["deadline_days"] = days
