@@ -1,9 +1,12 @@
 """LinkedIn guest endpoint - scholarship/fellowship listings without login."""
 import re, time, random
-from ._shared import get, strip_html
+from ._shared import strip_html
 
 # LinkedIn guest API for job search
 LINKEDIN_SEARCH_URL = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
+
+# Use a realistic browser User-Agent
+LINKEDIN_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 QUERIES = [
     "scholarship international students",
@@ -18,11 +21,22 @@ def fetch(timeout: int = 20) -> list[dict]:
 
     for query in QUERIES:
         try:
+            import urllib.request
             url = f"{LINKEDIN_SEARCH_URL}?keywords={query.replace(' ', '+')}&start=0&sortBy=DD"
-            html = get(url, timeout)
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": LINKEDIN_UA,
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Accept-Encoding": "identity",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                html = resp.read().decode("utf-8", "replace")
 
             # Extract job cards from HTML
-            for m in re.finditer(r'<li[^>]*class="[^"]*result-card[^"]*"[^>]*>(.*?)</li>', html, re.S):
+            for m in re.finditer(r'<li[^>]*>(.*?)</li>', html, re.S):
                 card = m.group(1)
 
                 # Extract title
@@ -43,7 +57,7 @@ def fetch(timeout: int = 20) -> list[dict]:
                 company = strip_html(company_m.group(1)) if company_m else ""
 
                 # Extract location
-                loc_m = re.search(r'<span[^>]*class="[^"]*job-result-card__location[^"]*"[^>]*>(.*?)</span>', card, re.S)
+                loc_m = re.search(r'<span[^>]*>(.*?)</span>', card, re.S)
                 location = strip_html(loc_m.group(1)) if loc_m else ""
 
                 full_title = f"{title} - {company}" if company else title

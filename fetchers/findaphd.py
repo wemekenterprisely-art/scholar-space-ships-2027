@@ -1,13 +1,27 @@
 """findaphd.com scraper - PhD positions with JSON-LD structured data."""
 import re, json
-from ._shared import get, strip_html
+from ._shared import strip_html
+
+# Use a more realistic User-Agent for FindAPhD
+FINDAPHD_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 SEARCH_URL = "https://www.findaphd.com/search/Phds.aspx"
 
 def fetch(timeout: int = 20) -> list[dict]:
     items = []
     try:
-        html = get(SEARCH_URL, timeout)
+        import urllib.request
+        req = urllib.request.Request(
+            SEARCH_URL,
+            headers={
+                "User-Agent": FINDAPHD_UA,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept-Encoding": "identity",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            html = resp.read().decode("utf-8", "replace")
 
         # Extract JSON-LD structured data
         for m in re.finditer(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S):
@@ -23,10 +37,10 @@ def fetch(timeout: int = 20) -> list[dict]:
 
         # Fallback: extract from HTML cards
         if not items:
-            for m in re.finditer(r'<a[^>]+href="(https://www\.findaphd\.com/[^"]*\.aspx)"[^>]*class="[^"]*result[^"]*"[^>]*>(.*?)</a>', html, re.S):
+            for m in re.finditer(r'<a[^>]+href="(https://www\.findaphd\.com/[^"]*\.aspx)"[^>]*>(.*?)</a>', html, re.S):
                 url = m.group(1)
                 title = strip_html(m.group(2))[:200]
-                if title and len(title) > 10:
+                if title and len(title) > 10 and "search" not in url.lower():
                     items.append({
                         "title": title,
                         "url": url,
