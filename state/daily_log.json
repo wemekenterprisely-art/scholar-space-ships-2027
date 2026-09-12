@@ -1,29 +1,7 @@
 {
-  "last_scan": "2026-09-12T19:55:51+00:00",
+  "last_scan": "2026-09-12T20:03:27+00:00",
   "today": "2026-09-12",
   "scans": [
-    {
-      "date": "2026-09-11",
-      "time": "2026-09-11T12:16:58+00:00",
-      "fetched": 416,
-      "candidates": 231,
-      "matches": 11,
-      "new": 11,
-      "health": "100%",
-      "seconds": 223.4,
-      "sources": {
-        "scholars4dev": 75,
-        "scholarship-positions": 0,
-        "google-news": 123,
-        "national-programs": 8,
-        "web-search": 0,
-        "scholarshiproar": 47,
-        "opportunitiescorners": 163,
-        "internationalopportunities": 0,
-        "opportunitieszone": 0,
-        "global-search": 0
-      }
-    },
     {
       "date": "2026-09-11",
       "time": "2026-09-11T12:22:06+00:00",
@@ -647,6 +625,31 @@
         "opportunitieszone": 0,
         "findaphd": 0,
         "linkedin-jobs": 0
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "time": "2026-09-12T20:03:27+00:00",
+      "fetched": 343,
+      "candidates": 103,
+      "matches": 11,
+      "new": 11,
+      "health": "100%",
+      "seconds": 253.1,
+      "sources": {
+        "scholars4dev": 75,
+        "scholarship-positions": 0,
+        "google-news": 0,
+        "national-programs": 8,
+        "web-search": 0,
+        "opportunitydesk": 10,
+        "grants-gov": 0,
+        "scholarshiproar": 47,
+        "opportunitiescorners": 163,
+        "internationalopportunities": 0,
+        "opportunitieszone": 0,
+        "findaphd": 0,
+        "linkedin-jobs": 40
       }
     }
   ]
