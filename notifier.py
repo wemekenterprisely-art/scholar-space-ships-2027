@@ -183,7 +183,7 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             funding = s.get("funding", s.get("funding_type", "Unknown"))
             if not funding or funding == "Unknown":
                 funding = "Check listing"
-            level = s.get("level", "") or "Check listing"
+            level = s.get("level", s.get("level_kind", "")) or "Check listing"
             deadline = s.get("deadline", "") or "Check listing"
             url = s.get("url", "")
             source = s.get("source", "unknown")

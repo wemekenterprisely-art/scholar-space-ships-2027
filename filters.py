@@ -155,10 +155,12 @@ def score_scholarship(s: dict) -> dict:
 
     fund_label, _fund_raw = funding_level(text)
     s["funding_label"] = fund_label
+    s["funding"] = fund_label  # Also set for email/Excel
     fund_sc = funding_score(fund_label)
 
     lvl = level_kind(text)
     s["level_kind"] = lvl
+    s["level"] = lvl  # Also set for email/Excel
 
     days = deadline_days(s.get("deadline", ""))
     s["deadline_days"] = days
