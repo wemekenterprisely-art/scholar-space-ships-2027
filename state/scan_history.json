@@ -948,5 +948,39 @@
       "findaphd": 0,
       "linkedin-jobs": 40
     }
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T20:43:37+00:00",
+    "fetched": 1230,
+    "candidates": 788,
+    "matches": 11,
+    "new": 11,
+    "health": "100%",
+    "seconds": 141.0,
+    "sources": {
+      "scholars4dev": 75,
+      "scholarship-positions": 0,
+      "google-news": 916,
+      "national-programs": 8,
+      "web-search": 0,
+      "opportunitydesk": 10,
+      "scholarshiproar": 47,
+      "opportunitiescorners": 163,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0,
+      "findaphd": 0,
+      "linkedin-jobs": 40,
+      "grants-gov": 0,
+      "wemakescholars": 0,
+      "profellow": 0,
+      "erasmus": 12,
+      "daad": 0,
+      "chevening": 55,
+      "unesco": 0,
+      "mext": 0,
+      "csc": 0,
+      "academicpositions": 0
+    }
   }
 ]
