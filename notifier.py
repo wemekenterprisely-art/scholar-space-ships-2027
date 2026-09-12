@@ -1,5 +1,5 @@
 ﻿"""
-ScholarSpace-ships Notifier - Professional Telegram + Email
+ScholarSpace-ships Notifier - Professional Telegram + Email (CareerOps Quality)
 """
 import json, os, urllib.request, re as re_mod
 from datetime import datetime, timedelta, timezone
@@ -59,32 +59,35 @@ def format_card(s, idx):
     deadline = s.get("deadline", "") or "Check listing"
     url = s.get("url", "")
     source = s.get("source", "unknown")
+    desc = s.get("description", "")[:200]
 
     lines = [
         f"{emoji} {rec} \u2014 {idx+1}",
         "",
-        f"\U0001f393 Scholarship: {_esc(s.get('title', 'Unknown'))}",
+        f"Scholarship: {_esc(s.get('title', 'Unknown'))}",
     ]
     if university:
-        lines.append(f"\U0001f3db\ufe0f University: {_esc(university)}")
-    lines.append(f"\U0001f30d Country: {_esc(country)}")
-    lines.append(f"\U0001f4da Level: {_esc(level)}")
-    lines.append(f"\U0001f4b0 Funding: {_esc(funding)}")
-    lines.append(f"\u23f0 Deadline: {_esc(deadline)}")
-    lines.append(f"\U0001f4ca Match Score: {score}%")
-    lines.append(f"\U0001f4e6 Source: {_esc(source)}")
+        lines.append(f"University: {_esc(university)}")
+    lines.append(f"Country: {_esc(country)}")
+    lines.append(f"Level: {_esc(level)}")
+    lines.append(f"Funding: {_esc(funding)}")
+    lines.append(f"Deadline: {_esc(deadline)}")
+    lines.append(f"Match Score: {score}%")
+    lines.append(f"Source: {_esc(source)}")
 
     ielts = s.get("english_requirement", "")
     if ielts == "not_required" or s.get("no_ielts"):
-        lines.append("\u2705 IELTS/TOEFL: Not Required")
+        lines.append("IELTS/TOEFL: Not Required")
     elif ielts == "required":
-        lines.append("\u274c IELTS/TOEFL: Required")
+        lines.append("IELTS/TOEFL: Required")
     else:
-        lines.append("\u2753 IELTS/TOEFL: Verify listing")
+        lines.append("IELTS/TOEFL: Verify listing")
 
+    if desc:
+        lines.append(f"Description: {desc}...")
     if s.get("why"):
-        lines.append(f"\U0001f517 Why it fits: {', '.join(s.get('why', [])[:3])}")
-    lines.append(f"\U0001f517 Apply: {url}")
+        lines.append(f"Why it fits: {', '.join(s.get('why', [])[:3])}")
+    lines.append(f"Apply: {url}")
     return "\n".join(lines)
 
 def build_telegram(scholarships, scan_info, stats):
@@ -95,16 +98,16 @@ def build_telegram(scholarships, scan_info, stats):
     source_count = scan_info.get("source_count", 0)
 
     msg = ""
-    msg += f"\U0001f4cb SCHOLARSPACE-SHIPS \u2014 AI Scholarship Intelligence\n"
+    msg += f"SCHOLARSPACE-SHIPS \u2014 AI Scholarship Intelligence\n"
     msg += f"{date} \u00b7 {time_str} \u00b7 Scan #{scan_num}\n\n"
     msg += f"This cycle we reviewed {all_count:,} scholarships across {source_count} sources.\n\n"
 
     if not scholarships:
-        msg += "\u2705 0 New Matches Found\n\n"
+        msg += "0 New Matches Found\n\n"
         msg += "No new scholarships passed all gates this cycle.\n"
         msg += "Gates: No IELTS/TOEFL | Libya eligible | MA+ level | Deadline valid\n"
     else:
-        msg += f"\u2705 {len(scholarships)} new match{'es' if len(scholarships)!=1 else ''} found.\n\n"
+        msg += f"{len(scholarships)} new match{'es' if len(scholarships)!=1 else ''} found.\n\n"
         for i, s in enumerate(scholarships):
             msg += format_card(s, i) + "\n\n"
 
@@ -112,7 +115,7 @@ def build_telegram(scholarships, scan_info, stats):
     sources = scan_info.get("sources", {}) if scan_info else {}
     active = {k: v for k, v in sources.items() if v > 0}
     if active:
-        msg += "\U0001f4ca Source Performance:\n"
+        msg += "Source Performance:\n"
         for k, v in sorted(active.items(), key=lambda x: -x[1]):
             msg += f"  {k}: {v} items\n"
 
@@ -184,6 +187,7 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             deadline = s.get("deadline", "") or "Check listing"
             url = s.get("url", "")
             source = s.get("source", "unknown")
+            desc = s.get("description", "")[:300]
 
             # IELTS status
             ielts = s.get("english_requirement", "")
@@ -199,6 +203,11 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             if s.get("why"):
                 why_items = ", ".join(s.get("why", [])[:3])
                 why_html = f'<tr><td style="padding:6px 8px;font-weight:bold;color:#555;vertical-align:top;width:120px">Why it fits</td><td style="padding:6px 8px">{why_items}</td></tr>'
+
+            # Description
+            desc_html = ""
+            if desc:
+                desc_html = f'<tr><td style="padding:6px 8px;font-weight:bold;color:#555;vertical-align:top;width:120px">Description</td><td style="padding:6px 8px;font-style:italic">{_esc(desc)}...</td></tr>'
 
             return f'''
       <table width="100%" cellpadding="0" cellspacing="0" style="background:#ffffff;border:1px solid #d0d0d0;border-radius:6px;margin:14px 0;font-family:Arial,Helvetica,sans-serif">
@@ -219,6 +228,7 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">Source</td><td style="padding:4px 8px;color:#111">{_esc(source)}</td></tr>
             <tr><td style="padding:4px 8px;font-weight:bold;color:#555;vertical-align:top">IELTS/TOEFL</td><td style="padding:4px 8px">{ielts_html}</td></tr>
             {why_html}
+            {desc_html}
           </table>
         </td></tr>
         <tr><td style="padding:0 16px 14px">
@@ -234,7 +244,7 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             rows = "".join([f'<tr><td style="padding:4px 8px;color:#333">{k}</td><td style="padding:4px 8px;color:#111;font-weight:bold;text-align:right">{v}</td></tr>' for k, v in sorted(active.items(), key=lambda x: -x[1])])
             source_html = f'''
       <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:6px;margin:16px 0;font-family:Arial,Helvetica,sans-serif">
-        <tr><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:bold;color:#111;font-size:13px">\U0001f4ca Source Performance Report</td></tr>
+        <tr><td style="padding:10px 12px;border-bottom:1px solid #e5e7eb;font-weight:bold;color:#111;font-size:13px">Source Performance Report</td></tr>
         <tr><td style="padding:6px 12px">
           <table width="100%" cellpadding="2" cellspacing="0" style="font-size:12px">
             <tr style="background:#f3f4f6"><td style="padding:4px 8px;font-weight:bold;color:#555">Source</td><td style="padding:4px 8px;font-weight:bold;color:#555;text-align:right">Items</td></tr>
