@@ -16,6 +16,7 @@ from extractor import enrich_scholarship
 from verifier import verify_scholarship, get_verification_summary
 from dedup import deduplicate_scholarships, get_deduplication_stats
 from scheduler import SmartScheduler, create_scheduler
+from deep_reader import enrich_scholarships_with_deep_read
 try:
     import state_sync
 except Exception:
@@ -126,7 +127,14 @@ def main():
     for s in candidates:
         s["final_score"] = s.get("final_score") or s["det_score"]
 
-    # 6) matches
+    # 6) deep read top candidates (if time permits)
+    if scheduler.should_continue():
+        scheduler.start_phase("deep_read")
+        candidates = enrich_scholarships_with_deep_read(candidates, max_deep_reads=20)
+        scheduler.end_phase("deep_read")
+        print(f"  [scheduler] Deep read completed: {len([c for c in candidates if c.get('deep_read')])} pages read")
+
+    # 7) matches
     matches = [s for s in candidates if s.get("final_score", 0) >= config.MIN_MATCH_SCORE]
     new_this_run = 0
     for m in matches:
@@ -143,7 +151,7 @@ def main():
     save_json(OUTPUT / "seen_urls.json", seen)
     save_json(OUTPUT / "all_scholarships.json", candidates)
 
-    # 7) daily log + scan history
+    # 8) daily log + scan history
     scan_hist.append({
         "date": TODAY, "time": NOW, "fetched": len(all_items), "candidates": len(candidates),
         "matches": len(matches), "new": new_this_run, "health": "100%", "seconds": round(time.time() - t0, 1),
@@ -160,8 +168,9 @@ def main():
     # Scheduler status
     scheduler_status = scheduler.get_status()
     print(f"  [scheduler] Status: {scheduler_status['elapsed']:.0f}s elapsed, {scheduler_status['remaining']:.0f}s remaining")
+    print(f"  [scheduler] Tiers: {scheduler_status['available_tiers']}, AI jobs: {scheduler_status['max_ai_jobs']}")
 
-    # 8) Excel + metrics + health
+    # 9) Excel + metrics + health
     try:
         xml_content = excel_generator.generate_excel(candidates, matches, scan_hist)
         io_path = OUTPUT / f"Scholarship_Report_{TODAY}.xls"
@@ -175,11 +184,11 @@ def main():
     save_json(OUTPUT / "metrics.json", metrics.snapshot())
     save_json(OUTPUT / "health.json", metrics.get_health())
 
-    # 9) persistence
+    # 10) persistence
     if state_sync:
         state_sync.upload_state()
 
-    # 10) notifications
+    # 11) notifications
     try:
         import notifier
         from config import TIER_1_SOURCES, TIER_2_SOURCES
