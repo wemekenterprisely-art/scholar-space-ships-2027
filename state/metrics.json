@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 916,
+      "fetched": 915,
       "matches": 0,
       "errors": 0
     },
@@ -71,7 +71,7 @@
       "errors": 0
     },
     "profellow": {
-      "fetched": 0,
+      "fetched": 8,
       "matches": 0,
       "errors": 0
     },
@@ -81,7 +81,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 0,
+      "fetched": 2,
       "matches": 0,
       "errors": 0
     },
@@ -112,12 +112,12 @@
     }
   },
   "funnel": {
-    "fetched": 1230,
-    "candidates": 788,
-    "rejected": 442
+    "fetched": 1238,
+    "candidates": 786,
+    "rejected": 452
   },
   "timings": {
     "excel": 1.0,
-    "total": 141.2
+    "total": 131.3
   }
 }
