@@ -1,5 +1,57 @@
 [
   {
+    "id": "4b0f7e084567",
+    "title": "WKU Student Awarded Boren Scholarship - Western Kentucky University",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWp2bS1jYTdCZTBxSXFWRlNfVXhYUWpzc3dfcXlocFZIbXUzaXEzV2lGcHluT3N1RkhZdmZ6MVRva1dicUIxd3NLRm93dkI5YWY2SDR1SmNWTDF2aldjTjdyTF9fSmNYV0RBSlQ2eDVONHc5RVdCdkdxemJRbVVxMG5JSHhfeHEwUVo2c1YxVQ?oc=5",
+    "description": "WKU Student Awarded Boren Scholarship Western Kentucky University",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "Unknown",
+    "field": "",
+    "posted_at": "Mon, 24 May 2021 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-11T19:47:09+00:00",
+    "date": "2026-09-11",
+    "applied": false
+  },
+  {
     "id": "56bcdca2d0e1",
     "title": "German Bundestag Fully Funded Scholarship Programme 2027 - Global South Opportunities",
     "source": "google-news",
