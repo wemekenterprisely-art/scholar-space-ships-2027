@@ -1,161 +1,5 @@
 [
   {
-    "id": "ce1ff797e0fc",
-    "title": "University of Westminster International Postgraduate Excellence Award 2027 in UK: £3,000 Tuition Fee Scholarship for International Students - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vTVgwZHZvdEpueXkwTDNReHhPb1BqQXhXRlB3YVFtZEJ2UEpaVzctNmVxRTVlVmRaSW1ETVk1b3QtOHlmXzNXRVlGMDczbncxWlM0Vkc0bnkyN1VXaXJ4OXZhaXFhUkc0enhsVTYxTEwzdE9B?oc=5",
-    "description": "University of Westminster International Postgraduate Excellence Award 2027 in UK: £3,000 Tuition Fee Scholarship for International Students Global South Opportunities",
-    "country": "UK",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Mon, 03 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 54.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "02a1983ed062",
-    "title": "Schwarzman Scholars 2027 (Fully-funded Masters Scholarship) for International Students - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3d1FlSkowQlFWZVczVWU0VUtDNndlQ0RVcmw1ZVlWd2ZOakxkZ0hxRFJVSGZTd3FVVzEwNWJxMnlYUlJRTEJDdk9BYk5ndGJuVkFzMFVTWlRWLVlzNmxVZUI3YkVBemcwc0h0TA?oc=5",
-    "description": "Schwarzman Scholars 2027 (Fully-funded Masters Scholarship) for International Students After School Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Tue, 21 Apr 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 54.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "394011e26790",
-    "title": "The UK is offering 20 Fully-funded Graduate Scholarships of over £19K to international Students at Wolfson College, the University of Oxford 2025/2026 - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSld6ejhtRFQ1c3pEdTlJZWRKcEpCejg3SnJlRk12THBtTjZzNVotX3FCWGZNSFUyZy1tcFMwUmNBOExLTEVhMUxCR1pxWTBsRzhhSlpncTNQcFV6V18tZE9WTnIzUTdpTlRLM2hYekg2emJ0S0tGdTA4TkRhR3V2N0dmakpVZHJFcHNpOWlpQmNDbDg0ZHd6Y2F3?oc=5",
-    "description": "The UK is offering 20 Fully-funded Graduate Scholarships of over £19K to international Students at Wolfson College, the University of Oxford 2025/2026 After School Africa",
-    "country": "UK",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Thu, 05 Dec 2024 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 54.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
     "id": "b8aa05bf3277",
     "title": "Which Countries Give 100% Scholarships to Study Abroad? - y-axis.com",
     "source": "google-news",
@@ -190,123 +34,19 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
+    "ai_overall": 18.5,
     "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
+      "field_fit": 8,
+      "eligibility": 10,
+      "language": 8,
       "funding": 80,
       "deadline_urgency": 0
     },
-    "ai_verdict": "FAIL",
+    "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
     "final_score": 46.5
-  },
-  {
-    "id": "f8524a2cfd70",
-    "title": "Commonwealth Master’s Scholarships 2027/2028 (Fully-funded) - Opportunity Desk",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaVhrMEg4TWFJaUtjYU00RnJ1ajRqWFRNM0JsSUxDOXVZT0ptMGEzdkxMNmdJNXNsY3AzMndFT1VuTnFxbWhyZmtJX0Z2ZjhYd3dIamlzeGZLX2gwemNFWklVZnVrY2g5T2lhYTQ4WHVMYlF5aFRuZDByY29aMjlSX2c0Z0NHSUpkcF84?oc=5",
-    "description": "Commonwealth Master’s Scholarships 2027/2028 (Fully-funded) Opportunity Desk",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Wed, 09 Sep 2026 11:40:07 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "6c524cad4e39",
-    "title": "Commonwealth PhD Scholarships 2027/2028 (Fully-Funded) - Opportunity Desk",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNEcyanhtOVVBeEhudnRuejJuSllQRWNYVUxwSEdHZTBrTmF4d2lfVDNnbVNtWlN0TGY4OGVMZHhoUmZyUnRXS05nanZnTU8tcDJkR2hCR214QkVLSnVkY2dSQk5lbWtvWUpaUThtdjBHRXFvQTRSRm5BM1d0OU9YY2pPWGkzUQ?oc=5",
-    "description": "Commonwealth PhD Scholarships 2027/2028 (Fully-Funded) Opportunity Desk",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Wed, 09 Sep 2026 11:26:51 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
   },
   {
     "id": "cb399c617acb",
@@ -343,19 +83,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 19.1,
+    "ai_overall": 90.0,
     "ai_dims": {
-      "field_fit": 8,
-      "eligibility": 9,
-      "language": 8,
-      "funding": 80,
-      "deadline_urgency": 8
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 46.5
+    "final_score": 72.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "0afc7122b404",
@@ -392,55 +135,6 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
-    "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5
-  },
-  {
-    "id": "ff2301766ad8",
-    "title": "Swiss Government Excellence Scholarships 2027–2028: Fully Funded Research and Arts Opportunities in Switzerland - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tcUVIUzZETmtLbjg3dENEWFNhRVlCZmFlWTU4UGNLcmZvMmNHZU9ZRWE2VmlaLWZtVXRaYjRCZV9JZDIzT2ctbkhTU0ZOR0lOTkE5TDdWOGZYakMzQXFiUWk4ejg2WU5YSzE5MQ?oc=5",
-    "description": "Swiss Government Excellence Scholarships 2027–2028: Fully Funded Research and Arts Opportunities in Switzerland Global South Opportunities",
-    "country": "Switzerland",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Thu, 20 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
     "ai_overall": 95.0,
     "ai_dims": {
       "field_fit": 95,
@@ -454,59 +148,7 @@
       "field-anchor"
     ],
     "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "d51aa97ec1cf",
-    "title": "The Korea International Cooperation Agency (KOICA) Scholarship Program 2027 for Master's & PhD study in South Korea (Fully Funded) - Opportunities For Africans",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHV5Q1VjUkN2YjJrd3NzbVlyUlpadjFvejZoVjQ0dm91WkV2al9wYWdycGg3OGJnTFRQWVJxVlFQWWluWUlmX0FEazBFb19yTG1DMWQ1RHhLZUJ4ZzNnLVliRnpLRGF3TENfcHAxZ25aN3BlYmJxX25zWEs1bzRacTJtbUowS2JpMVM1U2xMNnM0VTl5Q1JhOEJxU1djOFJMUEt4S1lCNkJ0eW5GZlRkVEZxRi1kZw?oc=5",
-    "description": "The Korea International Cooperation Agency (KOICA) Scholarship Program 2027 for Master's & PhD study in South Korea (Fully Funded) Opportunities For Africans",
-    "country": "South Korea",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Tue, 09 Jun 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
+    "first_seen": "2026-09-12T02:55:13+00:00",
     "date": "2026-09-12",
     "applied": false
   },
@@ -545,225 +187,20 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "ai_overall": 12.0,
-    "ai_dims": {
-      "field_fit": 0,
-      "eligibility": 0,
-      "language": 0,
-      "funding": 80,
-      "deadline_urgency": 0
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5
-  },
-  {
-    "id": "a5530d6f18f5",
-    "title": "Southern Cross University RTP Scholarship in Australia 2027 | Fully Funded - edugist.org",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSi1lVllRYTZzSkYyLXY0ZEk2azNrS0x3cGJUdXktSW5uc0pXd0tWb0dGOVhSMEx1MEpmdU15dG5hUmtwN1ptcEl3clg0Z1ZvVFYxbTNBb2ZCZHVBcGJ5S2d4S0Q1NUVaZWZlTXV0U1NZX0ZqNzFXcHlEWGwtUjV4VmtHSEVpYzFZWGxsQ09ObmZNemdNdWY0bnkyMFR3N2FS0gGgAUFVX3lxTE1KLWVWWVFhNnNKRjItdjRkSTZrM2tLTHdwYlR1eS1Jbm5zSld3S1ZvR0Y5WFIwTHUwSmZ1TXl0bmFSa3A3Wm1wSXdyWDRnVm9UVjFtM0FvZkJkdUFwYnlLZ3hLRDU1RVplZmVNdXRTU1lfRmo3MVdweURYbC1SNXhWa0dIRWljMVlYbGxDT05uZk16Z011ZjRueTIwVHc3YVI?oc=5",
-    "description": "Southern Cross University RTP Scholarship in Australia 2027 | Fully Funded edugist.org",
-    "country": "Australia",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Wed, 09 Sep 2026 14:43:12 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "afe67d445d43",
-    "title": "Chevening Scholarship to Study in the UK 2027-2028 (Fully-funded) - Opportunity Desk",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11NXlza2N6RERsMFVPQlI0TzdkdDdPU0pYZEJYR3JCTVFUa3RHQWhYRGZGUlZKRVh6Y1RQUmFHMUlORVh0eFBGbDg2X3l1ZFFfd0czWVBGWjJ1bHl1OXl4MVgzLWhkTWhGalZTLU5YNW1NcEtnbHR0ZHdCOA?oc=5",
-    "description": "Chevening Scholarship to Study in the UK 2027-2028 (Fully-funded) Opportunity Desk",
-    "country": "UK",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Tue, 04 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "5f9eedf96467",
-    "title": "Fully Funded PhD Opportunity Opens at San Diego State University and UC San Diego for Fall 2027 - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Xa1l6MmhBN0pjTGd0T2FOWGI4Zkt0X3lQM3cwa1gxemZTdHF1MWY4b0NiSTVJQWFmZGEzQ2trUlFzNUhqWVZKZEwxN2lNQWNEXzNCWGhrMjc4bVZpZV80OUpZUy1JTHlWeHc?oc=5",
-    "description": "Fully Funded PhD Opportunity Opens at San Diego State University and UC San Diego for Fall 2027 Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Mon, 20 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 100.0,
-    "ai_dims": {
-      "field_fit": 100,
-      "eligibility": 100,
-      "language": 100,
-      "funding": 100,
-      "deadline_urgency": 100
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 78.6,
-    "first_seen": "2026-09-12T02:29:52+00:00",
-    "date": "2026-09-12",
-    "applied": false
-  },
-  {
-    "id": "0603195036c0",
-    "title": "Oxford-Pershing Square Graduate Scholarships 2027: Fully Funded Oxford 1+1 MBA Opportunity - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYQmt1UmtVTGdWTkpTNHJST0QycnNXN1hWUmo0bS1hbE5XZzRJU01ESEVFMFd6RjViRXRZSXNWUnZUMTBuQXpmOEJ0WTYydm1aNmJ4QjhGM3dXUXdSQTVNM2k3Sl81NlFocUVXZVQxZw?oc=5",
-    "description": "Oxford-Pershing Square Graduate Scholarships 2027: Fully Funded Oxford 1+1 MBA Opportunity Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Tue, 11 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "ai_overall": 87.5,
+    "ai_overall": 85.2,
     "ai_dims": {
       "field_fit": 85,
       "eligibility": 90,
-      "language": 95,
-      "funding": 80,
+      "language": 80,
+      "funding": 85,
       "deadline_urgency": 85
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 71.1,
-    "first_seen": "2026-09-12T02:29:52+00:00",
+    "final_score": 69.7,
+    "first_seen": "2026-09-12T02:55:13+00:00",
     "date": "2026-09-12",
     "applied": false
   },
@@ -802,6 +239,18 @@
     ],
     "rejected": false,
     "reject_reasons": [],
+    "ai_overall": 12.0,
+    "ai_dims": {
+      "field_fit": 0,
+      "eligibility": 0,
+      "language": 0,
+      "funding": 80,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 46.5
   },
   {
@@ -839,7 +288,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "d18d5af3f17c",
@@ -876,7 +340,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "4b23b44cd7be",
@@ -913,7 +392,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 78.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 80,
+      "language": 80,
+      "funding": 100,
+      "deadline_urgency": 0
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 65.4,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "5f9b9f32d20e",
@@ -950,7 +444,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "92fa09469b1c",
@@ -987,7 +496,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 75.8,
+    "ai_dims": {
+      "field_fit": 75,
+      "eligibility": 75,
+      "language": 75,
+      "funding": 80,
+      "deadline_urgency": 75
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 64.1,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "0d336b210d35",
@@ -1024,7 +548,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "fe0dc0411cfd",
@@ -1061,7 +600,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "c831841df2e5",
@@ -1098,7 +652,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 82.2,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 90,
+      "language": 75,
+      "funding": 85,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 67.9,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "f02fc2fd7bf7",
@@ -1135,7 +704,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 80.0,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 80,
+      "language": 80,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "720904602fa1",
@@ -1172,7 +756,22 @@
     ],
     "rejected": false,
     "reject_reasons": [],
-    "final_score": 46.5
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-12T02:55:13+00:00",
+    "date": "2026-09-12",
+    "applied": false
   },
   {
     "id": "1e8994dc31cc",
@@ -8280,10 +7879,10 @@
   },
   {
     "id": "2acd414bdfa9",
-    "title": "Saudi Arabia Announces Fully Funded Scholarships for All Students Including Pakistanis - propakistani.pk",
+    "title": "Saudi Arabia Announces Fully Funded Scholarships for All Students Including Pakistanis - ProPakistani",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYm92UXJHWUhGZndhYWg4UGhFN3BBdzhfVjRsUlJpNDJla0pGWDdmcU9NQTdLbVpFSnl1ZUk1TERpTnU4WC03bWxKYWhpdHIyamdkdEVQSWtOc0tialplTWZaYU80T0lSdE51V3A5TTZ4N2tkeDFBTmFFaWJET3BwZlc0UGJhWVFIN1BodTNUMWtvSXRuWnNCTkZDRGFfOTVFZUpnMmVMejdQWThLQnZSQkRad2J2R183MkhnT01RQdIBxAFBVV95cUxOLXpqbFVmVTJTSkRjMVJSQi04akxJbE5vXzl2Zkxfd1p3TkxwUFFsNG12WmQ1Q2RoWFlhUnNrT2dLZ3haTWNRUTJ4SnZQbE0tQTljZF9iemZBNUd6ZGhNNlNhYUVMdzZ6REg5MkVFeEZRTXdIZXg3UkdGSFRpZkFpYXlUUmVXOS1RM1BSZmx4WjczWXdXY3NtSDVaZWt5TVk2Yi02NVcwb2VhU2l4WkNFMDNrcTl2OVN0NlREMDNqbW5DOE9h?oc=5",
-    "description": "Saudi Arabia Announces Fully Funded Scholarships for All Students Including Pakistanis propakistani.pk",
+    "description": "Saudi Arabia Announces Fully Funded Scholarships for All Students Including Pakistanis ProPakistani",
     "country": "Saudi Arabia",
     "deadline": "",
     "funding": "Fully Funded",
@@ -8317,10 +7916,10 @@
   },
   {
     "id": "e76f8da71ae3",
-    "title": "Meridian senior from Cuba earns full-ride scholarship to CMU - ourmidland.com",
+    "title": "Meridian senior from Cuba earns full-ride scholarship to CMU - Midland Daily News",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc1Qzcm5uWXFvWFl6UGpkRktZOVVnNlp1dkdMREVKa0tvZXMxVkpGRERJVTRVd3pmTVhiVk5RNGFWUXM2Y1NoZzVIVDFsUXdZUTJqNG45Y0FoemJaNUl4R0pGMzh6cTVtM0FMMlJYOFpnSk12RmRpbG9vSnlzYzFFcllMU3ZJWXk3VjFoTUV4LUFXa1NN?oc=5",
-    "description": "Meridian senior from Cuba earns full-ride scholarship to CMU ourmidland.com",
+    "description": "Meridian senior from Cuba earns full-ride scholarship to CMU Midland Daily News",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
@@ -10315,10 +9914,10 @@
   },
   {
     "id": "5703e40e0585",
-    "title": "Anthropology from the inside: New Indigenous scholarship from Brazil in translation - People's World",
+    "title": "Anthropology from the inside: New Indigenous scholarship from Brazil in translation - peoplesworld.org",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdUpjVWgzUUFZLVlVYUI1ZHUtQTE0SWU0bGdCYzVubHRPUXBTeDJ2RnNaWC1WQlllWmI0VGVqbTRHTkFBSXBITVFZVDZuemhqb0cweXBjMklST3FTSWJ6M2Z6Y3IwSXZKZ2hqdWpCN3VRMHBSTEtMbFkyN2xWQkg3RzZQcHJUek5RQjl4b0ROX0czamRvdFZVeElDRzJZeTJuN3FHaG54aU9vSGt4NzQ3aHJvZTF1NFNBbjl3UQ?oc=5",
-    "description": "Anthropology from the inside: New Indigenous scholarship from Brazil in translation People's World",
+    "description": "Anthropology from the inside: New Indigenous scholarship from Brazil in translation peoplesworld.org",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -10537,10 +10136,10 @@
   },
   {
     "id": "2036565b82f2",
-    "title": "Chinese Scholarship to Train Yemeni Translators Between Arabic and Chinese - يمن مونيتور",
+    "title": "Chinese Scholarship to Train Yemeni Translators Between Arabic and Chinese - yemenmonitor.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MOXVTY3FzdUhuRFBTaHhySVhab1Zxa0NNd1NjSXdtY1VxRllfbUlBcm1OZ2cwU1d0RXMxNFdSQlhRRGJzQVlHRmxPMmVsYXlkM3JIUkZyOGo0b21EY2JNYTNISHoyYmwtTXUweGlYREN4YzZiYmc?oc=5",
-    "description": "Chinese Scholarship to Train Yemeni Translators Between Arabic and Chinese يمن مونيتور",
+    "description": "Chinese Scholarship to Train Yemeni Translators Between Arabic and Chinese yemenmonitor.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -12905,10 +12504,10 @@
   },
   {
     "id": "904fa4539152",
-    "title": "UK opens applications for Chevening Scholarships 2027-2028 - modernghana.com",
+    "title": "UK opens applications for Chevening Scholarships 2027-2028 - Modern Ghana",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1QyRWQ2bENTVlNIQlVQVXpheU5pcHJGM1laQXpFcXRPSlJtejd4WjI4dTBLclpla2ZJZ05oWGpnZWRZTEY4WEVlWEhXaFZsVTU3eVNtYmtlM1kwQTNVMDNaUG5YUjM4MFdXQm1iOG9ORUYzM0xOMXFqRWpkUVZuLUU4QWJfTUhFVWpON0FHLXdYei1pQ1oxdmZR0gGYAUFVX3lxTE8xNFlZRWx0QjMxQVNnTkxwTGJEczU0ajhVN3ZTenRJMHJQWG5EVW9GS3FyZmdJZnBCRkdKT19sbXVLMkNiTlNuUzg5c1BnWDNLeWNWQzd4UkU0THVXbnNaSW5MdWJsTENBT2VsMFdabmZCZ1BMLXg4V3Y0bVVCUHc4cVdRdzRfNmNLS0k1ZmlpZWYwdzljRTVs?oc=5",
-    "description": "UK opens applications for Chevening Scholarships 2027-2028 modernghana.com",
+    "description": "UK opens applications for Chevening Scholarships 2027-2028 Modern Ghana",
     "country": "UK",
     "deadline": "",
     "funding": "Unknown",
@@ -16531,10 +16130,10 @@
   },
   {
     "id": "8d0a8c8f90f6",
-    "title": "UoH scholar Anjana M Nair wins Fulbright-Nehru Fellowship 2026–27 - Telangana Today",
+    "title": "UoH scholar Anjana M Nair wins Fulbright-Nehru Fellowship 2026–27 - telanganatoday.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNjZPbXRLRmo4NXZKVFhRVWpfZFZnc1dXZmNfQkx5M0JkRWNvN0ZYaVYycFRKRUdueWstWXlvem1ZNE5NS0M4UnpKZld4YTVOS09fWVdzZVU5UHIzTFdvR1FfQWNnOGVCa3VWRTEtM2FNb2lRbUxoUzVjZ1pIdE9nYVRYR2k5S0ZpX2tZaVh2RGNCN1VKVTNB?oc=5",
-    "description": "UoH scholar Anjana M Nair wins Fulbright-Nehru Fellowship 2026–27 Telangana Today",
+    "description": "UoH scholar Anjana M Nair wins Fulbright-Nehru Fellowship 2026–27 telanganatoday.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -18121,17 +17720,17 @@
     "final_score": 39.0
   },
   {
-    "id": "2c52ead5ce52",
-    "title": "Application for the Japan IMF Scholarship 2026 for Asia (JISPA) is now open - After School Africa",
+    "id": "ac2e57285376",
+    "title": "University of Sheffield Scholarship 2027: Indian Students Eligible for Rs 8 Lakh+ Discount - Jagran Josh",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SMlhpZU9MTG5BdTB4c2NYLTRwSWY4WHlhc0R3c3JEaUg4OThaNXBfMTlSUnRNeS1fQXF0Q0NLSDZGRUlGUWpObnV0c2J1aC1USURrVFhDOWRhM0tIZFcyUGlNS1VhV0I4UElIc3ZKaw?oc=5",
-    "description": "Application for the Japan IMF Scholarship 2026 for Asia (JISPA) is now open After School Africa",
-    "country": "Japan",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORjVTbkFJdzhxSWw1WEx2cmRKV1Riamd4Qk0yNmVOeGJtazZSbFJHZFBzTUR0ZW9oYjg3LTdjdzAta1JpOTFncEhJc2kwamlSTlBfU25OV1REUVRDV0VTb3hUSFdFcmZhRkJuamRZUm5YXzk0MGhjUFFEUVlMUm5EZG5PUGlmWXAzR3hRZm15QU1kLWkxcl9QbF9jdVc1YTdpU080OWhCQlJXRFU3ZVdRRGhsZ1M2RXI0bTdZdkhaYzVHeUlDbWfSAcwBQVVfeXFMTzJVSy1CM3ZYazZLcW56V1JkV0V1bUI4WHZ0SWpUbHgzSjNGTVNDdTRqUmpNWHhpZHZ5YVN3YnJsUEFOcGFvZ3lGN0YzMGxDdlV1bnl0MmRKYWxZandaZzFKMGFlTExYc1BoSGtwRF9xU3B2RzRsMFY5YzdnV2hTRDg3SVB6NmdSUFFiQjlTOGJwWmxyZnlMd2pmSVROang2MkRIWDNHZVFfRWtQNkdQTmE5QUJ5R21pQ1R2OHd6VUJIRGRxT25yMjhpY1RI?oc=5",
+    "description": "University of Sheffield Scholarship 2027: Indian Students Eligible for Rs 8 Lakh+ Discount Jagran Josh",
+    "country": "India",
     "deadline": "",
     "funding": "Unknown",
     "level": "unknown",
     "field": "",
-    "posted_at": "Fri, 10 Apr 2026 07:00:00 GMT",
+    "posted_at": "Sat, 15 Aug 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -18158,17 +17757,17 @@
     "final_score": 39.0
   },
   {
-    "id": "ac2e57285376",
-    "title": "University of Sheffield Scholarship 2027: Indian Students Eligible for Rs 8 Lakh+ Discount - Jagran Josh",
+    "id": "2c52ead5ce52",
+    "title": "Application for the Japan IMF Scholarship 2026 for Asia (JISPA) is now open - After School Africa",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORjVTbkFJdzhxSWw1WEx2cmRKV1Riamd4Qk0yNmVOeGJtazZSbFJHZFBzTUR0ZW9oYjg3LTdjdzAta1JpOTFncEhJc2kwamlSTlBfU25OV1REUVRDV0VTb3hUSFdFcmZhRkJuamRZUm5YXzk0MGhjUFFEUVlMUm5EZG5PUGlmWXAzR3hRZm15QU1kLWkxcl9QbF9jdVc1YTdpU080OWhCQlJXRFU3ZVdRRGhsZ1M2RXI0bTdZdkhaYzVHeUlDbWfSAcwBQVVfeXFMTzJVSy1CM3ZYazZLcW56V1JkV0V1bUI4WHZ0SWpUbHgzSjNGTVNDdTRqUmpNWHhpZHZ5YVN3YnJsUEFOcGFvZ3lGN0YzMGxDdlV1bnl0MmRKYWxZandaZzFKMGFlTExYc1BoSGtwRF9xU3B2RzRsMFY5YzdnV2hTRDg3SVB6NmdSUFFiQjlTOGJwWmxyZnlMd2pmSVROang2MkRIWDNHZVFfRWtQNkdQTmE5QUJ5R21pQ1R2OHd6VUJIRGRxT25yMjhpY1RI?oc=5",
-    "description": "University of Sheffield Scholarship 2027: Indian Students Eligible for Rs 8 Lakh+ Discount Jagran Josh",
-    "country": "India",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SMlhpZU9MTG5BdTB4c2NYLTRwSWY4WHlhc0R3c3JEaUg4OThaNXBfMTlSUnRNeS1fQXF0Q0NLSDZGRUlGUWpObnV0c2J1aC1USURrVFhDOWRhM0tIZFcyUGlNS1VhV0I4UElIc3ZKaw?oc=5",
+    "description": "Application for the Japan IMF Scholarship 2026 for Asia (JISPA) is now open After School Africa",
+    "country": "Japan",
     "deadline": "",
     "funding": "Unknown",
     "level": "unknown",
     "field": "",
-    "posted_at": "Sat, 15 Aug 2026 07:00:00 GMT",
+    "posted_at": "Fri, 10 Apr 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -18899,10 +18498,10 @@
   },
   {
     "id": "7c5d2c14418a",
-    "title": "Türkiye awarded 40 Mozambican students with university scholarships - clubofmozambique.com",
+    "title": "Türkiye awarded 40 Mozambican students with university scholarships - CLUB OF MOZAMBIQUE",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSGQ1UlZESVpNTm5mc0pLQnlzUUE0akJPQmI4WXVLQmJibzRiekgzX2J6OVRtcnF0TEQwVGRsNnFzVTV0bWZsb0xHUXhmLVRpbzcxQkRGMkxXVE1CNjg4a2p6M2djSW9ibkVjOGdFaE5OclJKaHVqRnZNVkpvZGJ6eldMcF9na2t4TDFUT0ppSEpOZWU1d0l2SVllaE5pSTNtMDhuQw?oc=5",
-    "description": "Türkiye awarded 40 Mozambican students with university scholarships clubofmozambique.com",
+    "description": "Türkiye awarded 40 Mozambican students with university scholarships CLUB OF MOZAMBIQUE",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -19121,10 +18720,10 @@
   },
   {
     "id": "a11c45b1aa3f",
-    "title": "Want to study in Japan? MEXT scholarship applications open for 2027 UG, research programmes - Deccan Herald",
+    "title": "Want to study in Japan? MEXT scholarship applications open for 2027 UG, research programmes - deccanherald.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVHBRQnpDcDFUMnpUaXU1OHhvRUgwbG4xQjZpWVVJRTJFdHlHS2xNOEVzMlpHdFRad1Z1WFFVX0ZqYWJ1bC0yYVhwZWJHZVJGLTAzU0JILWtRMXJET2ZxTVJxbDFjS2dabnFSVXR4Q2VZd3Z3U2Exd2JDbDNVMlNwblRFWmt4eGE0M2g3aVUzQUtqM3ktR1lNQUdvQWlIWWIwelJ5MmkyaXlDZlByM253QzJPVWlpS1RNNWxyd0p5V2pUby1WOW03UnpybGNQM2JXWWc?oc=5",
-    "description": "Want to study in Japan? MEXT scholarship applications open for 2027 UG, research programmes Deccan Herald",
+    "description": "Want to study in Japan? MEXT scholarship applications open for 2027 UG, research programmes deccanherald.com",
     "country": "Japan",
     "deadline": "",
     "funding": "Unknown",
@@ -19343,10 +18942,10 @@
   },
   {
     "id": "c33f518f54b0",
-    "title": "Japan opens 2027 MEXT scholarships for Filipinos - thephilbiznews.com",
+    "title": "Japan opens 2027 MEXT scholarships for Filipinos - thephilbiznews",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU3I2bG8xUkVoblduUGxJZkN5LTI3S2ZZYzYzOC1rSmwyTTZ5TjdWOTI2TzNjZThLRUVEQ2RoWldKRWhhWXZUZ0I3RU51WlJPUmFyR2pfRlZ5engwVHZRcXZoamY0UjZ6R0lEYTg2dnBjMGlQTWF3UTl0VUZFRjQ0aXdlUV9LZUNuYUFKN1BaWWxrMUFSR2hteXhhaWdrQkY0?oc=5",
-    "description": "Japan opens 2027 MEXT scholarships for Filipinos thephilbiznews.com",
+    "description": "Japan opens 2027 MEXT scholarships for Filipinos thephilbiznews",
     "country": "Japan",
     "deadline": "",
     "funding": "Unknown",
@@ -20601,10 +20200,10 @@
   },
   {
     "id": "58df3cb192b0",
-    "title": "HEC Announces Commonwealth Scholarships 2027–28 - propakistani.pk",
+    "title": "HEC Announces Commonwealth Scholarships 2027–28 - ProPakistani",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQmR0bnJ0dVQ2SDFWWlUxRUdEN3B6RERySUhnTWZobG9yZWlYY0dxc0ZIYjJZR3AxREFfTXNqX2plVGFrNEtfRWNYaEVlbFlMZmRtOElmemh4MExha0pZb25nLUk4VEdIbVVyaXpjLVR5TjdXUzRnUmtXb01KUERnUUhxeVphcFJrcWNV0gGQAUFVX3lxTFA1NUhNZHhWOGltczlyRFFwVWRjT1dYOHRMZU5iNGdiZEJEQWJzV1R0elhhdjloM2lPaDctM3kwaHNUZU9FNXdUY1JiUzYySXVvY2ljR1FPNGFDQmlhN3h4TXdpbVpzYUlfMTdxb2RacWhVbmUzUDRIUkJnYjRfNWktNC1mSkhQUjF6Y2FXV1kzbg?oc=5",
-    "description": "HEC Announces Commonwealth Scholarships 2027–28 propakistani.pk",
+    "description": "HEC Announces Commonwealth Scholarships 2027–28 ProPakistani",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -20638,10 +20237,10 @@
   },
   {
     "id": "0577b987911e",
-    "title": "HEC Commonwealth Scholarships 2027-28 Open for Pakistanis - techjuice.pk",
+    "title": "HEC Commonwealth Scholarships 2027-28 Open for Pakistanis - TechJuice",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaGNjM1BmNE1OYWFOREgwMFlBVWhWWE92VHRfYjh2dkZDNGpLQWxFMDI2ZlVyNnFqMy1EQ0JwOHJwMWxHclFtZHo1a01VOWk5RkJTU3FvWmZsM2Z2V2p2Z1ZxTGVGZWJ1Ny1ibXVqYWRNODA4ZEJCWmdTbVFxZ0MxVk8wMnhQSWhXVjNz?oc=5",
-    "description": "HEC Commonwealth Scholarships 2027-28 Open for Pakistanis techjuice.pk",
+    "description": "HEC Commonwealth Scholarships 2027-28 Open for Pakistanis TechJuice",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -21267,10 +20866,10 @@
   },
   {
     "id": "a53fb5f60bff",
-    "title": "Attention Mozambique: Aga Khan Foundation’s international scholarship programme 2026–2027 now open - clubofmozambique.com",
+    "title": "Attention Mozambique: Aga Khan Foundation’s international scholarship programme 2026–2027 now open - CLUB OF MOZAMBIQUE",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd2dMSkp1Z3hoNGMyN1NjZTZzNURnbFFJbGwtbTdYMVg2UktrNGx3Qmx6MUp6OUIxVDJzTVh0NXNKZGN0VDctNHpkdUFYQjZkQ0h3NkRUc3Byb0h6Wl9EdFdhN1kwN1FLS3hsblMxUUFBZjBoSnZQRmtseDhmUmVSeEZIcVU2cGs3enhJUGY0V1dycFN2dGpLeFRiRVVDeE5vNExHNVBkZG5ILXdRenR1WnRyWXNIV3QwcnoweVptaVdBMG9kd1htZllLNA?oc=5",
-    "description": "Attention Mozambique: Aga Khan Foundation’s international scholarship programme 2026–2027 now open clubofmozambique.com",
+    "description": "Attention Mozambique: Aga Khan Foundation’s international scholarship programme 2026–2027 now open CLUB OF MOZAMBIQUE",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -24338,10 +23937,10 @@
   },
   {
     "id": "6b0319049c3d",
-    "title": "SIU’s Arianna Goss earns McGaw health administration scholarship - news.siu.edu",
+    "title": "SIU’s Arianna Goss earns McGaw health administration scholarship - SIU News",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORDI2WUtWWUdmdjZYSHBwaVpjUVdNMTE1MDZ3YVBIT2ducVNTSmNHOTdkUUIxLVNYZ1VGUFV2VXZ1RzNvb3Z2VW85eTJtalJ2dzFlSXBoRzVCMXVvLXlheTV5bHZxUlNGSVp0Z2stZ0dQZlVGQ3ctakdOb2xObjNsYl81QWxQb1BIdTRLSUR1c2lGSm1yQVVoNm9CNURXd3AyeVpmVVJn?oc=5",
-    "description": "SIU’s Arianna Goss earns McGaw health administration scholarship news.siu.edu",
+    "description": "SIU’s Arianna Goss earns McGaw health administration scholarship SIU News",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -24412,10 +24011,10 @@
   },
   {
     "id": "24fd4397aeaa",
-    "title": "What the ‘One Big Beautiful Bill’ will change for students, schools and colleges - Oregon Public Broadcasting - OPB",
+    "title": "What the ‘One Big Beautiful Bill’ will change for students, schools and colleges - opb.org",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVnB3TGdYR2RMejZqc0RrU1dObzB5ZWpuYUd5ZGRZVXJsdHNRRlBmOWkybDBWa3ZURDk1bHlZb003cHk3Q0dHQmZBWWV6RGNRanhWRTltT2tCLV9Na3lLREVvbGo4bjdHRnpDcG9ONE9XM0tjS3ZBLUxUWUtiTTFWTDlqVldISGQ3OTF6VF9kcGc3WEEyWXdyT0ZhZjY0dWZRaEE?oc=5",
-    "description": "What the ‘One Big Beautiful Bill’ will change for students, schools and colleges Oregon Public Broadcasting - OPB",
+    "description": "What the ‘One Big Beautiful Bill’ will change for students, schools and colleges opb.org",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -24597,10 +24196,10 @@
   },
   {
     "id": "c0e3bba92b8f",
-    "title": "Nearly 30% of Coldwater students are multilingual learners - Coldwater Daily Reporter",
+    "title": "Nearly 30% of Coldwater students are multilingual learners - thedailyreporter.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbFJPZ3pTTThlSUxjeFZIQms5TTEyUGJVTmxxT1ZnOHZaWHhtTXNiQU1LOHRGY3EwRk9MdWV6d05QUFNwUExZUUJIeHl2NjZHbERlWjNkbnlYNzFSMnRQenJLMWdnVXVJZE5lMWFuVXFnQkF6WF81eGZPT0FqTno2SVpacnNLVE9aa3BNVXY1QW5HUktiNWRtNEJHbTQyT0MzQXJqVE1PNGdpRVZLSTlieVFKRWRJVUNpckNZT0dhUEdUX2V1R0phMlBrT1pDaDhiVUM5ZXhjNW9UQ0FvOWZzTjJsX18?oc=5",
-    "description": "Nearly 30% of Coldwater students are multilingual learners Coldwater Daily Reporter",
+    "description": "Nearly 30% of Coldwater students are multilingual learners thedailyreporter.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -25670,10 +25269,10 @@
   },
   {
     "id": "96bb061ec2fa",
-    "title": "Churukian Family Establishes Endowed Scholarship Fund at AUA - MassisPost",
+    "title": "Churukian Family Establishes Endowed Scholarship Fund at AUA - massispost.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY2FzdDczNndVRENwTl9hVHJIN28xa1VoQy1vS211SDJUYnNTQlRhazFfLWlxdHpxeDA0ZWZycE1oN3JJNThLRzN0ekFLOFZPaVBvSkxrOEl3dnE4aXZHQnJLMkxUd2duU0hHNHVlNmdzd05jOXNYbE9wc0NscGVyWThYYzJ4XzZ1V2R5T19ET3VXQ3VISWI40gGcAUFVX3lxTE5kQzJRN2ZBSUpkVXpLdldhYzljY1VTRVVYb1paZTJwYkdlbGQzekJVQUJPbnhoWGVRSFZiNlZEQ3hzVDFuclZwNUZBalFWR092aUlaUDVlVkVhZUl0SkdGa1RtaFFTc1RTZVlzTF84dDlBUXRhaVJGR204SUhPcDd3U3hVZFJsZ0JSSlJvMTZXRURieDRwMWk5d24xdg?oc=5",
-    "description": "Churukian Family Establishes Endowed Scholarship Fund at AUA MassisPost",
+    "description": "Churukian Family Establishes Endowed Scholarship Fund at AUA massispost.com",
     "country": "UK",
     "deadline": "",
     "funding": "Unknown",
@@ -25781,10 +25380,10 @@
   },
   {
     "id": "d5253c5fd221",
-    "title": "The articulation of ‘agency’: How can public relations scholarship and institutional theory enrich each other? - journals.sagepub.com",
+    "title": "The articulation of ‘agency’: How can public relations scholarship and institutional theory enrich each other? - Sage Journals",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84MnlUdDRuZkdEQmE5S0FzcUt1QlpjUExYSGwzdVhEbWtoXzA1anlvWHJwS3NhN1Q0cjRvMG5xaEdnQnJMRUVwYWljMmItY0RuVTBZVVlHUUxMVmRnMnJkbFFmb2JvaUcy?oc=5",
-    "description": "The articulation of ‘agency’: How can public relations scholarship and institutional theory enrich each other? journals.sagepub.com",
+    "description": "The articulation of ‘agency’: How can public relations scholarship and institutional theory enrich each other? Sage Journals",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -26410,10 +26009,10 @@
   },
   {
     "id": "7748a1bb9757",
-    "title": "UBC nursing student wins three prestigious scholarship awards - The University of British Columbia",
+    "title": "UBC nursing student wins three prestigious scholarship awards - news.ok.ubc.ca",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlpiTzVTVU1SVTFndl9RNnMweHFaVy1LeGpQQkYwM1l2N1VoYzl5NVNUZnhyT2E3eUYyd05kbEVvNHpwWFg1c3FZY19lS0tyWFRuVjhIbHRzdnNsOUpILW8tMmhGbTl5SFh4RDE0dEpoTkJydE93NmhXYkJWY3NvckRYTmUybDFIRENxYzlQRmZfNzJrZHpZQy1oLTE?oc=5",
-    "description": "UBC nursing student wins three prestigious scholarship awards The University of British Columbia",
+    "description": "UBC nursing student wins three prestigious scholarship awards news.ok.ubc.ca",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -26558,10 +26157,10 @@
   },
   {
     "id": "13ab3290f277",
-    "title": "GC University Lahore Opens Fall 2026 Admissions With 60% Scholarship - propakistani.pk",
+    "title": "GC University Lahore Opens Fall 2026 Admissions With 60% Scholarship - ProPakistani",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDlpdk1xM19Rd2F2U0kzcG5GNC1XdkFFcEF0OHdPQ0dNak55bUxZSmdwdTljbDZKQzl0Q24yNzFka0hMY0RMVUtPcWRzb0NodXVMTi1wV0JiVFZyNk9ZM1Q5Ym9vbmR1Sl9LZTFzTzhIVTZRZlRPdDNHUy1zQnpNYmhtYnZPdkNPVGpEYlhSUFlyWHpuaW9maVVRQ2ZiV2VoelNlOGNR0gGrAUFVX3lxTFA0YUMtbWNEb2hNcnl3bWR0RzZrOXNTUlhOSkEyQUY1NVdUNTdCU3NSVTdNSWVyWTQtWV9GeUlvWm1iWG8xWEpXXzVJeXZJWFlzRDhlMEM3UUI4TEJFc1lwTU9IRWlRY084cVZCQlVfaHJPSTBUdjFFUUhNcHk1bkxVcm1DcVROSWQ0dzhNZmd4bV8wMjFuYmZWVEhpTWozVENUbzA5dXlwT0JZOA?oc=5",
-    "description": "GC University Lahore Opens Fall 2026 Admissions With 60% Scholarship propakistani.pk",
+    "description": "GC University Lahore Opens Fall 2026 Admissions With 60% Scholarship ProPakistani",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
