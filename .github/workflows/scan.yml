@@ -4,6 +4,18 @@ on:
   schedule:
     - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya — Deep Global Search
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Scan mode (quick/standard/deep/comprehensive/adaptive)'
+        required: false
+        default: 'adaptive'
+        type: choice
+        options:
+          - quick
+          - standard
+          - deep
+          - comprehensive
+          - adaptive
   push:
     branches: [main]
 
@@ -14,7 +26,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 1 hour for global search
+    timeout-minutes: 360  # 6 hours for comprehensive global search
     permissions:
       contents: write
 
@@ -27,6 +39,7 @@ jobs:
       OLLAMA_MODEL:       qwen2.5:1.5b
       SCHOLAR_MIN_SCORE:  "55"
       SCHOLAR_MAX_AI_JOBS: "15"
+      SCAN_MODE:          ${{ github.event.inputs.mode || 'adaptive' }}
 
     steps:
       - name: Checkout repository
@@ -69,8 +82,8 @@ jobs:
           python test_filters.py
           python scholar_ollama_test.py
 
-      - name: Run scholarship scan
-        run: python scanner.py --tier 2
+      - name: Run scholarship scan (adaptive mode)
+        run: python scanner.py --mode ${{ env.SCAN_MODE }} --tier 3
 
       - name: Upload report artifacts (Excel + JSON state)
         uses: actions/upload-artifact@v4
