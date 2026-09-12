@@ -75,31 +75,27 @@ class SmartScheduler:
 
     def get_available_tiers(self) -> list[int]:
         """
-        Determine which tiers we can run based on remaining time.
+        Determine which tiers we can run based on total budget.
         Returns list of tier numbers (1, 2, 3).
         """
-        remaining = self.remaining()
-        
-        if remaining >= self.DEEP_SCAN_BUDGET:
+        if self.total_budget >= self.DEEP_SCAN_BUDGET:
             return [1, 2, 3]  # All tiers
-        elif remaining >= self.STANDARD_SCAN_BUDGET:
+        elif self.total_budget >= self.STANDARD_SCAN_BUDGET:
             return [1, 2]  # Tier 1 and 2
-        elif remaining >= self.QUICK_SCAN_BUDGET:
+        elif self.total_budget >= self.QUICK_SCAN_BUDGET:
             return [1]  # Tier 1 only
         else:
-            return []  # No time left
+            return [1]  # Default to tier 1
 
     def get_max_ai_jobs(self) -> int:
         """
-        Determine how many AI jobs to run based on remaining time.
+        Determine how many AI jobs to run based on total budget.
         """
-        remaining = self.remaining()
-        
-        if remaining >= self.COMPREHENSIVE_SCAN_BUDGET:
+        if self.total_budget >= self.COMPREHENSIVE_SCAN_BUDGET:
             return 15  # Full AI analysis
-        elif remaining >= self.DEEP_SCAN_BUDGET:
+        elif self.total_budget >= self.DEEP_SCAN_BUDGET:
             return 10  # Moderate AI analysis
-        elif remaining >= self.STANDARD_SCAN_BUDGET:
+        elif self.total_budget >= self.STANDARD_SCAN_BUDGET:
             return 5   # Basic AI analysis
         else:
             return 0   # No AI analysis
