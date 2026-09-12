@@ -722,5 +722,26 @@
       "internationalopportunities": 0,
       "opportunitieszone": 0
     }
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T02:16:09+00:00",
+    "fetched": 1217,
+    "candidates": 812,
+    "matches": 12,
+    "new": 12,
+    "health": "100%",
+    "seconds": 102.1,
+    "sources": {
+      "scholars4dev": 75,
+      "scholarship-positions": 0,
+      "google-news": 924,
+      "national-programs": 8,
+      "web-search": 0,
+      "scholarshiproar": 47,
+      "opportunitiescorners": 163,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0
+    }
   }
 ]
