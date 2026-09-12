@@ -22,8 +22,14 @@ FETCH_BATCH_SIZE = int(os.getenv("SCHOLAR_BATCH_SIZE", "8"))
 MAX_AI_JOBS = int(os.getenv("SCHOLAR_MAX_AI_JOBS", "15"))
 
 # ── Sources (tiered) ────────────────────────────────────────────────────
-TIER_1_SOURCES = ["scholars4dev", "scholarship-positions", "google-news", "national-programs", "web-search"]
-TIER_2_SOURCES = ["scholarshiproar", "opportunitiescorners", "internationalopportunities", "opportunitieszone"]
+TIER_1_SOURCES = [
+    "scholars4dev", "scholarship-positions", "google-news", "national-programs", "web-search",
+    "opportunitydesk", "grants-gov",
+]
+TIER_2_SOURCES = [
+    "scholarshiproar", "opportunitiescorners", "internationalopportunities", "opportunitieszone",
+    "findaphd", "linkedin-jobs",
+]
 
 PROBE_BLOCKED_SOURCES = []
 FORCE_BLOCKED_SOURCES = os.getenv("SCHOLAR_FORCE_BLOCKED", "0") == "1"

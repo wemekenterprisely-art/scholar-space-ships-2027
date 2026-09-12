@@ -3,17 +3,24 @@ import hashlib, time
 from . import scholars4dev, scholarship_positions, google_news, duckduckgo_search
 from . import national_programs
 from . import scholarshiproar, opportunitiescorners, internationalopportunities, opportunitieszone
+from . import opportunitydesk, grants_gov, findaphd, linkedin_jobs
 
 REGISTRY = {
+    # Tier 1 - Quick sources
     "scholars4dev":       {"tier": 1, "fn": scholars4dev.fetch},
     "scholarship-positions": {"tier": 1, "fn": scholarship_positions.fetch},
     "google-news":        {"tier": 1, "fn": google_news.fetch},
     "national-programs":  {"tier": 1, "fn": national_programs.fetch},
     "web-search":         {"tier": 1, "fn": duckduckgo_search.fetch},
+    "opportunitydesk":    {"tier": 1, "fn": opportunitydesk.fetch},
+    "grants-gov":         {"tier": 1, "fn": grants_gov.fetch},
+    # Tier 2 - Medium sources
     "scholarshiproar":    {"tier": 2, "fn": scholarshiproar.fetch},
     "opportunitiescorners": {"tier": 2, "fn": opportunitiescorners.fetch},
     "internationalopportunities": {"tier": 2, "fn": internationalopportunities.fetch},
     "opportunitieszone":  {"tier": 2, "fn": opportunitieszone.fetch},
+    "findaphd":           {"tier": 2, "fn": findaphd.fetch},
+    "linkedin-jobs":      {"tier": 2, "fn": linkedin_jobs.fetch},
 }
 
 _COOLDOWN = {}
