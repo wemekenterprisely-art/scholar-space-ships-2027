@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 921,
+      "fetched": 913,
       "matches": 0,
       "errors": 0
     },
@@ -21,6 +21,16 @@
       "errors": 0
     },
     "web-search": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "opportunitydesk": {
+      "fetched": 10,
+      "matches": 0,
+      "errors": 0
+    },
+    "grants-gov": {
       "fetched": 0,
       "matches": 0,
       "errors": 0
@@ -44,15 +54,25 @@
       "fetched": 0,
       "matches": 0,
       "errors": 0
+    },
+    "findaphd": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
+    },
+    "linkedin-jobs": {
+      "fetched": 0,
+      "matches": 0,
+      "errors": 0
     }
   },
   "funnel": {
-    "fetched": 1214,
-    "candidates": 751,
-    "rejected": 463
+    "fetched": 1216,
+    "candidates": 752,
+    "rejected": 464
   },
   "timings": {
     "excel": 1.0,
-    "total": 103.7
+    "total": 109.5
   }
 }
