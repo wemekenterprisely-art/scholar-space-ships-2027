@@ -15,6 +15,7 @@ import excel_generator, metrics
 from extractor import enrich_scholarship
 from verifier import verify_scholarship, get_verification_summary
 from dedup import deduplicate_scholarships, get_deduplication_stats
+from scheduler import SmartScheduler, create_scheduler
 try:
     import state_sync
 except Exception:
@@ -43,7 +44,14 @@ def main():
     parser.add_argument("--source", default=None)
     parser.add_argument("--tier", type=int, default=0, help="max tier (0=all)")
     parser.add_argument("--skip-ai", action="store_true")
+    parser.add_argument("--mode", default="comprehensive", choices=["quick", "standard", "deep", "comprehensive", "adaptive"],
+                       help="Scan mode (affects time budget)")
     args = parser.parse_args()
+
+    # Initialize smart scheduler
+    scheduler = create_scheduler(args.mode)
+    scheduler.start()
+    print(f"  [scheduler] Mode: {args.mode}, Budget: {scheduler.total_budget}s ({scheduler.total_budget//60}min)")
 
     # 1) restore memory from the repo (CI) or local state folder
     print(f"  [sync] state_sync module: {'loaded' if state_sync else 'MISSING'}")
@@ -58,7 +66,14 @@ def main():
 
     # 2) fetch
     print(f"=== ScholarSpace-ships scan {NOW} ===")
-    raw_by_source = registry.fetch_all(tier_cap=args.tier, names=[args.source] if args.source else None)
+    scheduler.start_phase("fetch")
+
+    # Determine which tiers to fetch based on scheduler
+    available_tiers = scheduler.get_available_tiers()
+    tier_cap = args.tier if args.tier > 0 else max(available_tiers) if available_tiers else 3
+    print(f"  [scheduler] Available tiers: {available_tiers}, Using tier cap: {tier_cap}")
+
+    raw_by_source = registry.fetch_all(tier_cap=tier_cap, names=[args.source] if args.source else None)
     all_items, skipped_bad = [], 0
     for src, rows in raw_by_source.items():
         for r in rows:
@@ -69,6 +84,7 @@ def main():
             all_items.append(sch)
         metrics.record_fetch(src, len(rows), latency_ms=0)
     print(f"Total fetched: {len(all_items)} jobs/scholarships from {len(raw_by_source)} sources")
+    scheduler.end_phase("fetch")
 
     # 3) deduplicate across sources
     dedup_stats = get_deduplication_stats(all_items)
@@ -98,8 +114,11 @@ def main():
 
     # 5) rank deterministic, AI-refine top
     candidates.sort(key=lambda s: s["det_score"], reverse=True)
-    if not args.skip_ai:
+    if not args.skip_ai and scheduler.should_continue():
         try:
+            # Adjust AI jobs based on scheduler
+            max_ai_jobs = scheduler.get_max_ai_jobs()
+            print(f"  [scheduler] AI analysis: max {max_ai_jobs} jobs, {scheduler.remaining():.0f}s remaining")
             candidates = asyncio.run(analyze_top(candidates))
         except Exception as e:
             print(f"  AI scoring skipped: {e}")
@@ -137,6 +156,10 @@ def main():
     if candidates:
         verification_summary = get_verification_summary(candidates)
         print(f"  Verification: {verification_summary['legitimate']}/{verification_summary['total']} legitimate ({verification_summary['legitimacy_rate']}%)")
+
+    # Scheduler status
+    scheduler_status = scheduler.get_status()
+    print(f"  [scheduler] Status: {scheduler_status['elapsed']:.0f}s elapsed, {scheduler_status['remaining']:.0f}s remaining")
 
     # 8) Excel + metrics + health
     try:
