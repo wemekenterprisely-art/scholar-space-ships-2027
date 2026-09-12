@@ -160,8 +160,9 @@ def create_scheduler(mode: str = "comprehensive") -> SmartScheduler:
 
     if mode == "adaptive":
         # Adaptive mode: check time of day and adjust
-        hour = datetime.now().hour
-        if 6 <= hour < 8:  # Morning scan
+        # Use UTC hour for consistency with GitHub Actions
+        hour = datetime.utcnow().hour
+        if 4 <= hour < 8:  # Early morning scan (04:00-08:00 UTC = 06:00-12:00 Libya)
             budget = SmartScheduler.COMPREHENSIVE_SCAN_BUDGET
         elif 12 <= hour < 14:  # Midday scan
             budget = SmartScheduler.DEEP_SCAN_BUDGET
