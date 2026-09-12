@@ -1,24 +1,7 @@
 {
-  "last_scan": "2026-09-12T02:55:13+00:00",
+  "last_scan": "2026-09-12T03:08:09+00:00",
   "today": "2026-09-12",
   "scans": [
-    {
-      "date": "2026-09-11",
-      "time": "2026-09-11T04:15:00+00:00",
-      "fetched": 131,
-      "candidates": 46,
-      "matches": 9,
-      "new": 9,
-      "health": "100%",
-      "seconds": 63.3,
-      "sources": {
-        "scholars4dev": 0,
-        "scholarship-positions": 0,
-        "google-news": 123,
-        "national-programs": 8,
-        "web-search": 0
-      }
-    },
     {
       "date": "2026-09-11",
       "time": "2026-09-11T11:49:49+00:00",
@@ -633,6 +616,27 @@
         "scholars4dev": 75,
         "scholarship-positions": 0,
         "google-news": 925,
+        "national-programs": 8,
+        "web-search": 0,
+        "scholarshiproar": 47,
+        "opportunitiescorners": 163,
+        "internationalopportunities": 0,
+        "opportunitieszone": 0
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "time": "2026-09-12T03:08:09+00:00",
+      "fetched": 1217,
+      "candidates": 769,
+      "matches": 14,
+      "new": 14,
+      "health": "100%",
+      "seconds": 104.6,
+      "sources": {
+        "scholars4dev": 75,
+        "scholarship-positions": 0,
+        "google-news": 924,
         "national-programs": 8,
         "web-search": 0,
         "scholarshiproar": 47,
