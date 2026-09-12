@@ -48,11 +48,11 @@
   },
   "funnel": {
     "fetched": 260,
-    "candidates": 2,
-    "rejected": 258
+    "candidates": 1,
+    "rejected": 259
   },
   "timings": {
     "excel": 1.0,
-    "total": 87.0
+    "total": 74.2
   }
 }
