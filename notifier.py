@@ -189,14 +189,14 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             source = s.get("source", "unknown")
             desc = s.get("description", "")[:300]
 
-            # IELTS status
-            ielts = s.get("english_requirement", "")
-            if ielts == "not_required" or s.get("no_ielts"):
-                ielts_html = '<span style="color:#16a34a;font-weight:bold">&#10003; Not Required</span>'
-            elif ielts == "required":
-                ielts_html = '<span style="color:#dc2626">&#10007; Required</span>'
-            else:
-                ielts_html = '<span style="color:#d97706">? Verify listing</span>'
+    # IELTS status - only show if explicitly exempt (not required)
+    ielts = s.get("english_requirement", "")
+    if ielts == "exempt" or s.get("no_ielts"):
+        ielts_html = '<span style="color:#16a34a;font-weight:bold">&#10003; Not Required</span>'
+    elif ielts == "required":
+        ielts_html = '<span style="color:#dc2626">&#10007; Required</span>'
+    else:
+        ielts_html = '<span style="color:#888">Not specified</span>'
 
             # Why it matches
             why_html = ""

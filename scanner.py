@@ -122,9 +122,9 @@ def main():
 
     # 7) Excel + metrics + health
     try:
-        xlsx = excel_generator.make_workbook(candidates, matches, app_track, scan_hist)
-        io_path = OUTPUT / f"Scholarship_Report_{TODAY}.xlsx"
-        xlsx.save(str(io_path))
+        xml_content = excel_generator.generate_excel(candidates, matches, scan_hist)
+        io_path = OUTPUT / f"Scholarship_Report_{TODAY}.xls"
+        io_path.write_text(xml_content, encoding="utf-8")
         metrics.record_timing("excel", 1.0)
         print(f"  Excel: {io_path.name}")
     except Exception as e:

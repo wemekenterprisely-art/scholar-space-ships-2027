@@ -1,38 +1,12 @@
-"""excel_generator - 5-sheet scholarship workbook (CareerOps quality)."""
+"""excel_generator - 5-sheet scholarship workbook (CareerOps XML quality)."""
 import json
-from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from openpyxl.utils import get_column_letter
+from datetime import datetime, timezone
+from pathlib import Path
 
-HEADER_FILL = PatternFill("solid", fgColor="1F4E78")
-HEADER_FONT = Font(color="FFFFFF", bold=True, size=11)
-LINK_FONT = Font(color="0563C1", underline="single")
-WRAP = Alignment(wrap_text=True, vertical="top")
-THIN_BORDER = Border(
-    left=Side(style="thin"), right=Side(style="thin"),
-    top=Side(style="thin"), bottom=Side(style="thin")
-)
-
-# Sheet 1: All Scholarships
-ALL_COLS = ["#", "Title", "University", "Country", "Level", "Funding", "Deadline",
-            "English Req", "Score", "Source", "Link", "Notes"]
-
-# Sheet 2: Fresh Matches (accumulated)
-FRESH_COLS = ALL_COLS + ["AI Verdict", "First Seen", "Applied"]
-
-# Sheet 3: Applications
-APP_COLS = ["Title", "Link", "University", "Country", "Status", "Deadline", "Notes", "Updated"]
-
-# Sheet 4: Deadlines & Notes
-DEADLINE_COLS = ["Title", "Link", "Deadline", "Days Left", "Action", "Funding", "Notes"]
-
-# Sheet 5: Daily Log
-LOG_COLS = ["Date", "Time", "Fetched", "Candidates", "Matches", "New", "Seconds", "Sources"]
-
+HISTORY_FILE = Path(__file__).parent / "state" / "fresh_matches_history.json"
 
 def _esc(s):
-    return str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
+    return str(s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 def extract_uni(s):
     import re
@@ -52,122 +26,224 @@ def extract_uni(s):
                 break
     return university
 
-
 def get_recommendation(score):
-    if score >= 85: return "STRONG MATCH - Clear fit. Apply now."
-    if score >= 75: return "GOOD MATCH - Strong overlap. Review and apply."
-    if score >= 65: return "MODERATE MATCH - Review requirements before applying."
-    return "LOW MATCH - May not fit profile."
+    if score >= 85: return "STRONG MATCH - Apply now"
+    if score >= 75: return "GOOD MATCH - Review and apply"
+    if score >= 65: return "MODERATE - Review requirements"
+    return "LOW - May not fit"
 
+def load_fresh_history():
+    try:
+        if HISTORY_FILE.exists():
+            data = json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
+            return data if isinstance(data, list) else []
+    except Exception:
+        pass
+    return []
 
-def _write_header(ws, cols, widths):
-    for j, col in enumerate(cols, start=1):
-        c = ws.cell(row=1, column=j, value=col)
-        c.fill, c.font, c.alignment, c.border = HEADER_FILL, HEADER_FONT, Alignment(horizontal="center"), THIN_BORDER
-    for j, w in enumerate(widths, start=1):
-        ws.column_dimensions[get_column_letter(j)].width = w
-    ws.freeze_panes = "A2"
-    ws.auto_filter.ref = f"A1:{get_column_letter(len(cols))}1"
+def save_fresh_history(matches):
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY_FILE.write_text(json.dumps(matches, indent=2, default=str), encoding="utf-8")
 
+def merge_fresh_matches(current, history):
+    seen = {}
+    for m in history:
+        url = m.get("url", "")
+        if url: seen[url] = m
+    for m in current:
+        url = m.get("url", "")
+        if url:
+            existing = seen.get(url, {})
+            new_date = m.get("scan_date", "")
+            old_date = existing.get("scan_date", "")
+            if new_date >= old_date: seen[url] = m
+            else: seen[url] = existing
+    return sorted(seen.values(), key=lambda x: (-x.get("final_score", 0), x.get("scan_date", "")))
 
-def _write_rows(ws, rows, start=2):
-    for i, r in enumerate(rows, start=start):
-        for j, val in enumerate(r, start=1):
-            c = ws.cell(row=i, column=j, value=val)
-            c.alignment, c.border = WRAP, THIN_BORDER
-        ws.row_dimensions[i].height = 45
+def generate_excel(candidates, matches, scan_hist, scan_time=None):
+    now = datetime.now(timezone.utc)
+    date_str = now.strftime("%Y-%m-%d")
+    time_str = scan_time or now.strftime("%I:%M %p UTC")
+    scan_date = now.isoformat()
+    total_scanned = len(candidates)
 
+    for s in matches:
+        s["scan_date"] = scan_date
 
-def make_workbook(candidates, matches, app_track, scan_hist):
-    wb = Workbook()
+    history = load_fresh_history()
+    all_fresh = merge_fresh_matches(matches, history)
+    save_fresh_history(all_fresh)
 
-    # ---- Sheet 1: All Scholarships ----
-    ws = wb.active
-    ws.title = "All Scholarships"
-    _write_header(ws, ALL_COLS, [5, 50, 30, 14, 10, 14, 14, 12, 8, 14, 45, 40])
-
-    rows = []
-    for i, s in enumerate(sorted(candidates, key=lambda x: x.get("final_score", 0), reverse=True), start=1):
+    # Build rows for each sheet
+    dump_rows = []
+    for i, s in enumerate(candidates):
         uni = extract_uni(s)
-        notes = " | ".join(s.get("notes", []))
+        score = s.get("final_score", s.get("det_score", 0))
         ielts = s.get("english_requirement", "unknown")
         ielts_label = "Not Required" if ielts == "exempt" else ("Required" if ielts == "required" else "Verify")
-        rows.append([
-            i, s.get("title", ""), uni or "Check listing", s.get("country", "Open/Global"),
-            s.get("level", "Unknown"), s.get("funding", "Unknown"), s.get("deadline", "N/A"),
-            ielts_label, s.get("final_score", s.get("det_score", 0)),
-            s.get("source", ""), s.get("url", ""), notes
-        ])
-    _write_rows(ws, rows)
-    # Hyperlinks
-    for r in range(2, len(rows) + 2):
-        c = ws.cell(row=r, column=11)
-        if c.value:
-            c.hyperlink, c.font = c.value, LINK_FONT
+        style = ' ss:StyleID="green"' if score >= 75 else (' ss:StyleID="red"' if score >= 50 else "")
+        dump_rows.append(f'''
+    <Row{style}>
+      <Cell><Data ss:Type="Number">{i + 1}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("title", ""))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(uni or "Check listing")}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("country", "Open/Global"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("level", "Unknown"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("funding", "Unknown"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("deadline", "N/A"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(ielts_label)}</Data></Cell>
+      <Cell><Data ss:Type="String">{score}%</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("source", ""))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("url", ""))}</Data></Cell>
+    </Row>''')
 
-    # ---- Sheet 2: Fresh Matches (accumulated) ----
-    ws2 = wb.create_sheet("Fresh Matches")
-    _write_header(ws2, FRESH_COLS, [5, 50, 30, 14, 10, 14, 14, 12, 8, 14, 45, 40, 30, 14, 10])
-
-    rows2 = []
-    for i, s in enumerate(sorted(matches, key=lambda x: x.get("final_score", 0), reverse=True), start=1):
+    fresh_rows = []
+    for i, s in enumerate(all_fresh):
         uni = extract_uni(s)
-        notes = " | ".join(s.get("notes", []))
+        score = s.get("final_score", s.get("det_score", 0))
         ielts = s.get("english_requirement", "unknown")
         ielts_label = "Not Required" if ielts == "exempt" else ("Required" if ielts == "required" else "Verify")
         applied = "Yes" if s.get("applied") else "No"
-        rows2.append([
-            i, s.get("title", ""), uni or "Check listing", s.get("country", "Open/Global"),
-            s.get("level", "Unknown"), s.get("funding", "Unknown"), s.get("deadline", "N/A"),
-            ielts_label, s.get("final_score", s.get("det_score", 0)),
-            s.get("source", ""), s.get("url", ""), notes,
-            s.get("ai_verdict", ""), s.get("first_seen", "")[:10], applied
-        ])
-    _write_rows(ws2, rows2)
-    for r in range(2, len(rows2) + 2):
-        c = ws2.cell(row=r, column=11)
-        if c.value:
-            c.hyperlink, c.font = c.value, LINK_FONT
+        scan_dt = s.get("scan_date", "")[:10]
+        style = ' ss:StyleID="applied"' if s.get("applied") else ' ss:StyleID="unapplied"'
+        fresh_rows.append(f'''
+    <Row{style}>
+      <Cell><Data ss:Type="Number">{i + 1}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("title", ""))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(uni or "Check listing")}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("country", "Open/Global"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("level", "Unknown"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("funding", "Unknown"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("deadline", "N/A"))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(ielts_label)}</Data></Cell>
+      <Cell><Data ss:Type="String">{score}%</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("source", ""))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(applied)}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(scan_dt)}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(s.get("url", ""))}</Data></Cell>
+    </Row>''')
 
-    # ---- Sheet 3: Applications ----
-    ws3 = wb.create_sheet("Applications")
-    _write_header(ws3, APP_COLS, [50, 45, 30, 14, 14, 14, 40, 20])
+    daily_rows = []
+    for h in scan_hist[-30:]:
+        daily_rows.append(f'''
+    <Row>
+      <Cell><Data ss:Type="String">{_esc(h.get("date", ""))}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(h.get("time", ""))}</Data></Cell>
+      <Cell><Data ss:Type="Number">{h.get("fetched", 0)}</Data></Cell>
+      <Cell><Data ss:Type="Number">{h.get("candidates", 0)}</Data></Cell>
+      <Cell><Data ss:Type="Number">{h.get("matches", 0)}</Data></Cell>
+      <Cell><Data ss:Type="Number">{h.get("new", 0)}</Data></Cell>
+      <Cell><Data ss:Type="Number">{h.get("seconds", 0)}</Data></Cell>
+      <Cell><Data ss:Type="String">{_esc(json.dumps(h.get("sources", {}), ensure_ascii=False))}</Data></Cell>
+    </Row>''')
 
-    rows3 = []
-    for sid, a in (app_track or {}).items():
-        rows3.append([a.get("title", sid), a.get("url", ""), a.get("university", ""),
-                      a.get("country", ""), a.get("status", "Apply"), a.get("deadline", ""),
-                      a.get("notes", ""), a.get("updated", "")])
-    _write_rows(ws3, rows3)
-    for r in range(2, len(rows3) + 2):
-        c = ws3.cell(row=r, column=2)
-        if c.value:
-            c.hyperlink, c.font = c.value, LINK_FONT
+    dump_rows_str = "".join(dump_rows) if dump_rows else '<Row><Cell><Data ss:Type="String">No scholarships scanned yet.</Data></Cell></Row>'
+    fresh_rows_str = "".join(fresh_rows) if fresh_rows else '<Row><Cell><Data ss:Type="String">No fresh matches yet.</Data></Cell></Row>'
+    daily_rows_str = "".join(daily_rows) if daily_rows else '<Row><Cell><Data ss:Type="String">No scans yet.</Data></Cell></Row>'
 
-    # ---- Sheet 4: Deadlines & Notes ----
-    ws4 = wb.create_sheet("Deadlines & Notes")
-    _write_header(ws4, DEADLINE_COLS, [50, 45, 14, 10, 14, 14, 40])
+    return f'''<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <Styles>
+    <Style ss:ID="header"><Font ss:Bold="1" ss:Color="#FFFFFF" ss:Size="11"/><Interior ss:Color="#0d1b2a" ss:Pattern="Solid"/></Style>
+    <Style ss:ID="green"><Interior ss:Color="#dcfce7" ss:Pattern="Solid"/></Style>
+    <Style ss:ID="red"><Interior ss:Color="#fef2f2" ss:Pattern="Solid"/></Style>
+    <Style ss:ID="unapplied"><Interior ss:Color="#fee2e2" ss:Pattern="Solid"/><Font ss:Color="#b91c1c" ss:Bold="1"/></Style>
+    <Style ss:ID="applied"><Interior ss:Color="#dcfce7" ss:Pattern="Solid"/><Font ss:Color="#166534" ss:Bold="1"/></Style>
+    <Style ss:ID="title"><Font ss:Bold="1" ss:Size="14" ss:Color="#0d1b2a"/></Style>
+  </Styles>
 
-    rows4 = []
-    for s in sorted(matches, key=lambda x: x.get("deadline_days") if x.get("deadline_days") is not None else 9999):
-        d = s.get("deadline_days")
-        action = "APPLY NOW" if (d is not None and d <= 21) else ("This month" if d is not None and d <= 45 else "Plan ahead")
-        rows4.append([s.get("title", ""), s.get("url", ""), s.get("deadline", "N/A"),
-                      d if d is not None else "N/A", action, s.get("funding", "Unknown"),
-                      " | ".join(s.get("notes", []))])
-    _write_rows(ws4, rows4)
-    for r in range(2, len(rows4) + 2):
-        c = ws4.cell(row=r, column=2)
-        if c.value:
-            c.hyperlink, c.font = c.value, LINK_FONT
+  <!-- Sheet 1: All Scholarships -->
+  <Worksheet ss:Name="All Scholarships">
+    <Table>
+      <Column ss:Width="40"/><Column ss:Width="300"/><Column ss:Width="200"/><Column ss:Width="120"/>
+      <Column ss:Width="80"/><Column ss:Width="120"/><Column ss:Width="120"/><Column ss:Width="100"/>
+      <Column ss:Width="60"/><Column ss:Width="120"/><Column ss:Width="400"/>
+      <Row ss:StyleID="title"><Cell><Data ss:Type="String">ScholarSpace-ships Full Scan - {date_str} ({total_scanned} scholarships scanned)</Data></Cell></Row>
+      <Row><Cell><Data ss:Type="String">Green = High match (75%+) | Red = Medium match (50-74%) | White = Lower match</Data></Cell></Row>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">#</Data></Cell><Cell><Data ss:Type="String">Scholarship</Data></Cell>
+        <Cell><Data ss:Type="String">University</Data></Cell><Cell><Data ss:Type="String">Country</Data></Cell>
+        <Cell><Data ss:Type="String">Level</Data></Cell><Cell><Data ss:Type="String">Funding</Data></Cell>
+        <Cell><Data ss:Type="String">Deadline</Data></Cell><Cell><Data ss:Type="String">English Req</Data></Cell>
+        <Cell><Data ss:Type="String">Score</Data></Cell><Cell><Data ss:Type="String">Source</Data></Cell>
+        <Cell><Data ss:Type="String">Apply URL</Data></Cell>
+      </Row>
+      {dump_rows_str}
+    </Table>
+  </Worksheet>
 
-    # ---- Sheet 5: Daily Log ----
-    ws5 = wb.create_sheet("Daily Log")
-    _write_header(ws5, LOG_COLS, [12, 24, 10, 12, 10, 8, 10, 60])
+  <!-- Sheet 2: Fresh Matches (accumulated) -->
+  <Worksheet ss:Name="Fresh Matches">
+    <Table>
+      <Column ss:Width="40"/><Column ss:Width="300"/><Column ss:Width="200"/><Column ss:Width="120"/>
+      <Column ss:Width="80"/><Column ss:Width="120"/><Column ss:Width="120"/><Column ss:Width="100"/>
+      <Column ss:Width="60"/><Column ss:Width="120"/><Column ss:Width="80"/><Column ss:Width="100"/>
+      <Column ss:Width="400"/>
+      <Row ss:StyleID="title"><Cell><Data ss:Type="String">Fresh Matches - {date_str} (accumulated across all scans)</Data></Cell></Row>
+      <Row><Cell><Data ss:Type="String">RED = Not applied (apply now!) | GREEN = Already applied. Score 55%+ matches.</Data></Cell></Row>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">#</Data></Cell><Cell><Data ss:Type="String">Scholarship</Data></Cell>
+        <Cell><Data ss:Type="String">University</Data></Cell><Cell><Data ss:Type="String">Country</Data></Cell>
+        <Cell><Data ss:Type="String">Level</Data></Cell><Cell><Data ss:Type="String">Funding</Data></Cell>
+        <Cell><Data ss:Type="String">Deadline</Data></Cell><Cell><Data ss:Type="String">English Req</Data></Cell>
+        <Cell><Data ss:Type="String">Score</Data></Cell><Cell><Data ss:Type="String">Source</Data></Cell>
+        <Cell><Data ss:Type="String">Applied?</Data></Cell><Cell><Data ss:Type="String">Found On</Data></Cell>
+        <Cell><Data ss:Type="String">Apply URL</Data></Cell>
+      </Row>
+      {fresh_rows_str}
+    </Table>
+  </Worksheet>
 
-    rows5 = [[h.get("date"), h.get("time"), h.get("fetched"), h.get("candidates"),
-              h.get("matches"), h.get("new"), h.get("seconds"),
-              json.dumps(h.get("sources", {}), ensure_ascii=False)] for h in scan_hist[-30:]]
-    _write_rows(ws5, rows5)
+  <!-- Sheet 3: Applications -->
+  <Worksheet ss:Name="Applications">
+    <Table>
+      <Column ss:Width="300"/><Column ss:Width="400"/><Column ss:Width="200"/><Column ss:Width="120"/>
+      <Column ss:Width="120"/><Column ss:Width="120"/><Column ss:Width="200"/><Column ss:Width="120"/>
+      <Row ss:StyleID="title"><Cell><Data ss:Type="String">Application Tracker</Data></Cell></Row>
+      <Row><Cell><Data ss:Type="String">Track which scholarships you applied to. Update status in Fresh Matches sheet.</Data></Cell></Row>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Scholarship</Data></Cell><Cell><Data ss:Type="String">Apply URL</Data></Cell>
+        <Cell><Data ss:Type="String">University</Data></Cell><Cell><Data ss:Type="String">Country</Data></Cell>
+        <Cell><Data ss:Type="String">Status</Data></Cell><Cell><Data ss:Type="String">Deadline</Data></Cell>
+        <Cell><Data ss:Type="String">Notes</Data></Cell><Cell><Data ss:Type="String">Updated</Data></Cell>
+      </Row>
+      <Row><Cell><Data ss:Type="String">No applications tracked yet. Mark scholarships as Applied in the Fresh Matches sheet.</Data></Cell></Row>
+    </Table>
+  </Worksheet>
 
-    return wb
+  <!-- Sheet 4: Deadlines & Notes -->
+  <Worksheet ss:Name="Deadlines &amp; Notes">
+    <Table>
+      <Column ss:Width="300"/><Column ss:Width="400"/><Column ss:Width="120"/><Column ss:Width="80"/>
+      <Column ss:Width="120"/><Column ss:Width="120"/><Column ss:Width="200"/>
+      <Row ss:StyleID="title"><Cell><Data ss:Type="String">Deadlines &amp; Action Items</Data></Cell></Row>
+      <Row><Cell><Data ss:Type="String">Sorted by deadline. APPLY NOW = within 21 days | This month = within 45 days | Plan ahead = later.</Data></Cell></Row>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Scholarship</Data></Cell><Cell><Data ss:Type="String">Apply URL</Data></Cell>
+        <Cell><Data ss:Type="String">Deadline</Data></Cell><Cell><Data ss:Type="String">Days Left</Data></Cell>
+        <Cell><Data ss:Type="String">Action</Data></Cell><Cell><Data ss:Type="String">Funding</Data></Cell>
+        <Cell><Data ss:Type="String">Notes</Data></Cell>
+      </Row>
+      {fresh_rows_str}
+    </Table>
+  </Worksheet>
+
+  <!-- Sheet 5: Daily Log -->
+  <Worksheet ss:Name="Daily Log">
+    <Table>
+      <Column ss:Width="120"/><Column ss:Width="180"/><Column ss:Width="80"/><Column ss:Width="100"/>
+      <Column ss:Width="80"/><Column ss:Width="60"/><Column ss:Width="80"/><Column ss:Width="400"/>
+      <Row ss:StyleID="title"><Cell><Data ss:Type="String">Daily Scan Log (last 30 scans)</Data></Cell></Row>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Date</Data></Cell><Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">Fetched</Data></Cell><Cell><Data ss:Type="String">Candidates</Data></Cell>
+        <Cell><Data ss:Type="String">Matches</Data></Cell><Cell><Data ss:Type="String">New</Data></Cell>
+        <Cell><Data ss:Type="String">Seconds</Data></Cell><Cell><Data ss:Type="String">Sources</Data></Cell>
+      </Row>
+      {daily_rows_str}
+    </Table>
+  </Worksheet>
+
+</Workbook>'''
