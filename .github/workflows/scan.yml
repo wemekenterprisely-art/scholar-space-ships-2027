@@ -2,7 +2,7 @@ name: ScholarSpace-ships Scan
 
 on:
   schedule:
-    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya — Deep Global Search
+    - cron: '0 4 * * *'   # 04:00 UTC = 06:00 Libya - Deep Global Search
   workflow_dispatch:
     inputs:
       mode:
@@ -45,6 +45,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Restore persistent state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python state_sync.py download
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -82,11 +87,35 @@ jobs:
           python test_filters.py
           python scholar_ollama_test.py
 
+      - name: Auto-discover new scholarship sources
+        run: python source_discovery.py
+        continue-on-error: true
+
       - name: Run scholarship scan (adaptive mode)
         run: python scanner.py --mode ${{ env.SCAN_MODE }} --tier 3
 
+      - name: Export metrics & health
+        if: always()
+        run: |
+          echo "=== health.json ==="; cat output/health.json 2>/dev/null || echo "no health"
+          echo "=== metrics.json ==="; cat output/metrics.json 2>/dev/null | head -n 80 || echo "no metrics"
+
+      - name: Save persistent state
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python state_sync.py upload
+
+      - name: Notify failure on Telegram
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d '{"chat_id": "${{ secrets.TELEGRAM_CHAT_ID }}", "text": "❌ ScholarSpace scan FAILED. Check: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"}' || true
+
       - name: Upload report artifacts (Excel + JSON state)
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: scholarship-report
           path: |
