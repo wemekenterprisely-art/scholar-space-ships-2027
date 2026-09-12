@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 122,
+      "fetched": 927,
       "matches": 0,
       "errors": 0
     },
@@ -26,12 +26,12 @@
       "errors": 0
     },
     "scholarshiproar": {
-      "fetched": 25,
+      "fetched": 47,
       "matches": 0,
       "errors": 0
     },
     "opportunitiescorners": {
-      "fetched": 30,
+      "fetched": 163,
       "matches": 0,
       "errors": 0
     },
@@ -47,12 +47,12 @@
     }
   },
   "funnel": {
-    "fetched": 260,
-    "candidates": 1,
-    "rejected": 259
+    "fetched": 1220,
+    "candidates": 840,
+    "rejected": 380
   },
   "timings": {
     "excel": 1.0,
-    "total": 74.2
+    "total": 79.4
   }
 }
