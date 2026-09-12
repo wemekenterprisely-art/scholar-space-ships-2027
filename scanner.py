@@ -142,7 +142,7 @@ def main():
     try:
         import notifier
         from config import TIER_1_SOURCES, TIER_2_SOURCES
-        xlsx_path = OUTPUT / f"Scholarship_Report_{TODAY}.xlsx"
+        xlsx_path = OUTPUT / f"Scholarship_Report_{TODAY}.xls"
         scan_info = {
             "all_count": len(all_items),
             "source_count": len(set(item.get("source") for item in all_items)),

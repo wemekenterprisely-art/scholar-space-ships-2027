@@ -322,7 +322,12 @@ def send_email(xlsx_path, scholarships, scan_info=None):
             "htmlContent": html,
         }
         if b64 and filename:
-            payload["attachment"] = [{"content": b64, "name": filename, "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}]
+            # Determine MIME type based on extension
+            if filename.endswith(".xls"):
+                mime_type = "application/vnd.ms-excel"
+            else:
+                mime_type = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            payload["attachment"] = [{"content": b64, "name": filename, "type": mime_type}]
 
         req = urllib.request.Request(
             "https://api.brevo.com/v3/smtp/email",
