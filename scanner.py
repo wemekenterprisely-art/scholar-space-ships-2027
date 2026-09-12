@@ -12,6 +12,8 @@ import config
 from fetchers import registry
 from filters import score_scholarship
 import excel_generator, metrics
+from extractor import enrich_scholarship
+from verifier import verify_scholarship, get_verification_summary
 try:
     import state_sync
 except Exception:
@@ -75,10 +77,15 @@ def main():
             rejects += 1
             continue
         seen_ids.add(sch["id"])
+        # Enrich with extracted data
+        sch = enrich_scholarship(sch)
         det = score_scholarship(sch)
         if det["rejected"]:
             rejects += 1
             continue
+        # Verify scholarship authenticity
+        verification = verify_scholarship(det)
+        det["verification"] = verification
         candidates.append(det)
     print(f"  after dedupe/last-seen and hard gates: {len(candidates)} candidates, {rejects} rejected")
     funnel["fetched"], funnel["candidates"], funnel["rejected"] = len(all_items), len(candidates), rejects
@@ -119,6 +126,11 @@ def main():
     })
     save_json(OUTPUT / "scan_history.json", scan_hist[-90:])
     save_json(OUTPUT / "daily_log.json", {"last_scan": NOW, "today": TODAY, "scans": scan_hist[-30:]})
+
+    # Verification summary
+    if candidates:
+        verification_summary = get_verification_summary(candidates)
+        print(f"  Verification: {verification_summary['legitimate']}/{verification_summary['total']} legitimate ({verification_summary['legitimacy_rate']}%)")
 
     # 7) Excel + metrics + health
     try:
