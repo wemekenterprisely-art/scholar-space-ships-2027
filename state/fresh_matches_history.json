@@ -1,5 +1,905 @@
 [
   {
+    "id": "43683adef51c",
+    "title": "DAAD: Strategy 2030",
+    "source": "daad",
+    "url": "https://www.daad.de/en/the-daad/who-we-are/strategy-2030/",
+    "description": "Strategy 2030",
+    "country": "Germany",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "3500f030374a",
+    "title": "Chevening: Scholar support",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/scholar-support/",
+    "description": "Scholar support",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "53a1b2c5819e",
+    "title": "Chevening: Scholarships",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/",
+    "description": "Scholarships",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "d28a32560202",
+    "title": "Chevening: Why study in the UK?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/why-study-in-the-uk/",
+    "description": "Why study in the UK?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "93ad5456b9ef",
+    "title": "Chevening: Application timeline",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/application-timeline/",
+    "description": "Application timeline",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "427d8c40bfc3",
+    "title": "Chevening: Find a course",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/find-a-course/",
+    "description": "Find a course",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "d4cd006450b9",
+    "title": "Chevening: Find a programme",
+    "source": "chevening",
+    "url": "https://www.chevening.org/fellowships/find-a-programme/",
+    "description": "Find a programme",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "fa43e205c0da",
+    "title": "Chevening: Who can apply?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/who-can-apply/",
+    "description": "Who can apply?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.9,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has clear eligibility criteria",
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.4
+    },
+    "ai_overall": 91.2,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 95,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 73.3,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "ab6c6c193922",
+    "title": "hr hrvatski",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/hr/opportunities",
+    "description": "hr hrvatski",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback hvala što ste podijelili svoje mišljenje s nama! drago nam je ako ste zadovoljni s ovom stranicom. ne zaboravite podijeliti stranice koje vam sviđaju s prijateljima i kolegama. ako imate pitanja, kontaktirajte europe direct . share this page eac footer helpful links kako se prijaviti erasmus+ and your data give feedback on this page najčešća pitanja quick links ugovori o mobilnosti i učenju european youth portal contact contact po",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/hr/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Mogućnosti u okviru programa Erasmus+ - Erasmus+ Skip to main content Language: hrvatski Select your language Zatvori EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zatvori You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Je li vam ova stranica bila korisna? Yes Yes but No U kojem smislu vam je bila korisna? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Pojasnite svoj odgovor. Koji je bio glavni problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Problem s prijevodom Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Opišite problem u okviru u nastavku Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Hvala što ste podijelili svoje mišljenje s nama! Drago nam je ako ste zadovoljni s ovom stranicom. Ne zaboravite podijeliti stranice koje vam sviđaju s prijateljima i kolegama. Ako imate pitanja, kontaktirajte Europe direct . Share this page EAC Footer Helpful links Kako se prijaviti Erasmus+ and your data Give f",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback hvala što ste podijelili svoje mišljenje s nama! drago nam je ako ste zadovoljni s ovom stranicom. ne zaboravite podijeliti stranice koje vam sviđaju s prijateljima i kolegama. ako imate pitanja, kontaktirajte europe direct . share this page eac footer helpful links kako se prijaviti erasmus+ and your data give feedback on this page najčešća pitanja quick links ugovori o mobilnosti i učenju european youth portal contact contact po",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "46e0c9c6e4a4",
+    "title": "Chevening: Alumni resources",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/alumni/",
+    "description": "Alumni resources",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "8c6d3b135bdf",
+    "title": "Chevening: Fellowships",
+    "source": "chevening",
+    "url": "https://www.chevening.org/fellowships/",
+    "description": "Fellowships",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "8ca673d3af94",
+    "title": "Chevening: Host a Chevening Fellowship",
+    "source": "chevening",
+    "url": "https://www.chevening.org/fellowships/host-a-fellowship/",
+    "description": "Host a Chevening Fellowship",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "7667b0d2fb42",
+    "title": "Chevening: Chevening in action",
+    "source": "chevening",
+    "url": "https://www.chevening.org/impact/areas-of-impact/",
+    "description": "Chevening in action",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "e185350f7e84",
+    "title": "DAAD: Privacy Policy",
+    "source": "daad",
+    "url": "https://www.daad.de/en/data-privacy-statement/",
+    "description": "Privacy Policy",
+    "country": "Germany",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 84.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 80,
+      "language": 85,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.0,
+    "first_seen": "2026-09-13T05:11:20+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
     "id": "6843a9d617a2",
     "title": "bg български",
     "source": "erasmus",
