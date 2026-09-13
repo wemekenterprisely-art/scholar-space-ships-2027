@@ -68,6 +68,14 @@ class DeepPageReader:
             if content.startswith("Error fetching URL"):
                 return result
 
+            # Extract the final URL after redirects
+            final_url_match = re.match(r'\[FINAL_URL:([^\]]+)\]', content)
+            if final_url_match:
+                final_url = final_url_match.group(1)
+                content = content[final_url_match.end():]  # Remove the URL prefix
+                if final_url != url and "news.google.com" not in final_url:
+                    result["actual_application_url"] = final_url
+
             result["is_valid"] = True
             result["description"] = content[:2000]
 
@@ -85,9 +93,9 @@ class DeepPageReader:
             if not result["deadline"]:
                 result["deadline"] = self._extract_deadline(content)
 
-            # Extract the actual application URL
+            # Extract the actual application URL from page content
             actual_url = self._extract_application_url(content, url)
-            if actual_url and actual_url != url:
+            if actual_url and actual_url != url and "news.google.com" not in actual_url:
                 result["actual_application_url"] = actual_url
 
             # Cache the result

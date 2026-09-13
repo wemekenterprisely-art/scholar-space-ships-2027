@@ -49,10 +49,14 @@ def web_search(query: str, max_results: int = 5) -> list[dict]:
 def web_fetch(url: str, max_chars: int = 5000) -> str:
     """
     Fetch a web page and return cleaned text content.
+    Follows redirects to get the actual page content.
     """
     try:
+        # Follow redirects to get the actual URL
         req = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(req, timeout=15) as resp:
+            # Get the final URL after redirects
+            final_url = resp.url
             html = resp.read().decode("utf-8", "replace")
 
         # Remove scripts and styles
@@ -63,6 +67,9 @@ def web_fetch(url: str, max_chars: int = 5000) -> str:
         text = re.sub(r"<[^>]+>", " ", html)
         text = unescape(text)
         text = re.sub(r"\s+", " ", text).strip()
+
+        # Store the final URL for extraction
+        text = f"[FINAL_URL:{final_url}]{text}"
 
         return text[:max_chars]
 
