@@ -85,6 +85,11 @@ class DeepPageReader:
             if not result["deadline"]:
                 result["deadline"] = self._extract_deadline(content)
 
+            # Extract the actual application URL
+            actual_url = self._extract_application_url(content, url)
+            if actual_url and actual_url != url:
+                result["actual_application_url"] = actual_url
+
             # Cache the result
             self.cache[url] = result
 
@@ -144,6 +149,35 @@ class DeepPageReader:
 
         return ""
 
+    def _extract_application_url(self, content: str, original_url: str) -> str:
+        """Extract the actual application URL from the page content."""
+        # Look for application links
+        apply_patterns = [
+            r'href="(https?://[^"]*(?:apply|application|submit|register|sign-up|signup)[^"]*)"',
+            r'href="(https?://[^"]*(?:scholarship|fellowship|grant|award)[^"]*)"',
+            r'href="(https?://[^"]*(?:portal|apply-now|how-to-apply)[^"]*)"',
+            r'(https?://[^\s]*(?:apply|application|submit|register)[^\s]*)',
+        ]
+
+        for pattern in apply_patterns:
+            matches = re.findall(pattern, content, re.I)
+            for url in matches:
+                # Filter out social media and generic links
+                if any(skip in url.lower() for skip in ['facebook', 'twitter', 'linkedin', 'instagram', 'youtube', 'google.com/maps']):
+                    continue
+                # Prefer official university/organization domains
+                if any(domain in url.lower() for domain in ['.edu', '.ac.', '.org', '.gov', 'university', 'scholarship']):
+                    return url
+            # If no official domain found, return first valid URL
+            if matches:
+                return matches[0]
+
+        # Fallback: try to extract from the original URL
+        if "news.google.com" not in original_url:
+            return original_url
+
+        return original_url
+
     def batch_read(self, urls: list[str], max_concurrent: int = 3) -> dict[str, dict]:
         """
         Read multiple scholarship pages.
@@ -195,6 +229,11 @@ def enrich_scholarships_with_deep_read(scholarships: list[dict], max_deep_reads:
             for field in ["country", "level", "funding", "deadline", "eligibility", "requirements", "application_process", "contact"]:
                 if deep_data.get(field) and not s.get(field):
                     s[field] = deep_data[field]
+
+            # Use the actual application URL if found
+            if deep_data.get("actual_application_url"):
+                s["url"] = deep_data["actual_application_url"]
+                s["original_url"] = s.get("url", "")
 
             # Add deep read metadata
             s["deep_read"] = True
