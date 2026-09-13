@@ -1,22 +1,22 @@
 [
   {
-    "id": "5ea2c39b0042",
-    "title": "Arizona State University Mastercard Foundation Innovation and Technology Scholarships 2027/2028 for young African professionals (Fully Funded) - Opportunities For Africans",
+    "id": "f64bd2e64f77",
+    "title": "Wetech Opens Applications for Cohort 2 of Fully Funded Google Career Certificate Scholarships for African Women: Apply Now - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLTlUZTM0Y2tpQWdsUzRNdm1CMFNfMUtJSURVVGJBaWtNNm9TOTlIbzJZZXM1aFQxc2c5SnZGUDMyQkJpNlF3eEdyLVhHcldLVDVVUWNpZTRDX0FlaThOSWRBY2JJdXdkU2ZIS1NMRG5NMzZ2X1dUV2VrcFN6SlRmajY3czU2SVduUGphMmNwdGMtY1BLSzdIZmFISF9aYlU2a3lkS1hELU10NS01STlyQmJRN2dXc016ajBWeDVjeUg4ZG5ZZnNXaXdzS3J5X3ItMXBN?oc=5",
-    "description": "Arizona State University Mastercard Foundation Innovation and Technology Scholarships 2027/2028 for young African professionals (Fully Funded) Opportunities For Africans",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ORkgtaVcycm5tWk1mam9ieGZPRVZhZDZ4YTFiYzhaNmJhaVE5RUZUS293NHhDSVkwSDZpNGJYNVdKd0JVX1FER2lrQ18zUHI1M1hFSm9kbWotN0hFc3JaYURqeWFLVGFpX28wc0JyNA?oc=5",
+    "description": "Wetech Opens Applications for Cohort 2 of Fully Funded Google Career Certificate Scholarships for African Women: Apply Now Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
-    "level": "postgrad",
+    "level": "bachelor",
     "field": "",
-    "posted_at": "Wed, 09 Sep 2026 13:12:25 GMT",
+    "posted_at": "Thu, 25 Jun 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
+    "level_kind": "bachelor",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -36,110 +36,29 @@
     "reject_reasons": [],
     "verification": {
       "is_legitimate": true,
-      "confidence_score": 0.7,
+      "confidence_score": 0.5,
       "scam_flags": [],
-      "legit_signals": [
-        "From established organization"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
       "scam_ratio": 0.0,
-      "legit_ratio": 0.2
+      "legit_ratio": 0.0
     },
-    "ai_overall": 95.8,
+    "ai_overall": 97.0,
     "ai_dims": {
       "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 100,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 76.1,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLTlUZTM0Y2tpQWdsUzRNdm1CMFNfMUtJSURVVGJBaWtNNm9TOTlIbzJZZXM1aFQxc2c5SnZGUDMyQkJpNlF3eEdyLVhHcldLVDVVUWNpZTRDX0FlaThOSWRBY2JJdXdkU2ZIS1NMRG5NMzZ2X1dUV2VrcFN6SlRmajY3czU2SVduUGphMmNwdGMtY1BLSzdIZmFISF9aYlU2a3lkS1hELU10NS01STlyQmJRN2dXc016ajBWeDVjeUg4ZG5ZZnNXaXdzS3J5X3ItMXBN?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "08ac1672636f",
-    "title": "University of York Great Scholarship 2026 Offers £10,000 to International Students in the UK— Apply! - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWx4TmRsZERQSkN6Z0N6a1JXZk02YnRFMjBHZExXNVJQQ1BRTlkzdWdkQUk1VXoyOXE4eElfcWdQRlI3dko4aC10bVV6aU96YjIteHFHS0I1Yks1c2tHNzNlRkg4VVlwU3VGYmlKcWVCVlZhdHJ5ek90TjFQVWE2UEJ6cw?oc=5",
-    "description": "University of York Great Scholarship 2026 Offers £10,000 to International Students in the UK— Apply! After School Africa",
-    "country": "UK",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Mon, 05 Jan 2026 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
       "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.7,
-      "scam_flags": [],
-      "legit_signals": [
-        "From established organization"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.2
-    },
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
       "language": 95,
-      "funding": 95,
+      "funding": 100,
       "deadline_urgency": 95
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 75.6,
+    "final_score": 76.8,
     "deep_read": true,
     "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWx4TmRsZERQSkN6Z0N6a1JXZk02YnRFMjBHZExXNVJQQ1BRTlkzdWdkQUk1VXoyOXE4eElfcWdQRlI3dko4aC10bVV6aU96YjIteHFHS0I1Yks1c2tHNzNlRkg4VVlwU3VGYmlKcWVCVlZhdHJ5ek90TjFQVWE2UEJ6cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ORkgtaVcycm5tWk1mam9ieGZPRVZhZDZ4YTFiYzhaNmJhaVE5RUZUS293NHhDSVkwSDZpNGJYNVdKd0JVX1FER2lrQ18zUHI1M1hFSm9kbWotN0hFc3JaYURqeWFLVGFpX28wc0JyNA?oc=5",
       "is_valid": true,
       "title": "",
       "description": "Google News",
@@ -153,863 +72,7 @@
       "contact": "",
       "dates_found": []
     },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "3c496eecded0",
-    "title": "Oxford Centre for Emerging Minds Research Opens Fully Funded DPhil Studentships for 2027 - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CMEtod2s0YThSRHRUUzFqZDVMQWZQR0xEdHJxLU5zNkV2cW1sNjA4bktGTjVheGxXSFA5d1N1UGZsMFR0M0JmeDhqWkg4UkFQTURINzRQc2xJeDBZVHR6QVd6OFRXTnJ4ZkdjR1FEdw?oc=5",
-    "description": "Oxford Centre for Emerging Minds Research Opens Fully Funded DPhil Studentships for 2027 Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Wed, 12 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 95.0,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 95,
-      "language": 95,
-      "funding": 95,
-      "deadline_urgency": 95
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 75.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CMEtod2s0YThSRHRUUzFqZDVMQWZQR0xEdHJxLU5zNkV2cW1sNjA4bktGTjVheGxXSFA5d1N1UGZsMFR0M0JmeDhqWkg4UkFQTURINzRQc2xJeDBZVHR6QVd6OFRXTnJ4ZkdjR1FEdw?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "972fc8e99513",
-    "title": "Conservation Nation 2026 Grant Program for Early- to Mid-Career Conservationists Worldwide (Up to US$5,000) - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbnVwcDlIZGU5WWpzTklFOFNlLVEwVVRuSW5iTTA3T21Xb09QYWplTnFob2NwMGlYMkdDUTJlRHJyRG02UExtRzZHbkIyaHhlTXJvTVFFaUNKVG54ZE9rdmp3LXV0NHRSRzg2Tm9aYldYb2Z6aDFsSU04aGZhcTQyQw?oc=5",
-    "description": "Conservation Nation 2026 Grant Program for Early- to Mid-Career Conservationists Worldwide (Up to US$5,000) After School Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Thu, 02 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": true,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 100,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Libyan students eligible",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 91.5,
-    "ai_dims": {
-      "field_fit": 95,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 73.5,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbnVwcDlIZGU5WWpzTklFOFNlLVEwVVRuSW5iTTA3T21Xb09QYWplTnFob2NwMGlYMkdDUTJlRHJyRG02UExtRzZHbkIyaHhlTXJvTVFFaUNKVG54ZE9rdmp3LXV0NHRSRzg2Tm9aYldYb2Z6aDFsSU04aGZhcTQyQw?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "29174bb41639",
-    "title": "German Government DAAD EPOS Scholarships 2027 | Fully Funded Postgraduate Study in Germany — Edugist - edugist.org",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcV9nZS03UlhyaWJvUllzRWd4RTJ6Q2QzRU9XLXNxSkFlaDFVNXZ3WE95LXllRXJZRnJTWkFNTGtIVVB4Q1UwTlFSVUFxejRWWTZvRU12MUp2TkZVU3RmdHVjT3ZvRE1DZlVxemtPMXFZOXBJaG9rNmZPY1c1MlVmVHRwT05Ja2RRUUZzaDltQVFiTnMybWNUQWtSc05hZFlOQ3o0MHQyNjdnNW5UZkHSAbYBQVVfeXFMTzFIekxVM1JST3NFX1pEZFpVNlV5cGZEeUU3d0lhMjdJalV1X2VEalVCeFJ6bGRZTTVMY0xTZ3BIOTNxbzI0ajBnMmdSNWhVaFYxM1BhU2QxTzBIeEdremJ5cmNMUXlaeXlWVHJfWnVEQlVGbF9kYkh1SldpOGNWUjdudzJIbXBNTTNiek0wN2ZoOFZEZWVnVXN1T3llY1lsSThqM3hPLU9BZGNadXB3ZVpJSkhCa2c?oc=5",
-    "description": "German Government DAAD EPOS Scholarships 2027 | Fully Funded Postgraduate Study in Germany — Edugist edugist.org",
-    "country": "Germany",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Wed, 22 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.95,
-      "scam_flags": [],
-      "legit_signals": [
-        "From established organization",
-        "Known scholarship provider"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.45
-    },
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcV9nZS03UlhyaWJvUllzRWd4RTJ6Q2QzRU9XLXNxSkFlaDFVNXZ3WE95LXllRXJZRnJTWkFNTGtIVVB4Q1UwTlFSVUFxejRWWTZvRU12MUp2TkZVU3RmdHVjT3ZvRE1DZlVxemtPMXFZOXBJaG9rNmZPY1c1MlVmVHRwT05Ja2RRUUZzaDltQVFiTnMybWNUQWtSc05hZFlOQ3o0MHQyNjdnNW5UZkHSAbYBQVVfeXFMTzFIekxVM1JST3NFX1pEZFpVNlV5cGZEeUU3d0lhMjdJalV1X2VEalVCeFJ6bGRZTTVMY0xTZ3BIOTNxbzI0ajBnMmdSNWhVaFYxM1BhU2QxTzBIeEdremJ5cmNMUXlaeXlWVHJfWnVEQlVGbF9kYkh1SldpOGNWUjdudzJIbXBNTTNiek0wN2ZoOFZEZWVnVXN1T3llY1lsSThqM3hPLU9BZGNadXB3ZVpJSkhCa2c?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "1e8feb7b9ba1",
-    "title": "University of Johannesburg (UJ) ENERGISE Doctoral Scholarship 2026: Fully Funded PhD in Sustainable Energy Governance - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiSDViRmFiV0JxaFBDOXU3d2dGOHlTcjRHM0N3VnFDVnNyV0dhSTBCcEk3R3YxRHN2eHk0blROeHNwYVg5OHYyOE1pcXJJYWJ2OGNNWm8tVTR3Q3Y1Y0JKakZXOGlEdHRGcUFuX3hTNUx0VVM0NHc?oc=5",
-    "description": "University of Johannesburg (UJ) ENERGISE Doctoral Scholarship 2026: Fully Funded PhD in Sustainable Energy Governance Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Sat, 12 Sep 2026 18:57:41 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.7,
-      "scam_flags": [],
-      "legit_signals": [
-        "From established organization"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.2
-    },
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBiSDViRmFiV0JxaFBDOXU3d2dGOHlTcjRHM0N3VnFDVnNyV0dhSTBCcEk3R3YxRHN2eHk0blROeHNwYVg5OHYyOE1pcXJJYWJ2OGNNWm8tVTR3Q3Y1Y0JKakZXOGlEdHRGcUFuX3hTNUx0VVM0NHc?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "c0acb1dda0d7",
-    "title": "Nordic Scholarship Programme 2027 at the Nordic Africa Institute (NAI), Sweden: Fully Funded One-Month Research Opportunity for Africa-Focused Scholars - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ieEU2aTVEXzRmTXdGMjYtRHFtbEowc01kRW5yMTVuUnZJUGUyTE83UG5xOUZ6V21tcXdZYTBsNUpJSGNhRDdkWVFVSU00aXk0UDJqUVp0dWE4OXVHazBSdTdXMndHcG1KVnhPLWpB?oc=5",
-    "description": "Nordic Scholarship Programme 2027 at the Nordic Africa Institute (NAI), Sweden: Fully Funded One-Month Research Opportunity for Africa-Focused Scholars Global South Opportunities",
-    "country": "Sweden",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Thu, 10 Sep 2026 00:56:16 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.7,
-      "scam_flags": [],
-      "legit_signals": [
-        "From established organization"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.2
-    },
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ieEU2aTVEXzRmTXdGMjYtRHFtbEowc01kRW5yMTVuUnZJUGUyTE83UG5xOUZ6V21tcXdZYTBsNUpJSGNhRDdkWVFVSU00aXk0UDJqUVp0dWE4OXVHazBSdTdXMndHcG1KVnhPLWpB?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "dd6324724216",
-    "title": "Call for Applications: Nordic Scholarship Programme - Fully Funded 1-Month Research Stay at the Nordic Africa Institute - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LS0Z0WU92cGJHTEV6MkRacUtMdmpRLS1rSGpjRUt4ZGFYVFJUMnVDT3cwNGhXSVhuOFBNRE9vWURFVl80TUh0UzJHdlg1ZXJCWmVvai1aUTJ5UEl4dEk2T1JkeDJHVEFCQ0lPbk93?oc=5",
-    "description": "Call for Applications: Nordic Scholarship Programme - Fully Funded 1-Month Research Stay at the Nordic Africa Institute Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Wed, 09 Sep 2026 10:12:52 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.7,
-      "scam_flags": [],
-      "legit_signals": [
-        "From established organization"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.2
-    },
-    "ai_overall": 90.0,
-    "ai_dims": {
-      "field_fit": 90,
-      "eligibility": 90,
-      "language": 90,
-      "funding": 90,
-      "deadline_urgency": 90
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 72.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LS0Z0WU92cGJHTEV6MkRacUtMdmpRLS1rSGpjRUt4ZGFYVFJUMnVDT3cwNGhXSVhuOFBNRE9vWURFVl80TUh0UzJHdlg1ZXJCWmVvai1aUTJ5UEl4dEk2T1JkeDJHVEFCQ0lPbk93?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "bbf6eebe0b2b",
-    "title": "Top 10 Fully Funded International Scholarship Opportunities for African Students - The African Exponent",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3R4LWE5UnJqT0hMMGduOXRNb0JBcExHUGU4VjYtRWFUblU2UFpYQ3RkRHQyc3lKblhvSVRTbzNodVB5aDBFTUpwVm9YTnE3Nmk0MFJBdzRHOUlvbGM0el8xYnpNTk1zSXVxOTRTRXpqT2pWdW1pV3FFY3NzSjRKcm4wenRqSkJtR2ItZ2lCSFpIb3VxT0lqOUMtYnEySlhuWHJfd1B1X28xN0ZValZyeXJoWQ?oc=5",
-    "description": "Top 10 Fully Funded International Scholarship Opportunities for African Students The African Exponent",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Fri, 11 Sep 2026 17:20:17 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 87.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 90,
-      "language": 85,
-      "funding": 90,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 70.8,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ3R4LWE5UnJqT0hMMGduOXRNb0JBcExHUGU4VjYtRWFUblU2UFpYQ3RkRHQyc3lKblhvSVRTbzNodVB5aDBFTUpwVm9YTnE3Nmk0MFJBdzRHOUlvbGM0el8xYnpNTk1zSXVxOTRTRXpqT2pWdW1pV3FFY3NzSjRKcm4wenRqSkJtR2ItZ2lCSFpIb3VxT0lqOUMtYnEySlhuWHJfd1B1X28xN0ZValZyeXJoWQ?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "321283b2cae4",
-    "title": "German Bundestag International Parliamentary Scholarship 2027 for Young African Leaders: Fully Funded - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWM0OUozczF6QjJQZlpJNFVjSjc3Q0ZMczc3R2dwREY1emx4Ql84Mk9wdGpUSHhNMGNTclQwX2EySUdyNzlyczBPY3ZxS3YxQ25Qem14dUtBWUVvUTR1WDRFSG9FRHVORkJzUVMzM2RKRS1Oc04yU0daOXAzVHRHbDBBYjNJcWc?oc=5",
-    "description": "German Bundestag International Parliamentary Scholarship 2027 for Young African Leaders: Fully Funded After School Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Mon, 13 Apr 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 86.2,
-    "ai_dims": {
-      "field_fit": 80,
-      "eligibility": 90,
-      "language": 85,
-      "funding": 95,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 70.3,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWM0OUozczF6QjJQZlpJNFVjSjc3Q0ZMczc3R2dwREY1emx4Ql84Mk9wdGpUSHhNMGNTclQwX2EySUdyNzlyczBPY3ZxS3YxQ25Qem14dUtBWUVvUTR1WDRFSG9FRHVORkJzUVMzM2RKRS1Oc04yU0daOXAzVHRHbDBBYjNJcWc?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "4ecdc38a0bb1",
-    "title": "ARC Ltd–GSSP Scholarship Program 2026 for Postgraduate Study in Africa (Fully Funded) - Opportunities For Africans",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkxSek4xN3ZtOUFXRG03NDhiSEZBMmwyX3JsMHZUeXhycFZBeHNOMmUyZkRkMk81ZFdFTDRmbjF3YW03UlBNZXZ4dVhZUExwak84NFZqNnppVTF4YUlBT3pXcmE1N0tyYTBpd3UzdGlTWlp1aF9jcnU3dF9EaU1sZEduMWc?oc=5",
-    "description": "ARC Ltd–GSSP Scholarship Program 2026 for Postgraduate Study in Africa (Fully Funded) Opportunities For Africans",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Fri, 11 Sep 2026 13:58:33 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkxSek4xN3ZtOUFXRG03NDhiSEZBMmwyX3JsMHZUeXhycFZBeHNOMmUyZkRkMk81ZFdFTDRmbjF3YW03UlBNZXZ4dVhZUExwak84NFZqNnppVTF4YUlBT3pXcmE1N0tyYTBpd3UzdGlTWlp1aF9jcnU3dF9EaU1sZEduMWc?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "65cae0a51015",
-    "title": "Axia Africa Offered Rivers Woman 'Fully Funded' Scholarship but Demanded N10,000 Monthly. She Opted Out, Yet Auto Debit Followed - FIJ NG",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZHVkVUxnWmVxa1Bad002TTR2NmhZeUcyOEdVUGsxZzlUODhMOHhxQXpQcTMzblNaUGlXdk04eTZCcGhIMGlOZGRJaVF0SUJaN0pPbE9iT0ZqaXdUWGMwYWpvRzU3ek1aYVNxSXNSY0lmMTV4MFplanBJdjNuMTlFbDJrajdPVEJKanAwVHJ3dG9iOGJJQ3NXcGEtMnJXQm9abXFOSXRFZER6cmdId3VLLVVWeDRtOHVDQWg0aDB6REZXcWNnVDdqTVpBREF1dElYWldGaGk0NG5PYUNwUklkLQ?oc=5",
-    "description": "Axia Africa Offered Rivers Woman 'Fully Funded' Scholarship but Demanded N10,000 Monthly. She Opted Out, Yet Auto Debit Followed FIJ NG",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Sat, 05 Sep 2026 18:49:09 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 85.0,
-    "ai_dims": {
-      "field_fit": 85,
-      "eligibility": 85,
-      "language": 85,
-      "funding": 85,
-      "deadline_urgency": 85
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 69.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZHVkVUxnWmVxa1Bad002TTR2NmhZeUcyOEdVUGsxZzlUODhMOHhxQXpQcTMzblNaUGlXdk04eTZCcGhIMGlOZGRJaVF0SUJaN0pPbE9iT0ZqaXdUWGMwYWpvRzU3ek1aYVNxSXNSY0lmMTV4MFplanBJdjNuMTlFbDJrajdPVEJKanAwVHJ3dG9iOGJJQ3NXcGEtMnJXQm9abXFOSXRFZER6cmdId3VLLVVWeDRtOHVDQWg0aDB6REZXcWNnVDdqTVpBREF1dElYWldGaGk0NG5PYUNwUklkLQ?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
-    "date": "2026-09-13",
-    "applied": false
-  },
-  {
-    "id": "08eca9d7f34c",
-    "title": "Fully Funded AIJC 2025 Fellowships for Investigative Journalists to Attend in Johannesburg— Apply! - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRUdnNnpaWlNFeXBEalRPdUZSQ1RMTUxxY1VOejd5MUJyMF9sd2twSUtWMHZESkRJYXdWOFowdjRiNFJScFVDUmhXRXNxV1dUZ2g0VklhZlU4WTRQaE5nRTlySFZWa1NNbHBIbTlXZFNxQVNZZGN1Q0Q1WC15WDVUWlhrWm5laGNaVUZFcG1hOFMtbFBNZGM5YlpoU25UdHBJdkVXMVdsbGkwWWlic0pPUnhMTmdZbktyT1ZaSDZnVU9HSDNXdXZJLU5NOG1LcnU0a1JJ?oc=5",
-    "description": "Fully Funded AIJC 2025 Fellowships for Investigative Journalists to Attend in Johannesburg— Apply! After School Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Wed, 07 May 2025 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 80.0,
-    "ai_dims": {
-      "field_fit": 80,
-      "eligibility": 80,
-      "language": 80,
-      "funding": 80,
-      "deadline_urgency": 80
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 66.6,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRUdnNnpaWlNFeXBEalRPdUZSQ1RMTUxxY1VOejd5MUJyMF9sd2twSUtWMHZESkRJYXdWOFowdjRiNFJScFVDUmhXRXNxV1dUZ2g0VklhZlU4WTRQaE5nRTlySFZWa1NNbHBIbTlXZFNxQVNZZGN1Q0Q1WC15WDVUWlhrWm5laGNaVUZFcG1hOFMtbFBNZGM5YlpoU25UdHBJdkVXMVdsbGkwWWlic0pPUnhMTmdZbktyT1ZaSDZnVU9HSDNXdXZJLU5NOG1LcnU0a1JJ?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    },
-    "first_seen": "2026-09-13T02:06:08+00:00",
+    "first_seen": "2026-09-13T02:15:29+00:00",
     "date": "2026-09-13",
     "applied": false
   },
@@ -1059,19 +122,19 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.25
     },
-    "ai_overall": 18.8,
+    "ai_overall": 95.0,
     "ai_dims": {
-      "field_fit": 8,
-      "eligibility": 8,
-      "language": 8,
-      "funding": 80,
-      "deadline_urgency": 8
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
     },
     "ai_verdict": "PASS",
     "rules_applied": [
       "field-anchor"
     ],
-    "final_score": 46.5,
+    "final_score": 75.6,
     "deep_read": true,
     "deep_read_data": {
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWGVsTS1Na1RZZDM1Yy1mbEpkWlJFT3pXbEg0Qy1SendGRXFRNDVnUjZUcmdYRk11MDlsdUlORW80Y3A1YTJKZlhQU3d2WDlsc3FvVGJVcXNMNGxtNUNKOWNUVkhWX3BKX2dCZWp3LWRMZ1Vicmd4MC1aQVFXSk10OFpvYUEwdWhMN1RUVVU1UUgtM0tGZE52Qm41UHo5QjVLMnJJbmhlTks0RmhaX1VNM3luaVRaOEF4UHVhMy03emxvMHN4THRsTFZkenVsY0RoVTB6cnNzZEJJeDBtN2FsS2pXOU9NTnNQVk9qS0VPWWNUZ0pYQUE?oc=5",
@@ -1087,81 +150,10 @@
       "application_process": "",
       "contact": "",
       "dates_found": []
-    }
-  },
-  {
-    "id": "85f50149a6a3",
-    "title": "KMTC Announces Fully Funded Scholarships for Specialised Health Training - Parents Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2w1VzZ0cUNjZndkaTVQekp5YUdNTnNFYWVqc29WU0x1b2k1aVdkQVRtWUlRcDJhbVV1Wi1Jakd2S0FMR01XU1N2STB5S2hhWGNyWHZlRlhpRkxpc2xrZVBaXzFwWGtHMHh0MXpJcWJIWVBoMHpacmxSLUx5QlFoemN1WmYzWHRHQnZyaUc4dlNYNDFKaVpPUlR2OVVVRzVy?oc=5",
-    "description": "KMTC Announces Fully Funded Scholarships for Specialised Health Training Parents Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Mon, 07 Sep 2026 19:44:26 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "ai_overall": 20.5,
-    "ai_dims": {
-      "field_fit": 10,
-      "eligibility": 10,
-      "language": 10,
-      "funding": 80,
-      "deadline_urgency": 10
-    },
-    "ai_verdict": "PASS",
-    "rules_applied": [
-      "field-anchor"
-    ],
-    "final_score": 46.5,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2w1VzZ0cUNjZndkaTVQekp5YUdNTnNFYWVqc29WU0x1b2k1aVdkQVRtWUlRcDJhbVV1Wi1Jakd2S0FMR01XU1N2STB5S2hhWGNyWHZlRlhpRkxpc2xrZVBaXzFwWGtHMHh0MXpJcWJIWVBoMHpacmxSLUx5QlFoemN1WmYzWHRHQnZyaUc4dlNYNDFKaVpPUlR2OVVVRzVy?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    }
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "1e64d6b78a00",
@@ -1209,7 +201,19 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.2
     },
-    "final_score": 46.5,
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
     "deep_read": true,
     "deep_read_data": {
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XOHIwOTdZU0E0d0VvaVM2VzZ6TXVSMEJqXzgySFFqWlN6UFFibmlReHA2bFZ4TkotZXJNekJyaHlMTjdzcnNHMzNpckFYNmRLODR2c1Item5CZGlwOF93R2prYUNPVlZ3dUlrWEVGdzV5ZWt1?oc=5",
@@ -1225,7 +229,10 @@
       "application_process": "",
       "contact": "",
       "dates_found": []
-    }
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "a1365f015260",
@@ -1271,7 +278,19 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
     },
-    "final_score": 46.5,
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
     "deep_read": true,
     "deep_read_data": {
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCN3JPTUpnal94a2JRUjk1RXpfbjk0dXVGODVBd0hjX3U5TXBpN0pvTmhBMkw4MkVhUWpiQ3Zwc1FKSGh6VTk3QnpERkVQVGtmTkM2dVVHYk9jREw0blhaSXhuWW5sbEVqV2c?oc=5",
@@ -1287,7 +306,10 @@
       "application_process": "",
       "contact": "",
       "dates_found": []
-    }
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "899680dbc818",
@@ -1333,7 +355,19 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
     },
-    "final_score": 46.5,
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
     "deep_read": true,
     "deep_read_data": {
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96TG1FaWU5Qm8yeDBDSERZRVZaeVVpdTNKS0NfTDZ1QTdzUjRpTHlvaVhqWEo4MkRTYUZHLVpTZ3BET2NZRU1zRlNZOHF4N25yOVljMWpwMlE5dlVUUkg4OUlQRlZKaEhYeFgza2xyVEphb2JZcGc?oc=5",
@@ -1349,69 +383,10 @@
       "application_process": "",
       "contact": "",
       "dates_found": []
-    }
-  },
-  {
-    "id": "9143269f1d1e",
-    "title": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
-    "description": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support Global South Opportunities",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Mon, 17 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 46.5,
-    "deep_read": true,
-    "deep_read_data": {
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
-      "is_valid": true,
-      "title": "",
-      "description": "Google News",
-      "country": "",
-      "level": "",
-      "funding": "Unknown",
-      "deadline": "",
-      "eligibility": "",
-      "requirements": "",
-      "application_process": "",
-      "contact": "",
-      "dates_found": []
-    }
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "b02d2f0ee2fd",
@@ -1457,7 +432,19 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
     },
-    "final_score": 46.5,
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
     "deep_read": true,
     "deep_read_data": {
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaFRyNzZORnhLOGtzT0l5YUMxR3ZWZXRRY3o1VHlpRjRqY1U4Ul9fdHVWSmU5M09TRFlvMUNrOE80UzJyci00ektpQ3hwc2c5OU1FVmh3MG1ldzFVNlhMOTE0Rmc0b0dHU2hiSDFIalI3VGFJOWhJZFBpMGw2MHRFYnViY1NwWTlDT1ljVFlrSTIyUXR4cjlIOGxtbTNxcjZMOWc?oc=5",
@@ -1473,20 +460,23 @@
       "application_process": "",
       "contact": "",
       "dates_found": []
-    }
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
-    "id": "62d7e4f75c61",
-    "title": "EAC Scholarship Programme 2026: Fully Funded Master’s Study at USIU-Africa for East African Students in Kenya - Global South Opportunities",
+    "id": "9b60a74cb93c",
+    "title": "Japan Africa Dream Scholarship (JADS) Program 2026: Fully Supported Master’s Scholarships for African Students - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PVGQ1anl2QkVaa3BsWkU0em13dUNpZlpzU1g5cng1eUpDY244SnJ0Z0ZWLU5GbUY2b3ZBcVM4Vy1DcUZ4UFpvUEF1Tll1UnhPaWVEOEdPRmlrVkVjWEI2WGZoaEhlMUloYmc?oc=5",
-    "description": "EAC Scholarship Programme 2026: Fully Funded Master’s Study at USIU-Africa for East African Students in Kenya Global South Opportunities",
-    "country": "Kenya",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUUllFQkNTY013bW01aUdVR01rUUdBcEphcHRYeWN3bVlHVmFjeXVtdXZHRGFJM3U0RGl0MlFYTUNTWmdZS1lTbWhfNzhOYmlhaFpEendkYVQwTEZnYUkzR1V2ZW5YQTRONVA4?oc=5",
+    "description": "Japan Africa Dream Scholarship (JADS) Program 2026: Fully Supported Master’s Scholarships for African Students Global South Opportunities",
+    "country": "Japan",
     "deadline": "",
     "funding": "Fully Funded",
     "level": "postgrad",
     "field": "",
-    "posted_at": "Fri, 21 Aug 2026 07:00:00 GMT",
+    "posted_at": "Sat, 01 Aug 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -1519,55 +509,38 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
     },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "119be704a747",
-    "title": "Break Into Tech AI Developer Scholarship 2026 (Fully-funded) - Opportunity Desk",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa0gyX3ZfZjBPd1cyTmVCcEx1aDFOdkJCNUQxTS1ORWFmM25jNTRJN1lZV1RvbngwOFhuRGM1VWEzU192dTgtYjhtNVIwdXJtVWw5ei1sX2V2NW9HQWNhdkF1U0NoTHprRTZGYVd1cG1wY3p6Q1I0enUyckMxQXZpWnBlUjFESnNaVkZLeUtB?oc=5",
-    "description": "Break Into Tech AI Developer Scholarship 2026 (Fully-funded) Opportunity Desk",
-    "country": "",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Sat, 25 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
     ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
+    "final_score": 75.6,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUUllFQkNTY013bW01aUdVR01rUUdBcEphcHRYeWN3bVlHVmFjeXVtdXZHRGFJM3U0RGl0MlFYTUNTWmdZS1lTbWhfNzhOYmlhaFpEendkYVQwTEZnYUkzR1V2ZW5YQTRONVA4?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
     },
-    "final_score": 46.5,
-    "deep_read": false
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "dc253edfc89c",
@@ -1615,27 +588,57 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.2
     },
-    "final_score": 46.5,
-    "deep_read": false
+    "ai_overall": 92.5,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 74.1,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIQTJndE5qbDNQNUhhUkVPRlpsaDl2OVY5VG9kWWtnRG9XdnRxa25ZVU5fWjJ6SVZLSkhBYjhhTTl4RUpXYnVYdk9ncjF6Y05yZkdBa2dRcjRMRzBFNkkzbjdjNXpYcTg3RkdwM1VuRHc4blIzTFlfNw?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
-    "id": "f64bd2e64f77",
-    "title": "Wetech Opens Applications for Cohort 2 of Fully Funded Google Career Certificate Scholarships for African Women: Apply Now - Global South Opportunities",
+    "id": "85f50149a6a3",
+    "title": "KMTC Announces Fully Funded Scholarships for Specialised Health Training - Parents Africa",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ORkgtaVcycm5tWk1mam9ieGZPRVZhZDZ4YTFiYzhaNmJhaVE5RUZUS293NHhDSVkwSDZpNGJYNVdKd0JVX1FER2lrQ18zUHI1M1hFSm9kbWotN0hFc3JaYURqeWFLVGFpX28wc0JyNA?oc=5",
-    "description": "Wetech Opens Applications for Cohort 2 of Fully Funded Google Career Certificate Scholarships for African Women: Apply Now Global South Opportunities",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2w1VzZ0cUNjZndkaTVQekp5YUdNTnNFYWVqc29WU0x1b2k1aVdkQVRtWUlRcDJhbVV1Wi1Jakd2S0FMR01XU1N2STB5S2hhWGNyWHZlRlhpRkxpc2xrZVBaXzFwWGtHMHh0MXpJcWJIWVBoMHpacmxSLUx5QlFoemN1WmYzWHRHQnZyaUc4dlNYNDFKaVpPUlR2OVVVRzVy?oc=5",
+    "description": "KMTC Announces Fully Funded Scholarships for Specialised Health Training Parents Africa",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
-    "level": "bachelor",
+    "level": "unknown",
     "field": "",
-    "posted_at": "Thu, 25 Jun 2026 07:00:00 GMT",
+    "posted_at": "Mon, 07 Sep 2026 19:44:26 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Fully Funded",
-    "level_kind": "bachelor",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -1662,55 +665,38 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
     },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "9b60a74cb93c",
-    "title": "Japan Africa Dream Scholarship (JADS) Program 2026: Fully Supported Master’s Scholarships for African Students - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUUllFQkNTY013bW01aUdVR01rUUdBcEphcHRYeWN3bVlHVmFjeXVtdXZHRGFJM3U0RGl0MlFYTUNTWmdZS1lTbWhfNzhOYmlhaFpEendkYVQwTEZnYUkzR1V2ZW5YQTRONVA4?oc=5",
-    "description": "Japan Africa Dream Scholarship (JADS) Program 2026: Fully Supported Master’s Scholarships for African Students Global South Opportunities",
-    "country": "Japan",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Sat, 01 Aug 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
     ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
+    "final_score": 72.6,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2w1VzZ0cUNjZndkaTVQekp5YUdNTnNFYWVqc29WU0x1b2k1aVdkQVRtWUlRcDJhbVV1Wi1Jakd2S0FMR01XU1N2STB5S2hhWGNyWHZlRlhpRkxpc2xrZVBaXzFwWGtHMHh0MXpJcWJIWVBoMHpacmxSLUx5QlFoemN1WmYzWHRHQnZyaUc4dlNYNDFKaVpPUlR2OVVVRzVy?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
     },
-    "final_score": 46.5,
-    "deep_read": false
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "f9c3f76a040a",
@@ -1758,55 +744,38 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.2
     },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "c106d9b46168",
-    "title": "France-South Africa Scholarship Programme 2027 Opens Applications | Fully Funded Master's and PhD Scholarships in France - Global South Opportunities",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0aDItdW5CeXY4bWdtdnZQdS0xX0tmUUVCZ0RJdTZZclMyQUluN1B1RzdPc1JNaGhtek41Q0RTeXdCNTYxNjR0WGVaOWJJRm5DdGpPZUo2ZlQ4bmlfV29uNW5CcnhoeWZvcm1GNzZR?oc=5",
-    "description": "France-South Africa Scholarship Programme 2027 Opens Applications | Fully Funded Master's and PhD Scholarships in France Global South Opportunities",
-    "country": "France",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Thu, 30 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
     },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
     ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
+    "final_score": 72.6,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVENWcy1ZaEhvUEU5UndVMDloeFVQQTZNSk5XSHV0em45d1RzUldoVXhTcTZXQXE0VG5kUC12MGZRaGdEVHB3YlFTNUhQTzlzV3Jqbk5SRDdhUm5mY1BPekhrWDdKUUltNnpSSkUzeVBaR1VJM2RDSnlwSnVqYkFwejJkQ2lidjVHcUxFcWFEaWZNNmp4RTJheG5pRm1NblRtUmZjNA?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
     },
-    "final_score": 46.5,
-    "deep_read": false
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
   },
   {
     "id": "fe05dd2e4711",
@@ -1854,8 +823,343 @@
       "scam_ratio": 0.0,
       "legit_ratio": 0.15
     },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VdlBaLXd5VDBYUlF0SW9lZHZqcHRxV1lMRVBZSHhMSzJwTWxmRGhLdGdHcDBYODJtdWVxcnF5eXBEMnI0TDFZSGV6MU8yRy1hU0p1dWItM1hONnZldjRVQ2huZ19yaFZMak1FRUxyS24?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "c106d9b46168",
+    "title": "France-South Africa Scholarship Programme 2027 Opens Applications | Fully Funded Master's and PhD Scholarships in France - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0aDItdW5CeXY4bWdtdnZQdS0xX0tmUUVCZ0RJdTZZclMyQUluN1B1RzdPc1JNaGhtek41Q0RTeXdCNTYxNjR0WGVaOWJJRm5DdGpPZUo2ZlQ4bmlfV29uNW5CcnhoeWZvcm1GNzZR?oc=5",
+    "description": "France-South Africa Scholarship Programme 2027 Opens Applications | Fully Funded Master's and PhD Scholarships in France Global South Opportunities",
+    "country": "France",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Thu, 30 Jul 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 87.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 85,
+      "funding": 90,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.8,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0aDItdW5CeXY4bWdtdnZQdS0xX0tmUUVCZ0RJdTZZclMyQUluN1B1RzdPc1JNaGhtek41Q0RTeXdCNTYxNjR0WGVaOWJJRm5DdGpPZUo2ZlQ4bmlfV29uNW5CcnhoeWZvcm1GNzZR?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "9143269f1d1e",
+    "title": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
+    "description": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support Global South Opportunities",
+    "country": "",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Mon, 17 Aug 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 86.2,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 80,
+      "funding": 95,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.3,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "119be704a747",
+    "title": "Break Into Tech AI Developer Scholarship 2026 (Fully-funded) - Opportunity Desk",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa0gyX3ZfZjBPd1cyTmVCcEx1aDFOdkJCNUQxTS1ORWFmM25jNTRJN1lZV1RvbngwOFhuRGM1VWEzU192dTgtYjhtNVIwdXJtVWw5ei1sX2V2NW9HQWNhdkF1U0NoTHprRTZGYVd1cG1wY3p6Q1I0enUyckMxQXZpWnBlUjFESnNaVkZLeUtB?oc=5",
+    "description": "Break Into Tech AI Developer Scholarship 2026 (Fully-funded) Opportunity Desk",
+    "country": "",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "Sat, 25 Jul 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa0gyX3ZfZjBPd1cyTmVCcEx1aDFOdkJCNUQxTS1ORWFmM25jNTRJN1lZV1RvbngwOFhuRGM1VWEzU192dTgtYjhtNVIwdXJtVWw5ei1sX2V2NW9HQWNhdkF1U0NoTHprRTZGYVd1cG1wY3p6Q1I0enUyckMxQXZpWnBlUjFESnNaVkZLeUtB?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-13T02:15:29+00:00",
+    "date": "2026-09-13",
+    "applied": false
+  },
+  {
+    "id": "62d7e4f75c61",
+    "title": "EAC Scholarship Programme 2026: Fully Funded Master’s Study at USIU-Africa for East African Students in Kenya - Global South Opportunities",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PVGQ1anl2QkVaa3BsWkU0em13dUNpZlpzU1g5cng1eUpDY244SnJ0Z0ZWLU5GbUY2b3ZBcVM4Vy1DcUZ4UFpvUEF1Tll1UnhPaWVEOEdPRmlrVkVjWEI2WGZoaEhlMUloYmc?oc=5",
+    "description": "EAC Scholarship Programme 2026: Fully Funded Master’s Study at USIU-Africa for East African Students in Kenya Global South Opportunities",
+    "country": "Kenya",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Fri, 21 Aug 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 20.5,
+    "ai_dims": {
+      "field_fit": 10,
+      "eligibility": 10,
+      "language": 10,
+      "funding": 80,
+      "deadline_urgency": 10
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PVGQ1anl2QkVaa3BsWkU0em13dUNpZlpzU1g5cng1eUpDY244SnJ0Z0ZWLU5GbUY2b3ZBcVM4Vy1DcUZ4UFpvUEF1Tll1UnhPaWVEOEdPRmlrVkVjWEI2WGZoaEhlMUloYmc?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "d66d36ccb97d",
@@ -1904,7 +1208,22 @@
       "legit_ratio": 0.2
     },
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiSjV0NGRoaG9sSGlya0JsMDJKN0lyaXZWZDZHTVN5ZlZRYUpucV80Y3M2ZG9jOFM5ak1XUkZUZy1scG00OFpxY1BiYVZMVWdCOE5HYjRwVmNIMTNWd2Z6UERoNC1sbmpsWnBQckJyVQ?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "6374d7d97c16",
@@ -1953,7 +1272,22 @@
       "legit_ratio": 0.2
     },
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE95T2RUY1dVQ3lSOW5Dd1JubmRYTnkzSkRMVEQ2YXZCVnpmb21QWlVIeVI2aW9oWXBFbHZvRXhlUU12cWlDTVg2MGJobURrVGMwdzBXQTh0QkY2ZEQx?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "1d09a3c620dd",
@@ -2003,7 +1337,22 @@
       "legit_ratio": 0.35
     },
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzZG42V2o0N2h4b3FqUWRnUHlLdWtxQUNSMkc3SzNiSmF6ZnUxTlJYTjlQVnJhTkdGSkJuOHBRaTF2YWwzd2FkX2pMZzQ4MFNzaTdvT05nTWZXZlgzdVVwbFhvM1B0MWFKM1hDN1NlTQ?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "f8bf8d9cddd9",
@@ -2050,7 +1399,22 @@
       "legit_ratio": 0.0
     },
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcTF3cXR4SG5lZ08yRVo5c0lJOGlrek9kQm9PSm94c2J1VnUwak9SSmRBbUFGWjBna1MwTHJDRWtMSHByN1k5ZW9nVzl3LXl1UGQtdzQzVnEwWXRYUG5tR2NCSDMwYjBNcWdkUUdMa2pPT0xqakJBMm1FTkt0T0QxZ3phdWQ0LUoxZUdsaw?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "1f679e0bf13a",
@@ -2097,7 +1461,22 @@
       "legit_ratio": 0.0
     },
     "final_score": 46.5,
-    "deep_read": false
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMFY2UXBqLUVMbXM3Tjl4VmZRMUZENWtCQ0hQQU4wbTd1SHpOQm53QWFXRkJxNnRJVDd6UUhPT0VNWWZtZHhBU3VLbUhjM2VUbDBOVGZSanBjLXVFQkNNY0RyNjhzSkx5Vlg5SDJibjc1NENEZEEwYkd5VmxKNzR6WFl2UzRxMmExeTVHVThfajVMTlhxeHdtZmpyQnJfSWhBbG01RDVWWTd2M3lvZTJ2V0c2TXZHSlhvaWc?oc=5",
+      "is_valid": true,
+      "title": "",
+      "description": "Google News",
+      "country": "",
+      "level": "",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "",
+      "contact": "",
+      "dates_found": []
+    }
   },
   {
     "id": "429190b8a4c0",
@@ -3432,53 +2811,6 @@
     "deep_read": false
   },
   {
-    "id": "ac9dc1d4732e",
-    "title": "Renaissance Africa Energy Postgraduate Overseas Scholarship in UK 2026 | Fully Funded - edugist.org",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeU5pSElFWHM5Nk4xZkZNaG1veEsycHpxMXFZcldjMDd3VnJEcjFkTkNQME1oMHFUVUNrSXBNdkFEUTYxUXVkNlM4dmZzUVZzR2NYY3RERnZXLURZQkNwU0R3bDA1c1ltdDBoTWRfLXdXTnFlbmFBYUg0Z0U0QkpDTEM5U2c3akNreWhKWXhGRmRXU1B5MTFQQ19QcFBCRTF4akdyT1oySdIBrwFBVV95cUxPNThVV1JKbG92VTI3RDMyX1QtMFBGQWpuOGNJWEVFMWhNUk5QblZmVjFHMV9ra1dVQ2RkRGh4Wkx6VnVUVkZVRF8wVFpjR19pR1poVG4zR055SjZsdndoUjhqOE90MklkYnBjWlVLT2IyYkRjUFhja2o3SU9BMUxsY255M1JBMldDa3VUYjVKX2dFZExDNlNQSV8xLUxVYVRvMm9jTnR5NjhjbzZ0YnhN?oc=5",
-    "description": "Renaissance Africa Energy Postgraduate Overseas Scholarship in UK 2026 | Fully Funded edugist.org",
-    "country": "UK",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Tue, 14 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
     "id": "40267f195827",
     "title": "Apply for the University of the Free State Fully Funded 2027 Postgraduate Bursaries in City and Regional Economies - Global South Opportunities",
     "source": "google-news",
@@ -3523,6 +2855,53 @@
       "recommendation": "LIKELY LEGITIMATE - Proceed with application",
       "scam_ratio": 0.0,
       "legit_ratio": 0.2
+    },
+    "final_score": 46.5,
+    "deep_read": false
+  },
+  {
+    "id": "ac9dc1d4732e",
+    "title": "Renaissance Africa Energy Postgraduate Overseas Scholarship in UK 2026 | Fully Funded - edugist.org",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeU5pSElFWHM5Nk4xZkZNaG1veEsycHpxMXFZcldjMDd3VnJEcjFkTkNQME1oMHFUVUNrSXBNdkFEUTYxUXVkNlM4dmZzUVZzR2NYY3RERnZXLURZQkNwU0R3bDA1c1ltdDBoTWRfLXdXTnFlbmFBYUg0Z0U0QkpDTEM5U2c3akNreWhKWXhGRmRXU1B5MTFQQ19QcFBCRTF4akdyT1oySdIBrwFBVV95cUxPNThVV1JKbG92VTI3RDMyX1QtMFBGQWpuOGNJWEVFMWhNUk5QblZmVjFHMV9ra1dVQ2RkRGh4Wkx6VnVUVkZVRF8wVFpjR19pR1poVG4zR055SjZsdndoUjhqOE90MklkYnBjWlVLT2IyYkRjUFhja2o3SU9BMUxsY255M1JBMldDa3VUYjVKX2dFZExDNlNQSV8xLUxVYVRvMm9jTnR5NjhjbzZ0YnhN?oc=5",
+    "description": "Renaissance Africa Energy Postgraduate Overseas Scholarship in UK 2026 | Fully Funded edugist.org",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Tue, 14 Jul 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
     },
     "final_score": 46.5,
     "deep_read": false
@@ -3765,23 +3144,23 @@
     "deep_read": false
   },
   {
-    "id": "9103ac71e962",
-    "title": "Saudi Arabia offers fully funded scholarships to Filipino students - arabnews.com",
+    "id": "f9dd2bf4b2d2",
+    "title": "10 Fully Funded Water & Environment Scholarships for 2026 - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUItYUl5LUxtdEFRd1RSbFNiQVJlR0xnS2lsTTlpY0lHVmlYcVg3TkY3OFlkUUFDb2o5TXdRaWJjcG40NDBucWFDQnBtTm9nNGNGQ09pTF9GRldRZ0NmWE5UN0VJa2g5Z1FEMEFvUWxVSzgybWV1dW4zbnhKSy1JRWlGZVVyZGIycHM3bkY5dnlWeGoyU3VFamZCanJkWUhtQXAwYzY2dVc?oc=5",
-    "description": "Saudi Arabia offers fully funded scholarships to Filipino students arabnews.com",
-    "country": "Saudi Arabia",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jOXVTeS1PakplZDRlekJVM19GXzFrcl9NdC1fYjhpcERqNzZsN1NQNXJ2dEM4MW9McVNkVXhFM1VBMVRBUEU1S2luOER3NjFRamVZTmVjOWQzMVRYSi1lUHZqNllQa1prd3JfNlFrOS1aWlVyZ2dV?oc=5",
+    "description": "10 Fully Funded Water & Environment Scholarships for 2026 Global South Opportunities",
+    "country": "",
     "deadline": "",
     "funding": "Fully Funded",
-    "level": "unknown",
+    "level": "bachelor",
     "field": "",
-    "posted_at": "Wed, 28 May 2025 07:00:00 GMT",
+    "posted_at": "Mon, 09 Mar 2026 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Fully Funded",
-    "level_kind": "unknown",
+    "level_kind": "bachelor",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -3812,23 +3191,23 @@
     "deep_read": false
   },
   {
-    "id": "f9dd2bf4b2d2",
-    "title": "10 Fully Funded Water & Environment Scholarships for 2026 - Global South Opportunities",
+    "id": "9103ac71e962",
+    "title": "Saudi Arabia offers fully funded scholarships to Filipino students - arabnews.com",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jOXVTeS1PakplZDRlekJVM19GXzFrcl9NdC1fYjhpcERqNzZsN1NQNXJ2dEM4MW9McVNkVXhFM1VBMVRBUEU1S2luOER3NjFRamVZTmVjOWQzMVRYSi1lUHZqNllQa1prd3JfNlFrOS1aWlVyZ2dV?oc=5",
-    "description": "10 Fully Funded Water & Environment Scholarships for 2026 Global South Opportunities",
-    "country": "",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSUItYUl5LUxtdEFRd1RSbFNiQVJlR0xnS2lsTTlpY0lHVmlYcVg3TkY3OFlkUUFDb2o5TXdRaWJjcG40NDBucWFDQnBtTm9nNGNGQ09pTF9GRldRZ0NmWE5UN0VJa2g5Z1FEMEFvUWxVSzgybWV1dW4zbnhKSy1JRWlGZVVyZGIycHM3bkY5dnlWeGoyU3VFamZCanJkWUhtQXAwYzY2dVc?oc=5",
+    "description": "Saudi Arabia offers fully funded scholarships to Filipino students arabnews.com",
+    "country": "Saudi Arabia",
     "deadline": "",
     "funding": "Fully Funded",
-    "level": "bachelor",
+    "level": "unknown",
     "field": "",
-    "posted_at": "Mon, 09 Mar 2026 07:00:00 GMT",
+    "posted_at": "Wed, 28 May 2025 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Fully Funded",
-    "level_kind": "bachelor",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -4005,10 +3384,10 @@
   },
   {
     "id": "e51af6ad5987",
-    "title": "4 Asian universities with full postgraduate scholarships - Study International",
+    "title": "4 Asian universities with full postgraduate scholarships - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMR3Y3TjhiQUJQcFpWdXdZU0RLT2duSVd0Nm9GMkVKdjVkdW9BMVdLTGNzODJ5dldLZno1MXcwd1dQbGdKcVRKZjkxam5uZ3ItLXJWdnYwX054N1ozVUw1YW9oUWl4ZTF6Znp2X0pQOUdjYzJ1MWVF?oc=5",
-    "description": "4 Asian universities with full postgraduate scholarships Study International",
+    "description": "4 Asian universities with full postgraduate scholarships studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
@@ -4115,6 +3494,53 @@
     "libya_eligible": null,
     "funding_label": "Fully Funded",
     "level_kind": "bachelor",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "final_score": 46.5,
+    "deep_read": false
+  },
+  {
+    "id": "b74c74d33426",
+    "title": "Dancing on the Edge Scholarship Programme 2021 for Dancers from Middle East and North Africa (Fully Funded to The Netherlands) - Opportunities For Africans",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3VPclVORDJCMVZ4RkRFYmhOaVR5TjRqQzd2bnNRaE1ITEtJa1JhcnV4QnIxcVlEZTRmZl94YUhoZHpxWnFqdmFHQTNjNjYtTnc2SHlPbFQxQUp4TEhBN2ZpWlpYR2M2TnFVaVhLWjVoNDRuZlJPQXg0S3U4Qmx2WFhNZC1MaGM0ODFJemJ4eXBsdw?oc=5",
+    "description": "Dancing on the Edge Scholarship Programme 2021 for Dancers from Middle East and North Africa (Fully Funded to The Netherlands) Opportunities For Africans",
+    "country": "Netherlands",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "Mon, 04 Jan 2021 08:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -4483,17 +3909,17 @@
     "deep_read": false
   },
   {
-    "id": "6fe97403878c",
-    "title": "Google DeepMind Launches 2025 Fully Funded AI Scholarships for African Students - Techeconomy",
+    "id": "b0c9530ec0a8",
+    "title": "DIDI announces two full scholarship winners - Design Middle East",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNclk1YVBvSVdJZ25Fa2lYSGN1SFBuYkdJUEFqdFRZS1pueG0wemhOOWlyUlB3X1BfRHEwb09mb3h5TGVXbUxZdkxScjY2ampYeWI2ZEFSWEZSZDg5OWZtaTFBY0JQUF9UUVFjTWtjaFQwX3hvUmN6TmZxRHRzWGk4UVVmVjh6aV91TC05Q1BIVnVKcWN5Mlc5dlo3czgzMlZIX3pieQ?oc=5",
-    "description": "Google DeepMind Launches 2025 Fully Funded AI Scholarships for African Students Techeconomy",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT25wOVJRTEtlSnJ4eXRkVzU3TGI0Y2k0bFBEYnNVZ0dIeDhORkVoODNRNDI2eTVGRXJWTWp1TkJKcU5HcV8tZ2ZaQzAxMTJwRlFzTTh1WnpMNnBJUXZqRElnSXNIeE5ibnI5N0xPZTJXMmFWMF9SR01rVEtNTHpoSlJzZE44aEJKcjVOZEdIZUtPdTA?oc=5",
+    "description": "DIDI announces two full scholarship winners Design Middle East",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
     "level": "unknown",
     "field": "",
-    "posted_at": "Tue, 21 Jan 2025 08:00:00 GMT",
+    "posted_at": "Mon, 05 Aug 2019 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -4530,17 +3956,17 @@
     "deep_read": false
   },
   {
-    "id": "b0c9530ec0a8",
-    "title": "DIDI announces two full scholarship winners - Design Middle East",
+    "id": "6fe97403878c",
+    "title": "Google DeepMind Launches 2025 Fully Funded AI Scholarships for African Students - Techeconomy",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT25wOVJRTEtlSnJ4eXRkVzU3TGI0Y2k0bFBEYnNVZ0dIeDhORkVoODNRNDI2eTVGRXJWTWp1TkJKcU5HcV8tZ2ZaQzAxMTJwRlFzTTh1WnpMNnBJUXZqRElnSXNIeE5ibnI5N0xPZTJXMmFWMF9SR01rVEtNTHpoSlJzZE44aEJKcjVOZEdIZUtPdTA?oc=5",
-    "description": "DIDI announces two full scholarship winners Design Middle East",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNclk1YVBvSVdJZ25Fa2lYSGN1SFBuYkdJUEFqdFRZS1pueG0wemhOOWlyUlB3X1BfRHEwb09mb3h5TGVXbUxZdkxScjY2ampYeWI2ZEFSWEZSZDg5OWZtaTFBY0JQUF9UUVFjTWtjaFQwX3hvUmN6TmZxRHRzWGk4UVVmVjh6aV91TC05Q1BIVnVKcWN5Mlc5dlo3czgzMlZIX3pieQ?oc=5",
+    "description": "Google DeepMind Launches 2025 Fully Funded AI Scholarships for African Students Techeconomy",
     "country": "",
     "deadline": "",
     "funding": "Fully Funded",
     "level": "unknown",
     "field": "",
-    "posted_at": "Mon, 05 Aug 2019 07:00:00 GMT",
+    "posted_at": "Tue, 21 Jan 2025 08:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
@@ -4739,53 +4165,6 @@
     "libya_eligible": null,
     "funding_label": "Fully Funded",
     "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "9b1464425cad",
-    "title": "Middle East Youth Summit in Makkah, Saudi Arabia 2026 for Young Muslim Leaders | Fully Funded - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKRElLUHVNY0hXblQ4YzV6VkpBUW1Yd1lRZjBnbFhoOUhtYzJyVlVSaC1CeXRoOWtvdFhfZ1FhN0NjQnNqT2dIU0o1REktZ2tNaFJzUVZzT2JPQmg1M2RxTDFfdTZFNVA5SDJGeXd1UjI0MzVW?oc=5",
-    "description": "Middle East Youth Summit in Makkah, Saudi Arabia 2026 for Young Muslim Leaders | Fully Funded After School Africa",
-    "country": "Saudi Arabia",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Fri, 05 Dec 2025 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 46.5,
@@ -5837,104 +5216,6 @@
     "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
     "description": "sl slovenščina",
     "country": "EU",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.75,
-      "scam_flags": [],
-      "legit_signals": [
-        "Known scholarship provider"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.25
-    },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "e185350f7e84",
-    "title": "DAAD: Privacy Policy",
-    "source": "daad",
-    "url": "https://www.daad.de/en/data-privacy-statement/",
-    "description": "Privacy Policy",
-    "country": "Germany",
-    "deadline": "",
-    "funding": "Fully Funded",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Fully Funded",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 46.5,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 100,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.75,
-      "scam_flags": [],
-      "legit_signals": [
-        "Known scholarship provider"
-      ],
-      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.25
-    },
-    "final_score": 46.5,
-    "deep_read": false
-  },
-  {
-    "id": "43683adef51c",
-    "title": "DAAD: Strategy 2030",
-    "source": "daad",
-    "url": "https://www.daad.de/en/the-daad/who-we-are/strategy-2030/",
-    "description": "Strategy 2030",
-    "country": "Germany",
     "deadline": "",
     "funding": "Fully Funded",
     "level": "postgrad",
@@ -7351,10 +6632,10 @@
   },
   {
     "id": "3b5c21b434fa",
-    "title": "5 Canadian universities without IELTS you should apply to - Study International",
+    "title": "5 Canadian universities without IELTS you should apply to - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xdXg0dXBtaHlhbkVfZmx3U1pXMVR3N2lTY0tfYmV1cDEzclUwOFVfZ2N0SGZael93V1BQZHE2S0FvNnZ6YmZNeTJhMlBIdlA3UWZUcGpUZ3lQWG1UN2ZVTWR6NHlqOVJIVElLTTlDd3FjdFotRnRnWGFfSkE?oc=5",
-    "description": "5 Canadian universities without IELTS you should apply to Study International",
+    "description": "5 Canadian universities without IELTS you should apply to studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -7398,10 +6679,10 @@
   },
   {
     "id": "ad89c639c146",
-    "title": "Study in Italy without IELTS at these 5 universities - Study International",
+    "title": "Study in Italy without IELTS at these 5 universities - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43Mlo1dXcxVWEwSWtreXdydHVZNFlUeVdKcDlvcGZLTmhIQmhlcDFZRGVpNlU3VlU3RWlPaldsTjQySTF1VnFvWHRUVHVQU2lIdXk4OW1nS2UwRU9QUi1raS1kMDJsMHNVZGgwWG5pQU5hQlk?oc=5",
-    "description": "Study in Italy without IELTS at these 5 universities Study International",
+    "description": "Study in Italy without IELTS at these 5 universities studyinternational.com",
     "country": "Italy",
     "deadline": "",
     "funding": "Unknown",
@@ -8883,23 +8164,23 @@
     "deep_read": false
   },
   {
-    "id": "2e098473015f",
-    "title": "SOAS Teaching Scholarships 2026–2027 for MPhil/PhD Students - Global South Opportunities",
+    "id": "42272db130f1",
+    "title": "Russia to increase educational scholarships for Jordan – FM - Middle East Monitor",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UMzQxTnlvaTI4V0J2R1ZaNHpDckRfcW8zWXJCLWJwOEpvOW1UWFc5bHpTR2VuZXcyMkNWa2U4Nk9iUGhNRHNGcVl4dmNsbUdnM3pTbDNBX1NnWjlfV255M01ZV2Juc1QtbmFF?oc=5",
-    "description": "SOAS Teaching Scholarships 2026–2027 for MPhil/PhD Students Global South Opportunities",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaVE3LXZiU04zUUoxblpkVlJ5S2w0WXZvWmFSc05RRHloazFqS0k1NWdLTTNQb3B5U3JqT1pLZVpraTVOWHBRQi10QXdJY21HY1BINmtuX3RsZzdkTE9KVmh6RUpVVV84MXp1NzlyT1pfaXQ0MjNQeDktR08taU1pWGx4VG0xQVpaenpUZ0toN3FjcHFOQjdZX29OY0lnekFDeEtV0gGoAUFVX3lxTE41MjBnUkJhOWVqeEFEYTU2OUN5QktJU3hqZmlzMnlTWk5pN1lEb3RISElGRWJrcFhCZldCREVBQjc2TUtXNTF4R1pJRGxRVkFFTWJnZXJIX2d4WHM5ekd3emJxTUJhQ2ZYdVZiVDJELXlwd1NHbTFuYk5TRHd6ZTA4VTV4Z3RvMm1LbTJwUzdxX3dNR3hWeGZ2QjM3aHdQdzN3UlE3d2JTNg?oc=5",
+    "description": "Russia to increase educational scholarships for Jordan – FM Middle East Monitor",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
-    "level": "postgrad",
+    "level": "unknown",
     "field": "",
-    "posted_at": "Sun, 08 Mar 2026 08:00:00 GMT",
+    "posted_at": "Fri, 04 Nov 2022 07:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Unknown",
-    "level_kind": "postgrad",
+    "level_kind": "unknown",
     "deadline_days": null,
     "field_fit_det": 12,
     "det_score": 43.2,
@@ -8930,23 +8211,23 @@
     "deep_read": false
   },
   {
-    "id": "42272db130f1",
-    "title": "Russia to increase educational scholarships for Jordan – FM - Middle East Monitor",
+    "id": "2e098473015f",
+    "title": "SOAS Teaching Scholarships 2026–2027 for MPhil/PhD Students - Global South Opportunities",
     "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaVE3LXZiU04zUUoxblpkVlJ5S2w0WXZvWmFSc05RRHloazFqS0k1NWdLTTNQb3B5U3JqT1pLZVpraTVOWHBRQi10QXdJY21HY1BINmtuX3RsZzdkTE9KVmh6RUpVVV84MXp1NzlyT1pfaXQ0MjNQeDktR08taU1pWGx4VG0xQVpaenpUZ0toN3FjcHFOQjdZX29OY0lnekFDeEtV0gGoAUFVX3lxTE41MjBnUkJhOWVqeEFEYTU2OUN5QktJU3hqZmlzMnlTWk5pN1lEb3RISElGRWJrcFhCZldCREVBQjc2TUtXNTF4R1pJRGxRVkFFTWJnZXJIX2d4WHM5ekd3emJxTUJhQ2ZYdVZiVDJELXlwd1NHbTFuYk5TRHd6ZTA4VTV4Z3RvMm1LbTJwUzdxX3dNR3hWeGZ2QjM3aHdQdzN3UlE3d2JTNg?oc=5",
-    "description": "Russia to increase educational scholarships for Jordan – FM Middle East Monitor",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UMzQxTnlvaTI4V0J2R1ZaNHpDckRfcW8zWXJCLWJwOEpvOW1UWFc5bHpTR2VuZXcyMkNWa2U4Nk9iUGhNRHNGcVl4dmNsbUdnM3pTbDNBX1NnWjlfV255M01ZV2Juc1QtbmFF?oc=5",
+    "description": "SOAS Teaching Scholarships 2026–2027 for MPhil/PhD Students Global South Opportunities",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
-    "level": "unknown",
+    "level": "postgrad",
     "field": "",
-    "posted_at": "Fri, 04 Nov 2022 07:00:00 GMT",
+    "posted_at": "Sun, 08 Mar 2026 08:00:00 GMT",
     "keywords": [],
     "all_tags": [],
     "english_requirement": "unknown",
     "libya_eligible": null,
     "funding_label": "Unknown",
-    "level_kind": "unknown",
+    "level_kind": "postgrad",
     "deadline_days": null,
     "field_fit_det": 12,
     "det_score": 43.2,
@@ -11380,10 +10661,10 @@
   },
   {
     "id": "bdf8dae1f9f6",
-    "title": "13 European universities with free application fees - Study International",
+    "title": "13 European universities with free application fees - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdngya3lYTVR4dUVPRzgzWm5rbEVjQnFKWkZjQWJQbGlBTGYxUlhwaVBoQnhiNW9sdDQ1QXVfOWIxZ0tBWTYwN0Q1aW1nUDI4cklNUDZtZVBmT1ZEQmdFQlIwWWJQakZEcmZWLTJQanBWRE9ya1paZ3dMSDR3TDIzQg?oc=5",
-    "description": "13 European universities with free application fees Study International",
+    "description": "13 European universities with free application fees studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -11429,10 +10710,10 @@
   },
   {
     "id": "0ecc7c3c8703",
-    "title": "24 hardest universities to get into: 2026 acceptance rates - Study International",
+    "title": "24 hardest universities to get into: 2026 acceptance rates - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96dUtGYnhtY3JucUNsd21UemFtVHdnNlNWbmp4MWgtcnlSR1ZpenpoTG1ic25VbVNTb2NGSG85b3FGdEprQlAyY1hLMjltamJEV0dOejhBSlBkbVZ3UWRyLWNIOGhlWmtqSkxyNWw5Q1o1T3QyY2Fpcw?oc=5",
-    "description": "24 hardest universities to get into: 2026 acceptance rates Study International",
+    "description": "24 hardest universities to get into: 2026 acceptance rates studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -11572,10 +10853,10 @@
   },
   {
     "id": "fcf41a484ca7",
-    "title": "17 tuition-free universities in the US for a master's (2026) - Study International",
+    "title": "17 tuition-free universities in the US for a master's (2026) - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CZnBDZk5BLUFuRDNYaTlmWDJROE55blZqR0Zpbkh1RXN3Z0FKZEFJWllGZGgxWWdWODFVMkU4RmlqMWU4Z0JWMGNPT1NJS09sWF9BOEl1SFd1WUxYdGZNdnBzMGc5Y0E4MEo4OHBncGZjTkZoZF9nRkZCUFA?oc=5",
-    "description": "17 tuition-free universities in the US for a master's (2026) Study International",
+    "description": "17 tuition-free universities in the US for a master's (2026) studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -11813,10 +11094,10 @@
   },
   {
     "id": "00fa4ab3ae67",
-    "title": "5 things they don't tell you about the Chevening Scholarship - Study International",
+    "title": "5 things they don't tell you about the Chevening Scholarship - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RZWRzbVFTcV9xX2gyRlRzWnRrQXByRlBzTU81X1drMW5hT09lZTE3N2cwZ3Y4WDJWYWY3X3RjQlZ1X24tVEtBTjhBdVVic3NUbWJzejFkTnBtRWY0dmFBU2ZFc0ZrbUJPWE02Z2ZIaXZHbHVWQzd3?oc=5",
-    "description": "5 things they don't tell you about the Chevening Scholarship Study International",
+    "description": "5 things they don't tell you about the Chevening Scholarship studyinternational.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -17242,10 +16523,10 @@
   },
   {
     "id": "11565fd6bd6b",
-    "title": "FULBRIGHT NON-DEGREE VISITING RESEARCHER PROGRAM COMPETITION FOR ACADEMIC YEAR 2026-2027 - rs.usembassy.gov",
+    "title": "FULBRIGHT NON-DEGREE VISITING RESEARCHER PROGRAM COMPETITION FOR ACADEMIC YEAR 2026-2027 - U.S. Embassy in Serbia (.gov)",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQXV4b2JVcWdaRmIyejdxclg4Yl9QX0tlbHhyT3EzNUlOX3FZbllaYnp6WHVhSlh2clFjODdsa0VvV01WcFNTYllRcGZQTUxGdzY3c0UxcUNwa3dxNlhldGprZXNOc0tBTGJPaEpyeF9rMTRPRG5RYzc0aW9hdFljaU1xRnVyS2hQNk9Qak5ndVUtYU5GV1RhVGdmWFRiU0pkWnVpeVhZNjF4MXpYV0dZVGJ6Yw?oc=5",
-    "description": "FULBRIGHT NON-DEGREE VISITING RESEARCHER PROGRAM COMPETITION FOR ACADEMIC YEAR 2026-2027 rs.usembassy.gov",
+    "description": "FULBRIGHT NON-DEGREE VISITING RESEARCHER PROGRAM COMPETITION FOR ACADEMIC YEAR 2026-2027 U.S. Embassy in Serbia (.gov)",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -25645,53 +24926,6 @@
     "deep_read": false
   },
   {
-    "id": "81d8d7912d9d",
-    "title": "17 Scholarships, Study Abroad Opportunities and Competitions Closing in August 2026 – July 28, 2026 - Opportunity Desk",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWtGWnhDSkpPMmQzZWJvUVZ0aFN2aXM3M1FVVmpjWm5Cc1pLQzJ4VVUxc0trdUFhZGRRQlVkNy1BSUJOTlNRV2MxN0ZhWG1VUnM3clBaTV9KemdvVi1FVkx3VEVkOUI0VXN5aElGUGJ3ZnhESmF4Z0VJVTh5Z0VHb3k5LXVFSjEzOHM3dDNMT2dCeFh2bFNiWEVVbjBZVmFwV0JOX1ZWdW1zNVZnT2I1bUI0aUlyLTdpRzFLMFVHaE9OaVBoeUo1TmtJWWItVzM5?oc=5",
-    "description": "17 Scholarships, Study Abroad Opportunities and Competitions Closing in August 2026 – July 28, 2026 Opportunity Desk",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Tue, 28 Jul 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 39.0,
-    "deep_read": false
-  },
-  {
     "id": "e82122d3a66a",
     "title": "Apply Now: Ashinaga Africa Initiative – Francophone - fundsforNGOs",
     "source": "google-news",
@@ -25736,6 +24970,53 @@
       "recommendation": "UNCERTAIN - Verify additional details before applying",
       "scam_ratio": 0.0,
       "legit_ratio": 0.1
+    },
+    "final_score": 39.0,
+    "deep_read": false
+  },
+  {
+    "id": "81d8d7912d9d",
+    "title": "17 Scholarships, Study Abroad Opportunities and Competitions Closing in August 2026 – July 28, 2026 - Opportunity Desk",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaWtGWnhDSkpPMmQzZWJvUVZ0aFN2aXM3M1FVVmpjWm5Cc1pLQzJ4VVUxc0trdUFhZGRRQlVkNy1BSUJOTlNRV2MxN0ZhWG1VUnM3clBaTV9KemdvVi1FVkx3VEVkOUI0VXN5aElGUGJ3ZnhESmF4Z0VJVTh5Z0VHb3k5LXVFSjEzOHM3dDNMT2dCeFh2bFNiWEVVbjBZVmFwV0JOX1ZWdW1zNVZnT2I1bUI0aUlyLTdpRzFLMFVHaE9OaVBoeUo1TmtJWWItVzM5?oc=5",
+    "description": "17 Scholarships, Study Abroad Opportunities and Competitions Closing in August 2026 – July 28, 2026 Opportunity Desk",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "Tue, 28 Jul 2026 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
     },
     "final_score": 39.0,
     "deep_read": false
@@ -26217,53 +25498,6 @@
     "deep_read": false
   },
   {
-    "id": "ebb3e5e71731",
-    "title": "Tomorrow’s Leaders Scholarships for Undergraduate Study in Egypt or Lebanon - Al-Fanar Media",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeEZxaDhMd3QxbEJyUzdIMHdqQmJZc2otZG5SRU95X3I4NDZGc0ItMER0Y1BPVHRYcTR4dm8zdGdlN2ZneThSejZMX3Uzem9aOGx3RTlUS2V6Zm91NThxSl9WNlhTTDFweHUyeGhQdm01enpPdHVnTk5wSHZNbm9hRnl1b2JWVFhKNTlqVE5HRGc3M0pMaVR1aWg2eXFzbk9HTGtQbVRZNmFDV0NJb2c?oc=5",
-    "description": "Tomorrow’s Leaders Scholarships for Undergraduate Study in Egypt or Lebanon Al-Fanar Media",
-    "country": "Egypt",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Sun, 12 Oct 2025 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "postgrad",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 39.0,
-    "deep_read": false
-  },
-  {
     "id": "e8cd648a8992",
     "title": "Arab Families and Foundations that Give Scholarships - Al-Fanar Media",
     "source": "google-news",
@@ -26308,6 +25542,53 @@
       "recommendation": "LIKELY LEGITIMATE - Proceed with application",
       "scam_ratio": 0.0,
       "legit_ratio": 0.2
+    },
+    "final_score": 39.0,
+    "deep_read": false
+  },
+  {
+    "id": "ebb3e5e71731",
+    "title": "Tomorrow’s Leaders Scholarships for Undergraduate Study in Egypt or Lebanon - Al-Fanar Media",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeEZxaDhMd3QxbEJyUzdIMHdqQmJZc2otZG5SRU95X3I4NDZGc0ItMER0Y1BPVHRYcTR4dm8zdGdlN2ZneThSejZMX3Uzem9aOGx3RTlUS2V6Zm91NThxSl9WNlhTTDFweHUyeGhQdm01enpPdHVnTk5wSHZNbm9hRnl1b2JWVFhKNTlqVE5HRGc3M0pMaVR1aWg2eXFzbk9HTGtQbVRZNmFDV0NJb2c?oc=5",
+    "description": "Tomorrow’s Leaders Scholarships for Undergraduate Study in Egypt or Lebanon Al-Fanar Media",
+    "country": "Egypt",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Sun, 12 Oct 2025 07:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
     },
     "final_score": 39.0,
     "deep_read": false
@@ -26551,10 +25832,10 @@
   },
   {
     "id": "ed574afb5ae0",
-    "title": "5 international scholarships for business schools in London - Study International",
+    "title": "5 international scholarships for business schools in London - studyinternational.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWXJiNFhXQVdDMHpjeEI2S1NlZ282Z0hMQzRNcGhBREpFWjNPbGYySEZmZkhvanRIbVJJeU9PcktZWXpGZ2hYSXNIRDFSY3hBVUZRZHg2eDZ4amlpWWZ2VWlHMUxyVkRkenRUZkNTMW8?oc=5",
-    "description": "5 international scholarships for business schools in London Study International",
+    "description": "5 international scholarships for business schools in London studyinternational.com",
     "country": "UK",
     "deadline": "",
     "funding": "Unknown",
@@ -26614,53 +25895,6 @@
     "libya_eligible": null,
     "funding_label": "Unknown",
     "level_kind": "bachelor",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.5,
-      "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.0
-    },
-    "final_score": 39.0,
-    "deep_read": false
-  },
-  {
-    "id": "579c89b697a8",
-    "title": "KFUPM Academic Ambassadors Visit IUST to Explore Collaborations - Kashmir Observer",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVTdGQTBxZjd1WnlqVm1hNTdNOG9EY2FVdzFaSTJ3dk9EQ09fbEZuckFrVHR0VzR5VVdDZGwtMXRfX1BfZmN5NjBYalFWdEI2MlpBQjI5UmJMQVhldFZ6aG1PdzA0dXZzWnpRU2JvZ1hEVWpiUGt2V3NyOEhteXBIbll3WjJPYURIeVpzdWxPOEx5bWRlX2lxYm45LV9UUDd3N3VlX3lQODE1OURsbVJB?oc=5",
-    "description": "KFUPM Academic Ambassadors Visit IUST to Explore Collaborations Kashmir Observer",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "postgrad",
-    "field": "",
-    "posted_at": "Thu, 02 Apr 2026 07:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "postgrad",
     "deadline_days": null,
     "field_fit_det": 0,
     "det_score": 39.0,
@@ -27024,55 +26258,6 @@
     "deep_read": false
   },
   {
-    "id": "93883910335f",
-    "title": "Hauwa Ojeifo Scholarship 2026 for Young Leaders Addressing Challenges Facing Women and Girls (Up to $25,000 in funds) - After School Africa",
-    "source": "google-news",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XWE1nZlNHR3M3VjVYb0duWnR1OWU5NXZWRjdycm53RGt5M0tmdUNabDVFMXl5MGtMWlZwRFktc3d3VWN3eWQyeXRqTzdLalVpN0Fyak5RemR5QjVuVzR5X2FnYmVheFlvczJneDlOWEFTTGw5?oc=5",
-    "description": "Hauwa Ojeifo Scholarship 2026 for Young Leaders Addressing Challenges Facing Women and Girls (Up to $25,000 in funds) After School Africa",
-    "country": "",
-    "deadline": "",
-    "funding": "Unknown",
-    "level": "unknown",
-    "field": "",
-    "posted_at": "Wed, 18 Feb 2026 08:00:00 GMT",
-    "keywords": [],
-    "all_tags": [],
-    "english_requirement": "unknown",
-    "libya_eligible": null,
-    "funding_label": "Unknown",
-    "level_kind": "unknown",
-    "deadline_days": null,
-    "field_fit_det": 0,
-    "det_score": 39.0,
-    "det_dims": {
-      "field_fit": 0,
-      "eligibility": 70,
-      "language": 60,
-      "funding": 50,
-      "deadline": 50
-    },
-    "notes": [
-      "Not mentioned - verify",
-      "Nationality not mentioned - verify",
-      "No deadline found"
-    ],
-    "rejected": false,
-    "reject_reasons": [],
-    "verification": {
-      "is_legitimate": true,
-      "confidence_score": 0.6,
-      "scam_flags": [],
-      "legit_signals": [
-        "Has contact information"
-      ],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
-      "scam_ratio": 0.0,
-      "legit_ratio": 0.1
-    },
-    "final_score": 39.0,
-    "deep_read": false
-  },
-  {
     "id": "58d58b77b3d8",
     "title": "Sweden Opens Applications for Foreign Professionals’ Scholarship, Nigerians Eligible to Apply - Legit News",
     "source": "google-news",
@@ -27211,6 +26396,55 @@
       "recommendation": "UNCERTAIN - Verify additional details before applying",
       "scam_ratio": 0.0,
       "legit_ratio": 0.0
+    },
+    "final_score": 39.0,
+    "deep_read": false
+  },
+  {
+    "id": "93883910335f",
+    "title": "Hauwa Ojeifo Scholarship 2026 for Young Leaders Addressing Challenges Facing Women and Girls (Up to $25,000 in funds) - After School Africa",
+    "source": "google-news",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XWE1nZlNHR3M3VjVYb0duWnR1OWU5NXZWRjdycm53RGt5M0tmdUNabDVFMXl5MGtMWlZwRFktc3d3VWN3eWQyeXRqTzdLalVpN0Fyak5RemR5QjVuVzR5X2FnYmVheFlvczJneDlOWEFTTGw5?oc=5",
+    "description": "Hauwa Ojeifo Scholarship 2026 for Young Leaders Addressing Challenges Facing Women and Girls (Up to $25,000 in funds) After School Africa",
+    "country": "",
+    "deadline": "",
+    "funding": "Unknown",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "Wed, 18 Feb 2026 08:00:00 GMT",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 39.0,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.6,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has contact information"
+      ],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.1
     },
     "final_score": 39.0,
     "deep_read": false
@@ -27887,10 +27121,10 @@
   },
   {
     "id": "631510e85815",
-    "title": "Scholarship Story: Mia Coutinho ’20 - news.lafayette.edu",
+    "title": "Scholarship Story: Mia Coutinho ’20 - News · Lafayette College",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41OXN4ME9SaEZVY05iRm5yU3JPU1BoNGs3LWY3a3FUeTdWM3NkcWE3LVljc3JUZ25wdV9jTWFsUUQxMTB1b2M5YkU3RUxiYUd2MEtPdU5hUm1UVi14TWtqRDVIMVp6dmwwTTNPRHpLSDhfdGlkOGJ4RWpfczU?oc=5",
-    "description": "Scholarship Story: Mia Coutinho ’20 news.lafayette.edu",
+    "description": "Scholarship Story: Mia Coutinho ’20 News · Lafayette College",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -27922,12 +27156,14 @@
     "reject_reasons": [],
     "verification": {
       "is_legitimate": true,
-      "confidence_score": 0.5,
+      "confidence_score": 0.7,
       "scam_flags": [],
-      "legit_signals": [],
-      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "legit_signals": [
+        "From established organization"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
       "scam_ratio": 0.0,
-      "legit_ratio": 0.0
+      "legit_ratio": 0.2
     },
     "final_score": 39.0,
     "deep_read": false
@@ -29711,10 +28947,10 @@
   },
   {
     "id": "fafa3516352a",
-    "title": "Quezon City launches Filipino, literature scholarship program - philstar.com",
+    "title": "Quezon City launches Filipino, literature scholarship program - Philstar.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMUE3VUJHUUo3ZEQ4bkFOTi1UMEtmTjFFWXN4RWh5OC1xM202LWJpOTFWN2dpbFpNOFJmTVVyMURLLWlFeVF1N280S3Fsb1QtNW1jc1hxNXRnRlBGa1ZfbGoxRG5Yb1d3MHRnX0p5SVlIaDNKeUNpMDJBQUlfYzVVS1BrTW5VZFROQThVbnhyQUFCcWtEeDI3UURYMEdTd09vZi1VaGlBSGMxdmNTSTNKcdIBtwFBVV95cUxOMUNJVVlkSGZsdDRySE1fckFjT1RyM1ZCY2Etb2NIWEVCZDhLWmo2QVhrd3p6TXh0Q2x4eUVpUHBRZGtZZHJyWHVvRHdCRkhEc28wRFNQamUtMmpKVl93cURyT01teXA4b3NzbDRkYldNemVSQVU3aVhOdzZyR29fU0VRdUE0R2xIWXFSN0FsMFFPc1FHaERFNWc1Q282V2FORU5ycFRvUUNfVXJhUkd6NDJPZVlMaWs?oc=5",
-    "description": "Quezon City launches Filipino, literature scholarship program philstar.com",
+    "description": "Quezon City launches Filipino, literature scholarship program Philstar.com",
     "country": "",
     "deadline": "",
     "funding": "Unknown",
@@ -29852,10 +29088,10 @@
   },
   {
     "id": "73a5bac99637",
-    "title": "Yale to offer certificate in Native American and Indigenous Studies - Yale Daily News",
+    "title": "Yale to offer certificate in Native American and Indigenous Studies - yaledailynews.com",
     "source": "google-news",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUEFScWhMSXdhMklyS2NRNEdyM0dmdHZVRnUtMU5jRjZxUGhlbk5tS21renFLSmlHU1RnUmVnTU9KSFlFTjN4T3RkNTlBSmVzRHVCWGdTTExRbVhRdUR0NmFUdmpPd1NpeGxWeF9jcGFETktJRzhLVzFrbjZ5VWR6YnhzLXhST1JKQk91Q0tBdHU1Y1FRNjVwYWRydU9zV2traGhLUA?oc=5",
-    "description": "Yale to offer certificate in Native American and Indigenous Studies Yale Daily News",
+    "description": "Yale to offer certificate in Native American and Indigenous Studies yaledailynews.com",
     "country": "USA",
     "deadline": "",
     "funding": "Unknown",

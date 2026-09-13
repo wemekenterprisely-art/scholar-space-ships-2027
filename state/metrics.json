@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 923,
+      "fetched": 924,
       "matches": 0,
       "errors": 0
     },
@@ -81,7 +81,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 2,
+      "fetched": 0,
       "matches": 0,
       "errors": 0
     },
@@ -112,12 +112,12 @@
     }
   },
   "funnel": {
-    "fetched": 1246,
-    "candidates": 757,
-    "rejected": 489
+    "fetched": 1245,
+    "candidates": 741,
+    "rejected": 504
   },
   "timings": {
     "excel": 1.0,
-    "total": 132.4
+    "total": 137.6
   }
 }
