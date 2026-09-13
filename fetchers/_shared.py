@@ -15,20 +15,8 @@ def get_json(url: str, timeout: int = 15):
 
 def resolve_google_news_url(url: str) -> str:
     """Resolve Google News redirect URL to the actual original URL."""
-    if "news.google.com" not in url:
-        return url
-    
-    try:
-        # Follow the redirect to get the final URL
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            final_url = resp.url
-            # If we got a different URL, return it
-            if final_url != url and "news.google.com" not in final_url:
-                return final_url
-    except Exception:
-        pass
-    
+    # For now, return the original URL
+    # The deep_reader.py will extract the actual application URL from the page content
     return url
 
 def parse_rss(xml: str) -> list[dict]:
