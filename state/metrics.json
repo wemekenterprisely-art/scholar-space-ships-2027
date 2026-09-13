@@ -11,7 +11,7 @@
       "errors": 0
     },
     "google-news": {
-      "fetched": 917,
+      "fetched": 922,
       "matches": 0,
       "errors": 0
     },
@@ -56,7 +56,7 @@
       "errors": 0
     },
     "linkedin-jobs": {
-      "fetched": 40,
+      "fetched": 30,
       "matches": 0,
       "errors": 0
     },
@@ -81,7 +81,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 0,
+      "fetched": 2,
       "matches": 0,
       "errors": 0
     },
@@ -112,12 +112,12 @@
     }
   },
   "funnel": {
-    "fetched": 1238,
-    "candidates": 759,
-    "rejected": 479
+    "fetched": 1235,
+    "candidates": 1043,
+    "rejected": 192
   },
   "timings": {
     "excel": 1.0,
-    "total": 123.7
+    "total": 312.5
   }
 }
