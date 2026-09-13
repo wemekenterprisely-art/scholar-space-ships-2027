@@ -58,6 +58,8 @@ def resolve_google_news_url(url: str) -> str:
                         return location
             except Exception:
                 pass
+    except Exception:
+        pass
     
     return url
 
