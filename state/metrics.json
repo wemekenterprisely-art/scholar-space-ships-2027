@@ -10,18 +10,8 @@
       "matches": 0,
       "errors": 0
     },
-    "google-news": {
-      "fetched": 924,
-      "matches": 0,
-      "errors": 0
-    },
     "national-programs": {
       "fetched": 8,
-      "matches": 0,
-      "errors": 0
-    },
-    "web-search": {
-      "fetched": 0,
       "matches": 0,
       "errors": 0
     },
@@ -112,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 1245,
-    "candidates": 741,
-    "rejected": 504
+    "fetched": 321,
+    "candidates": 136,
+    "rejected": 185
   },
   "timings": {
     "excel": 1.0,
-    "total": 137.6
+    "total": 233.2
   }
 }
