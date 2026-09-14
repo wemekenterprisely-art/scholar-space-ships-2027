@@ -9,12 +9,12 @@
   "sources_total": 20,
   "funnel": {
     "fetched": 323,
-    "candidates": 124,
-    "rejected": 199
+    "candidates": 320,
+    "rejected": 3
   },
   "timings": {
     "excel": 1.0,
-    "total": 362.6
+    "total": 127.6
   },
-  "generated_at": "2026-09-13T05:17:23.535840+00:00"
+  "generated_at": "2026-09-14T04:17:04.366289+00:00"
 }
