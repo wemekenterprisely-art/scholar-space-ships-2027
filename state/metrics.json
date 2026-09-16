@@ -71,7 +71,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 0,
+      "fetched": 2,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 322,
-    "candidates": 305,
-    "rejected": 17
+    "fetched": 324,
+    "candidates": 293,
+    "rejected": 31
   },
   "timings": {
     "excel": 1.0,
-    "total": 113.7
+    "total": 128.4
   }
 }
