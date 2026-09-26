@@ -1,5 +1,972 @@
 [
   {
+    "id": "9fee113de685",
+    "title": "Chevening: Resource Hub",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/",
+    "description": "Resource Hub",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "427d8c40bfc3",
+    "title": "Chevening: Find a course",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/find-a-course/",
+    "description": "Find a course",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "7bd46d899b69",
+    "title": "AAUW International Fellowship Program 2027 | Fully Funded",
+    "source": "scholarshiproar",
+    "url": "https://scholarshiproar.com/aauw-international-fellowship-program/",
+    "description": "AAUW International Fellowship Program 2027 | Fully Funded",
+    "country": "USA",
+    "deadline": "s January-March Deadlines April-June Deadlines July-September Deadlines October-December Deadlines I",
+    "funding": "Fully Funded",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 92.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 100,
+      "deadline_urgency": 100
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 73.8,
+    "eligibility": "criteria, required documents, and a detailed step-by-step application process to help you apply successfully. aauw (the american association of university women) awards international fellowships for full-time study or research in the united states to women who are not united states citizens or permanent residents. both graduate and postgraduate studies at accredited institutions are supported. originally designed to provide latin american women opportunities for graduate and postgraduate study i",
+    "requirements": "and application steps. muhammad faizan reviews her articles. linkedin reviewed by muhammad faizan last reviewed: september 25, 2026 categories scholarships , usa queen’s commonwealth essay competition 2027 (prize + certificate) woodrow wilson center fellowship 2027 | fully funded follow us facebook instagram whatsapp linkedin youtube x about scholarshiproar.com is an updated listing of international scholarships and internships for students who seek national and global development through higher",
+    "application_process": "for the aauw fellowship? please follow the steps below to apply for the aauw fellowship: prepare the following documents: three recommenders who are professors or professional colleagues well acquainted with you, your work, and your academic background are needed. proof of the highest degree. proof of current enrollment (currently enrolled applications only). proof of a bachelor’s degree. proof of a doctorate or m.f.a. degree (postdoctoral applicants only). official report of toefl test scores o",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://scholarshiproar.com/aauw-international-fellowship-program/",
+      "is_valid": true,
+      "title": "",
+      "description": "AAUW International Fellowship Program 2027 | Fully Funded Skip to content Menu Home Scholarships Scholarships by Countries Level of Study Undergraduate Scholarships Masters Scholarships PhD Scholarships Postdoctoral Fellowships Training Scholarships Deadlines January-March Deadlines April-June Deadlines July-September Deadlines October-December Deadlines Internships Scholarship Guides Scholarship Lists AAUW International Fellowship Program 2027 | Fully Funded Updated: September 25, 2026 The AAUW Fellowship Program is one of the best opportunities available for international students to study in the USA. This scholarship provides fully funded graduate and postgraduate programs at USA universities across a wide range of fields. The AAUW Fellowship Program is offered by the American Association of University Women and covers $20,000 to $50,000 per year, contingent upon meeting academic standards for renewal. In this article, we have explained everything you need to know about the AAUW Fellowship Program 2027 , including its benefits, eligibility criteria, required documents, and a detailed step-by-step application process to help you apply successfully. AAUW (the American Association of University Women) awards International Fellowships for full-time study or research in the United States to women who are not United States citizens or permanent residents. Both graduate and postgraduate studies at accredited institutions are supported. Originally designed to provide Latin American women opportunities for graduate and postgraduate study in the U.S., the International Fellowships program awarded its first fellowship in 1917. The program now includes women from around the world, and international fellowships have been awarded to more than 3,600 women from more than 150 nations. Related Fully Funded Scholarships in the USA Woodrow Wilson Center Fellowship Future Global Leaders Fellowship Illinois Wesleyan University Scholarships Top Fully Funded Scholarships in the USA Scho",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Fully Funded",
+      "deadline": "s January-March Deadlines April-June Deadlines July-September Deadlines October-December Deadlines I",
+      "eligibility": "criteria, required documents, and a detailed step-by-step application process to help you apply successfully. aauw (the american association of university women) awards international fellowships for full-time study or research in the united states to women who are not united states citizens or permanent residents. both graduate and postgraduate studies at accredited institutions are supported. originally designed to provide latin american women opportunities for graduate and postgraduate study i",
+      "requirements": "and application steps. muhammad faizan reviews her articles. linkedin reviewed by muhammad faizan last reviewed: september 25, 2026 categories scholarships , usa queen’s commonwealth essay competition 2027 (prize + certificate) woodrow wilson center fellowship 2027 | fully funded follow us facebook instagram whatsapp linkedin youtube x about scholarshiproar.com is an updated listing of international scholarships and internships for students who seek national and global development through higher",
+      "application_process": "for the aauw fellowship? please follow the steps below to apply for the aauw fellowship: prepare the following documents: three recommenders who are professors or professional colleagues well acquainted with you, your work, and your academic background are needed. proof of the highest degree. proof of current enrollment (currently enrolled applications only). proof of a bachelor’s degree. proof of a doctorate or m.f.a. degree (postdoctoral applicants only). official report of toefl test scores o",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "f1ff66361814",
+    "title": "sl slovenščina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+    "description": "sl slovenščina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Možnosti v okviru programa Erasmus+ - Erasmus+ Skip to main content Language: slovenščina Select your language Zapri EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zapri You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Ali menite, da je ta stran koristna? Yes Yes but No Zakaj je koristna? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Pojasnite svojo izbiro. Kaj je bila glavna težava? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Težava pri prevodu Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Težavo opišite v spodnjem polju Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Hvala za vaše mnenje Veseli nas, da imate pozitivne izkušnje. Vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. Če imate vprašanja, se obrnite na Europe direct . Share this page EAC Footer Helpful links Prijava Erasmus+ and your data Give feedback on this page Pogosta vprašanja Quick links Mobility and learning agreemen",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "0c11417e6b58",
+    "title": "Chevening: Application guidance",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/guidance/",
+    "description": "Application guidance",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "3500f030374a",
+    "title": "Chevening: Scholar support",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/scholar-support/",
+    "description": "Scholar support",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "46e0c9c6e4a4",
+    "title": "Chevening: Alumni resources",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/alumni/",
+    "description": "Alumni resources",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "53a1b2c5819e",
+    "title": "Chevening: Scholarships",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/",
+    "description": "Scholarships",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "fa43e205c0da",
+    "title": "Chevening: Who can apply?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/who-can-apply/",
+    "description": "Who can apply?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.9,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has clear eligibility criteria",
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.4
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "d91f0509c451",
+    "title": "sk slovenčina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+    "description": "sk slovenčina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 86.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 80,
+      "funding": 90,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.2,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Príležitosti v rámci programu Erasmus+ - Erasmus+ Skip to main content Language: slovenčina Select your language Zatvoriť EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zatvoriť You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Považujete túto stránku za užitočnú? Yes Yes but No Čo bolo pre vás prínosom? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Vysvetlite svoj výber. Aký bol hlavný problém? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Problém pri preklade Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Opíšte problém v políčku uvedenom nižšie Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Ďakujeme vám za spätnú väzbu. Sme radi, že vaša skúsenosť bola pozitívna. O stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. Ak potrebujete položiť otázku, kontaktujte službu Europe direct . Share this page EAC Footer Helpful links Ako podať žiadosť Erasmus+ and your data Give feedback on thi",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "a2a5c2aec2a0",
+    "title": "Radboud Scholarship Programme for International Students",
+    "source": "scholars4dev",
+    "url": "https://www.scholars4dev.com/6127/radboud-university-scholarships-for-international-students/",
+    "description": "Radboud Scholarship Programme for International Students",
+    "country": "USA",
+    "deadline": "31 January 2027",
+    "funding": "Unknown",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": true,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 100,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Libyan students eligible",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.7,
+      "scam_flags": [],
+      "legit_signals": [
+        "From established organization"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.2
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "eligibility": "you will only be eligible to obtain a radboud scholarship if you: hold a non-eu/eea passport are not eligible for the lower eea tuition fee for other reasons have (will obtain) a bachelor’s degree achieved outside the netherlands, have no degrees achieved in the netherlands and did not receive any previous education in the netherlands meet the english language proficiency requirement for the master’s programme of your choice. have been fully admitted to the english-taught master’s degree program",
+    "application_process": "for this scholarship. website: official scholarship website: http://www.ru.nl/english/education/master’s-programmes/financial-matters/scholarships-grants/read_more/rsprogramme/ related scholarships: scholarships in netherlands for international students disclaimer: this is not the official scholarship page. this is only a one-page summarized listing of the scholarship. while we endeavor to keep the information up to date and correct, information may change at any time without notice. for complet",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://www.scholars4dev.com/6127/radboud-university-scholarships-for-international-students/",
+      "is_valid": true,
+      "title": "",
+      "description": "Radboud Scholarship Programme for International Students 2026-2027 | Scholars4Dev International Scholarships for Developing Countries | Scholarships for Development International Undergraduate Scholarships, Master Scholarships, PhD Scholarships for International Students 2026-2027 Home About Lists Tips Sitemap Radboud Scholarship Programme for International Students Last updated: 24 Sep 2026 | Radboud University Masters Degree Deadline: 31 January 2027 (annual) Study in: Netherlands Course starts September 2027 Brief description: The Radboud Scholarship Programme offers a selected number of talented prospective non-EEA students the opportunity to receive a scholarship to pursue a complete English-taught Master’s degree programme at Radboud University. Host Institution(s): Radboud University in The Netherlands Level/Field(s) of study: English-taught Masters Degree Programme (with the exception of Erasmus Mundus Master’s programmes and joint-degree Master’s programmes). Number of Scholarships: For 2026/2027, a maximum of 33 Radboud Scholarships are available at the following faculties: Faculty of Arts (4), Faculty of Law (4), Nijmegen School of Management (6), Faculty of Philosophy, Theology and Religious Studies (3), Faculty of Science (8), Faculty of Social Sciences (8). Target group: Non-EU/EEA International Students Scholarship value/inclusions/duration: A partial scholarship will reduce your tuition fee to € 2,771. For example: a grant holder in 2026/2027 will pay a tuition fee of only €2,771, instead of €19,000 (depending on your programme). The scholarships also covers costs such as those for visa, residence permit, health insurance and liability insurance for your stay in Netherlands. In case you are selected as a scholarship recipient and you are admitted to a two-year Master’s programme: to qualify for the grant again for the second year, you need to have passed all courses in the first year. Eligibility: You will only be eligible to obtain a Radboud Scholar",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Fully Funded",
+      "deadline": "31 January 2027",
+      "eligibility": "you will only be eligible to obtain a radboud scholarship if you: hold a non-eu/eea passport are not eligible for the lower eea tuition fee for other reasons have (will obtain) a bachelor’s degree achieved outside the netherlands, have no degrees achieved in the netherlands and did not receive any previous education in the netherlands meet the english language proficiency requirement for the master’s programme of your choice. have been fully admitted to the english-taught master’s degree program",
+      "requirements": "",
+      "application_process": "for this scholarship. website: official scholarship website: http://www.ru.nl/english/education/master’s-programmes/financial-matters/scholarships-grants/read_more/rsprogramme/ related scholarships: scholarships in netherlands for international students disclaimer: this is not the official scholarship page. this is only a one-page summarized listing of the scholarship. while we endeavor to keep the information up to date and correct, information may change at any time without notice. for complet",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "516454ed7786",
+    "title": "10 Ways to Increase Your Chances of Winning a Fully Funded Scholarship",
+    "source": "opportunitydesk",
+    "url": "https://opportunitydesk.org/2026/09/24/10-more-ways-to-increase-your-chances-of-winning-a-fully-funded-scholarship/",
+    "description": "<![CDATA[Winning a fully funded scholarship does not begin on the day the application portal opens. In many cases, the strongest application is built months or even years before submission. Your academic performance, leadership experience, community involvement, professional development and the decisions you make before applying can all strengthen your profile. If you are planning to [...]]]>",
+    "country": "USA",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Thu, 24 Sep 2026 23:10:43 +0000",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "application_process": "opportunity deadlines nominate #ypom promote privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stor",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://opportunitydesk.org/2026/09/24/10-more-ways-to-increase-your-chances-of-winning-a-fully-funded-scholarship/",
+      "is_valid": true,
+      "title": "",
+      "description": "10 Ways to Increase Your Chances of Winning a Fully Funded Scholarship – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Facebook X (Twitter) Instagram Saturday, September 26 About Us Partners Submit Opportunity Deadlines Nominate #YPOM Promote Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Home » Scholarships » 10 Ways to Increase Your Chances of Winning a Fully Funded Scholarship 10 Ways to Increase Your Chances of Winning a Fully Funded Scholarship Favour Abatang September 24, 2026 7 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Winning a fully funded scholarship does not begin on the day the application portal opens. In many cases, the strongest application is ",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Fully Funded",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "opportunity deadlines nominate #ypom promote privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stor",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "93ad5456b9ef",
+    "title": "Chevening: Application timeline",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/application-timeline/",
+    "description": "Application timeline",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
+    "id": "d28a32560202",
+    "title": "Chevening: Why study in the UK?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/why-study-in-the-uk/",
+    "description": "Why study in the UK?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 80.0,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 80,
+      "language": 80,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 66.6,
+    "first_seen": "2026-09-26T04:13:53+00:00",
+    "date": "2026-09-26",
+    "applied": false
+  },
+  {
     "id": "6843a9d617a2",
     "title": "bg български",
     "source": "erasmus",
