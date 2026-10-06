@@ -61,7 +61,7 @@
       "errors": 0
     },
     "profellow": {
-      "fetched": 0,
+      "fetched": 8,
       "matches": 0,
       "errors": 0
     },
@@ -71,7 +71,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 2,
+      "fetched": 0,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 320,
-    "candidates": 231,
-    "rejected": 89
+    "fetched": 325,
+    "candidates": 228,
+    "rejected": 97
   },
   "timings": {
     "excel": 1.0,
-    "total": 140.8
+    "total": 50.7
   }
 }
