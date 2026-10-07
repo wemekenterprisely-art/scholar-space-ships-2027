@@ -46,7 +46,7 @@
       "errors": 0
     },
     "linkedin-jobs": {
-      "fetched": 39,
+      "fetched": 40,
       "matches": 0,
       "errors": 0
     },
@@ -66,12 +66,12 @@
       "errors": 0
     },
     "erasmus": {
-      "fetched": 12,
+      "fetched": 0,
       "matches": 0,
       "errors": 0
     },
     "daad": {
-      "fetched": 0,
+      "fetched": 2,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 325,
+    "fetched": 317,
     "candidates": 228,
-    "rejected": 97
+    "rejected": 89
   },
   "timings": {
     "excel": 1.0,
-    "total": 50.7
+    "total": 81.6
   }
 }
