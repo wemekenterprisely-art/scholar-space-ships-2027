@@ -66,7 +66,7 @@
       "errors": 0
     },
     "erasmus": {
-      "fetched": 0,
+      "fetched": 12,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 317,
-    "candidates": 228,
-    "rejected": 89
+    "fetched": 328,
+    "candidates": 233,
+    "rejected": 95
   },
   "timings": {
     "excel": 1.0,
-    "total": 81.6
+    "total": 129.3
   }
 }
