@@ -8,13 +8,13 @@
   "sources_up": 10,
   "sources_total": 20,
   "funnel": {
-    "fetched": 328,
-    "candidates": 233,
-    "rejected": 95
+    "fetched": 327,
+    "candidates": 222,
+    "rejected": 105
   },
   "timings": {
     "excel": 1.0,
-    "total": 129.3
+    "total": 137.8
   },
-  "generated_at": "2026-10-08T11:15:00.431602+00:00"
+  "generated_at": "2026-10-09T11:14:15.372808+00:00"
 }
