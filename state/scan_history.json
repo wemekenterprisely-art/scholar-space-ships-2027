@@ -2114,5 +2114,37 @@
       "csc": 0,
       "academicpositions": 0
     }
+  },
+  {
+    "date": "2026-10-11",
+    "time": "2026-10-11T10:40:55+00:00",
+    "fetched": 326,
+    "candidates": 323,
+    "matches": 15,
+    "new": 15,
+    "health": "100%",
+    "seconds": 124.8,
+    "sources": {
+      "scholars4dev": 76,
+      "scholarship-positions": 0,
+      "national-programs": 8,
+      "opportunitydesk": 10,
+      "scholarshiproar": 50,
+      "opportunitiescorners": 163,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0,
+      "findaphd": 0,
+      "linkedin-jobs": 40,
+      "grants-gov": 0,
+      "wemakescholars": 0,
+      "profellow": 8,
+      "erasmus": 12,
+      "daad": 0,
+      "chevening": 55,
+      "unesco": 0,
+      "mext": 0,
+      "csc": 0,
+      "academicpositions": 0
+    }
   }
 ]
