@@ -1,20 +1,20 @@
 {
   "status": "healthy",
   "health_score": 80,
-  "total_fetched": 424,
+  "total_fetched": 422,
   "total_matches": 0,
   "total_errors": 0,
   "avg_latency_ms": 0,
-  "sources_up": 10,
+  "sources_up": 9,
   "sources_total": 20,
   "funnel": {
     "fetched": 329,
-    "candidates": 283,
-    "rejected": 46
+    "candidates": 274,
+    "rejected": 55
   },
   "timings": {
     "excel": 1.0,
-    "total": 125.0
+    "total": 93.5
   },
-  "generated_at": "2026-10-15T09:01:38.011011+00:00"
+  "generated_at": "2026-10-16T08:52:55.265607+00:00"
 }
