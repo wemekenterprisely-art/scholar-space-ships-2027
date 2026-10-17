@@ -46,7 +46,7 @@
       "errors": 0
     },
     "linkedin-jobs": {
-      "fetched": 40,
+      "fetched": 30,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 329,
-    "candidates": 274,
-    "rejected": 55
+    "fetched": 319,
+    "candidates": 254,
+    "rejected": 65
   },
   "timings": {
     "excel": 1.0,
-    "total": 93.5
+    "total": 94.6
   }
 }
