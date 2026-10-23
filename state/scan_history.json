@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-09-08",
-    "time": "2026-09-08T16:12:03+00:00",
-    "fetched": 124,
-    "candidates": 81,
-    "matches": 10,
-    "new": 10,
-    "health": "100%",
-    "seconds": 60.7,
-    "sources": {
-      "scholars4dev": 0,
-      "scholarship-positions": 0,
-      "google-news": 116,
-      "national-programs": 8,
-      "web-search": 0
-    }
-  },
-  {
     "date": "2026-09-09",
     "time": "2026-09-09T04:15:16+00:00",
     "fetched": 123,
@@ -2426,6 +2409,38 @@
     "seconds": 139.6,
     "sources": {
       "scholars4dev": 56,
+      "scholarship-positions": 0,
+      "national-programs": 8,
+      "opportunitydesk": 10,
+      "scholarshiproar": 50,
+      "opportunitiescorners": 163,
+      "internationalopportunities": 0,
+      "opportunitieszone": 0,
+      "findaphd": 0,
+      "linkedin-jobs": 40,
+      "grants-gov": 0,
+      "wemakescholars": 0,
+      "profellow": 7,
+      "erasmus": 12,
+      "daad": 2,
+      "chevening": 55,
+      "unesco": 0,
+      "mext": 0,
+      "csc": 0,
+      "academicpositions": 0
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "time": "2026-10-23T09:11:49+00:00",
+    "fetched": 312,
+    "candidates": 206,
+    "matches": 11,
+    "new": 11,
+    "health": "100%",
+    "seconds": 126.6,
+    "sources": {
+      "scholars4dev": 57,
       "scholarship-positions": 0,
       "national-programs": 8,
       "opportunitydesk": 10,
