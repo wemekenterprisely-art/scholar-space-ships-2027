@@ -1,7 +1,7 @@
 {
   "sources": {
     "scholars4dev": {
-      "fetched": 57,
+      "fetched": 58,
       "matches": 0,
       "errors": 0
     },
@@ -46,7 +46,7 @@
       "errors": 0
     },
     "linkedin-jobs": {
-      "fetched": 40,
+      "fetched": 30,
       "matches": 0,
       "errors": 0
     },
@@ -61,7 +61,7 @@
       "errors": 0
     },
     "profellow": {
-      "fetched": 7,
+      "fetched": 8,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 312,
-    "candidates": 206,
-    "rejected": 106
+    "fetched": 302,
+    "candidates": 188,
+    "rejected": 114
   },
   "timings": {
     "excel": 1.0,
-    "total": 126.6
+    "total": 138.0
   }
 }
