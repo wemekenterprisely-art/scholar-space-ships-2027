@@ -61,7 +61,7 @@
       "errors": 0
     },
     "profellow": {
-      "fetched": 7,
+      "fetched": 8,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 309,
-    "candidates": 271,
-    "rejected": 38
+    "fetched": 310,
+    "candidates": 259,
+    "rejected": 51
   },
   "timings": {
     "excel": 1.0,
-    "total": 95.0
+    "total": 108.3
   }
 }
