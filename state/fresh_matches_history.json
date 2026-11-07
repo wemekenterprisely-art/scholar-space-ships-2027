@@ -1,5 +1,868 @@
 [
   {
+    "id": "d91f0509c451",
+    "title": "sk slovenčina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+    "description": "sk slovenčina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Príležitosti v rámci programu Erasmus+ - Erasmus+ Skip to main content slovenčina Select your language Zatvoriť EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zatvoriť You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Považujete túto stránku za užitočnú? Yes Yes but No Čo bolo pre vás prínosom? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Vysvetlite svoj výber. Aký bol hlavný problém? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Problém pri preklade Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Opíšte problém v políčku uvedenom nižšie Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Ďakujeme vám za spätnú väzbu. Sme radi, že vaša skúsenosť bola pozitívna. O stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. Ak potrebujete položiť otázku, kontaktujte službu Europe direct . Share this page EAC Footer Helpful links Ako podať žiadosť Erasmus+ and your data Give feedback on this page Čas",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "e185350f7e84",
+    "title": "DAAD: Privacy Policy",
+    "source": "daad",
+    "url": "https://www.daad.de/en/data-privacy-statement/",
+    "description": "Privacy Policy",
+    "country": "Germany",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 93.8,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 90,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 74.9,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "c9943f8139f7",
+    "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
+    "source": "opportunitydesk",
+    "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+    "description": "<![CDATA[Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027. The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form [...]]]>",
+    "country": "USA",
+    "deadline": "February 4, 2027",
+    "funding": "Unknown",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "Fri, 06 Nov 2026 15:08:57 +0000",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": true,
+    "funding_label": "Unknown",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 12,
+    "det_score": 50.7,
+    "det_dims": {
+      "field_fit": 12,
+      "eligibility": 100,
+      "language": 60,
+      "funding": 50,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Libyan students eligible",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.65,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has clear deadline"
+      ],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.15
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 74.3,
+    "eligibility": "all u.s. citizens and green card holders are eligible, including working journalists, freelancers and education professionals. there is no academic prerequisite. a college degree is not required. the most successful candidates are those with experience in the field of education journalism, defined in broad terms to include a wide swath of disciplines related to education such as juvenile justice, economics, arts and culture, poverty and the science of learning. judges look for a demonstrated abi",
+    "application_process": "opportunity nominate #ypom privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stories how-to general",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+      "is_valid": true,
+      "title": "",
+      "description": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Saturday, November 7 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Home » Search by Region » America » Spencer Fellowship for Education Reporting 2027 (Funded) Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need th",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Stipend Only",
+      "deadline": "February 4, 2027",
+      "eligibility": "all u.s. citizens and green card holders are eligible, including working journalists, freelancers and education professionals. there is no academic prerequisite. a college degree is not required. the most successful candidates are those with experience in the field of education journalism, defined in broad terms to include a wide swath of disciplines related to education such as juvenile justice, economics, arts and culture, poverty and the science of learning. judges look for a demonstrated abi",
+      "requirements": "",
+      "application_process": "opportunity nominate #ypom privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stories how-to general",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "188511434494",
+    "title": "Hurford Youth Fellowship 2027 in USA (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
+    "description": "Hurford Youth Fellowship 2027 in USA (Fully Funded)",
+    "country": "USA",
+    "deadline": "November 30, 2026",
+    "funding": "Fully Funded",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.5,
+      "scam_flags": [],
+      "legit_signals": [],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.0
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "eligibility": "criteria, and application process are provided below. details about hurford youth fellowship 2027 host country: united states host organization: national endowment for democracy (ned) location: washington, d.c. fellowship duration: four months fellowship dates: may 1 – august 31, 2027 financial benefits: fully funded application deadline: november 30, 2026 financial benefits the hurford youth fellowship is a fully funded opportunity. selected fellows will receive financial support to participate",
+    "application_process": "for hurford youth fellowship 2027? visit the official national endowment for democracy website. read the fellowship announcement and application instructions carefully. the link is below. apply now for the hurford youth fellowship muhammad saim rasheed https://opportunitiescorners.com/ as opportunities corners founder, my name is muhammad saim rasheed. i completed my higher education from university of engineering and technology, peshawar. i have been to egypt for the aiesec internship. in addit",
+    "contact": "Email: opportunitiescorners.com@gmail.com",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://opportunitiescorners.com/hurford-youth-fellowship-2027/",
+      "is_valid": true,
+      "title": "",
+      "description": "Hurford Youth Fellowship 2027 in USA (Fully Funded) Facebook Instagram Linkedin Telegram Twitter Youtube Home Scholarships Bachelor, Master, PhD Scholarships Scholarships in Australia Scholarships in Canada Scholarships in China Scholarships in Europe Scholarships in Japan Middle East Scholarships Scholarships in Singapore Scholarships in South Korea Scholarships in USA Scholarships in UK Scholarship Guidelines Internships Exchange Programs Online Courses Conferences Fellowships Other Opportunities Competitions Trainings Search Sign in Welcome! Log into your account your username your password Forgot your password? Get help Privacy Policy Password recovery Recover your password your email A password will be e-mailed to you. Opportunities Corners Home Scholarships Bachelor, Master, PhD Scholarships Scholarships in Australia Scholarships in Canada Scholarships in China Scholarships in Europe Scholarships in Japan Middle East Scholarships Scholarships in Singapore Scholarships in South Korea Scholarships in USA Scholarships in UK Scholarship Guidelines Internships Exchange Programs Online Courses Conferences Fellowships Other Opportunities Competitions Trainings Home Conferences Hurford Youth Fellowship 2027 in USA (Fully Funded) Hurford Youth Fellowship 2027 in USA (Fully Funded) By Muhammad Saim Rasheed - November 6, 2026 Applications are now open for the Hurford Youth Fellowship 2027 in the USA . This is a fully funded international fellowship for applicants from around the world. Organized by the National Endowment for Democracy (NED), the program will take place in Washington, D.C., USA , from May 1 to August 31, 2027 . IELTS and TOEFL are not required, and there is no application fee. If you are passionate about democracy, civic engagement, youth participation, and social change, this fellowship is an opportunity worth considering. Further details about the benefits, eligibility criteria, and application process are provided below. Details About Hurford Youth Fel",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Fully Funded",
+      "deadline": "November 30, 2026",
+      "eligibility": "criteria, and application process are provided below. details about hurford youth fellowship 2027 host country: united states host organization: national endowment for democracy (ned) location: washington, d.c. fellowship duration: four months fellowship dates: may 1 – august 31, 2027 financial benefits: fully funded application deadline: november 30, 2026 financial benefits the hurford youth fellowship is a fully funded opportunity. selected fellows will receive financial support to participate",
+      "requirements": "",
+      "application_process": "for hurford youth fellowship 2027? visit the official national endowment for democracy website. read the fellowship announcement and application instructions carefully. the link is below. apply now for the hurford youth fellowship muhammad saim rasheed https://opportunitiescorners.com/ as opportunities corners founder, my name is muhammad saim rasheed. i completed my higher education from university of engineering and technology, peshawar. i have been to egypt for the aiesec internship. in addit",
+      "contact": "Email: opportunitiescorners.com@gmail.com",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "ff9f3c524ad4",
+    "title": "KYOTO University Amgen Internship 2027 in Japan (Fully Funded)",
+    "source": "opportunitiescorners",
+    "url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
+    "description": "KYOTO University Amgen Internship 2027 in Japan (Fully Funded)",
+    "country": "Japan",
+    "deadline": "1st February 2027",
+    "funding": "Fully Funded",
+    "level": "unknown",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "unknown",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.7,
+      "scam_flags": [],
+      "legit_signals": [
+        "From established organization"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.2
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "eligibility": "criteria the internship is open to international students and domestic students. the applicant must be an undergraduate student. the applicant must be enrolled in colleges or universities in asia. the applicant must have completed the first year of undergraduate study at the time the summer internship begins. must have at least 1 semester left after the internship. if you are studying at any university located in one of these asian countries (you are eligible) eastern asia china; china, hong kon",
+    "application_process": "for the kyoto university amgen scholars internship 2027? you must make an online application and upload all the required documents. the link to the official website is below. for more fully funded internships, please check our internship category . apply for the kyoto university amgen internship muhammad saim rasheed https://opportunitiescorners.com/ as opportunities corners founder, my name is muhammad saim rasheed. i completed my higher education from university of engineering and technology, ",
+    "contact": "Email: opportunitiescorners.com@gmail.com",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://opportunitiescorners.com/kyoto-university-amgen-internship-2027-in-japan/",
+      "is_valid": true,
+      "title": "",
+      "description": "KYOTO University Amgen Internship 2027 in Japan (Fully Funded) Facebook Instagram Linkedin Telegram Twitter Youtube Home Scholarships Bachelor, Master, PhD Scholarships Scholarships in Australia Scholarships in Canada Scholarships in China Scholarships in Europe Scholarships in Japan Middle East Scholarships Scholarships in Singapore Scholarships in South Korea Scholarships in USA Scholarships in UK Scholarship Guidelines Internships Exchange Programs Online Courses Conferences Fellowships Other Opportunities Competitions Trainings Search Sign in Welcome! Log into your account your username your password Forgot your password? Get help Privacy Policy Password recovery Recover your password your email A password will be e-mailed to you. Opportunities Corners Home Scholarships Bachelor, Master, PhD Scholarships Scholarships in Australia Scholarships in Canada Scholarships in China Scholarships in Europe Scholarships in Japan Middle East Scholarships Scholarships in Singapore Scholarships in South Korea Scholarships in USA Scholarships in UK Scholarship Guidelines Internships Exchange Programs Online Courses Conferences Fellowships Other Opportunities Competitions Trainings Home Internships KYOTO University Amgen Internship 2027 in Japan (Fully Funded) KYOTO University Amgen Internship 2027 in Japan (Fully Funded) By Muhammad Saim Rasheed - November 6, 2026 The KYOTO University Amgen Internship 2027 in Japan is now accepting applications. This fully funded, nine-week summer research opportunity in Japan lets international students gain hands-on research experience at one of Japan’s leading universities. Interns will receive a Stipend , Airfare Tickets, and Free Accommodation . This Summer Internship in Japan is an opportunity to work under a Kyoto University faculty member and receive their guidance. During the internship, participants can explore popular destinations in Kyoto, such as colorful temples, shrines, and traditional gardens. Details About the KYOTO Universit",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Fully Funded",
+      "deadline": "1st February 2027",
+      "eligibility": "criteria the internship is open to international students and domestic students. the applicant must be an undergraduate student. the applicant must be enrolled in colleges or universities in asia. the applicant must have completed the first year of undergraduate study at the time the summer internship begins. must have at least 1 semester left after the internship. if you are studying at any university located in one of these asian countries (you are eligible) eastern asia china; china, hong kon",
+      "requirements": "",
+      "application_process": "for the kyoto university amgen scholars internship 2027? you must make an online application and upload all the required documents. the link to the official website is below. for more fully funded internships, please check our internship category . apply for the kyoto university amgen internship muhammad saim rasheed https://opportunitiescorners.com/ as opportunities corners founder, my name is muhammad saim rasheed. i completed my higher education from university of engineering and technology, ",
+      "contact": "Email: opportunitiescorners.com@gmail.com",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "46e0c9c6e4a4",
+    "title": "Chevening: Alumni resources",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/alumni/",
+    "description": "Alumni resources",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "53a1b2c5819e",
+    "title": "Chevening: Scholarships",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/",
+    "description": "Scholarships",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "f1ff66361814",
+    "title": "sl slovenščina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+    "description": "sl slovenščina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 86.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 80,
+      "funding": 90,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.2,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Možnosti v okviru programa Erasmus+ - Erasmus+ Skip to main content slovenščina Select your language Zapri EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zapri You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Ali menite, da je ta stran koristna? Yes Yes but No Zakaj je koristna? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Pojasnite svojo izbiro. Kaj je bila glavna težava? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Težava pri prevodu Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Težavo opišite v spodnjem polju Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Hvala za vaše mnenje Veseli nas, da imate pozitivne izkušnje. Vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. Če imate vprašanja, se obrnite na Europe direct . Share this page EAC Footer Helpful links Prijava Erasmus+ and your data Give feedback on this page Pogosta vprašanja Quick links Mobility and learning agreements Europea",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "7a802fbcc156",
+    "title": "Reagan-Fascell Democracy Fellows Program 2027-2028 (Fully-funded)",
+    "source": "opportunitydesk",
+    "url": "https://opportunitydesk.org/2026/11/06/reagan-fascell-democracy-fellows-program-2027-2028/",
+    "description": "<![CDATA[Deadline: January 5, 2027 Applications are open for the Reagan-Fascell Democracy Fellows Program 2027-2028. Named in honor of NED’s principal founders, former president Ronald Reagan and the late congressman Dante Fascell (D-Fl.), the Reagan-Fascell Democracy Fellows Program is a federally funded, international exchange program that offers democracy activists, journalists, civil society leaders, and scholars from around [...]]]>",
+    "country": "USA",
+    "deadline": "January 5, 2027 Applications are open for the Reagan-Fascell Democracy Fellows Program 2027-2028",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "Fri, 06 Nov 2026 13:10:51 +0000",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.65,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has clear deadline"
+      ],
+      "recommendation": "UNCERTAIN - Verify additional details before applying",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.15
+    },
+    "ai_overall": 85.8,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 80,
+      "funding": 85,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 70.1,
+    "eligibility": "for the practitioner track. while there are also no age limits, applicants on the practitioner track are typically mid-career professionals with several years of work experience in the field of democracy and human rights. examples of eligible candidates for the practitioner track include human rights advocates, civil society leaders, political party figures, human rights lawyers, parliamentarians, labor union activists, journalists, and other members of the media. scholarly track: prospective ap",
+    "requirements": "for the practitioner track. while there are also no age limits, applicants on the practitioner track are typically mid-career professionals with several years of work experience in the field of democracy and human rights. examples of eligible candidates for the practitioner track include human rights advocates, civil society leaders, political party figures, human rights lawyers, parliamentarians, labor union activists, journalists, and other members of the media. scholarly track: prospective ap",
+    "application_process": "opportunity nominate #ypom privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stories how-to general",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://opportunitydesk.org/2026/11/06/reagan-fascell-democracy-fellows-program-2027-2028/",
+      "is_valid": true,
+      "title": "",
+      "description": "Reagan-Fascell Democracy Fellows Program 2027-2028 (Fully-funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Saturday, November 7 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Home » Search by Region » Africa » Reagan-Fascell Democracy Fellows Program 2027-2028 (Fully-funded) Reagan-Fascell Democracy Fellows Program 2027-2028 (Fully-funded) Jude Ogar November 6, 2026 6 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 5, 2027 Applications are open for the Reagan-Fascell Democracy Fell",
+      "country": "USA",
+      "level": "PhD",
+      "funding": "Stipend Only",
+      "deadline": "January 5, 2027 Applications are open for the Reagan-Fascell Democracy Fellows Program 2027-2028",
+      "eligibility": "for the practitioner track. while there are also no age limits, applicants on the practitioner track are typically mid-career professionals with several years of work experience in the field of democracy and human rights. examples of eligible candidates for the practitioner track include human rights advocates, civil society leaders, political party figures, human rights lawyers, parliamentarians, labor union activists, journalists, and other members of the media. scholarly track: prospective ap",
+      "requirements": "for the practitioner track. while there are also no age limits, applicants on the practitioner track are typically mid-career professionals with several years of work experience in the field of democracy and human rights. examples of eligible candidates for the practitioner track include human rights advocates, civil society leaders, political party figures, human rights lawyers, parliamentarians, labor union activists, journalists, and other members of the media. scholarly track: prospective ap",
+      "application_process": "opportunity nominate #ypom privacy policy disclaimer contact facebook x (twitter) linkedin instagram telegram home conferences training scholarships undergraduate short courses online courses masters/postgraduate phd postdoctoral study abroad study in africa study in asia study in australia study in europe study in usa competitions awards grants fellowships jobs internships volunteering blog od specials od live series young person of the month mentorship od mentors success stories how-to general",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "0c11417e6b58",
+    "title": "Chevening: Application guidance",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/guidance/",
+    "description": "Application guidance",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "d28a32560202",
+    "title": "Chevening: Why study in the UK?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/why-study-in-the-uk/",
+    "description": "Why study in the UK?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 85.0,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 85,
+      "language": 85,
+      "funding": 85,
+      "deadline_urgency": 85
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 69.6,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
+    "id": "9fee113de685",
+    "title": "Chevening: Resource Hub",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/",
+    "description": "Resource Hub",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 77.5,
+    "ai_dims": {
+      "field_fit": 80,
+      "eligibility": 70,
+      "language": 80,
+      "funding": 80,
+      "deadline_urgency": 80
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 65.1,
+    "first_seen": "2026-11-07T10:56:18+00:00",
+    "date": "2026-11-07",
+    "applied": false
+  },
+  {
     "id": "f631762463b0",
     "title": "MCW Young Leaders Fellowship 2027 in USA (Fully Funded)",
     "source": "opportunitiescorners",
