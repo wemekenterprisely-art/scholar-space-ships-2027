@@ -1,7 +1,7 @@
 {
   "sources": {
     "scholars4dev": {
-      "fetched": 60,
+      "fetched": 59,
       "matches": 0,
       "errors": 0
     },
@@ -71,7 +71,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 1,
+      "fetched": 0,
       "matches": 0,
       "errors": 0
     },
@@ -103,11 +103,11 @@
   },
   "funnel": {
     "fetched": 302,
-    "candidates": 259,
-    "rejected": 43
+    "candidates": 257,
+    "rejected": 45
   },
   "timings": {
     "excel": 1.0,
-    "total": 107.5
+    "total": 135.2
   }
 }
