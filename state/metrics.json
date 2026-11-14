@@ -16,7 +16,7 @@
       "errors": 0
     },
     "opportunitydesk": {
-      "fetched": 0,
+      "fetched": 10,
       "matches": 0,
       "errors": 0
     },
@@ -71,7 +71,7 @@
       "errors": 0
     },
     "daad": {
-      "fetched": 0,
+      "fetched": 1,
       "matches": 0,
       "errors": 0
     },
@@ -102,12 +102,12 @@
     }
   },
   "funnel": {
-    "fetched": 302,
-    "candidates": 257,
-    "rejected": 45
+    "fetched": 312,
+    "candidates": 264,
+    "rejected": 48
   },
   "timings": {
     "excel": 1.0,
-    "total": 135.2
+    "total": 144.4
   }
 }
