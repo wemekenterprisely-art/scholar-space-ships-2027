@@ -1,5 +1,830 @@
 [
   {
+    "id": "9fee113de685",
+    "title": "Chevening: Resource Hub",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/",
+    "description": "Resource Hub",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "53a1b2c5819e",
+    "title": "Chevening: Scholarships",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/",
+    "description": "Scholarships",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 95.0,
+    "ai_dims": {
+      "field_fit": 95,
+      "eligibility": 95,
+      "language": 95,
+      "funding": 95,
+      "deadline_urgency": 95
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 75.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "5dd92066afc6",
+    "title": "hu Hungarian",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/hu/opportunities",
+    "description": "hu Hungarian",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback köszönjük visszajelzését! örömmel vettük tudomásul, hogy oldalaink elnyerték az ön tetszését. kérjük, hogy a kedvelt oldalakat ossza meg barátaival és munkatársaival. kérdéseivel forduljon a europe direct ügyfélszolgálathoz . share this page eac footer helpful links hogyan lehet pályázni? erasmus+ and your data give feedback on this page gyakran ismételt kérdések (gyik) quick links mobility and learning agreements european youth p",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/hu/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Az Erasmus+ által kínált lehetőségek - Erasmus+ Skip to main content Hungarian Select your language Bezárás EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Bezárás You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Hasznosnak találta ezt az oldalt? Yes Yes but No Mit talált hasznosnak ezen az oldalon? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Kérjük, indokolja választását. Mi volt a fő probléma? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Az oldal tartalma hibásan van lefordítva Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Kérjük, írja le a problémát az alábbi mezőben. Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Köszönjük visszajelzését! Örömmel vettük tudomásul, hogy oldalaink elnyerték az Ön tetszését. Kérjük, hogy a kedvelt oldalakat ossza meg barátaival és munkatársaival. Kérdéseivel forduljon a Europe Direct ügyfélszolgálathoz . Share this page EAC Footer Helpful links Hogyan lehet pályázni? E",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback köszönjük visszajelzését! örömmel vettük tudomásul, hogy oldalaink elnyerték az ön tetszését. kérjük, hogy a kedvelt oldalakat ossza meg barátaival és munkatársaival. kérdéseivel forduljon a europe direct ügyfélszolgálathoz . share this page eac footer helpful links hogyan lehet pályázni? erasmus+ and your data give feedback on this page gyakran ismételt kérdések (gyik) quick links mobility and learning agreements european youth p",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "0653ff4aaa27",
+    "title": "nl Nederlands",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/nl/opportunities",
+    "description": "nl Nederlands",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback bedankt voor je feedback wat fijn dat u tevreden bent. deel de pagina's die u de moeite waard vindt, met vrienden en collega's. heeft u nog vragen, neem dan contact op met europe direct . share this page eac footer helpful links hoe aanvragen? erasmus+ and your data give feedback on this page veelgestelde vragen quick links mobiliteits- en leerovereenkomsten european youth portal contact contact points erasmus+ this site is manage",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/nl/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Mogelijkheden in het kader van Erasmus+ - Erasmus+ Skip to main content Nederlands Select your language Sluiten EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Sluiten U bent hier: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Vond u deze pagina nuttig? Yes Yes but No Wat vond u nuttig? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Licht uw keuze toe. Wat was het belangrijkste probleem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Slechte vertaling Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Licht uw probleem in het vak hieronder toe Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Bedankt voor je feedback Wat fijn dat u tevreden bent. Deel de pagina's die u de moeite waard vindt, met vrienden en collega's. Heeft u nog vragen, neem dan contact op met Europe direct . Share this page EAC Footer Helpful links Hoe aanvragen? Erasmus+ and your data Give feedback on this page Veelgestelde vragen Quick links Mobiliteits- e",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback bedankt voor je feedback wat fijn dat u tevreden bent. deel de pagina's die u de moeite waard vindt, met vrienden en collega's. heeft u nog vragen, neem dan contact op met europe direct . share this page eac footer helpful links hoe aanvragen? erasmus+ and your data give feedback on this page veelgestelde vragen quick links mobiliteits- en leerovereenkomsten european youth portal contact contact points erasmus+ this site is manage",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "d91f0509c451",
+    "title": "sk slovenčina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+    "description": "sk slovenčina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sk/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Príležitosti v rámci programu Erasmus+ - Erasmus+ Skip to main content slovenčina Select your language Zatvoriť EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zatvoriť You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Považujete túto stránku za užitočnú? Yes Yes but No Čo bolo pre vás prínosom? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Vysvetlite svoj výber. Aký bol hlavný problém? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Problém pri preklade Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Opíšte problém v políčku uvedenom nižšie Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Ďakujeme vám za spätnú väzbu. Sme radi, že vaša skúsenosť bola pozitívna. O stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. Ak potrebujete položiť otázku, kontaktujte službu Europe direct . Share this page EAC Footer Helpful links Ako podať žiadosť Erasmus+ and your data Give feedback on this page Čas",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback ďakujeme vám za spätnú väzbu. sme radi, že vaša skúsenosť bola pozitívna. o stránkach, ktoré sa vám páčia, dajte vedieť aj svojim priateľom a kolegom. ak potrebujete položiť otázku, kontaktujte službu europe direct . share this page eac footer helpful links ako podať žiadosť erasmus+ and your data give feedback on this page časté otázky quick links mobility and learning agreements european youth portal contact contact points erasm",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "e185350f7e84",
+    "title": "DAAD: Privacy Policy",
+    "source": "daad",
+    "url": "https://www.daad.de/en/data-privacy-statement/",
+    "description": "Privacy Policy",
+    "country": "Germany",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "3500f030374a",
+    "title": "Chevening: Scholar support",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/scholar-support/",
+    "description": "Scholar support",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "46e0c9c6e4a4",
+    "title": "Chevening: Alumni resources",
+    "source": "chevening",
+    "url": "https://www.chevening.org/resource-hub/alumni/",
+    "description": "Alumni resources",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "d28a32560202",
+    "title": "Chevening: Why study in the UK?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/why-study-in-the-uk/",
+    "description": "Why study in the UK?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "fa43e205c0da",
+    "title": "Chevening: Who can apply?",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/who-can-apply/",
+    "description": "Who can apply?",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.9,
+      "scam_flags": [],
+      "legit_signals": [
+        "Has clear eligibility criteria",
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.4
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "93ad5456b9ef",
+    "title": "Chevening: Application timeline",
+    "source": "chevening",
+    "url": "https://www.chevening.org/scholarships/application-timeline/",
+    "description": "Application timeline",
+    "country": "UK",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 90.0,
+    "ai_dims": {
+      "field_fit": 90,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 72.6,
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
+    "id": "f1ff66361814",
+    "title": "sl slovenščina",
+    "source": "erasmus",
+    "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+    "description": "sl slovenščina",
+    "country": "EU",
+    "deadline": "",
+    "funding": "Fully Funded",
+    "level": "postgrad",
+    "field": "",
+    "posted_at": "",
+    "keywords": [],
+    "all_tags": [],
+    "english_requirement": "unknown",
+    "libya_eligible": null,
+    "funding_label": "Fully Funded",
+    "level_kind": "postgrad",
+    "deadline_days": null,
+    "field_fit_det": 0,
+    "det_score": 46.5,
+    "det_dims": {
+      "field_fit": 0,
+      "eligibility": 70,
+      "language": 60,
+      "funding": 100,
+      "deadline": 50
+    },
+    "notes": [
+      "Not mentioned - verify",
+      "Nationality not mentioned - verify",
+      "No deadline found"
+    ],
+    "rejected": false,
+    "reject_reasons": [],
+    "verification": {
+      "is_legitimate": true,
+      "confidence_score": 0.75,
+      "scam_flags": [],
+      "legit_signals": [
+        "Known scholarship provider"
+      ],
+      "recommendation": "LIKELY LEGITIMATE - Proceed with application",
+      "scam_ratio": 0.0,
+      "legit_ratio": 0.25
+    },
+    "ai_overall": 88.5,
+    "ai_dims": {
+      "field_fit": 85,
+      "eligibility": 90,
+      "language": 90,
+      "funding": 90,
+      "deadline_urgency": 90
+    },
+    "ai_verdict": "PASS",
+    "rules_applied": [
+      "field-anchor"
+    ],
+    "final_score": 71.7,
+    "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+    "deep_read": true,
+    "deep_read_data": {
+      "url": "https://erasmus-plus.ec.europa.eu/sl/opportunities",
+      "is_valid": true,
+      "title": "",
+      "description": "Možnosti v okviru programa Erasmus+ - Erasmus+ Skip to main content slovenščina Select your language Zapri EU official languages bg български es español cs Czech da dansk de Deutsch et eesti el ελληνικά en English fr français ga Irish hr hrvatski it Italian lv latviešu lt lietuvių hu Hungarian mt Maltese nl Nederlands pl polski pt português ro română sk slovenčina sl slovenščina fi suomi sv svenska Menu Erasmus+ EU programme for education, training, youth and sport Zapri You are here: Home Opportunities What's in it for me? Exchanges, placements, training programmes and more are possible when your school or training centre gains Erasmus+ funding. Give your feedback about this page 1. Ali menite, da je ta stran koristna? Yes Yes but No Zakaj je koristna? I was able to browse with assistive technologies I found what I was looking for Easy to read and understand Up to date page Useful related content Easy to share Pojasnite svojo izbiro. Kaj je bila glavna težava? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Težava pri prevodu Page does not display correctly Can't filter results Not mobile friendly Please explain your choice What is the problem? Accessibility barriers I didn't find what I was looking for Difficult to read and understand Broken link Incomplete information Missing information Translation problem Page does not display correctly Can't filter results Not mobile friendly Težavo opišite v spodnjem polju Please reply to the questions above to submit the form Please don’t forget the captcha Thanks for your feedback Hvala za vaše mnenje Veseli nas, da imate pozitivne izkušnje. Vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. Če imate vprašanja, se obrnite na Europe direct . Share this page EAC Footer Helpful links Prijava Erasmus+ and your data Give feedback on this page Pogosta vprašanja Quick links Mobility and learning agreements Europea",
+      "country": "",
+      "level": "Master",
+      "funding": "Unknown",
+      "deadline": "",
+      "eligibility": "",
+      "requirements": "",
+      "application_process": "the form please don’t forget the captcha thanks for your feedback hvala za vaše mnenje veseli nas, da imate pozitivne izkušnje. vabimo vas, da strani, ki so vam všeč, delite s prijatelji in kolegi. če imate vprašanja, se obrnite na europe direct . share this page eac footer helpful links prijava erasmus+ and your data give feedback on this page pogosta vprašanja quick links mobility and learning agreements european youth portal contact contact points erasmus+ this site is managed by the european",
+      "contact": "",
+      "dates_found": []
+    },
+    "first_seen": "2026-11-22T12:22:30+00:00",
+    "date": "2026-11-22",
+    "applied": false
+  },
+  {
     "id": "01132ee2fac5",
     "title": "GIST University South Korea Scholarship 2027 (Fully Funded)",
     "source": "opportunitiescorners",
